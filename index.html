@@ -9,10 +9,10 @@
 <body>
   <div class = "div-nav" id = "div-nav">
     <nav>
-      <img src = "laba.jpg">
       <a href = "">Home</a>
       <a href = "">About us</a>
       <a href = "">Something else</a>
+      <!-- <img src = "laba.jpg"> -->
     </nav>
   </div>
   <div class = "div-form"  id = "div-form">
@@ -24,16 +24,15 @@
 
           <div class = "div-form-1" id = "div-form-1">
             <label for="locus">Please select locus:</label>
-            <input id="locus" type="select" name="locus" placeholder="All loci">
+            <select id="locus" type="select" name="locus" placeholder="All loci">
+              <option value = "value1">Value 1</option>
+              <option value ="value2">Value 2</<option value=""></option>>
+            </select>
             <label for="order">Order results by:</label>
             <select name="select">
               <option value="value1">Value 1</option>
               <option value="value2" selected>Value 2</option>
               <option value="value3">Value 3</option>
-            </select>
-            <!-- <input id="order" type="select" name="order" placeholder="locus"> -->
-            <input id = "submit" type="submit" name = "submit">
-            <input id = "reset" type="reset" nsme = "reset">
           </div>
 
           <div class = "div-form-2" id = "div-form-2">
@@ -42,11 +41,17 @@
             <label for="order">One more thing:</label>
             <input id="alterntive" type="select" name="alternative" placeholder="alternative">
           </div>
-
+          <div class="buttons">
+            <!-- <input id="order" type="select" name="order" placeholder="locus"> -->
+            <input id = "submit" type="submit" name = "submit">
+            <input id = "reset" type="reset" nsme = "reset">
+          </div>
       </fieldset>
     </form>
 
   </div>
-
+  <div class = "pic">
+    <img src = "laba.jpg">
+  </div>
 </body>
 </html>
