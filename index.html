@@ -7,20 +7,46 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class = "div1" id = "div1">
+  <div class = "div-nav" id = "div-nav">
     <nav>
-      <span>
-        <img src = "laba.jpg">
-        <ul>
-          <li>Home</li>
-          <li>About us</li>
-          <li>Somthing</li>
-        </ul>
-      </span>
+      <img src = "laba.jpg">
+      <a href = "">Home</a>
+      <a href = "">About us</a>
+      <a href = "">Something else</a>
     </nav>
   </div>
-  <div class = "div2" id = "div2">
+  <div class = "div-form"  id = "div-form">
+    <form>
+      <fieldset>
+        <legend>
+          Sequence query:
+        </legend>
+
+          <div class = "div-form-1" id = "div-form-1">
+            <label for="locus">Please select locus:</label>
+            <input id="locus" type="select" name="locus" placeholder="All loci">
+            <label for="order">Order results by:</label>
+            <select name="select">
+              <option value="value1">Value 1</option>
+              <option value="value2" selected>Value 2</option>
+              <option value="value3">Value 3</option>
+            </select>
+            <!-- <input id="order" type="select" name="order" placeholder="locus"> -->
+            <input id = "submit" type="submit" name = "submit">
+            <input id = "reset" type="reset" nsme = "reset">
+          </div>
+
+          <div class = "div-form-2" id = "div-form-2">
+            <label for="locus">Enter query sequence:</label>
+            <input id="sequence" class = "sequence"type="textarea" name="sequence" placeholder="sequence">
+            <label for="order">One more thing:</label>
+            <input id="alterntive" type="select" name="alternative" placeholder="alternative">
+          </div>
+
+      </fieldset>
+    </form>
 
   </div>
+
 </body>
 </html>

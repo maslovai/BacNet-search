@@ -1,11 +1,46 @@
+html{
+  background-color: beige;
+}
+
+/****************NAVIGATION*****************/
+.div-nav{
+  display: flex;
+  height: 7em;
+  width: 100%;
+  justify-content:space-between;
+}
 img{
   width:10%;
+  heght: 7%;
 }
-ul{
+nav a{
+  display: inline;
+  margin-left: 10%;
+  margin-top: 10%  
+}
+
+/*************INPUT FORM*******************/
+legend{
+  margin-top: 10%;
+  font-size: 1.2em;
+}
+
+.div-form-1 .div-form-2 label{
+  display: inline;
+  margin-top: 5%;
+}
+
+.sequence{
+  margin-top: 3%;
+  height: 7em;
+  width:15em;
+}
+label{
+    margin-left: 10%;
+}
+.div-form-1 ul{
   display: inline;
 }
-li{
-  list-style: none;
-  display: inline;
-  margin-left: 5%;
+.div-form-1 ul li{
+  display: block;
 }
