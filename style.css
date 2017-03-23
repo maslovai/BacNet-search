@@ -1,0 +1,11 @@
+img{
+  width:10%;
+}
+ul{
+  display: inline;
+}
+li{
+  list-style: none;
+  display: inline;
+  margin-left: 5%;
+}
