@@ -3,20 +3,20 @@ html{
 }
 
 /****************NAVIGATION*****************/
-.div-nav{
+
+nav{
   background-color: rgb(170, 108, 57);
-  height: 7em;
-  width: 100%;
-  justify-content:space-between;
+  height:4em;
+  width: :100%;
 }
- div nav img{
-  width:10%;
-  heght: 5%;
+.nav-anchors{
+  margin-top: 2%;
+
 }
-nav a{
-  display: inline;
+.anc{
+  padding-top: 4%;
+  margin-bottom:0;
   margin-left: 10%;
-  margin-top: 10%
 }
 
 /*************INPUT FORM*******************/
@@ -36,27 +36,30 @@ legend{
   font-size: 1.2em;
 }
 
-.div-form-1 .div-form-2 label{
+/*.div-form-1 .div-form-2 label{
   display: inline;
   margin-top: 5%;
   margin-left:
-}
+}*/
 
 .sequence{
   margin-top: 3%;
   height: 7em;
   width:15em;
 }
-label{
+/*label{
     margin-left: 10%;
-}
+}*/
 .div-form-1 ul{
   display: inline;
 }
 .div-form-1 ul li{
   display: block;
 }
-.buttons{
+/*.buttons{
   margin-left: 80%;
   margin-top: 5%;
+}*/
+#submit #reset {
+  margin-left: 10%;
 }

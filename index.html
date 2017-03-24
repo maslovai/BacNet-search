@@ -7,51 +7,67 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class = "div-nav" id = "div-nav">
+
+  <div class = "nav-anchors">
     <nav>
-      <a href = "">Home</a>
-      <a href = "">About us</a>
-      <a href = "">Something else</a>
-      <!-- <img src = "laba.jpg"> -->
+        <a class = "anc" href = "">Home</a>
+        <a class = "anc" href = "">About Us</a>
+        <a class = "anc" href = "">Something else</a>
     </nav>
   </div>
+  <!-- </div> -->
   <div class = "div-form"  id = "div-form">
     <form>
       <fieldset>
         <legend>
           Sequence query:
         </legend>
+        <table class = "div-form-1" id = "div-form-1">
+          <tr>
+            <td>
+              <label for="locus">Please select locus:</label>
+              <select id="locus" type="select" name="locus" placeholder="All loci">
+                <option value = "value1">Value 1</option>
+                <option value ="value2">Value 2</<option value=""></option>>
+              </select>
+            </td>
+            <td>
+              <label for="order">Order results by:</label>
+              <select name="select">
+                <option value="value1">Value 1</option>
+                <option value="value2" selected>Value 2</option>
+                <option value="value3">Value 3</option>
+              </td>
+              <td>
+                <input id = "submit" type="submit" name = "submit">
+              </td>
+            </tr>
+            <tr>
+              <!-- <div class = "div-form-2" id = "div-form-2"> -->
+              <td>
+                <label for="locus">Enter query sequence:</label>
+                <input id="sequence" class = "sequence"type="textarea" name="sequence" placeholder="sequence">
+              </td>
+              <td>
+                <label for="order">One more thing:</label>
+                <input id="alterntive" type="select" name="alternative" placeholder="alternative">
+              </td>
+              <!-- </div> -->
+              <!-- <div class="buttons"> -->
+              <!-- <input id="order" type="select" name="order" placeholder="locus"> -->
+              <td>
+                <input id = "reset" type="reset" name = "reset">
+              </td>
+              <tr>
+                <!-- </div> -->
+              </table>
+            </fieldset>
+          </form>
 
-          <div class = "div-form-1" id = "div-form-1">
-            <label for="locus">Please select locus:</label>
-            <select id="locus" type="select" name="locus" placeholder="All loci">
-              <option value = "value1">Value 1</option>
-              <option value ="value2">Value 2</<option value=""></option>>
-            </select>
-            <label for="order">Order results by:</label>
-            <select name="select">
-              <option value="value1">Value 1</option>
-              <option value="value2" selected>Value 2</option>
-              <option value="value3">Value 3</option>
-          </div>
+        </div>
+        <div class = "pic">
+          <img src = "laba.jpg">
+        </div>
 
-          <div class = "div-form-2" id = "div-form-2">
-            <label for="locus">Enter query sequence:</label>
-            <input id="sequence" class = "sequence"type="textarea" name="sequence" placeholder="sequence">
-            <label for="order">One more thing:</label>
-            <input id="alterntive" type="select" name="alternative" placeholder="alternative">
-          </div>
-          <div class="buttons">
-            <!-- <input id="order" type="select" name="order" placeholder="locus"> -->
-            <input id = "submit" type="submit" name = "submit">
-            <input id = "reset" type="reset" nsme = "reset">
-          </div>
-      </fieldset>
-    </form>
-
-  </div>
-  <div class = "pic">
-    <img src = "laba.jpg">
-  </div>
-</body>
-</html>
+      </body>
+      </html>
