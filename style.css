@@ -22,12 +22,12 @@ nav{
 /*************INPUT FORM*******************/
 .div-form{
   float:left;
-  width: 50%;
+  width: 60%;
   margin-top: 10%;
 }
 .pic{
   float:left;
-  width: 40%;
+  width: 30%;
   margin-top: 5%;
   margin-left: 5%;
 }
@@ -60,6 +60,27 @@ legend{
   margin-left: 80%;
   margin-top: 5%;
 }*/
-#submit #reset {
+table{
+  width: 100%;
+  /*border: solid;*/
+}
+table td input {
   margin-left: 10%;
+}
+
+.result{
+  clear: both;
+}
+.result-box{
+  border-style: solid;
+  border-color: grey;
+}
+/*****************about us styles*************/
+.veronika p{
+    display: inline;
+    margin-left: 10%;
+}
+.veronika img{
+  margin-top: 5%;
+  height: 300px;
 }
