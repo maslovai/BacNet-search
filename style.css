@@ -5,6 +5,8 @@ html{
 /****************NAVIGATION*****************/
 
 nav{
+  font-size:1.5em;
+  display:flex;
   background-color: rgb(170, 108, 57);
   height:4em;
   width: :100%;
@@ -35,7 +37,9 @@ legend{
   margin-top: 10%;
   font-size: 1.2em;
 }
-
+fieldset{
+  border-radius: 3%;
+}
 /*.div-form-1 .div-form-2 label{
   display: inline;
   margin-top: 5%;
@@ -73,12 +77,19 @@ table td input {
 }
 .result-box{
   border-style: solid;
+  border-radius: 6%;
   border-color: grey;
 }
 /*****************about us styles*************/
+.veronika {
+  display: flex;
+  margin-left: 10%;
+  margin-top:3%;
+  justify-content: space-around;
+}
 .veronika p{
-    display: inline;
-    margin-left: 10%;
+margin-top: 15%;
+font-size: 1.2em;
 }
 .veronika img{
   margin-top: 5%;
