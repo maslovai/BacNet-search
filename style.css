@@ -12,7 +12,6 @@ body{
   padding:0 5%;
 }
 
-
 a
 { text-decoration:none;
 }
@@ -85,6 +84,11 @@ nav a
   font-weight:800;
   padding: 10px 15px;
 }
+/*GALLERY*/
+.img-gallery{
+  max-width: 100%;
+}
+
 
 /************************
 FOOTER
