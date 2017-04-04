@@ -62,7 +62,9 @@ h2 {
 }
 
 /************************navigation*************************/
-
+.hamburger{
+  font-size: 3em;
+}
 nav {
 text-align: center;
 padding: 10px 0;
@@ -126,7 +128,7 @@ color: #32673f;
   color: #bdc3c7;
 }
 
-#gallery li img{
+a #img-gallery{
   max-width: 100%;
 }
 

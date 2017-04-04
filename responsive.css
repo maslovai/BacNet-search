@@ -1,5 +1,15 @@
 @media screen and (min-width: 480px)
 {
+
+/************************PAGE: PORTFOLIO*************************/
+
+  #gallery li{
+   width: 28.3333%;
+  }
+
+  #gallery li:nth-child(4n){
+    clear: left;
+  }
   /************************TWO_COLUMN LAYOUT*************************/
   /*#primary
   {
@@ -16,19 +26,9 @@ Figuring out column width: 3* (2.5%+2.5% margins) = 15%
   100-15 = 85%
   85%/3 = 28.333333333%
 *************************/
-
-
-/************************PAGE: PORTFOLIO*************************/
-
-  #gallery li{
-   width: 28.3333%;
-  }
-
-  #gallery li:nth-child(4n){
-    clear: left;
-  }
-
-
+.hamburger{
+  visibility: hidden;
+}
 }
 
 /************************PAGE: ABOUT*************************/
@@ -37,6 +37,9 @@ Figuring out column width: 3* (2.5%+2.5% margins) = 15%
 float: left;
   margin:: 0 5% 80px 0;
 }
+
+
+
 
 @media screen and (min-width: 660px)
 {
@@ -56,7 +59,7 @@ float: left;
     text-align:left;
     width: 45%;
   }
-  nav 
+  nav
   h1{
     font-size:2em;
   }
@@ -68,5 +71,16 @@ float: left;
     border-bottom: 5px solid #599a68;
     margin-bottom:60px;
   }
+  .hamburger{
+    visibility: hidden;
+  }
+}
 
+@media screen and (max-width: 480px){
+  nav {
+    visibility: hidden;
+  }
+  .hamburger{
+    visibility: visible;
+  }
 }
