@@ -186,8 +186,10 @@ Page: CONTACT
 /************************
 Page: BLOG
 *************************/
-#Blog{
+#my-blog{
   clear:both;
+  display: flex;
+  justify-content: space-around;
   padding-top: 10%;
 }
 
@@ -200,11 +202,11 @@ Page: BLOG
   border-radius:30px;
 }
 /****************CONTACT******************/
-#Contact{
+#my-contact{
   clear:both;
   padding-top: 10%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 

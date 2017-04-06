@@ -1,3 +1,4 @@
+$(function(){
 
 function Item(name){
   this.href = name.href;
@@ -5,19 +6,26 @@ function Item(name){
   this.p  = name.paragraph;
 }
 
+var pageView = {};
 
    $("#hamburger").on("click", function(){
-     $(this).css("visibility", "hidden");
-     $("#nav").css("visibility", "visible");
+     $(this).toggle();
+     $("#nav").css("visibility","visible");
    })
 
-var handleMainNav = function(){
-  $('#nav-responsive').on('click', '.tab', function(e) {
+pageView.handleMainNav = function(){
+  $('#nav-responsive').on("click", "a", function(e) {
     e.preventDefault();
+    console.log(e.target);
     $('#wrapper').hide();
-    $('"#my-' + $(this).class + '"').fadeIn();
+    var toID = $(this).attr("class");
+    //console.log(id);
+    // console.log(this);
+    $("'#" + toID + "'").show();
   });
 }
+pageView.handleMainNav();
+});
 
 // <a href="">
 //   <img id = "img-gallery" src="images/tulips.jpg" alt="">
