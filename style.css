@@ -184,14 +184,30 @@ Page: CONTACT
 .contact-info li.twitter a {background-image: url('../img/twitter.png');}
 
 /************************
-Page: ABOUT
+Page: BLOG
 *************************/
+#Blog{
+  clear:both;
+  padding-top: 10%;
+}
 
 .profile-photo
 {
+  clear:both;
   display:block;
   max-width:300px;
-  margin: 0 auto
-  30px;
+  margin: 0 10% 30px;
   border-radius:30px;
+}
+/****************CONTACT******************/
+#Contact{
+  clear:both;
+  padding-top: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
 }
