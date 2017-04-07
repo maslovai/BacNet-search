@@ -190,14 +190,13 @@ Page: BLOG
   clear:both;
   display: flex;
   justify-content: space-around;
-  padding-top: 10%;
 }
 
 .profile-photo
 {
-  clear:both;
-  display:block;
-  max-width:300px;
+  /*clear:both;
+  display:block;*/
+  max-width:45%;
   margin: 0 10% 30px;
   border-radius:30px;
 }
