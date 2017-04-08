@@ -30,35 +30,30 @@
   </header>
 
 <div id="wrapper">
-
     <div  id="my-portfolio">
     <section>
-      <ul id="gallery">
-        <li>
-          <!-- <div id = "image-div"> -->
+       <ul id="gallery">
+         <script id="gallery-item-template" type="text/x-handlebars-template">
+         <li>
+           <a href = "{{link}}">
+             <img id="img-gallery" src = "{{link}}">
+             <p> {{paragraph}}</p>
+           </a>
+         </li>
+         </script>
+        <!-- <li>
           <a href="">
             <img id="img-gallery" src="images/tulips.jpg" alt="">
             <p>Image caption</p>
           </a>
-          <!-- </div> -->
         </li>
         <li>
-          <!-- <div id = "image-div"> -->
           <a href="">
             <img id="img-gallery" src="images/tulips.jpg" alt="">
             <p>Image caption</p>
           </a>
-          <!-- </div> -->
-        </li>
-        <li>
-          <!-- <div id = "image-div"> -->
-          <a href="">
-            <img id="img-gallery" src="images/tulips.jpg" alt="">
-            <p>Image caption</p>
-          </a>
-          <!-- </div> -->
-        </li>
-        
+        </li> -->
+
     </section>
   </div>
 
@@ -97,12 +92,13 @@
     <a href="http://github.com/maslovai"><img src="images/GitHub-Mark.png" alt="gitHub Logo" class="social-icon"></a>
     <p>&copy; 2017 Iryna Maslova.</p>
   </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
+  <script
 
-    <script
         src="https://code.jquery.com/jquery-3.2.1.min.js"
         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous">
-    </script>
-    <script src = "app.js"></script>
+  </script>
+  <script src = "app.js"></script>
 </body>
 </html>
