@@ -7,7 +7,8 @@ $(function(){
     p: "This is my portfolio on github"
   }]
 
-  var theItem = Handlebars.compile($("gallery-item-template").html())(itemContent);
+  var theItem = Handlebars.compile($("gallery-item-template").html())(theItem);
+  console.log(theItem);
   //var finalItem = theItem(itemContent);
 
   //$('#gallery.li').append(theItem);
