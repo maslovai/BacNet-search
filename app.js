@@ -1,36 +1,32 @@
 $(function(){
 
+// using Handlebars to create gallery items
+  var itemContent=[{
+    href: "www.github.com/maslovai/portfolio",
+    src: "images/tulips.jpg",
+    p: "This is my portfolio on github"
+  }]
 
-var theTemplateScript = $("#gallery-item-template").html();
+  var theItem = Handlebars.compile($("gallery-item-template").html())(itemContent);
+  //var finalItem = theItem(itemContent);
 
-  // Compile the template
-  var theTemplate = Handlebars.compile(theTemplateScript);
-
-  // Define our data object
-  var context={
-    "href": "www.github.com/maslovai/portfolio",
-    "src": "images/tulips.jpg",
-    "p": "This is my portfolio on github"
-  };
-
-  // Pass our data to the template
-  var theCompiledHtml = '<li>'+theTemplate(context)+'</li>';
-
-  // Add the compiled html to the page
-  $('#gallery').append(theCompiledHtml);
-
-
-
-
-  // <a href = "{{}}">
-  //   <img id="img-gallery" src = "{{}}">
-  //   <p> {{}}</p>
+  //$('#gallery.li').append(theItem);
 
 
 
 
 
- var pageView = {};
+
+
+
+
+
+
+
+
+
+
+  var pageView = {};
 
    $("#hamburger").on("click", function(){
      $(this).toggle();
