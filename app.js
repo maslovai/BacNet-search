@@ -1,21 +1,23 @@
 $(function(){
 
 // using Handlebars to create gallery items
+
+var theItem = Handlebars.compile($("#gallery-item-template").html());
   var itemContent=[{
-    href: "www.github.com/maslovai/portfolio",
-    src: "images/tulips.jpg",
-    p: "This is my portfolio on github"
+    url: "https://github.com/maslovai/portfolio",
+    link: "images/tulips.jpg",
+    paragraph:"This is my portfolio on github"
   },
   {
-    href: "www.github.com/maslovai/portfolio",
-    src: "images/tulips.jpg",
-    p: "This is my other portfolio on github"
-  }]
+    url: "https://github.com/maslovai/bus-mall",
+    link: "images/Screen Shot 2017-04-08 at 2.53.23 PM.png",
+    paragraph: "This is a 201 project on github"
+  }];
 
-  var theItem = Handlebars.compile($("#gallery-item-template").html())(itemContent);
-  console.log(theItem);
-  $('#gallery.li').append(theItem);
+  //console.log(itemContent);
 
+  $('#gallery').append(theItem(itemContent[0]));
+  $('#gallery').append(theItem(itemContent[1]));
   var pageView = {};
 
    $("#hamburger").on("click", function(){
@@ -32,7 +34,7 @@ pageView.handleMainNav = function(){
     var toID = '#'+ $(this).attr("class");
     console.log(toID);
     $(toID).fadeIn();
-    
+
   });
 }
 pageView.handleMainNav();
