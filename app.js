@@ -14,10 +14,12 @@ var theItem = Handlebars.compile($("#gallery-item-template").html());
     paragraph: "This is a 201 project on github"
   }];
 
-  //console.log(itemContent);
-
-  $('#gallery').append(theItem(itemContent[0]));
-  $('#gallery').append(theItem(itemContent[1]));
+  console.log(itemContent);
+  console.log (theItem(itemContent));
+  for (var i=0; i<itemContent.length; i++){
+    $('#gallery').append(theItem(itemContent[i]));
+  }
+  
   var pageView = {};
 
    $("#hamburger").on("click", function(){

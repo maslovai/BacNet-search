@@ -11,9 +11,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <script id="gallery-item-template" type="text/x-handlebars-template">
-    <a href="{{url}}">Link to the project</a>
-    <img id="img-gallery" src="{{link}}">
+    <a href="{{url}}" target = "_blank">
+    <img class="img-gallery" src="{{link}}">
     <p>{{{paragraph}}}</p>
+    </a>
   </script>
 
 </head>
@@ -40,8 +41,7 @@
     <div  id="my-portfolio">
     <section>
        <ul id="gallery">
-         <li>
-        </li>
+
       </ul>
     </section>
   </div>

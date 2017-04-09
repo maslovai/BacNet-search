@@ -4,7 +4,7 @@
 /************************PAGE: PORTFOLIO*************************/
 
   #gallery li{
-   width: 28.3333%;
+   width: 45%;
   }
 
   #gallery li:nth-child(4n){
@@ -83,4 +83,18 @@ float: left;
   .hamburger{
     visibility: visible;
   }
-}
+  ul#gallery
+  {
+    display: block;
+  }
+  #my-blog,
+  #my-contact{
+    display: flex;
+    flex-direction: column;
+  }
+  #primary,
+  #secondary{
+    justify-content: space-around;
+    padding-top: 15%;
+
+  }

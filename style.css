@@ -113,24 +113,18 @@ color: #32673f;
 
 
 /************************PAGE: PORTFOLIO*************************/
-#gallery
-{
-  margin: 0;
-  padding:0;
-  list-style:none;
+ul#gallery{
+  display: flex;
+
 }
-#gallery li
-{
-  float:left;
-  /*width:45%;*/
-  margin: 2.5%;
-  background-color:#f5f5f5;
-  color: #bdc3c7;
+#gallery li a{
+  justify-content: space-around;
+  width: 30%;
+}
+img.img-gallery{
+  width:50%;
 }
 
-/*a #img-gallery{
-  max-width: 100%;
-}*/
 
 #gallery li a p
 {
@@ -176,12 +170,6 @@ Page: CONTACT
   margin: 0 0 10px;
 
 }
-
-/*.contact-info li.phone a {background-image: url('../img/phone.png');}
-
-.contact-info li.mail a {background-image: url('../img/mail.png');}
-
-.contact-info li.twitter a {background-image: url('../img/twitter.png');}*/
 
 /************************
 Page: BLOG
