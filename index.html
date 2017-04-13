@@ -9,6 +9,14 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="responsive.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script id="gallery-item-template" type="text/x-handlebars-template">
+    <a href="{{url}}" target = "_blank">
+    <img class="img-gallery" src="{{link}}">
+    <p>{{{paragraph}}}</p>
+    </a>
+  </script>
+
 </head>
 <body>
 
@@ -18,34 +26,68 @@
       <h2>Designer</h2>
     </a>
 
-    <nav>
-      <ul id = "nav-respomsive">
-        <li><a href="index.html" class="selected">Portfolio</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-      <a><i class = "fa fa-bars hamburger"  aria-hidden="true"></i></a>
+    <nav class = "main-nav" id = "nav">
+    <ul id = "nav-responsive">
+        <li><a class  = "my-portfolio" href="index.html">Portfolio</a></li>
+        <li><a class  = "my-blog" href="index.html">Blog</a></li>
+        <li><a class  = "my-contact" href="index.html">Contact</a></li>
+    </ul>
+    <a><i class = "fa fa-bars hamburger" id = "hamburger" aria-hidden="true"></i></a>
     </nav>
 
   </header>
-  <div id="wrapper">
+
+<div id="wrapper">
+    <div  id="my-portfolio">
     <section>
-      <ul id="gallery">
-        <li>
-          <!-- <div id = "image-div"> -->
-          <a href="">
-            <img id = "img-gallery" src="images/tulips.jpg" alt="">
-            <p>Image caption</p>
-          </a>
-          <!-- </div> -->
-        </li>
-        <section>
-          <footer>
-            <a href="http://twitter.com"><img src="images/twitter.png" alt="Twitter Logo" class="social-icon"></a>
-            <a href="http://facebook.com/irynamaslova"><img src="images/fb.png" alt="Facebook Logo" class="social-icon"></a>
-            <a href="http://github.com/maslovai"><img src="images/GitHub-Mark.png" alt="gitHub Logo" class="social-icon"></a>
-            <p>&copy; 2017 Iryna Maslova.</p>
-          </footer>
-        </div>
-      </body>
-      </html>
+       <ul id="gallery">
+
+      </ul>
+    </section>
+  </div>
+
+  <div id="my-blog">
+    <section>
+          <img src="images/new.jpg" alt="Photograph of Iryna Maslova" class="profile-photo">
+    </section>
+    <section>
+          <h3>About</h3>
+          <p>More info will follow</p>
+          <p>Link to my FB page: <a href="http://facebook.com/irynamaslova">IrynaMaslova</a></p>
+    </section>
+  </div>
+
+  <div id="my-contact">
+    <section id="primary">
+      <h3>General information</h3>
+      <p>The best way to contact me is email</p>
+      <p>something else</p>
+    </section>
+
+    <section id="secondary">
+      <h3>Contact details</h3>
+      <ul class="contact-info">
+      <li class="phone"><a href="tel:111-1111">111-1111</a></li>
+      <li class= "mail"><a href="mailto:iryna@example.com">iryna@example.com</a></li>
+      <li class="twitter"><a href="www.twitter.com"></a>
+    </section>
+  </div>
+
+  </div>
+
+  <footer>
+    <a href="http://twitter.com"><img src="images/twitter.png" alt="Twitter Logo" class="social-icon"></a>
+    <a href="http://facebook.com/irynamaslova"><img src="images/fb.png" alt="Facebook Logo" class="social-icon"></a>
+    <a href="http://github.com/maslovai"><img src="images/GitHub-Mark.png" alt="gitHub Logo" class="social-icon"></a>
+    <p>&copy; 2017 Iryna Maslova.</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
+  <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+  </script>
+  <script src = "app.js"></script>
+</body>
+</html>
