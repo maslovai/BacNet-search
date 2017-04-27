@@ -1,0 +1,30 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "description": "Iryna's first protfolio",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maslovai/portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "web",
+    "development",
+    "projects",
+    "github"
+  ],
+  "author": "Iryna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maslovai/portfolio/issues"
+  },
+  "homepage": "https://github.com/maslovai/portfolio#readme"
+}
