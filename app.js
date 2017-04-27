@@ -46,20 +46,3 @@ pageView.handleMainNav = function(){
 }
 pageView.handleMainNav();
 });
-articleView.setTeasers = function() {
-  // Truncate logic to show only first two elements within the article body.
-  $('.readBlog *:nth-of-type(n+2)').hide();
-  /* TODO: Add a delegated event handler to reveal the remaining paragraphs.
-  When a .read-on link is clicked, we can:
-  1. Prevent the default action of a link.
-  2. Reveal everything in that particular article now.
-  3. Hide that read-on link!
-  // STRETCH GOAl!: change the 'Read On' link to 'Show Less'
-  */
-  $('a').on('click', function(e){
-    e.preventDefault();
-    $(this).prev().children().css('display', 'block');
-    // $('.article-body p').css('display', 'block');
-    $(this).hide();
-  });
-};
