@@ -4,7 +4,8 @@
   "description": "Iryna's first protfolio",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "page": "^1.7.1"
   },
   "devDependencies": {},
   "scripts": {
