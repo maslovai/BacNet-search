@@ -2,8 +2,8 @@
 
   const myBlog = {};
   myBlog.show = function(){
-    $("#my-blog").show;
-    $("#my-blog").siblings().hide;
+    $("#my-blog").show().siblings().hide();
+    
   }
   module.myBlog = myBlog;
 })(window);
