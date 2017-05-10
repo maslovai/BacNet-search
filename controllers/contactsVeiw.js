@@ -1,7 +1,7 @@
 (function(module){
 
   const myContact = {};
-  myBlog.show = function(){
+  myContact.show = function(){
     $("#my-contact").show;
     $("#my-contact").siblings().hide;
   }
