@@ -81,17 +81,17 @@ table td input {
   border-color: grey;
 }
 /*****************about us styles*************/
-.veronika {
+.person{
   display: flex;
   margin-left: 10%;
   margin-top:3%;
   justify-content: space-around;
 }
-.veronika p{
+.person p{
 margin-top: 15%;
 font-size: 1.2em;
 }
-.veronika img{
+.person img{
   margin-top: 5%;
   height: 300px;
 }
