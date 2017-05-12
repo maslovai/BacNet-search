@@ -1,13 +1,16 @@
 'use strict';
 
-// (function(module){
+(function(module){
   const query = {};
+
   $('#submit').on('click', function(){
     console.log(' in function')
-     $('#result-ul').append('<li>Look what we have got for you!</li>');
+     $('#result-ul').empty().append('<li>Look what we have got for you!</li>');
    });
+
+
    $('#reset').on('click', function(){
-      $('#sequence').empty().attr("placeholder","sequence");
+      $('#sequence').val('').attr("placeholder","sequence");
     });
-//   module.query = query;
-// });
+  module.query = query;
+});
