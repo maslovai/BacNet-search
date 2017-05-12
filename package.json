@@ -1,0 +1,32 @@
+{
+  "name": "veronika-lab",
+  "version": "1.0.0",
+  "description": "request for antibiotic recommended for treating certain bacterial deseases",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.15.2",
+    "nodemon": "^1.11.0",
+    "page": "^1.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maslovai/veronika-lab.git"
+  },
+  "keywords": [
+    "bacteria",
+    "antibiotic",
+    "request",
+    "recommended",
+    "hospital"
+  ],
+  "author": "Louis, Kevin, Max, Iryna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maslovai/veronika-lab/issues"
+  },
+  "homepage": "https://github.com/maslovai/veronika-lab#readme"
+}
