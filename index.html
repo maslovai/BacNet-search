@@ -25,18 +25,20 @@
         <ul class="top-menu">
           <li class="menu-item" data-content=""><a href="http://idgenomics.com/" class="hover" target="_blank" <span>ID Genomics</span></a></li>
           <li class="menu-item" data-content=""><a href="#" class="hover" <span>CloNeT</span></a></li>
-          <li class="menu-item" data-content=""><a href="#" class="hover" <span>Barcoding Generator</span></a></li>
-          <li class="menu-item" data-content=""><a href="/query/" class="hover" <span>BactNeT Query</span></a></li>
+          <li class="menu-item" data-content=""><a href="/home" class="hover" <span>Barcoding Generator</span></a></li>
+          <li class="menu-item" data-content=""><a href="/query" class="hover" <span>BactNeT Query</span></a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <div class="solid-bar" style="background-image:">
+  <div id = "clonet-principle" class="solid-bar" style="background-image:">
+    <p>Clonet princople and a corresponding picture go here: </p>
   </div>
 
   <br>
-  <div id = "input">
+  <div id = "request-container">
+
     <h1>Things are going to happen here:</h1>
     <select name="select">
       <option value="value1">Value 1</option>
@@ -50,13 +52,12 @@
     <input id = "submit" type="submit" name = "submit">
     <br>
     <input id = "reset" type="reset" name = "reset">
-  </div>
-  <div id = "output">
+
     <p>Results will go here:</p>
     <table id = "results-table">
       <tr>
         <td>
-          <!-- Ampicillin:::::::::::::: -->
+          Ampicillin::::::::::::::
         </td>
         <td>
           <ul id="result-ul">
@@ -65,16 +66,18 @@
       </tr>
     </table>
   </div>
+
 <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
 <script src ="https://code.jquery.com/jquery-3.2.1.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
 <script src = "node_modules/page/page.js"></script>
-<script src="vendor/scripts/handlebars.js"></script>
+<script src="vendor/handlebars.js"></script>
 <!-- <script src="vendor/scripts/marked.js"></script> -->
 <script src="scripts/queryView.js" charset="utf-8"></script>
 <script src="scripts/cloneView.js" charset="utf-8"></script>
-<script src = "scripts/routes.js">
-window.Topic.fetchAll(window.blogView.initIndexPage);
+<script src = "scripts/routes.js"></script>
+<script> index.showIndexPage();</script>
+
 </body>
 </html>
