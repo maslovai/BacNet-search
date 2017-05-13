@@ -7,6 +7,7 @@ const index = {};
     $('#clonet-principle').show();
     $('#header-container').show();
     $('#request-container').hide();
+    $('#barcode-container').hide();
   }
 
   module.index = index;
