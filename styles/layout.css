@@ -1,3 +1,7 @@
+body {
+  background-color: D6E2EA;
+}
+
 html .top-nav {
     width: 850px;
     max-width: 80%;
@@ -102,6 +106,7 @@ html .top-nav {
     float: right;
     margin: 0;
     margin: 5px;
+    margin-left: -1.5em;
     /*padding: 0;*/
     /*vertical-align: top;*/
     /*position: relative;*/
@@ -158,4 +163,30 @@ li {
 
 .sliding-menu-open {
     display: none;
+}
+
+#request-container {
+    float: left;
+    margin-top: 1px;
+    align-self: auto;
+    position: absolute;
+    border-style: dotted;
+    border-color: grey;
+}
+
+.solid-bar{
+  /* Clonet principle */
+  margin-top: 110px;
+  border-style: dotted;
+  text-align: center;
+  border-color: green;
+    width: 40%;
+    border: 2px dotted green;
+    padding: 5px;
+    margin-left: 350px;
+  /*margin: auto;*/
+
+  /*position: relative;*/
+  /*align-self: auto;*/
+  /*float: right;*/
 }
