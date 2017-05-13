@@ -7,6 +7,7 @@
     $('#request-container').show();
     $('#clonet-principle').hide();
     $('#header-container').show();
+    $('#section-video-container').show();
   }
 
   $('#submit').on('click', function(){
