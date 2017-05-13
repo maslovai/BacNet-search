@@ -1,10 +1,12 @@
 'use strict';
 
 (function(module){
-const query = {};
+ const query = {};
 
   query.showRequestPage = function(){
-    $('#output').show().siblings().hide();
+    $('#request-container').show();
+    $('#clonet-principle').hide();
+    $('#header-container').show();
   }
 
   $('#submit').on('click', function(){
@@ -19,4 +21,4 @@ const query = {};
 
 
   module.query = query;
-});
+})(window);

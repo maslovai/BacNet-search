@@ -11,11 +11,11 @@
 </head>
 <body>
   <header id="header"class="fixed clearfix header-menu header" data-header-type="header-menu" data-header-resize="true" data-header-height="85" data-header-max-height="115" data-menu-link="1">
-    <div id="header-container" style="height:85px" class="section-container header-container">
+    <div id="header-container containers" style="height:85px" class="section-container header-container">
 
-        <!-- <div id="header-overlay-slider" style="opacity:0.45;"></div>
-        <div id="header-overlay" class="headerColor header-overlay" style="opacity:0.2;"></div>
-        <div class="sliding-menu-open"></div> -->
+      <!-- <div id="header-overlay-slider" style="opacity:0.45;"></div>
+      <div id="header-overlay" class="headerColor header-overlay" style="opacity:0.2;"></div>
+      <div class="sliding-menu-open"></div> -->
       <div class="website-logo">
         <a href="http://idgenomics.com">
           <img src="http://idgenomics.com/wp-content/uploads/2017/01/idg_logo_full_high_res_compressed.png" alt="logo">
@@ -24,6 +24,7 @@
       <nav id="top-nav" class="headerColor top-nav">
         <ul class="top-menu">
           <li class="menu-item" data-content=""><a href="http://idgenomics.com/" class="hover" target="_blank" <span>ID Genomics</span></a></li>
+
           <li class="menu-item" data-content=""><a href="#" class="hover" <span>CloNeT</span>::after == $0 </a></li>
           <li class="menu-item" data-content=""><a href="/home" class="hover" <span>Barcoding Generator</span>::after == $0 </a></li>
           <li class="menu-item" data-content=""><a href="/query" class="hover" <span>BactNeT Query</span>::after == $0 </a></li>
@@ -32,53 +33,64 @@
     </div>
   </header>
 
-  <div id = "clonet-principle" class="solid-bar" style="background-image:">
-    <p>Clonet princople and a corresponding picture go here: </p>
+  <div id = "clonet-principle" class="solid-bar containers" style="background-image:">
+    <p>Clonet principle and a corresponding picture go here: </p>
   </div>
 
   <br>
+  <div id = "request-container" class ="containers">
+    <section class = "section-video-container">
+      <div class="video-container">
+        <video preload="true" autoplay loop muted poster="assets/videoposter.jpeg" class="video-background">
+          <source src="assets/video/Atoms - 5205.mp4" type="video/mp4" media="(orientation:landscape)">
+          </video>
+        </div>
+      </section>
+      <h1>Things are going to happen here:</h1>
+      <select name="select">
+        <option value="value1">Value 1</option>
+        <option value="value2" selected>Value 2</option>
+        <option value="value3">Value 3</option>
+      </select>
+      <br>
+      <form>
+        <label for="locus">Enter query sequence:</label>
+        <input id="sequence" class = "sequence"type="textarea" name="sequence" placeholder="sequence">
 
-  <div id = "request-container" class="request-container">
+        <input id = "submit" type="submit" name = "submit">
+        <br>
+        <input id = "reset" type="reset" name = "reset">
+      </form>
+      <p>Results will go here:</p>
+      <table id = "results-table">
+        <tr>
+          <td>
+            Ampicillin::::::::::::::
+          </td>
+          <td>
+            <ul id="result-ul">
+            </ul>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div id = "barcode-container">
+      <p>This is a placeholder for the barcode generator</p>
+    </div>
 
-    <h1>Things are going to happen here:</h1>
-    <select name="select">
-      <option value="value1">Value 1</option>
-      <option value="value2" selected>Value 2</option>
-      <option value="value3">Value 3</option>
-    </select>
-    <br>
-    <label for="locus">Enter query sequence:</label>
-    <input id="sequence" class = "sequence"type="textarea" name="sequence" placeholder="sequence">
+    <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
+    <script src ="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
+    <script src = "node_modules/page/page.js"></script>
+    <script src="vendor/handlebars.js"></script>
+    <!-- <script src="vendor/scripts/marked.js"></script> -->
+    <script src="scripts/queryView.js" charset="utf-8"></script>
+    <script src="scripts/cloneView.js" charset="utf-8"></script>
+    <script src ="scripts/indexView.js"></script>
+    <script src ="scripts/barcodeView.js"></script>
+    <script src = "scripts/routes.js"></script>
 
-    <input id = "submit" type="submit" name = "submit">
-    <br>
-    <input id = "reset" type="reset" name = "reset">
 
-    <p>Results will go here:</p>
-    <table id = "results-table">
-      <tr>
-        <td>
-          Ampicillin::::::::::::::
-        </td>
-        <td>
-          <ul id="result-ul">
-          </ul>
-        </td>
-      </tr>
-    </table>
-  </div>
-
-<script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
-<script src ="https://code.jquery.com/jquery-3.2.1.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
-<script src = "node_modules/page/page.js"></script>
-<script src="vendor/handlebars.js"></script>
-<!-- <script src="vendor/scripts/marked.js"></script> -->
-<script src="scripts/queryView.js" charset="utf-8"></script>
-<script src="scripts/cloneView.js" charset="utf-8"></script>
-<script src = "scripts/routes.js"></script>
-<script> index.showIndexPage();</script>
-
-</body>
-</html>
+  </body>
+  </html>
