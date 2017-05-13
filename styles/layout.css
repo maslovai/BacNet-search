@@ -97,7 +97,25 @@ html .top-nav {
     /*margin: 150;*/
     /*padding: 0;*/
 }
-
+.top-nav > ul > li > a:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    border-bottom: 3px solid;
+    transform: scale(0) translateZ(0);
+    -webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease;
+    -moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease;
+    -ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
+    -o-transition: -o-transform 0.5s ease, opacity 0.5s ease;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+.top-nav > ul > li > a.hover:after, .top-nav > ul > li.current-menu-ancestor > a:after, .top-nav > ul > li.current-menu-item > a:after {
+    opacity: 1;
+    transform: scale(1) translateZ(0);
+  }
 .top-nav li {
     display: inline-block;
     height: 100%;
