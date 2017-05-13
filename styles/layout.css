@@ -1,10 +1,17 @@
 html .top-nav {
-    width: 1175px;
+    width: 850px;
+    max-width: 80%;
+    position: relative;
+    line-height: 1em;
+    margin:0 auto;
 }
-div {
+
+/*div {
   display: block;
-}
+}*/
+
 .header {
+    /*overflow: auto;*/
     border-style: dashed;
     border-color: pink;
     display: inline-block;
@@ -23,12 +30,14 @@ div {
     display: inline-block;
     border-style: dashed;
     border-color: blue;
-    position: relative;
     margin: 0 auto;
+    width: 350;
 }
-.header .fixed {
+
+/*.header .fixed {
     position: fixed !important;
-}
+}*/
+
 /*.header-overlay {
     border-style: dashed;
     border-color: green;
@@ -56,39 +65,64 @@ div {
 .top-nav{
     border-style: dashed;
     border-color: brown;
-    display: block;
+    display: inline-block;
     background: transparent;
     list-style: none;
     height: 100%;
-    position: relative;
+    float:right;
+    /*width:500px;*/
+    /*position: relative;*/
 }
+
 /*.top-nav .top-menu {
-    position: absolute;
-    display: block;
     height: auto;
-    width: 100%;
+    width: 70%;
     top: 50%;
     left: 0;
     bottom: 0;
-    margin-top: -15px;
     text-align: right;
-
+    float:right;
+    margin-top: -15px;
+    position: absolute;
+    display: inline-block;
   }*/
+
 .top-nav ul{
     height: 100%;
-    margin: 0;
-    padding: 0;
-    float:left;
+    float:right;
+    /*margin: 150;*/
+    /*padding: 0;*/
 }
+.top-nav > ul > li > a:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    border-bottom: 3px solid;
+    transform: scale(0) translateZ(0);
+    -webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease;
+    -moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease;
+    -ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
+    -o-transition: -o-transform 0.5s ease, opacity 0.5s ease;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+.top-nav > ul > li > a.hover:after, .top-nav > ul > li.current-menu-ancestor > a:after, .top-nav > ul > li.current-menu-item > a:after {
+    opacity: 1;
+    transform: scale(1) translateZ(0);
+  }
 .top-nav li {
-    position: relative;
     display: inline-block;
-    vertical-align: top;
     height: 100%;
-    line-height: 30px;
-    margin: 0;
-    padding: 0;
+    line-height: 55px;
     transform: none;
+    float: right;
+    margin: 0;
+    margin: 5px;
+    /*padding: 0;*/
+    /*vertical-align: top;*/
+    /*position: relative;*/
 }
 /*ul {
   border-style: dashed;
@@ -111,7 +145,7 @@ ul {
   -webkit-padding-start: 40px
 }
 li {
-  letter-spacing: 0.5px;
+  letter-spacing: 0.3px;
   line-height: 30px;
   text-transform: uppercase;
   padding: 0 16px 0 14px;
@@ -119,20 +153,25 @@ li {
 .website-logo img {
   min-height: 100%;
   max-height: 100%;
-  position: absolute;
   display: block;
-  width: auto;
-  top: 0;
+  float: left;
+  /*max-width: 350px;*/
+  /*margin: auto;*/
+  /*width: auto;*/
+  /*position: absolute;*/
+  /*top: 0;
   bottom: 0;
   left: 0;
-  right: 0;
-  margin: auto;
+  right: 0;*/
 }
 .website-logo {
-    position: relative;
-    display: inline-block;
     z-index: 1;
+    float: left;
     height: 100%;
+    width: 350px;
+    /*max-width: 350px;*/
+    /*position: relative;*/
+    /*display: inline-block;*/
 }
 
 .sliding-menu-open {
