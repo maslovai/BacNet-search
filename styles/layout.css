@@ -5,6 +5,7 @@ div {
   display: block;
 }
 .header {
+    /*overflow: auto;*/
     border-style: dashed;
     border-color: pink;
     display: inline-block;
@@ -29,6 +30,7 @@ div {
 .header .fixed {
     position: fixed !important;
 }
+
 /*.header-overlay {
     border-style: dashed;
     border-color: green;
@@ -62,7 +64,7 @@ div {
     height: 100%;
     position: relative;
 }
-/*.top-nav .top-menu {
+.top-nav .top-menu {
     position: absolute;
     display: block;
     height: auto;
@@ -73,7 +75,8 @@ div {
     margin-top: -15px;
     text-align: right;
 
-  }*/
+  }
+
 .top-nav ul{
     height: 100%;
     margin: 0;
@@ -119,7 +122,7 @@ li {
 .website-logo img {
   min-height: 100%;
   max-height: 100%;
-  position: absolute;
+  /*position: absolute;*/
   display: block;
   width: auto;
   top: 0;
@@ -127,12 +130,15 @@ li {
   left: 0;
   right: 0;
   margin: auto;
+  float: left;
+  max-width: 500px;
 }
 .website-logo {
-    position: relative;
-    display: inline-block;
+    /*position: relative;*/
     z-index: 1;
     height: 100%;
+    /*max-width: 500px;*/
+    /*display: inline-block;*/
 }
 
 .sliding-menu-open {
