@@ -7,6 +7,5 @@ const index = {};
     $('#clonet-principle').show().siblings().hide();
   }
 
-
   module.query = query;
-});
+})(window);
