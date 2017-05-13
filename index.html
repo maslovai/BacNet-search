@@ -17,7 +17,7 @@
       <div class="sliding-menu-open"></div>
       <div class="website-logo">
         <a href="http://idgenomics.com">
-          <img src="logo.png" alt="logo">
+          <img src="assets/images/logo.png" alt="logo">
         </a>
       </div>
       <nav id="top-nav" class="headerColor top-nav">
@@ -35,8 +35,8 @@
   </div>
 
   <br>
-  <h1>Things are going to happen here:</h1>
   <div id = "input">
+    <h1>Things are going to happen here:</h1>
     <select name="select">
       <option value="value1">Value 1</option>
       <option value="value2" selected>Value 2</option>
@@ -64,12 +64,14 @@
       </tr>
     </table>
   </div>
+<script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
 <script src ="https://code.jquery.com/jquery-3.2.1.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="vendor/scripts/handlebars.js"></script>
-<script src="vendor/scripts/marked.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
-<script src="scripts/query.js" charset="utf-8"></script>
+<script src = "node_modules/page/page.js"></script>
+<script src="vendor/scripts/handlebars.js"></script>
+<!-- <script src="vendor/scripts/marked.js"></script> -->
+<script src="scripts/queryView.js" charset="utf-8"></script>
 <script src="scripts/cloneView.js" charset="utf-8"></script>
 <script src = "scripts/routes.js">
 window.Topic.fetchAll(window.blogView.initIndexPage);
