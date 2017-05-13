@@ -4,9 +4,10 @@
 const index = {};
 
   index.showIndexPage = function(){
-    $('#clonet-principle').show().siblings().hide();
+    $('#clonet-principle').show();
+    $('#header-container').show();
+    $('#request-container').hide();
   }
 
-
-  module.query = query;
-});
+  module.index = index;
+})(window);
