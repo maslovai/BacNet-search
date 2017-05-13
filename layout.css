@@ -1,7 +1,13 @@
 html .top-nav {
     width: 1175px;
 }
-#header {
+div {
+  display: block;
+}
+.header {
+    border-style: dashed;
+    border-color: pink;
+    display: inline-block;
     position: absolute;
     z-index: 4;
     min-width: 320px;
@@ -13,9 +19,21 @@ html .top-nav {
     background: none;
     /*-webkit-transform: translateZ(0);*/
 }
-#header-overlay {
+.header-menu .header-container {
+    display: inline-block;
+    border-style: dashed;
+    border-color: blue;
+    position: relative;
+    margin: 0 auto;
+}
+.header .fixed {
+    position: fixed !important;
+}
+/*.header-overlay {
+    border-style: dashed;
+    border-color: green;
     position: absolute;
-    display: block;
+    display: inline-block;
     top: 0;
     left: 0;
     bottom: 0;
@@ -23,19 +41,28 @@ html .top-nav {
     -webkit-box-shadow: 5px 5px 10px rgba(0,0,0,0.05);
     -moz-box-shadow: 5px 5px 10px rgba(0,0,0,0.05);
     box-shadow: 5px 5px 10px rgba(0,0,0,0.05);
-}
-.headerColor {
+}*/
+/*.headerColor {
   background: #ffffff;
   color: #646464;
-  }
-#top-nav{
+  }*/
+/*.section-container {
+    border-style: dashed;
+    border-color: red;
+    position: relative;
+    max-width: 1180px;
+    margin: 0 auto;
+}*/
+.top-nav{
+    border-style: dashed;
+    border-color: brown;
     display: block;
     background: transparent;
     list-style: none;
     height: 100%;
     position: relative;
 }
-#top-nav .top-menu {
+/*.top-nav .top-menu {
     position: absolute;
     display: block;
     height: auto;
@@ -46,15 +73,15 @@ html .top-nav {
     margin-top: -15px;
     text-align: right;
 
-  }
-#top-nav ul{
+  }*/
+.top-nav ul{
     height: 100%;
     margin: 0;
     padding: 0;
     float:left;
 }
-#top-nav li {
-  position: relative;
+.top-nav li {
+    position: relative;
     display: inline-block;
     vertical-align: top;
     height: 100%;
@@ -63,11 +90,13 @@ html .top-nav {
     padding: 0;
     transform: none;
 }
-ul {
+/*ul {
+  border-style: dashed;
+  border-color: grey;
   list-style: none;
   margin-left: 30px;
   margin-bottom: 30px;
-}
+}*/
 ul li {
   list-style: disc;
   list-style-position: outside;
@@ -85,13 +114,21 @@ li {
   letter-spacing: 0.5px;
   line-height: 30px;
   text-transform: uppercase;
-  padding: 0px 16px 0 14px;
+  padding: 0 16px 0 14px;
 }
 .website-logo img {
   min-height: 100%;
   max-height: 100%;
+  position: absolute;
+  display: block;
+  width: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
-website-logo {
+.website-logo {
     position: relative;
     display: inline-block;
     z-index: 1;
