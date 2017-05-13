@@ -1,7 +1,11 @@
 'use strict';
 
-// (function(module){
-//   const query = {};
+(function(module){
+const query = {};
+
+  query.showRequestPage = function(){
+    $('#output').show().siblings().hide();
+  }
 
   $('#submit').on('click', function(){
     console.log(' in submit')
@@ -14,5 +18,5 @@
     });
 
 
-//   module.query = query;
-// });
+  module.query = query;
+});
