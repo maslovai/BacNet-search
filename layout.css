@@ -138,3 +138,8 @@ li {
 .sliding-menu-open {
     display: none;
 }
+.request-container {
+  border-style: dashed;
+  border-color: grey;
+
+}
