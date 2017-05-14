@@ -8,6 +8,8 @@
     $('#clonet-principle').hide();
     $('#header-container').show();
     $('#section-video-container').show();
+    $('#barcode-container').hide();
+    $('#aside').hide();
   }
 
   $('#submit').on('click', function(){
