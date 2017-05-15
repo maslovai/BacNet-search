@@ -5,15 +5,11 @@ body {
 
 html .top-nav {
   /*width: 700px;*/
-  max-width: 80%;
+  max-width: 90%;
   position: relative;
   line-height: 1em;
   margin:0 auto;
 }
-
-/*div {
-display: block;
-}*/
 
 .header {
   border-style: dashed;
@@ -76,10 +72,7 @@ margin: 0 auto;
   list-style: none;
   height: 100%;
   float:right;
-  /*width:500px;*/
-  /*position: relative;*/
 }
-
 /*.top-nav .top-menu {
 height: auto;
 width: 70%;
@@ -96,8 +89,6 @@ display: inline-block;
 .top-nav ul{
   height: 100%;
   float:right;
-  /*margin: 150;*/
-  /*padding: 0;*/
 }
 .top-nav > ul > li > a:after {
   content: "";
@@ -122,24 +113,13 @@ display: inline-block;
 .top-nav li {
   display: inline-block;
   height: 100%;
-  line-height: 55px;
-  transform: none;
+  line-height: 2.5em;
   float: right;
   margin: 0;
-  margin: 5px;
-  margin-left: -1.5em;
-  /*padding: 0;*/
-  /*vertical-align: top;*/
-  /*position: relative;*/
+  margin: 1em;
+  margin-left: -2em;
 }
 
-/*ul {
-border-style: dashed;
-border-color: grey;
-list-style: none;
-margin-left: 30px;
-margin-bottom: 30px;
-}*/
 ul li {
   list-style: disc;
   list-style-position: outside;
@@ -164,23 +144,12 @@ li {
   max-height: 100%;
   display: block;
   float: left;
-  /*max-width: 350px;*/
-  /*margin: auto;*/
-  /*width: auto;*/
-  /*position: absolute;*/
-  /*top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;*/
 }
 .website-logo {
   z-index: 1;
   float: left;
   height: 100%;
   width: 350px;
-  /*max-width: 350px;*/
-  /*position: relative;*/
-  /*display: inline-block;*/
 }
 
 .sliding-menu-open {
@@ -188,52 +157,37 @@ li {
 }
 
 #request-container {
-  float: left;
-  margin-top: 1px;
-  align-self: auto;
-  position: absolute;
-  border-style: dotted;
   border-color: grey;
 }
 
-.solid-bar{
+#clonet-principle{
   /* Clonet principle */
-  margin-top: 10px;
   border-style: dotted;
-  text-align: center;
   border-color: green;
-  width: 40%;
-  border: 2px dotted green;
-  padding: 5px;
-  margin-left: 350px;
-  /*margin: auto;*/
-  /*position: relative;*/
-  /*align-self: auto;*/
-  /*float: right;*/
 }
 .containers{
-  margin-top: 110px;
+  margin-top: 10%;
   border-style: dotted;
   text-align: center;
   border-color: green;
   width: 40%;
   border: 2px dotted green;
-  padding: 5px;
-  margin-left: 350px;
+  padding: 2px;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* request page video styles: */
 .section-video-container{
   /*border-style: dashed;
   border-color: green;*/
   width: 100%;
-  height: 400px;
+  height: 100px;
   border-left: none;
   border-right: none;
   position: absolute;
   background: transparent;
-  bottom:0;
   border: 2px dotted green;
-
+  bottom:0;
 }
 .video-container{
   /*background: url('assets/videoposter.jpeg') no-repeat;*/
