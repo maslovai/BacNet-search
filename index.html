@@ -11,7 +11,7 @@
 </head>
 <body>
   <header id="header"class="fixed clearfix header-menu header" data-header-type="header-menu" data-header-resize="true" data-header-height="85" data-header-max-height="115" data-menu-link="1">
-    <div id="header-container containers" style="height:85px" class="section-container header-container">
+    <div id="header-container containers" style="height:8em" class="section-container header-container">
 
       <!-- <div id="header-overlay-slider" style="opacity:0.45;"></div>
       <div id="header-overlay" class="headerColor header-overlay" style="opacity:0.2;"></div>
@@ -32,14 +32,19 @@
     </div>
   </header>
 
-  <div id = "clonet-principle" class="solid-bar containers" style="background-image:">
-    <p>Clonet principle and a corresponding picture go here: </p>
-    <div id = "clonet-article">
-
+  <div id = "clonet-principle" class="solid-bar containers clonet-principle" style="background-image:">
+    <aside id="aside-video-container" class = "aside-video-container" >
+      <div class = "aside-video-container-inner">
+        <video preload="true" autoplay loop muted poster="assets/videoposter.jpeg" class="portrait-video-background">
+          <source src="assets/videos/Dna - 6368.mp4" type="video/mp4" media="(orientation:portrait)">
+          </video>
+        </div>
+      </aside>
+      <img class = "tubes" src = "assets/images/tubes.png">
+      <div id = "clonet-article">
+        <embed src="assets/clonet-principles.pdf" width="800em" height="2100em" />
+      </div>
     </div>
-    <div id = "clonet-picture">
-    </div>
-  </div>
 
   <div id = "request-container" class ="containers">
 
@@ -84,15 +89,6 @@
         </div>
       </section>
 
-      <aside id = "aside" >
-        <section id="aside-video-container" class = "aside-video-container">
-          <div class = "div-video-container">
-            <video preload="true" autoplay loop muted poster="assets/videoposter.jpeg" class="portrait-video-background">
-              <source src="assets/videos/Dna - 6368.mp4" type="video/mp4" media="(orientation:portrait)">
-              </video>
-            </div>
-          </section>
-      </aside>
     <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
     <script src ="https://code.jquery.com/jquery-3.2.1.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>

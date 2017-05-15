@@ -208,14 +208,14 @@ li {
   /*float: right;*/
 }
 .containers{
-margin-top: 110px;
+margin-top: 8em;
+margin-left: 0;
 border-style: dotted;
-text-align: center;
+/*text-align: center;*/
 border-color: green;
-  width: 40%;
+  /*width: 40%;
   border: 2px dotted green;
-  padding: 5px;
-  margin-left: 350px;
+  margin-left: 10em;*/
 }
 /* request page video styles: */
 .section-video-container{
@@ -263,13 +263,13 @@ border-color: green;
   position: relative;
   background: transparent;
 }
-.div-video-container{
+.aside-video-container-inner{
   /*background: url('assets/videoposter.jpeg') no-repeat;*/
   /*border-style: dashed;
   border-color: red;*/
   background: transparent;
   background-size: cover;
-  height: 100em;
+  height: 75em;
   width: 100%;
   position: absolute;
   overflow: hidden;
@@ -280,7 +280,18 @@ border-color: green;
   position: absolute;
   z-index: -1;
   opacity: 0.78;
-  height: 50em;
+  height: 30em;
   width: 100%;
   object-fit: cover;
+}
+/***************Clonet View styles***************/
+
+.clonet-principle{
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.tubes{
+  width: 90%;
+  height: 30em;
 }

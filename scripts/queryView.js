@@ -10,7 +10,6 @@
     $('#section-video-container').show();
     $('#barcode-container').hide();
     $('#nav-links #query-request-tab').hide().siblings().show();
-    //$('#nav-links #clonet-tab').show();
     $('#aside').hide();
   }
 
