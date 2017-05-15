@@ -13,9 +13,6 @@
   <header id="header"class="fixed clearfix header-menu header" data-header-type="header-menu" data-header-resize="true" data-header-height="85" data-header-max-height="115" data-menu-link="1">
     <div id="header-container containers" style="height:85px" class="section-container header-container">
 
-      <!-- <div id="header-overlay-slider" style="opacity:0.45;"></div>
-      <div id="header-overlay" class="headerColor header-overlay" style="opacity:0.2;"></div>
-      <div class="sliding-menu-open"></div> -->
       <div class="website-logo">
         <a href="http://idgenomics.com">
           <img src="http://idgenomics.com/wp-content/uploads/2017/01/idg_logo_full_high_res_compressed.png" alt="logo">
@@ -35,8 +32,41 @@
   <br>
   <div id="clonet-principle" class="containers">
     <p>Clonet principle and a corresponding picture go here: </p>
+
+    <div id="clonet-container" class="containers">
+        <div id="textBox1" class="clonetBox">box1</div>
+        <div id="textBox2" class="clonetBox">box2</div>
+        <div id="textBox3" class="clonetBox">box3</div>
+        <div id="textBox4" class="clonetBox">box4</div>
+    </div>
+
   </div>
-  
+
+<!-- test with a table -->
+  <table>
+    <tr>
+      <th>top left</th>
+      <th>top right</th>
+    </tr>
+    <tr>
+      <td>bottom left</td>
+      <td>bottom right</td>
+    </tr>
+  </table>
+
+
+  <table class="tbl">
+    <tr>
+      <th class="tbl-box1">box1 ssdfskfksjdhfkjshdfkjsdhf skjd kjsd </th>
+      <th class="tbl-box2">box2 kjshdf kjhsdf kjh</th>
+    </tr>
+    <tr>
+      <td class="tbl-box3">box3 AAAaaaaaaasffsdfsdfsdfss</td>
+      <td class="tbl-box4">box4 kjhsdfkjhsdkjfh7sdfbhg</td>
+    </tr>
+  </table>
+<!-- test with a table -->
+
   <div id="request-container" class="containers">
     <h1>Things are going to happen here:</h1>
     <select name="select">
@@ -49,12 +79,12 @@
       <label for="locus">Enter query sequence:</label>
       <input id="sequence" class="sequence"type="textarea" name="sequence" placeholder="sequence">
 
-      <input id = "submit" type="submit" name = "submit">
+      <input id="submit" type="submit" name = "submit">
       <br>
-      <input id = "reset" type="reset" name = "reset">
+      <input id="reset" type="reset" name = "reset">
     </form>
     <p>Results will go here:</p>
-    <table id = "results-table">
+    <table id="results-table">
       <tr>
         <td>
           Ampicillin::::::::::::::
@@ -89,7 +119,6 @@
     <script src ="scripts/indexView.js"></script>
     <script src ="scripts/barcodeView.js"></script>
     <script src = "scripts/routes.js"></script>
-
 
   </body>
   </html>

@@ -73,6 +73,10 @@ margin: 0 auto;
   height: 100%;
   float:right;
 }
+.top-nav ul{
+  height: 100%;
+  float:right;
+}
 /*.top-nav .top-menu {
 height: auto;
 width: 70%;
@@ -86,11 +90,7 @@ position: absolute;
 display: inline-block;
 }*/
 
-.top-nav ul{
-  height: 100%;
-  float:right;
-}
-.top-nav > ul > li > a:after {
+/*.top-nav > ul > li > a:after {
   content: "";
   position: absolute;
   left: 0;
@@ -104,7 +104,7 @@ display: inline-block;
   -ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
   -o-transition: -o-transform 0.5s ease, opacity 0.5s ease;
   transition: transform 0.5s ease, opacity 0.5s ease;
-}
+}*/
 /*.top-nav > ul > li > a.hover:after, .top-nav > ul > li.current-menu-ancestor > a:after, .top-nav > ul > li.current-menu-item > a:after {
   opacity: 1;
   transform: scale(1) translateZ(0);
@@ -124,7 +124,7 @@ ul li {
   list-style: disc;
   list-style-position: outside;
 }
-ul {
+/*ul {
   display: block;
   list-style-type: disc;
   -webkit-margin-before: 1em;
@@ -132,7 +132,7 @@ ul {
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
   -webkit-padding-start: 40px
-}
+}*/
 li {
   letter-spacing: 0.3px;
   line-height: 30px;
@@ -149,7 +149,6 @@ li {
   z-index: 1;
   float: left;
   height: 100%;
-  width: 350px;
 }
 
 .sliding-menu-open {
@@ -160,11 +159,6 @@ li {
   border-color: grey;
 }
 
-#clonet-principle{
-  /* Clonet principle */
-  border-style: dotted;
-  border-color: green;
-}
 .containers{
   margin-top: 10%;
   border-style: dotted;
@@ -176,6 +170,8 @@ li {
   margin-left: auto;
   margin-right: auto;
 }
+
+
 /* request page video styles: */
 .section-video-container{
   /*border-style: dashed;
@@ -211,4 +207,96 @@ video {
   width: 100%;
   object-fit: cover;
   bottom:0;
+}
+
+.clonetBox {
+  border-style: dotted;
+  text-align: center;
+  position: relative;
+  border-color: blue;
+}
+
+#clonet-principle{
+  border-style: dotted;
+  border-color: green;
+  text-align: center;
+
+}
+
+#clonet-container{
+  width: auto;
+  height: 15em;
+  border-color:red;
+  line-height: auto;
+}
+
+#textBox1 {
+  float: left;
+  width: 40%;
+  margin: 1em;
+}
+#textBox2 {
+  float: right;
+  width: 40%;
+  margin: 1em;
+}
+#textBox3 {
+  float: left;
+  width: 40%;
+  margin: 1em;
+}
+#textBox4 {
+  float: right;
+  width: 40%;
+  margin: 1em;
+}
+
+.tbl {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    margin: 0px auto;
+}
+.tbl td {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+    padding: 10px 10px;
+    border-style: solid;
+    border-width: 0px;
+    overflow: hidden;
+    word-break: normal;
+    color: black;
+}
+.tbl th {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 10px;
+    border-style: solid;
+    border-width: 0px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: #999;
+    color: white;
+    background-color: #26ADE4;
+}
+
+.tbl .tbl-box1 {
+    background-color: #DEE9F7;
+    text-align: center;
+}
+.tbl .tbl-box2 {
+    background-color: #59B5DB;
+    vertical-align: top;
+}
+.tbl .tbl-box3 {
+    background-color: #59B5DB;
+    text-align: center;
+    vertical-align: top;
+}
+.tbl .tbl-box4 {
+    background-color: #DEE9F7;
+    vertical-align: top;
 }
