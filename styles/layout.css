@@ -307,21 +307,43 @@ padding: 0;
 
 /**********request page styles by Iryna:************/
 #request-container {
-  margin-top: 15em;
+  width:90%
+  margin-top: 10%;
   margin-bottom: 15em;
-  display: flex;
-  justify-content: space-between;
+  font-family: "Open Sans", sans-serif;
 }
-#form-buttons{
-  width: 30%;
+#hospital-filter{
+  font-size:1em;
+}
+#form-buttons-div{
+  margin-top: 5%;
+  width: 40%;
   height: 2em;
   font-size: 1.5em;
-  display: flex;
-  justify-content: space-around;
+  float:left;
 }
-#results{
+#results-div{
   width:50%;
+  margin-left: 5%;
+  font-size: 1.5em;
+  display: inline;
+  float:right;
+}
+label{
+  font-size: 1em;
 }
 #bacCode{
-  height:2em;
+/*height: 5em;
+width: 15em;*/
+font-size: 1em;
+}
+#submit, #reset{
+  width:4em;
+  height:1.5em;
+  font-size: 1.5em;
+  font-family: "Open Sans", sans-serif;
+}
+#header-container{
+  display: flex;
+  justify-content: space-between;
 }

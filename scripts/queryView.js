@@ -21,11 +21,12 @@
 
   $('#submit').on('click', function(){
     console.log(' in submit')
-     $('#result-ul').empty().append('<li>Look what we have for you!</li>');
+     $('#result-ul').append('<li>Look what we have for you!</li>');
    });
 
 
    $('#reset').on('click', function(){
+      $('#hospital-filter').val("All").attr("selected","true");
       $('#sequence').val('').attr("placeholder","sequence");
     });
 
