@@ -8,7 +8,7 @@ const index = {};
     $('#header-container').show();
     $('#request-container').hide();
     $('#barcode-container').hide();
-    $('#section-video-container').hide();
+    $('#section-video-container').show();
   }
 
   module.index = index;
