@@ -9,6 +9,7 @@
     $('#header-container').show();
     $('#section-video-container').show();
     $('#barcode-container').hide();
+    $('#aboutTable').hide(); //this hides our About Us table...
   }
 
   $('#submit').on('click', function(){

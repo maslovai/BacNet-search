@@ -223,11 +223,12 @@ video {
 
 }
 
-#clonet-container{
+#about-us{
   width: auto;
   height: 15em;
   border-color:red;
   line-height: auto;
+  /*removing this in html to have colored boxes instead */
 }
 
 #textBox1 {
