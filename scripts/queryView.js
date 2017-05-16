@@ -9,6 +9,7 @@
     $('#header-container').show();
     $('#section-video-container').show();
     $('#barcode-container').hide();
+    $('#nav-links #query-request-tab').hide().siblings().show();
     $('#aside').hide();
   }
 

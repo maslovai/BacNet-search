@@ -11,7 +11,7 @@
 </head>
 <body>
   <header id="header"class="fixed clearfix header-menu header" data-header-type="header-menu" data-header-resize="true" data-header-height="85" data-header-max-height="115" data-menu-link="1">
-    <div id="header-container containers" style="height:85px" class="section-container header-container">
+    <div id="header-container containers" style="height:8em" class="section-container header-container">
 
       <!-- <div id="header-overlay-slider" style="opacity:0.45;"></div>
       <div id="header-overlay" class="headerColor header-overlay" style="opacity:0.2;"></div>
@@ -22,21 +22,36 @@
         </a>
       </div>
       <nav id="top-nav" class="headerColor top-nav">
-        <ul class="top-menu">
+        <ul id = "nav-links"class="top-menu">
           <li class="menu-item" data-content=""><a href="http://idgenomics.com/" class="hover" target="_blank" <span>ID Genomics</span></a></li>
-          <li class="menu-item" data-content=""><a href="/" class="hover" <span>CloNeT</span></a></li>
-          <li class="menu-item" data-content=""><a href="/barcode" class="hover" <span>Barcoding Generator</span></a></li>
-          <li class="menu-item" data-content=""><a href="/query" class="hover" <span>BactNeT Query</span></a></li>
+
+          <li id = "clonet-tab" class="menu-item" data-content=""><a href="/" class="hover" <span>CloNeT</span></a></li>
+          <li id = "barcode-tab"class="menu-item" data-content=""><a href="/barcode" class="hover" <span>Barcoding Generator</span></a></li>
+          <li id = "query-request-tab" class="menu-item" data-content=""><a href="/query" class="hover" <span>BactNeT Query</span></a></li>
+
         </ul>
       </nav>
     </div>
   </header>
 
-  <div id = "clonet-principle" class="solid-bar containers" style="background-image:">
-    <p>Clonet principle and a corresponding picture go here: </p>
-  </div>
-
-  <br>
+  <div id = "clonet-principle" class="solid-bar containers clonet-principle" style="background-image:">
+    <div id = "decorative-pargraph">
+      <h3>CLONET PRINCIPLES</h3>
+    </div>
+    <div id = "clonet-wrapper">
+    <aside id="aside-video-container" class = "aside-video-container" >
+      <div class = "aside-video-container-inner">
+        <video preload="true" autoplay loop muted poster="assets/videoposter.jpeg" class="portrait-video-background">
+          <source src="assets/videos/Dna - 6368.mp4" type="video/mp4" media="(orientation:portrait)">
+          </video>
+        </div>
+      </aside>
+      <img class = "tubes" src = "assets/images/tubes.png">
+      <div id = "clonet-article">
+        <embed src="assets/clonet-principles.pdf" width="700em" height="2100em" />
+      </div>
+    </div>
+    </div>
 
   <div id = "request-container" class ="containers">
 
@@ -70,9 +85,9 @@
     </div>
 
     <div id = "barcode-container" class="containers">
-
       <p>This is a placeholder for the barcode generator</p>
     </div>
+
     <section id="section-video-container" class = "section-video-container">
       <div class="video-container">
         <video preload="true" autoplay loop muted poster="" class="landscape-video-background">
@@ -81,15 +96,7 @@
         </div>
       </section>
 
-      <aside id = "aside">
-        <section id="aside-video-container" class = "aside-video-container">
-          <div class = "div-video-container">
-            <video preload="true" autoplay loop muted poster="" class="portrait-video-background">
-              <source src="assets/videos/Dna - 6368.mp4" type="video/mp4" media="(orientation:portrait)">
-              </video>
-            </div>
-          </section>
-        </aside>
+
     <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
     <script src ="https://code.jquery.com/jquery-3.2.1.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
