@@ -10,12 +10,18 @@
     $('#section-video-container').show();
     $('#barcode-container').hide();
     $('#nav-links #query-request-tab').hide().siblings().show();
-    $('#aside').hide();
   }
+
+  // query.handleFilter = function(){
+  //    $('#author-filter').on('change', function() {
+  //    if ($(this).val())
+  //    }
+  // }
+
 
   $('#submit').on('click', function(){
     console.log(' in submit')
-     $('#result-ul').empty().append('<li>Look what we have got for you!</li>');
+     $('#result-ul').empty().append('<li>Look what we have for you!</li>');
    });
 
 
