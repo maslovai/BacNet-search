@@ -10,6 +10,7 @@ const barcode = {};
     $('#request-container').hide();
     $('#section-video-container').hide();
     $('#clonet-principle').hide();
+    $('#aboutTable').hide();
   }
 
   module.barcode = barcode;
