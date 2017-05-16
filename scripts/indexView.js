@@ -9,7 +9,7 @@ const index = {};
     $('#aside').show();
     $('#request-container').hide();
     $('#barcode-container').hide();
-    $('#section-video-container').hide();
+    $('#section-video-container').show();
     $('#header-container').show();
   }
 //   var windowObjectReference;
