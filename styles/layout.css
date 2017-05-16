@@ -253,21 +253,21 @@ border-color: green;
 
 
 /************* Aside video styles *******************/
-.aside-video-container{
+/*.aside-video-container{*/
   /*border-style: dashed;
   border-color: green;*/
-  height: 900px;
+  /*height: 900px;
   width: 50%;
   border-left: none;
   border-right: none;
   position: relative;
   background: transparent;
 }
-.aside-video-container-inner{
+.aside-video-container-inner{*/
   /*background: url('assets/videoposter.jpeg') no-repeat;*/
   /*border-style: dashed;
   border-color: red;*/
-  background: transparent;
+  /*background: transparent;
   background-size: cover;
 
   height: 75em;
@@ -276,10 +276,10 @@ border-color: green;
   position: absolute;
   overflow: hidden;
 }
-.portrait-video-background {
+.portrait-video-background {*/
   /*border-style: dashed;
   border-color: black;*/
-  position: absolute;
+  /*position: absolute;
   z-index: -1;
   opacity: 0.78;
 
@@ -287,17 +287,24 @@ border-color: green;
   width: 100%;
 
   object-fit: cover;
-}
+}*/
 /***************Clonet View styles***************/
 
 .clonet-wrapper{
-  display: inline;
+  display: inline-block;
   /*justify-content: space-between;*/
 }
 
 .tubes{
+  border-style: dashed;
+  border-color: green;
   width: 30em;
   height: 30em;
+}
+.clonet-article {
+border-style: dashed;
+border-color: red;
+padding: 0;
 }
 #decorative-paragraph{
   background-color: #999999;

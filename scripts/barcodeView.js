@@ -8,7 +8,7 @@ const barcode = {};
     $('#barcode-container').show();
     $('#request-container').hide();
     $('#clonet-principle').hide();
-    $('#section-video-container').hide();
+    $('#section-video-container').show();
     $('#aside').hide();
     $('#nav-links #barcode-tab').hide().siblings().show();
     $('#header-container').show();
