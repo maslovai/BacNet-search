@@ -301,3 +301,8 @@ video {
     background-color: #DEE9F7;
     vertical-align: top;
 }
+
+#article-link{
+  height: 20em;
+  width: 40em;
+}
