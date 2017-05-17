@@ -15,9 +15,6 @@
   <header id="header"class="fixed clearfix header-menu header" data-header-type="header-menu" data-header-resize="true" data-header-height="85" data-header-max-height="115" data-menu-link="1">
     <div id="header-container containers" style="height:8em" class="section-container header-container">
 
-      <!-- <div id="header-overlay-slider" style="opacity:0.45;"></div>
-      <div id="header-overlay" class="headerColor header-overlay" style="opacity:0.2;"></div>
-      <div class="sliding-menu-open"></div> -->
       <div class="website-logo">
         <a href="http://idgenomics.com">
           <img src="http://idgenomics.com/wp-content/uploads/2017/01/idg_logo_full_high_res_compressed.png" alt="logo">
@@ -34,17 +31,12 @@
       </nav>
     </div>
   </header>
+
 <!-- <div class="div-bar"></div> -->
   <div id = "decorative-pargraph" class="decorative-pargraph" style="background-image: url(assets/images/blue-background.png); height: 48px; width: 100%;">
     <h3>CloNet Principles<sup>&trade;</sup></h3>
     <div id = "clonet-wrapper">
-    <!-- <aside id="aside-video-container" class = "aside-video-container" >
-      <div class = "aside-video-container-inner">
-        <video preload="true" autoplay loop muted poster="assets/videoposter.jpeg" class="portrait-video-background">
-          <source src="assets/videos/Dna - 6368.mp4" type="video/mp4" media="(orientation:portrait)">
-          </video>
-        </div>
-      </aside> -->
+
       <img class = "tubes" src = "assets/images/tubes.png">
       <div id = "clonet-article" class="clonet-article">
         <embed src="assets/clonet-principles.pdf" width="600em" height="600em"/>
@@ -53,34 +45,37 @@
     </div>
 
   <div id = "request-container" class ="containers">
-
-      <h1>Things are going to happen here:</h1>
-      <select name="select">
-        <option value="value1">Value 1</option>
-        <option value="value2" selected>Value 2</option>
-        <option value="value3">Value 3</option>
+    <div id = "form-buttons">
+      <label for "select">Pick a hospital:</label>
+      <select name="select" id = "hospital-filter">
+        <option value="All" selected>All</option>
+        <option value="Seattle Childrens" >Seattle Childrens</option>
+        <option value="Kaiser">Kaiser</option>
+        <option value="Hennepin">Hennepin</option>
+        <option value="Harborview">Harborview</option>
+        <option value="Keck">Keck</option>
+        <option value="LACounty">LA County</option>
+        <option value="NYLangone">NY Langone</option>
       </select>
-      <br>
-      <form>
-        <label for="locus">Enter query sequence:</label>
-        <input id="sequence" class = "sequence"type="textarea" name="sequence" placeholder="sequence">
+
+      <form id = "bac-form">
+        <label for="bacCode">Enter the bacteria barcode:</label>
+        <input id="bacCode" class = "bacCode"type="textarea" name="bacCode" placeholder="bacCode">
 
         <input id = "submit" type="submit" name = "submit">
-        <br>
         <input id = "reset" type="reset" name = "reset">
       </form>
-      <p>Results will go here:</p>
+    </div>
+    <div  id = "results">
+      <p>You will veiw the results here:</p>
       <table id = "results-table">
         <tr>
           <td>
             Ampicillin::::::::::::::
           </td>
-          <td>
-            <ul id="result-ul">
-            </ul>
-          </td>
         </tr>
       </table>
+    </div>
     </div>
 
     <div id = "barcode-container" class="containers">
@@ -91,10 +86,9 @@
       <div class="video-container">
         <video preload="true" autoplay loop muted poster="" class="landscape-video-background">
           <source src="assets/videos/Atoms - 5205.mp4" type="video/mp4" media="(orientation:landscape)">
-          </video>
-        </div>
+        </video>
+      </div>
       </section>
-
 
     <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
     <script src ="https://code.jquery.com/jquery-3.2.1.js"></script>
@@ -108,7 +102,6 @@
     <script src ="scripts/indexView.js"></script>
     <script src ="scripts/barcodeView.js"></script>
     <script src = "scripts/routes.js"></script>
-
 
   </body>
   </html>
