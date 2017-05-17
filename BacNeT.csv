@@ -1,0 +1,5185 @@
+﻿Barcode,Antibiotic,Site,Recommended,Percent Resistance
+E. coli,Ampicillin,Any,NO,55
+561,Ampicillin,Any,NO,86
+620,Ampicillin,Any,NO,52
+571,Ampicillin,Any,NO,69
+271,Ampicillin,Any,NO,74
+530,Ampicillin,Any,NO,39
+760,Ampicillin,Any,NO,31
+361,Ampicillin,Any,NO,48
+771,Ampicillin,Any,NO,54
+560,Ampicillin,Any,NO,91
+360,Ampicillin,Any,NO,50
+761,Ampicillin,Any,NO,53
+751,Ampicillin,Any,NO,36
+721,Ampicillin,Any,NO,35
+371,Ampicillin,Any,NO,73
+531,Ampicillin,Any,NO,31
+131,Ampicillin,Any,NO,46
+661,Ampicillin,Any,NO,40
+511,Ampicillin,Any,NO,35
+261,Ampicillin,Any,NO,55
+551,Ampicillin,Any,NO,43
+520,Ampicillin,Any,NO,56
+700,Ampicillin,Any,NO,62
+231,Ampicillin,Any,NO,74
+260,Ampicillin,Any,NO,56
+510,Ampicillin,Any,NO,50
+171,Ampicillin,Any,NO,53
+500,Ampicillin,Any,NO,100
+200,Ampicillin,Any,NO,54
+220,Ampicillin,Any,NO,59
+731,Ampicillin,Any,NO,26
+351,Ampicillin,Any,NO,66
+570,Ampicillin,Any,NO,51
+300,Ampicillin,Any,NO,48
+671,Ampicillin,Any,NO,80
+630,Ampicillin,Any,NO,45
+251,Ampicillin,Any,NO,98
+711,Ampicillin,Any,NO,35
+321,Ampicillin,Any,NO,28
+160,Ampicillin,Any,NO,26
+651,Ampicillin,Any,NO,31
+370,Ampicillin,Any,NO,66
+550,Ampicillin,Any,YES,17
+350,Ampicillin,Any,NO,86
+660,Ampicillin,Any,NO,42
+741,Ampicillin,Any,YES,2
+750,Ampicillin,Any,NO,72
+710,Ampicillin,Any,NO,26
+521,Ampicillin,Any,NO,31
+130,Ampicillin,Any,NO,52
+320,Ampicillin,Any,NO,72
+720,Ampicillin,Any,NO,68
+611,Ampicillin,Any,YES,0
+540,Ampicillin,Any,NO,100
+730,Ampicillin,Any,NO,26
+631,Ampicillin,Any,YES,1
+230,Ampicillin,Any,NO,98
+621,Ampicillin,Any,NO,68
+341,Ampicillin,Any,YES,17
+330,Ampicillin,Any,NO,76
+240,Ampicillin,Any,YES,0
+221,Ampicillin,Any,YES,2
+121,Ampicillin,Any,YES,0
+641,Ampicillin,Any,NO,100
+20,Ampicillin,Any,YES,0
+400,Ampicillin,Any,NO,100
+331,Ampicillin,Any,YES,0
+650,Ampicillin,Any,NO,100
+770,Ampicillin,Any,NO,98
+610,Ampicillin,Any,NO,100
+161,Ampicillin,Any,YES,0
+600,Ampicillin,Any,NO,100
+E. coli,Amoxicillin/Clavulanate,Any,NO,24
+561,Amoxicillin/Clavulanate,Any,NO,51
+620,Amoxicillin/Clavulanate,Any,NO,27
+571,Amoxicillin/Clavulanate,Any,NO,23
+271,Amoxicillin/Clavulanate,Any,YES,18
+530,Amoxicillin/Clavulanate,Any,YES,15
+760,Amoxicillin/Clavulanate,Any,YES,11
+361,Amoxicillin/Clavulanate,Any,NO,24
+771,Amoxicillin/Clavulanate,Any,YES,17
+560,Amoxicillin/Clavulanate,Any,NO,32
+360,Amoxicillin/Clavulanate,Any,YES,14
+761,Amoxicillin/Clavulanate,Any,NO,24
+751,Amoxicillin/Clavulanate,Any,YES,9
+721,Amoxicillin/Clavulanate,Any,YES,14
+371,Amoxicillin/Clavulanate,Any,NO,47
+531,Amoxicillin/Clavulanate,Any,YES,17
+131,Amoxicillin/Clavulanate,Any,NO,39
+661,Amoxicillin/Clavulanate,Any,YES,20
+511,Amoxicillin/Clavulanate,Any,YES,10
+261,Amoxicillin/Clavulanate,Any,NO,24
+551,Amoxicillin/Clavulanate,Any,YES,8
+520,Amoxicillin/Clavulanate,Any,NO,27
+700,Amoxicillin/Clavulanate,Any,NO,27
+231,Amoxicillin/Clavulanate,Any,NO,55
+260,Amoxicillin/Clavulanate,Any,NO,23
+510,Amoxicillin/Clavulanate,Any,YES,12
+171,Amoxicillin/Clavulanate,Any,NO,21
+500,Amoxicillin/Clavulanate,Any,NO,61
+200,Amoxicillin/Clavulanate,Any,YES,9
+220,Amoxicillin/Clavulanate,Any,YES,16
+731,Amoxicillin/Clavulanate,Any,YES,7
+351,Amoxicillin/Clavulanate,Any,NO,47
+570,Amoxicillin/Clavulanate,Any,NO,22
+300,Amoxicillin/Clavulanate,Any,NO,25
+671,Amoxicillin/Clavulanate,Any,YES,14
+630,Amoxicillin/Clavulanate,Any,NO,34
+251,Amoxicillin/Clavulanate,Any,NO,36
+711,Amoxicillin/Clavulanate,Any,YES,2
+321,Amoxicillin/Clavulanate,Any,YES,12
+160,Amoxicillin/Clavulanate,Any,NO,26
+651,Amoxicillin/Clavulanate,Any,NO,20
+370,Amoxicillin/Clavulanate,Any,NO,23
+550,Amoxicillin/Clavulanate,Any,YES,7
+350,Amoxicillin/Clavulanate,Any,NO,32
+660,Amoxicillin/Clavulanate,Any,NO,31
+741,Amoxicillin/Clavulanate,Any,YES,2
+750,Amoxicillin/Clavulanate,Any,NO,60
+710,Amoxicillin/Clavulanate,Any,YES,1
+521,Amoxicillin/Clavulanate,Any,YES,0
+130,Amoxicillin/Clavulanate,Any,YES,2
+320,Amoxicillin/Clavulanate,Any,NO,47
+720,Amoxicillin/Clavulanate,Any,NO,51
+611,Amoxicillin/Clavulanate,Any,YES,0
+540,Amoxicillin/Clavulanate,Any,YES,2
+730,Amoxicillin/Clavulanate,Any,YES,0
+631,Amoxicillin/Clavulanate,Any,YES,1
+230,Amoxicillin/Clavulanate,Any,NO,98
+621,Amoxicillin/Clavulanate,Any,NO,68
+341,Amoxicillin/Clavulanate,Any,YES,0
+330,Amoxicillin/Clavulanate,Any,YES,1
+240,Amoxicillin/Clavulanate,Any,YES,0
+221,Amoxicillin/Clavulanate,Any,YES,2
+121,Amoxicillin/Clavulanate,Any,YES,0
+641,Amoxicillin/Clavulanate,Any,YES,1
+20,Amoxicillin/Clavulanate,Any,YES,0
+400,Amoxicillin/Clavulanate,Any,NO,100
+331,Amoxicillin/Clavulanate,Any,YES,0
+650,Amoxicillin/Clavulanate,Any,NO,100
+770,Amoxicillin/Clavulanate,Any,NO,98
+610,Amoxicillin/Clavulanate,Any,YES,2
+161,Amoxicillin/Clavulanate,Any,YES,0
+600,Amoxicillin/Clavulanate,Any,YES,1
+E. coli,Cephalexin,Any,YES,13
+561,Cephalexin,Any,NO,41
+620,Cephalexin,Any,YES,8
+571,Cephalexin,Any,YES,11
+271,Cephalexin,Any,YES,7
+530,Cephalexin,Any,YES,12
+760,Cephalexin,Any,YES,3
+361,Cephalexin,Any,YES,18
+771,Cephalexin,Any,YES,9
+560,Cephalexin,Any,YES,11
+360,Cephalexin,Any,YES,4
+761,Cephalexin,Any,YES,15
+751,Cephalexin,Any,YES,8
+721,Cephalexin,Any,YES,6
+371,Cephalexin,Any,NO,29
+531,Cephalexin,Any,YES,6
+131,Cephalexin,Any,NO,26
+661,Cephalexin,Any,YES,8
+511,Cephalexin,Any,YES,2
+261,Cephalexin,Any,YES,9
+551,Cephalexin,Any,YES,8
+520,Cephalexin,Any,YES,18
+700,Cephalexin,Any,YES,14
+231,Cephalexin,Any,NO,28
+260,Cephalexin,Any,YES,11
+510,Cephalexin,Any,YES,7
+171,Cephalexin,Any,YES,9
+500,Cephalexin,Any,NO,31
+200,Cephalexin,Any,NO,23
+220,Cephalexin,Any,YES,2
+731,Cephalexin,Any,YES,2
+351,Cephalexin,Any,NO,26
+570,Cephalexin,Any,YES,16
+300,Cephalexin,Any,YES,9
+671,Cephalexin,Any,YES,5
+630,Cephalexin,Any,YES,18
+251,Cephalexin,Any,NO,23
+711,Cephalexin,Any,YES,2
+321,Cephalexin,Any,YES,5
+160,Cephalexin,Any,YES,1
+651,Cephalexin,Any,YES,0
+370,Cephalexin,Any,NO,37
+550,Cephalexin,Any,YES,7
+350,Cephalexin,Any,YES,1
+660,Cephalexin,Any,YES,9
+741,Cephalexin,Any,YES,2
+750,Cephalexin,Any,NO,22
+710,Cephalexin,Any,YES,1
+521,Cephalexin,Any,YES,0
+130,Cephalexin,Any,YES,2
+320,Cephalexin,Any,YES,0
+720,Cephalexin,Any,YES,18
+611,Cephalexin,Any,YES,0
+540,Cephalexin,Any,YES,2
+730,Cephalexin,Any,YES,0
+631,Cephalexin,Any,YES,1
+230,Cephalexin,Any,YES,0
+621,Cephalexin,Any,YES,2
+341,Cephalexin,Any,YES,0
+330,Cephalexin,Any,YES,1
+240,Cephalexin,Any,YES,0
+221,Cephalexin,Any,YES,2
+121,Cephalexin,Any,YES,0
+641,Cephalexin,Any,YES,1
+20,Cephalexin,Any,YES,0
+400,Cephalexin,Any,NO,100
+331,Cephalexin,Any,YES,0
+650,Cephalexin,Any,NO,100
+770,Cephalexin,Any,YES,0
+610,Cephalexin,Any,YES,2
+161,Cephalexin,Any,YES,0
+600,Cephalexin,Any,YES,1
+E. coli,Ceftazidime,Any,YES,7
+561,Ceftazidime,Any,NO,31
+620,Ceftazidime,Any,YES,0
+571,Ceftazidime,Any,YES,7
+271,Ceftazidime,Any,YES,4
+530,Ceftazidime,Any,YES,6
+760,Ceftazidime,Any,YES,0
+361,Ceftazidime,Any,YES,14
+771,Ceftazidime,Any,YES,5
+560,Ceftazidime,Any,YES,6
+360,Ceftazidime,Any,YES,1
+761,Ceftazidime,Any,YES,12
+751,Ceftazidime,Any,YES,6
+721,Ceftazidime,Any,YES,4
+371,Ceftazidime,Any,YES,19
+531,Ceftazidime,Any,YES,3
+131,Ceftazidime,Any,YES,9
+661,Ceftazidime,Any,YES,4
+511,Ceftazidime,Any,YES,1
+261,Ceftazidime,Any,YES,4
+551,Ceftazidime,Any,YES,4
+520,Ceftazidime,Any,YES,10
+700,Ceftazidime,Any,YES,10
+231,Ceftazidime,Any,NO,24
+260,Ceftazidime,Any,YES,11
+510,Ceftazidime,Any,YES,2
+171,Ceftazidime,Any,YES,1
+500,Ceftazidime,Any,YES,11
+200,Ceftazidime,Any,NO,20
+220,Ceftazidime,Any,YES,2
+731,Ceftazidime,Any,YES,2
+351,Ceftazidime,Any,NO,26
+570,Ceftazidime,Any,YES,10
+300,Ceftazidime,Any,YES,9
+671,Ceftazidime,Any,YES,5
+630,Ceftazidime,Any,YES,7
+251,Ceftazidime,Any,NO,23
+711,Ceftazidime,Any,YES,2
+321,Ceftazidime,Any,YES,0
+160,Ceftazidime,Any,YES,1
+651,Ceftazidime,Any,YES,0
+370,Ceftazidime,Any,NO,37
+550,Ceftazidime,Any,YES,0
+350,Ceftazidime,Any,YES,1
+660,Ceftazidime,Any,YES,0
+741,Ceftazidime,Any,YES,2
+750,Ceftazidime,Any,NO,22
+710,Ceftazidime,Any,YES,1
+521,Ceftazidime,Any,YES,0
+130,Ceftazidime,Any,YES,2
+320,Ceftazidime,Any,YES,0
+720,Ceftazidime,Any,YES,18
+611,Ceftazidime,Any,YES,0
+540,Ceftazidime,Any,YES,2
+730,Ceftazidime,Any,YES,0
+631,Ceftazidime,Any,YES,1
+230,Ceftazidime,Any,YES,0
+621,Ceftazidime,Any,YES,2
+341,Ceftazidime,Any,YES,0
+330,Ceftazidime,Any,YES,1
+240,Ceftazidime,Any,YES,0
+221,Ceftazidime,Any,YES,2
+121,Ceftazidime,Any,YES,0
+641,Ceftazidime,Any,YES,1
+20,Ceftazidime,Any,YES,0
+400,Ceftazidime,Any,YES,2
+331,Ceftazidime,Any,YES,0
+650,Ceftazidime,Any,NO,100
+770,Ceftazidime,Any,YES,0
+610,Ceftazidime,Any,YES,2
+161,Ceftazidime,Any,YES,0
+600,Ceftazidime,Any,YES,1
+E. coli,ESBL,Any,YES,4
+561,ESBL,Any,NO,28
+620,ESBL,Any,YES,0
+571,ESBL,Any,YES,4
+271,ESBL,Any,YES,3
+530,ESBL,Any,YES,4
+760,ESBL,Any,YES,0
+361,ESBL,Any,YES,5
+771,ESBL,Any,YES,3
+560,ESBL,Any,YES,3
+360,ESBL,Any,YES,0
+761,ESBL,Any,YES,3
+751,ESBL,Any,YES,5
+721,ESBL,Any,YES,2
+371,ESBL,Any,YES,15
+531,ESBL,Any,YES,3
+131,ESBL,Any,YES,0
+661,ESBL,Any,YES,2
+511,ESBL,Any,YES,0
+261,ESBL,Any,YES,1
+551,ESBL,Any,YES,4
+520,ESBL,Any,YES,4
+700,ESBL,Any,YES,10
+231,ESBL,Any,YES,9
+260,ESBL,Any,YES,0
+510,ESBL,Any,YES,2
+171,ESBL,Any,YES,0
+500,ESBL,Any,YES,11
+200,ESBL,Any,NO,23
+220,ESBL,Any,YES,2
+731,ESBL,Any,YES,0
+351,ESBL,Any,NO,20
+570,ESBL,Any,YES,0
+300,ESBL,Any,YES,10
+671,ESBL,Any,YES,5
+630,ESBL,Any,YES,1
+251,ESBL,Any,YES,12
+711,ESBL,Any,YES,2
+321,ESBL,Any,YES,0
+160,ESBL,Any,YES,1
+651,ESBL,Any,YES,4
+370,ESBL,Any,NO,25
+550,ESBL,Any,YES,0
+350,ESBL,Any,YES,1
+660,ESBL,Any,YES,0
+741,ESBL,Any,YES,2
+750,ESBL,Any,YES,0
+710,ESBL,Any,YES,1
+521,ESBL,Any,YES,0
+130,ESBL,Any,YES,2
+320,ESBL,Any,YES,0
+720,ESBL,Any,YES,1
+611,ESBL,Any,YES,0
+540,ESBL,Any,YES,2
+730,ESBL,Any,YES,0
+631,ESBL,Any,YES,1
+230,ESBL,Any,YES,0
+621,ESBL,Any,YES,2
+341,ESBL,Any,YES,0
+330,ESBL,Any,YES,1
+240,ESBL,Any,YES,0
+221,ESBL,Any,YES,2
+121,ESBL,Any,YES,0
+641,ESBL,Any,YES,1
+20,ESBL,Any,YES,0
+400,ESBL,Any,YES,2
+331,ESBL,Any,YES,0
+650,ESBL,Any,NO,100
+770,ESBL,Any,YES,4
+610,ESBL,Any,YES,2
+161,ESBL,Any,YES,0
+600,ESBL,Any,YES,1
+E. coli,Trimethoprim/Sulfamethoxazole,Any,NO,29
+561,Trimethoprim/Sulfamethoxazole,Any,NO,47
+620,Trimethoprim/Sulfamethoxazole,Any,YES,12
+571,Trimethoprim/Sulfamethoxazole,Any,NO,53
+271,Trimethoprim/Sulfamethoxazole,Any,NO,62
+530,Trimethoprim/Sulfamethoxazole,Any,YES,19
+760,Trimethoprim/Sulfamethoxazole,Any,YES,12
+361,Trimethoprim/Sulfamethoxazole,Any,YES,19
+771,Trimethoprim/Sulfamethoxazole,Any,NO,35
+560,Trimethoprim/Sulfamethoxazole,Any,NO,45
+360,Trimethoprim/Sulfamethoxazole,Any,YES,14
+761,Trimethoprim/Sulfamethoxazole,Any,NO,34
+751,Trimethoprim/Sulfamethoxazole,Any,NO,29
+721,Trimethoprim/Sulfamethoxazole,Any,YES,13
+371,Trimethoprim/Sulfamethoxazole,Any,NO,36
+531,Trimethoprim/Sulfamethoxazole,Any,YES,12
+131,Trimethoprim/Sulfamethoxazole,Any,YES,11
+661,Trimethoprim/Sulfamethoxazole,Any,YES,11
+511,Trimethoprim/Sulfamethoxazole,Any,YES,6
+261,Trimethoprim/Sulfamethoxazole,Any,NO,27
+551,Trimethoprim/Sulfamethoxazole,Any,NO,21
+520,Trimethoprim/Sulfamethoxazole,Any,NO,41
+700,Trimethoprim/Sulfamethoxazole,Any,NO,49
+231,Trimethoprim/Sulfamethoxazole,Any,NO,74
+260,Trimethoprim/Sulfamethoxazole,Any,YES,19
+510,Trimethoprim/Sulfamethoxazole,Any,NO,29
+171,Trimethoprim/Sulfamethoxazole,Any,NO,41
+500,Trimethoprim/Sulfamethoxazole,Any,NO,91
+200,Trimethoprim/Sulfamethoxazole,Any,NO,31
+220,Trimethoprim/Sulfamethoxazole,Any,NO,44
+731,Trimethoprim/Sulfamethoxazole,Any,YES,0
+351,Trimethoprim/Sulfamethoxazole,Any,NO,39
+570,Trimethoprim/Sulfamethoxazole,Any,YES,10
+300,Trimethoprim/Sulfamethoxazole,Any,NO,48
+671,Trimethoprim/Sulfamethoxazole,Any,NO,72
+630,Trimethoprim/Sulfamethoxazole,Any,YES,12
+251,Trimethoprim/Sulfamethoxazole,Any,NO,73
+711,Trimethoprim/Sulfamethoxazole,Any,YES,2
+321,Trimethoprim/Sulfamethoxazole,Any,YES,12
+160,Trimethoprim/Sulfamethoxazole,Any,YES,18
+651,Trimethoprim/Sulfamethoxazole,Any,NO,26
+370,Trimethoprim/Sulfamethoxazole,Any,NO,30
+550,Trimethoprim/Sulfamethoxazole,Any,YES,0
+350,Trimethoprim/Sulfamethoxazole,Any,NO,78
+660,Trimethoprim/Sulfamethoxazole,Any,YES,9
+741,Trimethoprim/Sulfamethoxazole,Any,YES,2
+750,Trimethoprim/Sulfamethoxazole,Any,YES,10
+710,Trimethoprim/Sulfamethoxazole,Any,YES,1
+521,Trimethoprim/Sulfamethoxazole,Any,NO,65
+130,Trimethoprim/Sulfamethoxazole,Any,YES,2
+320,Trimethoprim/Sulfamethoxazole,Any,YES,0
+720,Trimethoprim/Sulfamethoxazole,Any,NO,34
+611,Trimethoprim/Sulfamethoxazole,Any,YES,0
+540,Trimethoprim/Sulfamethoxazole,Any,NO,100
+730,Trimethoprim/Sulfamethoxazole,Any,YES,11
+631,Trimethoprim/Sulfamethoxazole,Any,YES,1
+230,Trimethoprim/Sulfamethoxazole,Any,NO,98
+621,Trimethoprim/Sulfamethoxazole,Any,NO,35
+341,Trimethoprim/Sulfamethoxazole,Any,YES,0
+330,Trimethoprim/Sulfamethoxazole,Any,NO,51
+240,Trimethoprim/Sulfamethoxazole,Any,YES,0
+221,Trimethoprim/Sulfamethoxazole,Any,YES,2
+121,Trimethoprim/Sulfamethoxazole,Any,YES,0
+641,Trimethoprim/Sulfamethoxazole,Any,YES,1
+20,Trimethoprim/Sulfamethoxazole,Any,YES,0
+400,Trimethoprim/Sulfamethoxazole,Any,NO,100
+331,Trimethoprim/Sulfamethoxazole,Any,YES,0
+650,Trimethoprim/Sulfamethoxazole,Any,NO,100
+770,Trimethoprim/Sulfamethoxazole,Any,NO,98
+610,Trimethoprim/Sulfamethoxazole,Any,NO,100
+161,Trimethoprim/Sulfamethoxazole,Any,YES,0
+600,Trimethoprim/Sulfamethoxazole,Any,YES,1
+E. coli,Ciprofloxacin,Any,NO,21
+561,Ciprofloxacin,Any,NO,88
+620,Ciprofloxacin,Any,YES,1
+571,Ciprofloxacin,Any,NO,61
+271,Ciprofloxacin,Any,YES,8
+530,Ciprofloxacin,Any,YES,6
+760,Ciprofloxacin,Any,YES,4
+361,Ciprofloxacin,Any,YES,13
+771,Ciprofloxacin,Any,YES,13
+560,Ciprofloxacin,Any,YES,19
+360,Ciprofloxacin,Any,YES,4
+761,Ciprofloxacin,Any,YES,17
+751,Ciprofloxacin,Any,NO,25
+721,Ciprofloxacin,Any,YES,13
+371,Ciprofloxacin,Any,NO,38
+531,Ciprofloxacin,Any,YES,7
+131,Ciprofloxacin,Any,YES,11
+661,Ciprofloxacin,Any,YES,6
+511,Ciprofloxacin,Any,YES,1
+261,Ciprofloxacin,Any,YES,11
+551,Ciprofloxacin,Any,YES,4
+520,Ciprofloxacin,Any,YES,8
+700,Ciprofloxacin,Any,NO,32
+231,Ciprofloxacin,Any,NO,36
+260,Ciprofloxacin,Any,YES,11
+510,Ciprofloxacin,Any,YES,2
+171,Ciprofloxacin,Any,YES,17
+500,Ciprofloxacin,Any,YES,1
+200,Ciprofloxacin,Any,YES,9
+220,Ciprofloxacin,Any,YES,2
+731,Ciprofloxacin,Any,YES,4
+351,Ciprofloxacin,Any,YES,14
+570,Ciprofloxacin,Any,YES,16
+300,Ciprofloxacin,Any,NO,40
+671,Ciprofloxacin,Any,YES,5
+630,Ciprofloxacin,Any,YES,12
+251,Ciprofloxacin,Any,YES,0
+711,Ciprofloxacin,Any,YES,10
+321,Ciprofloxacin,Any,YES,0
+160,Ciprofloxacin,Any,YES,1
+651,Ciprofloxacin,Any,YES,0
+370,Ciprofloxacin,Any,NO,52
+550,Ciprofloxacin,Any,YES,0
+350,Ciprofloxacin,Any,YES,1
+660,Ciprofloxacin,Any,YES,9
+741,Ciprofloxacin,Any,YES,2
+750,Ciprofloxacin,Any,NO,47
+710,Ciprofloxacin,Any,YES,1
+521,Ciprofloxacin,Any,NO,31
+130,Ciprofloxacin,Any,YES,2
+320,Ciprofloxacin,Any,YES,0
+720,Ciprofloxacin,Any,YES,1
+611,Ciprofloxacin,Any,YES,0
+540,Ciprofloxacin,Any,YES,2
+730,Ciprofloxacin,Any,YES,0
+631,Ciprofloxacin,Any,YES,1
+230,Ciprofloxacin,Any,YES,0
+621,Ciprofloxacin,Any,YES,2
+341,Ciprofloxacin,Any,YES,0
+330,Ciprofloxacin,Any,NO,26
+240,Ciprofloxacin,Any,YES,0
+221,Ciprofloxacin,Any,YES,2
+121,Ciprofloxacin,Any,YES,0
+641,Ciprofloxacin,Any,YES,1
+20,Ciprofloxacin,Any,YES,0
+400,Ciprofloxacin,Any,YES,2
+331,Ciprofloxacin,Any,YES,0
+650,Ciprofloxacin,Any,YES,1
+770,Ciprofloxacin,Any,NO,98
+610,Ciprofloxacin,Any,YES,2
+161,Ciprofloxacin,Any,YES,0
+600,Ciprofloxacin,Any,YES,1
+E. coli,Nitrofurantoin,Any,YES,8
+561,Nitrofurantoin,Any,YES,11
+620,Nitrofurantoin,Any,YES,6
+571,Nitrofurantoin,Any,YES,12
+271,Nitrofurantoin,Any,YES,5
+530,Nitrofurantoin,Any,YES,10
+760,Nitrofurantoin,Any,YES,5
+361,Nitrofurantoin,Any,YES,17
+771,Nitrofurantoin,Any,YES,6
+560,Nitrofurantoin,Any,YES,4
+360,Nitrofurantoin,Any,YES,9
+761,Nitrofurantoin,Any,YES,12
+751,Nitrofurantoin,Any,YES,9
+721,Nitrofurantoin,Any,YES,10
+371,Nitrofurantoin,Any,YES,14
+531,Nitrofurantoin,Any,YES,6
+131,Nitrofurantoin,Any,YES,7
+661,Nitrofurantoin,Any,YES,13
+511,Nitrofurantoin,Any,YES,0
+261,Nitrofurantoin,Any,YES,14
+551,Nitrofurantoin,Any,YES,1
+520,Nitrofurantoin,Any,YES,2
+700,Nitrofurantoin,Any,NO,32
+231,Nitrofurantoin,Any,YES,13
+260,Nitrofurantoin,Any,YES,19
+510,Nitrofurantoin,Any,YES,15
+171,Nitrofurantoin,Any,YES,0
+500,Nitrofurantoin,Any,YES,1
+200,Nitrofurantoin,Any,NO,31
+220,Nitrofurantoin,Any,YES,2
+731,Nitrofurantoin,Any,YES,4
+351,Nitrofurantoin,Any,YES,1
+570,Nitrofurantoin,Any,NO,27
+300,Nitrofurantoin,Any,NO,25
+671,Nitrofurantoin,Any,YES,14
+630,Nitrofurantoin,Any,YES,12
+251,Nitrofurantoin,Any,YES,11
+711,Nitrofurantoin,Any,YES,2
+321,Nitrofurantoin,Any,YES,0
+160,Nitrofurantoin,Any,YES,9
+651,Nitrofurantoin,Any,YES,9
+370,Nitrofurantoin,Any,YES,2
+550,Nitrofurantoin,Any,YES,7
+350,Nitrofurantoin,Any,YES,9
+660,Nitrofurantoin,Any,YES,9
+741,Nitrofurantoin,Any,YES,2
+750,Nitrofurantoin,Any,YES,10
+710,Nitrofurantoin,Any,YES,1
+521,Nitrofurantoin,Any,YES,0
+130,Nitrofurantoin,Any,YES,2
+320,Nitrofurantoin,Any,YES,0
+720,Nitrofurantoin,Any,YES,18
+611,Nitrofurantoin,Any,YES,0
+540,Nitrofurantoin,Any,YES,2
+730,Nitrofurantoin,Any,YES,0
+631,Nitrofurantoin,Any,YES,1
+230,Nitrofurantoin,Any,YES,0
+621,Nitrofurantoin,Any,NO,35
+341,Nitrofurantoin,Any,YES,0
+330,Nitrofurantoin,Any,YES,1
+240,Nitrofurantoin,Any,YES,0
+221,Nitrofurantoin,Any,YES,2
+121,Nitrofurantoin,Any,YES,0
+641,Nitrofurantoin,Any,YES,1
+20,Nitrofurantoin,Any,YES,0
+400,Nitrofurantoin,Any,NO,100
+331,Nitrofurantoin,Any,YES,0
+650,Nitrofurantoin,Any,YES,1
+770,Nitrofurantoin,Any,YES,0
+610,Nitrofurantoin,Any,YES,2
+161,Nitrofurantoin,Any,YES,0
+600,Nitrofurantoin,Any,YES,1
+E. coli,Ampicillin,Kaiser,NO,47
+561,Ampicillin,Kaiser,NO,69
+620,Ampicillin,Kaiser,NO,48
+571,Ampicillin,Kaiser,NO,64
+271,Ampicillin,Kaiser,NO,70
+530,Ampicillin,Kaiser,NO,27
+760,Ampicillin,Kaiser,NO,30
+361,Ampicillin,Kaiser,NO,34
+771,Ampicillin,Kaiser,NO,53
+560,Ampicillin,Kaiser,NO,98
+360,Ampicillin,Kaiser,NO,36
+761,Ampicillin,Kaiser,NO,76
+751,Ampicillin,Kaiser,YES,17
+721,Ampicillin,Kaiser,NO,24
+371,Ampicillin,Kaiser,NO,65
+531,Ampicillin,Kaiser,NO,30
+131,Ampicillin,Kaiser,NO,54
+661,Ampicillin,Kaiser,NO,42
+511,Ampicillin,Kaiser,NO,45
+261,Ampicillin,Kaiser,NO,44
+551,Ampicillin,Kaiser,NO,31
+520,Ampicillin,Kaiser,NO,56
+700,Ampicillin,Kaiser,NO,68
+231,Ampicillin,Kaiser,NO,51
+260,Ampicillin,Kaiser,YES,15
+510,Ampicillin,Kaiser,NO,44
+171,Ampicillin,Kaiser,NO,52
+500,Ampicillin,Kaiser,NO,50
+200,Ampicillin,Kaiser,NO,23
+220,Ampicillin,Kaiser,NO,50
+731,Ampicillin,Kaiser,NO,29
+351,Ampicillin,Kaiser,NO,55
+570,Ampicillin,Kaiser,NO,23
+300,Ampicillin,Kaiser,NO,68
+671,Ampicillin,Kaiser,NO,47
+630,Ampicillin,Kaiser,NO,34
+251,Ampicillin,Kaiser,NO,98
+711,Ampicillin,Kaiser,NO,35
+321,Ampicillin,Kaiser,NO,22
+160,Ampicillin,Kaiser,YES,1
+651,Ampicillin,Kaiser,NO,29
+370,Ampicillin,Kaiser,NO,52
+550,Ampicillin,Kaiser,NO,37
+350,Ampicillin,Kaiser,NO,90
+660,Ampicillin,Kaiser,NO,23
+741,Ampicillin,Kaiser,NO,50
+750,Ampicillin,Kaiser,NO,68
+710,Ampicillin,Kaiser,NO,30
+521,Ampicillin,Kaiser,NO,98
+130,Ampicillin,Kaiser,NO,50
+320,Ampicillin,Kaiser,NO,64
+720,Ampicillin,Kaiser,NO,61
+611,Ampicillin,Kaiser,YES,0
+540,Ampicillin,Kaiser,NO,50
+730,Ampicillin,Kaiser,NO,26
+631,Ampicillin,Kaiser,NO,50
+230,Ampicillin,Kaiser,NO,47
+621,Ampicillin,Kaiser,NO,100
+341,Ampicillin,Kaiser,YES,17
+330,Ampicillin,Kaiser,NO,76
+240,Ampicillin,Kaiser,NO,47
+221,Ampicillin,Kaiser,NO,50
+121,Ampicillin,Kaiser,YES,0
+641,Ampicillin,Kaiser,NO,100
+20,Ampicillin,Kaiser,YES,0
+400,Ampicillin,Kaiser,NO,100
+331,Ampicillin,Kaiser,YES,0
+650,Ampicillin,Kaiser,NO,100
+770,Ampicillin,Kaiser,NO,98
+610,Ampicillin,Kaiser,NO,100
+161,Ampicillin,Kaiser,YES,0
+600,Ampicillin,Kaiser,NO,100
+E. coli,Amoxicillin/Clavulanate,Kaiser,YES,17
+561,Amoxicillin/Clavulanate,Kaiser,NO,27
+620,Amoxicillin/Clavulanate,Kaiser,NO,26
+571,Amoxicillin/Clavulanate,Kaiser,YES,20
+271,Amoxicillin/Clavulanate,Kaiser,YES,12
+530,Amoxicillin/Clavulanate,Kaiser,YES,10
+760,Amoxicillin/Clavulanate,Kaiser,YES,8
+361,Amoxicillin/Clavulanate,Kaiser,YES,14
+771,Amoxicillin/Clavulanate,Kaiser,YES,16
+560,Amoxicillin/Clavulanate,Kaiser,NO,30
+360,Amoxicillin/Clavulanate,Kaiser,YES,10
+761,Amoxicillin/Clavulanate,Kaiser,YES,1
+751,Amoxicillin/Clavulanate,Kaiser,YES,3
+721,Amoxicillin/Clavulanate,Kaiser,YES,2
+371,Amoxicillin/Clavulanate,Kaiser,YES,18
+531,Amoxicillin/Clavulanate,Kaiser,NO,22
+131,Amoxicillin/Clavulanate,Kaiser,NO,42
+661,Amoxicillin/Clavulanate,Kaiser,YES,12
+511,Amoxicillin/Clavulanate,Kaiser,YES,14
+261,Amoxicillin/Clavulanate,Kaiser,NO,30
+551,Amoxicillin/Clavulanate,Kaiser,YES,0
+520,Amoxicillin/Clavulanate,Kaiser,YES,18
+700,Amoxicillin/Clavulanate,Kaiser,NO,40
+231,Amoxicillin/Clavulanate,Kaiser,YES,1
+260,Amoxicillin/Clavulanate,Kaiser,YES,15
+510,Amoxicillin/Clavulanate,Kaiser,YES,2
+171,Amoxicillin/Clavulanate,Kaiser,YES,15
+500,Amoxicillin/Clavulanate,Kaiser,YES,20
+200,Amoxicillin/Clavulanate,Kaiser,YES,0
+220,Amoxicillin/Clavulanate,Kaiser,NO,20
+731,Amoxicillin/Clavulanate,Kaiser,YES,2
+351,Amoxicillin/Clavulanate,Kaiser,NO,39
+570,Amoxicillin/Clavulanate,Kaiser,YES,0
+300,Amoxicillin/Clavulanate,Kaiser,YES,18
+671,Amoxicillin/Clavulanate,Kaiser,YES,0
+630,Amoxicillin/Clavulanate,Kaiser,YES,12
+251,Amoxicillin/Clavulanate,Kaiser,NO,98
+711,Amoxicillin/Clavulanate,Kaiser,YES,2
+321,Amoxicillin/Clavulanate,Kaiser,NO,22
+160,Amoxicillin/Clavulanate,Kaiser,YES,1
+651,Amoxicillin/Clavulanate,Kaiser,YES,13
+370,Amoxicillin/Clavulanate,Kaiser,YES,12
+550,Amoxicillin/Clavulanate,Kaiser,YES,17
+350,Amoxicillin/Clavulanate,Kaiser,NO,23
+660,Amoxicillin/Clavulanate,Kaiser,NO,23
+741,Amoxicillin/Clavulanate,Kaiser,NO,20
+750,Amoxicillin/Clavulanate,Kaiser,NO,68
+710,Amoxicillin/Clavulanate,Kaiser,YES,1
+521,Amoxicillin/Clavulanate,Kaiser,YES,0
+130,Amoxicillin/Clavulanate,Kaiser,NO,20
+320,Amoxicillin/Clavulanate,Kaiser,NO,64
+720,Amoxicillin/Clavulanate,Kaiser,NO,41
+611,Amoxicillin/Clavulanate,Kaiser,YES,0
+540,Amoxicillin/Clavulanate,Kaiser,NO,20
+730,Amoxicillin/Clavulanate,Kaiser,YES,0
+631,Amoxicillin/Clavulanate,Kaiser,YES,20
+230,Amoxicillin/Clavulanate,Kaiser,YES,17
+621,Amoxicillin/Clavulanate,Kaiser,NO,100
+341,Amoxicillin/Clavulanate,Kaiser,YES,0
+330,Amoxicillin/Clavulanate,Kaiser,YES,1
+240,Amoxicillin/Clavulanate,Kaiser,YES,17
+221,Amoxicillin/Clavulanate,Kaiser,NO,20
+121,Amoxicillin/Clavulanate,Kaiser,YES,0
+641,Amoxicillin/Clavulanate,Kaiser,YES,1
+20,Amoxicillin/Clavulanate,Kaiser,YES,0
+400,Amoxicillin/Clavulanate,Kaiser,NO,100
+331,Amoxicillin/Clavulanate,Kaiser,YES,0
+650,Amoxicillin/Clavulanate,Kaiser,NO,100
+770,Amoxicillin/Clavulanate,Kaiser,NO,98
+610,Amoxicillin/Clavulanate,Kaiser,YES,2
+161,Amoxicillin/Clavulanate,Kaiser,YES,0
+600,Amoxicillin/Clavulanate,Kaiser,YES,1
+E. coli,Cephalexin,Kaiser,YES,8
+561,Cephalexin,Kaiser,NO,24
+620,Cephalexin,Kaiser,YES,6
+571,Cephalexin,Kaiser,YES,1
+271,Cephalexin,Kaiser,YES,3
+530,Cephalexin,Kaiser,YES,9
+760,Cephalexin,Kaiser,YES,2
+361,Cephalexin,Kaiser,YES,10
+771,Cephalexin,Kaiser,YES,6
+560,Cephalexin,Kaiser,YES,14
+360,Cephalexin,Kaiser,YES,6
+761,Cephalexin,Kaiser,YES,1
+751,Cephalexin,Kaiser,YES,0
+721,Cephalexin,Kaiser,YES,2
+371,Cephalexin,Kaiser,YES,13
+531,Cephalexin,Kaiser,YES,8
+131,Cephalexin,Kaiser,NO,30
+661,Cephalexin,Kaiser,YES,2
+511,Cephalexin,Kaiser,YES,7
+261,Cephalexin,Kaiser,YES,15
+551,Cephalexin,Kaiser,YES,0
+520,Cephalexin,Kaiser,YES,14
+700,Cephalexin,Kaiser,YES,11
+231,Cephalexin,Kaiser,YES,18
+260,Cephalexin,Kaiser,YES,0
+510,Cephalexin,Kaiser,YES,2
+171,Cephalexin,Kaiser,YES,0
+500,Cephalexin,Kaiser,YES,11
+200,Cephalexin,Kaiser,NO,23
+220,Cephalexin,Kaiser,YES,11
+731,Cephalexin,Kaiser,YES,2
+351,Cephalexin,Kaiser,YES,16
+570,Cephalexin,Kaiser,YES,0
+300,Cephalexin,Kaiser,YES,2
+671,Cephalexin,Kaiser,YES,0
+630,Cephalexin,Kaiser,YES,1
+251,Cephalexin,Kaiser,NO,48
+711,Cephalexin,Kaiser,YES,2
+321,Cephalexin,Kaiser,YES,10
+160,Cephalexin,Kaiser,YES,1
+651,Cephalexin,Kaiser,YES,0
+370,Cephalexin,Kaiser,NO,22
+550,Cephalexin,Kaiser,YES,17
+350,Cephalexin,Kaiser,YES,1
+660,Cephalexin,Kaiser,YES,0
+741,Cephalexin,Kaiser,YES,11
+750,Cephalexin,Kaiser,NO,26
+710,Cephalexin,Kaiser,YES,1
+521,Cephalexin,Kaiser,YES,0
+130,Cephalexin,Kaiser,YES,11
+320,Cephalexin,Kaiser,YES,0
+720,Cephalexin,Kaiser,NO,21
+611,Cephalexin,Kaiser,YES,0
+540,Cephalexin,Kaiser,YES,11
+730,Cephalexin,Kaiser,YES,0
+631,Cephalexin,Kaiser,YES,11
+230,Cephalexin,Kaiser,YES,8
+621,Cephalexin,Kaiser,YES,2
+341,Cephalexin,Kaiser,YES,0
+330,Cephalexin,Kaiser,YES,1
+240,Cephalexin,Kaiser,YES,8
+221,Cephalexin,Kaiser,YES,11
+121,Cephalexin,Kaiser,YES,0
+641,Cephalexin,Kaiser,YES,1
+20,Cephalexin,Kaiser,YES,0
+400,Cephalexin,Kaiser,NO,100
+331,Cephalexin,Kaiser,YES,0
+650,Cephalexin,Kaiser,NO,100
+770,Cephalexin,Kaiser,YES,0
+610,Cephalexin,Kaiser,YES,2
+161,Cephalexin,Kaiser,YES,0
+600,Cephalexin,Kaiser,YES,1
+E. coli,Ceftazidime,Kaiser,YES,2
+561,Ceftazidime,Kaiser,YES,15
+620,Ceftazidime,Kaiser,YES,0
+571,Ceftazidime,Kaiser,YES,1
+271,Ceftazidime,Kaiser,YES,0
+530,Ceftazidime,Kaiser,YES,4
+760,Ceftazidime,Kaiser,YES,0
+361,Ceftazidime,Kaiser,YES,3
+771,Ceftazidime,Kaiser,YES,4
+560,Ceftazidime,Kaiser,YES,6
+360,Ceftazidime,Kaiser,YES,1
+761,Ceftazidime,Kaiser,YES,1
+751,Ceftazidime,Kaiser,YES,0
+721,Ceftazidime,Kaiser,YES,2
+371,Ceftazidime,Kaiser,YES,0
+531,Ceftazidime,Kaiser,YES,1
+131,Ceftazidime,Kaiser,YES,14
+661,Ceftazidime,Kaiser,YES,2
+511,Ceftazidime,Kaiser,YES,4
+261,Ceftazidime,Kaiser,YES,8
+551,Ceftazidime,Kaiser,YES,0
+520,Ceftazidime,Kaiser,YES,2
+700,Ceftazidime,Kaiser,YES,0
+231,Ceftazidime,Kaiser,YES,18
+260,Ceftazidime,Kaiser,YES,0
+510,Ceftazidime,Kaiser,YES,2
+171,Ceftazidime,Kaiser,YES,0
+500,Ceftazidime,Kaiser,YES,5
+200,Ceftazidime,Kaiser,NO,23
+220,Ceftazidime,Kaiser,YES,6
+731,Ceftazidime,Kaiser,YES,2
+351,Ceftazidime,Kaiser,YES,16
+570,Ceftazidime,Kaiser,YES,0
+300,Ceftazidime,Kaiser,YES,2
+671,Ceftazidime,Kaiser,YES,0
+630,Ceftazidime,Kaiser,YES,1
+251,Ceftazidime,Kaiser,NO,48
+711,Ceftazidime,Kaiser,YES,2
+321,Ceftazidime,Kaiser,YES,0
+160,Ceftazidime,Kaiser,YES,1
+651,Ceftazidime,Kaiser,YES,0
+370,Ceftazidime,Kaiser,NO,22
+550,Ceftazidime,Kaiser,YES,0
+350,Ceftazidime,Kaiser,YES,1
+660,Ceftazidime,Kaiser,YES,0
+741,Ceftazidime,Kaiser,YES,6
+750,Ceftazidime,Kaiser,NO,26
+710,Ceftazidime,Kaiser,YES,1
+521,Ceftazidime,Kaiser,YES,0
+130,Ceftazidime,Kaiser,YES,6
+320,Ceftazidime,Kaiser,YES,0
+720,Ceftazidime,Kaiser,NO,21
+611,Ceftazidime,Kaiser,YES,0
+540,Ceftazidime,Kaiser,YES,6
+730,Ceftazidime,Kaiser,YES,0
+631,Ceftazidime,Kaiser,YES,5
+230,Ceftazidime,Kaiser,YES,2
+621,Ceftazidime,Kaiser,YES,2
+341,Ceftazidime,Kaiser,YES,0
+330,Ceftazidime,Kaiser,YES,1
+240,Ceftazidime,Kaiser,YES,2
+221,Ceftazidime,Kaiser,YES,6
+121,Ceftazidime,Kaiser,YES,0
+641,Ceftazidime,Kaiser,YES,1
+20,Ceftazidime,Kaiser,YES,0
+400,Ceftazidime,Kaiser,YES,2
+331,Ceftazidime,Kaiser,YES,0
+650,Ceftazidime,Kaiser,NO,100
+770,Ceftazidime,Kaiser,YES,0
+610,Ceftazidime,Kaiser,YES,2
+161,Ceftazidime,Kaiser,YES,0
+600,Ceftazidime,Kaiser,YES,1
+E. coli,ESBL,Kaiser,YES,0
+561,ESBL,Kaiser,YES,11
+620,ESBL,Kaiser,YES,0
+571,ESBL,Kaiser,YES,1
+271,ESBL,Kaiser,YES,0
+530,ESBL,Kaiser,YES,3
+760,ESBL,Kaiser,YES,0
+361,ESBL,Kaiser,YES,1
+771,ESBL,Kaiser,YES,0
+560,ESBL,Kaiser,YES,2
+360,ESBL,Kaiser,YES,0
+761,ESBL,Kaiser,YES,1
+751,ESBL,Kaiser,YES,0
+721,ESBL,Kaiser,YES,2
+371,ESBL,Kaiser,YES,0
+531,ESBL,Kaiser,YES,1
+131,ESBL,Kaiser,YES,3
+661,ESBL,Kaiser,YES,2
+511,ESBL,Kaiser,YES,0
+261,ESBL,Kaiser,YES,1
+551,ESBL,Kaiser,YES,0
+520,ESBL,Kaiser,YES,2
+700,ESBL,Kaiser,YES,0
+231,ESBL,Kaiser,YES,18
+260,ESBL,Kaiser,YES,0
+510,ESBL,Kaiser,YES,2
+171,ESBL,Kaiser,YES,0
+500,ESBL,Kaiser,YES,3
+200,ESBL,Kaiser,NO,31
+220,ESBL,Kaiser,YES,3
+731,ESBL,Kaiser,YES,0
+351,ESBL,Kaiser,YES,1
+570,ESBL,Kaiser,YES,0
+300,ESBL,Kaiser,YES,2
+671,ESBL,Kaiser,YES,0
+630,ESBL,Kaiser,YES,1
+251,ESBL,Kaiser,YES,0
+711,ESBL,Kaiser,YES,2
+321,ESBL,Kaiser,YES,0
+160,ESBL,Kaiser,YES,1
+651,ESBL,Kaiser,YES,0
+370,ESBL,Kaiser,NO,24
+550,ESBL,Kaiser,YES,0
+350,ESBL,Kaiser,YES,1
+660,ESBL,Kaiser,YES,0
+741,ESBL,Kaiser,YES,3
+750,ESBL,Kaiser,YES,0
+710,ESBL,Kaiser,YES,1
+521,ESBL,Kaiser,YES,0
+130,ESBL,Kaiser,YES,3
+320,ESBL,Kaiser,YES,0
+720,ESBL,Kaiser,YES,1
+611,ESBL,Kaiser,YES,0
+540,ESBL,Kaiser,YES,3
+730,ESBL,Kaiser,YES,0
+631,ESBL,Kaiser,YES,3
+230,ESBL,Kaiser,YES,0
+621,ESBL,Kaiser,YES,2
+341,ESBL,Kaiser,YES,0
+330,ESBL,Kaiser,YES,1
+240,ESBL,Kaiser,YES,0
+221,ESBL,Kaiser,YES,3
+121,ESBL,Kaiser,YES,0
+641,ESBL,Kaiser,YES,1
+20,ESBL,Kaiser,YES,0
+400,ESBL,Kaiser,YES,2
+331,ESBL,Kaiser,YES,0
+650,ESBL,Kaiser,NO,100
+770,ESBL,Kaiser,YES,0
+610,ESBL,Kaiser,YES,2
+161,ESBL,Kaiser,YES,0
+600,ESBL,Kaiser,YES,1
+E. coli,Trimethoprim/Sulfamethoxazole,Kaiser,NO,22
+561,Trimethoprim/Sulfamethoxazole,Kaiser,NO,31
+620,Trimethoprim/Sulfamethoxazole,Kaiser,YES,9
+571,Trimethoprim/Sulfamethoxazole,Kaiser,NO,36
+271,Trimethoprim/Sulfamethoxazole,Kaiser,NO,67
+530,Trimethoprim/Sulfamethoxazole,Kaiser,YES,9
+760,Trimethoprim/Sulfamethoxazole,Kaiser,YES,10
+361,Trimethoprim/Sulfamethoxazole,Kaiser,NO,21
+771,Trimethoprim/Sulfamethoxazole,Kaiser,NO,29
+560,Trimethoprim/Sulfamethoxazole,Kaiser,NO,50
+360,Trimethoprim/Sulfamethoxazole,Kaiser,YES,19
+761,Trimethoprim/Sulfamethoxazole,Kaiser,NO,26
+751,Trimethoprim/Sulfamethoxazole,Kaiser,YES,12
+721,Trimethoprim/Sulfamethoxazole,Kaiser,YES,18
+371,Trimethoprim/Sulfamethoxazole,Kaiser,YES,13
+531,Trimethoprim/Sulfamethoxazole,Kaiser,NO,22
+131,Trimethoprim/Sulfamethoxazole,Kaiser,YES,14
+661,Trimethoprim/Sulfamethoxazole,Kaiser,YES,2
+511,Trimethoprim/Sulfamethoxazole,Kaiser,YES,4
+261,Trimethoprim/Sulfamethoxazole,Kaiser,NO,22
+551,Trimethoprim/Sulfamethoxazole,Kaiser,YES,0
+520,Trimethoprim/Sulfamethoxazole,Kaiser,NO,31
+700,Trimethoprim/Sulfamethoxazole,Kaiser,NO,40
+231,Trimethoprim/Sulfamethoxazole,Kaiser,NO,51
+260,Trimethoprim/Sulfamethoxazole,Kaiser,YES,0
+510,Trimethoprim/Sulfamethoxazole,Kaiser,NO,25
+171,Trimethoprim/Sulfamethoxazole,Kaiser,NO,33
+500,Trimethoprim/Sulfamethoxazole,Kaiser,NO,25
+200,Trimethoprim/Sulfamethoxazole,Kaiser,NO,23
+220,Trimethoprim/Sulfamethoxazole,Kaiser,NO,25
+731,Trimethoprim/Sulfamethoxazole,Kaiser,YES,0
+351,Trimethoprim/Sulfamethoxazole,Kaiser,NO,39
+570,Trimethoprim/Sulfamethoxazole,Kaiser,NO,23
+300,Trimethoprim/Sulfamethoxazole,Kaiser,NO,52
+671,Trimethoprim/Sulfamethoxazole,Kaiser,YES,0
+630,Trimethoprim/Sulfamethoxazole,Kaiser,YES,12
+251,Trimethoprim/Sulfamethoxazole,Kaiser,NO,48
+711,Trimethoprim/Sulfamethoxazole,Kaiser,YES,2
+321,Trimethoprim/Sulfamethoxazole,Kaiser,YES,10
+160,Trimethoprim/Sulfamethoxazole,Kaiser,YES,1
+651,Trimethoprim/Sulfamethoxazole,Kaiser,NO,29
+370,Trimethoprim/Sulfamethoxazole,Kaiser,NO,32
+550,Trimethoprim/Sulfamethoxazole,Kaiser,YES,0
+350,Trimethoprim/Sulfamethoxazole,Kaiser,NO,90
+660,Trimethoprim/Sulfamethoxazole,Kaiser,NO,23
+741,Trimethoprim/Sulfamethoxazole,Kaiser,NO,25
+750,Trimethoprim/Sulfamethoxazole,Kaiser,YES,11
+710,Trimethoprim/Sulfamethoxazole,Kaiser,YES,1
+521,Trimethoprim/Sulfamethoxazole,Kaiser,NO,98
+130,Trimethoprim/Sulfamethoxazole,Kaiser,NO,25
+320,Trimethoprim/Sulfamethoxazole,Kaiser,YES,0
+720,Trimethoprim/Sulfamethoxazole,Kaiser,NO,41
+611,Trimethoprim/Sulfamethoxazole,Kaiser,YES,0
+540,Trimethoprim/Sulfamethoxazole,Kaiser,NO,25
+730,Trimethoprim/Sulfamethoxazole,Kaiser,YES,11
+631,Trimethoprim/Sulfamethoxazole,Kaiser,NO,25
+230,Trimethoprim/Sulfamethoxazole,Kaiser,NO,22
+621,Trimethoprim/Sulfamethoxazole,Kaiser,YES,2
+341,Trimethoprim/Sulfamethoxazole,Kaiser,YES,0
+330,Trimethoprim/Sulfamethoxazole,Kaiser,NO,51
+240,Trimethoprim/Sulfamethoxazole,Kaiser,NO,22
+221,Trimethoprim/Sulfamethoxazole,Kaiser,NO,25
+121,Trimethoprim/Sulfamethoxazole,Kaiser,YES,0
+641,Trimethoprim/Sulfamethoxazole,Kaiser,YES,1
+20,Trimethoprim/Sulfamethoxazole,Kaiser,YES,0
+400,Trimethoprim/Sulfamethoxazole,Kaiser,NO,100
+331,Trimethoprim/Sulfamethoxazole,Kaiser,YES,0
+650,Trimethoprim/Sulfamethoxazole,Kaiser,NO,100
+770,Trimethoprim/Sulfamethoxazole,Kaiser,NO,98
+610,Trimethoprim/Sulfamethoxazole,Kaiser,NO,100
+161,Trimethoprim/Sulfamethoxazole,Kaiser,YES,0
+600,Trimethoprim/Sulfamethoxazole,Kaiser,YES,1
+E. coli,Ciprofloxacin,Kaiser,YES,12
+561,Ciprofloxacin,Kaiser,NO,84
+620,Ciprofloxacin,Kaiser,YES,0
+571,Ciprofloxacin,Kaiser,NO,57
+271,Ciprofloxacin,Kaiser,YES,5
+530,Ciprofloxacin,Kaiser,YES,2
+760,Ciprofloxacin,Kaiser,YES,2
+361,Ciprofloxacin,Kaiser,YES,16
+771,Ciprofloxacin,Kaiser,YES,6
+560,Ciprofloxacin,Kaiser,YES,6
+360,Ciprofloxacin,Kaiser,YES,0
+761,Ciprofloxacin,Kaiser,YES,14
+751,Ciprofloxacin,Kaiser,YES,12
+721,Ciprofloxacin,Kaiser,YES,8
+371,Ciprofloxacin,Kaiser,YES,18
+531,Ciprofloxacin,Kaiser,YES,1
+131,Ciprofloxacin,Kaiser,YES,14
+661,Ciprofloxacin,Kaiser,YES,2
+511,Ciprofloxacin,Kaiser,YES,0
+261,Ciprofloxacin,Kaiser,NO,22
+551,Ciprofloxacin,Kaiser,YES,0
+520,Ciprofloxacin,Kaiser,YES,2
+700,Ciprofloxacin,Kaiser,NO,40
+231,Ciprofloxacin,Kaiser,YES,18
+260,Ciprofloxacin,Kaiser,YES,0
+510,Ciprofloxacin,Kaiser,YES,2
+171,Ciprofloxacin,Kaiser,YES,0
+500,Ciprofloxacin,Kaiser,YES,15
+200,Ciprofloxacin,Kaiser,YES,0
+220,Ciprofloxacin,Kaiser,YES,16
+731,Ciprofloxacin,Kaiser,YES,8
+351,Ciprofloxacin,Kaiser,NO,24
+570,Ciprofloxacin,Kaiser,YES,0
+300,Ciprofloxacin,Kaiser,YES,18
+671,Ciprofloxacin,Kaiser,YES,0
+630,Ciprofloxacin,Kaiser,YES,1
+251,Ciprofloxacin,Kaiser,YES,0
+711,Ciprofloxacin,Kaiser,YES,2
+321,Ciprofloxacin,Kaiser,YES,0
+160,Ciprofloxacin,Kaiser,YES,1
+651,Ciprofloxacin,Kaiser,YES,0
+370,Ciprofloxacin,Kaiser,NO,52
+550,Ciprofloxacin,Kaiser,YES,0
+350,Ciprofloxacin,Kaiser,YES,1
+660,Ciprofloxacin,Kaiser,YES,0
+741,Ciprofloxacin,Kaiser,YES,16
+750,Ciprofloxacin,Kaiser,NO,40
+710,Ciprofloxacin,Kaiser,YES,1
+521,Ciprofloxacin,Kaiser,YES,0
+130,Ciprofloxacin,Kaiser,YES,16
+320,Ciprofloxacin,Kaiser,YES,0
+720,Ciprofloxacin,Kaiser,YES,1
+611,Ciprofloxacin,Kaiser,YES,0
+540,Ciprofloxacin,Kaiser,YES,16
+730,Ciprofloxacin,Kaiser,YES,0
+631,Ciprofloxacin,Kaiser,YES,15
+230,Ciprofloxacin,Kaiser,YES,12
+621,Ciprofloxacin,Kaiser,YES,2
+341,Ciprofloxacin,Kaiser,YES,0
+330,Ciprofloxacin,Kaiser,NO,26
+240,Ciprofloxacin,Kaiser,YES,12
+221,Ciprofloxacin,Kaiser,YES,16
+121,Ciprofloxacin,Kaiser,YES,0
+641,Ciprofloxacin,Kaiser,YES,1
+20,Ciprofloxacin,Kaiser,YES,0
+400,Ciprofloxacin,Kaiser,YES,2
+331,Ciprofloxacin,Kaiser,YES,0
+650,Ciprofloxacin,Kaiser,YES,1
+770,Ciprofloxacin,Kaiser,NO,98
+610,Ciprofloxacin,Kaiser,YES,2
+161,Ciprofloxacin,Kaiser,YES,0
+600,Ciprofloxacin,Kaiser,YES,1
+E. coli,Nitrofurantoin,Kaiser,YES,2
+561,Nitrofurantoin,Kaiser,YES,4
+620,Nitrofurantoin,Kaiser,YES,0
+571,Nitrofurantoin,Kaiser,YES,6
+271,Nitrofurantoin,Kaiser,YES,1
+530,Nitrofurantoin,Kaiser,YES,4
+760,Nitrofurantoin,Kaiser,YES,0
+361,Nitrofurantoin,Kaiser,YES,12
+771,Nitrofurantoin,Kaiser,YES,0
+560,Nitrofurantoin,Kaiser,YES,6
+360,Nitrofurantoin,Kaiser,YES,1
+761,Nitrofurantoin,Kaiser,YES,14
+751,Nitrofurantoin,Kaiser,YES,3
+721,Nitrofurantoin,Kaiser,YES,2
+371,Nitrofurantoin,Kaiser,YES,2
+531,Nitrofurantoin,Kaiser,YES,5
+131,Nitrofurantoin,Kaiser,YES,0
+661,Nitrofurantoin,Kaiser,YES,2
+511,Nitrofurantoin,Kaiser,YES,0
+261,Nitrofurantoin,Kaiser,YES,1
+551,Nitrofurantoin,Kaiser,YES,0
+520,Nitrofurantoin,Kaiser,YES,2
+700,Nitrofurantoin,Kaiser,YES,11
+231,Nitrofurantoin,Kaiser,YES,18
+260,Nitrofurantoin,Kaiser,YES,0
+510,Nitrofurantoin,Kaiser,YES,2
+171,Nitrofurantoin,Kaiser,YES,0
+500,Nitrofurantoin,Kaiser,YES,5
+200,Nitrofurantoin,Kaiser,YES,0
+220,Nitrofurantoin,Kaiser,YES,6
+731,Nitrofurantoin,Kaiser,YES,0
+351,Nitrofurantoin,Kaiser,YES,1
+570,Nitrofurantoin,Kaiser,NO,23
+300,Nitrofurantoin,Kaiser,YES,18
+671,Nitrofurantoin,Kaiser,YES,0
+630,Nitrofurantoin,Kaiser,YES,1
+251,Nitrofurantoin,Kaiser,YES,0
+711,Nitrofurantoin,Kaiser,YES,2
+321,Nitrofurantoin,Kaiser,YES,0
+160,Nitrofurantoin,Kaiser,YES,1
+651,Nitrofurantoin,Kaiser,YES,6
+370,Nitrofurantoin,Kaiser,YES,2
+550,Nitrofurantoin,Kaiser,YES,0
+350,Nitrofurantoin,Kaiser,YES,12
+660,Nitrofurantoin,Kaiser,YES,0
+741,Nitrofurantoin,Kaiser,YES,6
+750,Nitrofurantoin,Kaiser,YES,11
+710,Nitrofurantoin,Kaiser,YES,1
+521,Nitrofurantoin,Kaiser,YES,0
+130,Nitrofurantoin,Kaiser,YES,6
+320,Nitrofurantoin,Kaiser,YES,0
+720,Nitrofurantoin,Kaiser,NO,21
+611,Nitrofurantoin,Kaiser,YES,0
+540,Nitrofurantoin,Kaiser,YES,6
+730,Nitrofurantoin,Kaiser,YES,0
+631,Nitrofurantoin,Kaiser,YES,5
+230,Nitrofurantoin,Kaiser,YES,2
+621,Nitrofurantoin,Kaiser,YES,2
+341,Nitrofurantoin,Kaiser,YES,0
+330,Nitrofurantoin,Kaiser,YES,1
+240,Nitrofurantoin,Kaiser,YES,2
+221,Nitrofurantoin,Kaiser,YES,6
+121,Nitrofurantoin,Kaiser,YES,0
+641,Nitrofurantoin,Kaiser,YES,1
+20,Nitrofurantoin,Kaiser,YES,0
+400,Nitrofurantoin,Kaiser,NO,100
+331,Nitrofurantoin,Kaiser,YES,0
+650,Nitrofurantoin,Kaiser,YES,1
+770,Nitrofurantoin,Kaiser,YES,0
+610,Nitrofurantoin,Kaiser,YES,2
+161,Nitrofurantoin,Kaiser,YES,0
+600,Nitrofurantoin,Kaiser,YES,1
+E. coli,Ampicillin,Hennepin,NO,57
+561,Ampicillin,Hennepin,NO,93
+620,Ampicillin,Hennepin,NO,53
+571,Ampicillin,Hennepin,NO,68
+271,Ampicillin,Hennepin,NO,58
+530,Ampicillin,Hennepin,NO,35
+760,Ampicillin,Hennepin,NO,23
+361,Ampicillin,Hennepin,NO,34
+771,Ampicillin,Hennepin,NO,71
+560,Ampicillin,Hennepin,NO,88
+360,Ampicillin,Hennepin,NO,61
+761,Ampicillin,Hennepin,NO,54
+751,Ampicillin,Hennepin,NO,27
+721,Ampicillin,Hennepin,NO,52
+371,Ampicillin,Hennepin,NO,97
+531,Ampicillin,Hennepin,NO,39
+131,Ampicillin,Hennepin,NO,78
+661,Ampicillin,Hennepin,NO,55
+511,Ampicillin,Hennepin,YES,10
+261,Ampicillin,Hennepin,NO,64
+551,Ampicillin,Hennepin,NO,43
+520,Ampicillin,Hennepin,NO,59
+700,Ampicillin,Hennepin,NO,97
+231,Ampicillin,Hennepin,NO,100
+260,Ampicillin,Hennepin,NO,98
+510,Ampicillin,Hennepin,NO,74
+171,Ampicillin,Hennepin,NO,97
+500,Ampicillin,Hennepin,NO,100
+200,Ampicillin,Hennepin,NO,57
+220,Ampicillin,Hennepin,NO,61
+731,Ampicillin,Hennepin,NO,41
+351,Ampicillin,Hennepin,NO,68
+570,Ampicillin,Hennepin,NO,58
+300,Ampicillin,Hennepin,YES,2
+671,Ampicillin,Hennepin,NO,97
+630,Ampicillin,Hennepin,NO,61
+251,Ampicillin,Hennepin,NO,98
+711,Ampicillin,Hennepin,NO,61
+321,Ampicillin,Hennepin,NO,56
+160,Ampicillin,Hennepin,NO,26
+651,Ampicillin,Hennepin,NO,48
+370,Ampicillin,Hennepin,NO,100
+550,Ampicillin,Hennepin,NO,56
+350,Ampicillin,Hennepin,NO,51
+660,Ampicillin,Hennepin,NO,48
+741,Ampicillin,Hennepin,NO,61
+750,Ampicillin,Hennepin,NO,56
+710,Ampicillin,Hennepin,NO,60
+521,Ampicillin,Hennepin,NO,57
+130,Ampicillin,Hennepin,NO,61
+320,Ampicillin,Hennepin,NO,56
+720,Ampicillin,Hennepin,NO,60
+611,Ampicillin,Hennepin,NO,57
+540,Ampicillin,Hennepin,NO,61
+730,Ampicillin,Hennepin,NO,56
+631,Ampicillin,Hennepin,NO,60
+230,Ampicillin,Hennepin,NO,57
+621,Ampicillin,Hennepin,YES,2
+341,Ampicillin,Hennepin,NO,56
+330,Ampicillin,Hennepin,NO,60
+240,Ampicillin,Hennepin,NO,57
+221,Ampicillin,Hennepin,NO,61
+121,Ampicillin,Hennepin,NO,56
+641,Ampicillin,Hennepin,NO,60
+20,Ampicillin,Hennepin,NO,57
+400,Ampicillin,Hennepin,NO,61
+331,Ampicillin,Hennepin,NO,56
+650,Ampicillin,Hennepin,NO,60
+770,Ampicillin,Hennepin,NO,57
+610,Ampicillin,Hennepin,NO,61
+161,Ampicillin,Hennepin,NO,56
+600,Ampicillin,Hennepin,NO,60
+E. coli,Amoxicillin/Clavulanate,Hennepin,NO,26
+561,Amoxicillin/Clavulanate,Hennepin,NO,57
+620,Amoxicillin/Clavulanate,Hennepin,NO,28
+571,Amoxicillin/Clavulanate,Hennepin,NO,20
+271,Amoxicillin/Clavulanate,Hennepin,YES,10
+530,Amoxicillin/Clavulanate,Hennepin,YES,16
+760,Amoxicillin/Clavulanate,Hennepin,YES,9
+361,Amoxicillin/Clavulanate,Hennepin,YES,9
+771,Amoxicillin/Clavulanate,Hennepin,YES,18
+560,Amoxicillin/Clavulanate,Hennepin,NO,42
+360,Amoxicillin/Clavulanate,Hennepin,NO,33
+761,Amoxicillin/Clavulanate,Hennepin,NO,33
+751,Amoxicillin/Clavulanate,Hennepin,YES,0
+721,Amoxicillin/Clavulanate,Hennepin,NO,27
+371,Amoxicillin/Clavulanate,Hennepin,NO,72
+531,Amoxicillin/Clavulanate,Hennepin,YES,9
+131,Amoxicillin/Clavulanate,Hennepin,NO,78
+661,Amoxicillin/Clavulanate,Hennepin,NO,25
+511,Amoxicillin/Clavulanate,Hennepin,YES,4
+261,Amoxicillin/Clavulanate,Hennepin,NO,26
+551,Amoxicillin/Clavulanate,Hennepin,YES,7
+520,Amoxicillin/Clavulanate,Hennepin,NO,30
+700,Amoxicillin/Clavulanate,Hennepin,YES,0
+231,Amoxicillin/Clavulanate,Hennepin,NO,100
+260,Amoxicillin/Clavulanate,Hennepin,YES,0
+510,Amoxicillin/Clavulanate,Hennepin,YES,20
+171,Amoxicillin/Clavulanate,Hennepin,NO,97
+500,Amoxicillin/Clavulanate,Hennepin,NO,100
+200,Amoxicillin/Clavulanate,Hennepin,NO,26
+220,Amoxicillin/Clavulanate,Hennepin,NO,30
+731,Amoxicillin/Clavulanate,Hennepin,YES,19
+351,Amoxicillin/Clavulanate,Hennepin,NO,34
+570,Amoxicillin/Clavulanate,Hennepin,YES,18
+300,Amoxicillin/Clavulanate,Hennepin,YES,2
+671,Amoxicillin/Clavulanate,Hennepin,NO,30
+630,Amoxicillin/Clavulanate,Hennepin,NO,61
+251,Amoxicillin/Clavulanate,Hennepin,NO,98
+711,Amoxicillin/Clavulanate,Hennepin,NO,30
+321,Amoxicillin/Clavulanate,Hennepin,NO,25
+160,Amoxicillin/Clavulanate,Hennepin,NO,26
+651,Amoxicillin/Clavulanate,Hennepin,NO,48
+370,Amoxicillin/Clavulanate,Hennepin,NO,52
+550,Amoxicillin/Clavulanate,Hennepin,NO,25
+350,Amoxicillin/Clavulanate,Hennepin,NO,51
+660,Amoxicillin/Clavulanate,Hennepin,NO,48
+741,Amoxicillin/Clavulanate,Hennepin,NO,30
+750,Amoxicillin/Clavulanate,Hennepin,NO,25
+710,Amoxicillin/Clavulanate,Hennepin,NO,29
+521,Amoxicillin/Clavulanate,Hennepin,NO,26
+130,Amoxicillin/Clavulanate,Hennepin,NO,30
+320,Amoxicillin/Clavulanate,Hennepin,NO,25
+720,Amoxicillin/Clavulanate,Hennepin,NO,29
+611,Amoxicillin/Clavulanate,Hennepin,NO,26
+540,Amoxicillin/Clavulanate,Hennepin,NO,30
+730,Amoxicillin/Clavulanate,Hennepin,NO,25
+631,Amoxicillin/Clavulanate,Hennepin,NO,29
+230,Amoxicillin/Clavulanate,Hennepin,NO,26
+621,Amoxicillin/Clavulanate,Hennepin,YES,2
+341,Amoxicillin/Clavulanate,Hennepin,NO,25
+330,Amoxicillin/Clavulanate,Hennepin,NO,29
+240,Amoxicillin/Clavulanate,Hennepin,NO,26
+221,Amoxicillin/Clavulanate,Hennepin,NO,30
+121,Amoxicillin/Clavulanate,Hennepin,NO,25
+641,Amoxicillin/Clavulanate,Hennepin,NO,29
+20,Amoxicillin/Clavulanate,Hennepin,NO,26
+400,Amoxicillin/Clavulanate,Hennepin,NO,30
+331,Amoxicillin/Clavulanate,Hennepin,NO,25
+650,Amoxicillin/Clavulanate,Hennepin,NO,29
+770,Amoxicillin/Clavulanate,Hennepin,NO,26
+610,Amoxicillin/Clavulanate,Hennepin,NO,30
+161,Amoxicillin/Clavulanate,Hennepin,NO,25
+600,Amoxicillin/Clavulanate,Hennepin,NO,29
+E. coli,Cephalexin,Hennepin,YES,12
+561,Cephalexin,Hennepin,NO,36
+620,Cephalexin,Hennepin,YES,10
+571,Cephalexin,Hennepin,YES,9
+271,Cephalexin,Hennepin,YES,2
+530,Cephalexin,Hennepin,YES,13
+760,Cephalexin,Hennepin,YES,0
+361,Cephalexin,Hennepin,YES,18
+771,Cephalexin,Hennepin,YES,11
+560,Cephalexin,Hennepin,YES,2
+360,Cephalexin,Hennepin,YES,0
+761,Cephalexin,Hennepin,YES,17
+751,Cephalexin,Hennepin,YES,0
+721,Cephalexin,Hennepin,YES,14
+371,Cephalexin,Hennepin,NO,47
+531,Cephalexin,Hennepin,YES,9
+131,Cephalexin,Hennepin,NO,58
+661,Cephalexin,Hennepin,NO,25
+511,Cephalexin,Hennepin,YES,0
+261,Cephalexin,Hennepin,YES,1
+551,Cephalexin,Hennepin,YES,0
+520,Cephalexin,Hennepin,YES,16
+700,Cephalexin,Hennepin,YES,0
+231,Cephalexin,Hennepin,NO,61
+260,Cephalexin,Hennepin,YES,0
+510,Cephalexin,Hennepin,YES,11
+171,Cephalexin,Hennepin,NO,97
+500,Cephalexin,Hennepin,NO,51
+200,Cephalexin,Hennepin,YES,12
+220,Cephalexin,Hennepin,YES,16
+731,Cephalexin,Hennepin,YES,8
+351,Cephalexin,Hennepin,NO,34
+570,Cephalexin,Hennepin,YES,18
+300,Cephalexin,Hennepin,YES,2
+671,Cephalexin,Hennepin,YES,0
+630,Cephalexin,Hennepin,NO,61
+251,Cephalexin,Hennepin,YES,0
+711,Cephalexin,Hennepin,YES,16
+321,Cephalexin,Hennepin,YES,11
+160,Cephalexin,Hennepin,YES,1
+651,Cephalexin,Hennepin,YES,0
+370,Cephalexin,Hennepin,NO,52
+550,Cephalexin,Hennepin,YES,11
+350,Cephalexin,Hennepin,YES,1
+660,Cephalexin,Hennepin,NO,48
+741,Cephalexin,Hennepin,YES,16
+750,Cephalexin,Hennepin,YES,11
+710,Cephalexin,Hennepin,YES,15
+521,Cephalexin,Hennepin,YES,12
+130,Cephalexin,Hennepin,YES,16
+320,Cephalexin,Hennepin,YES,11
+720,Cephalexin,Hennepin,YES,15
+611,Cephalexin,Hennepin,YES,12
+540,Cephalexin,Hennepin,YES,16
+730,Cephalexin,Hennepin,YES,11
+631,Cephalexin,Hennepin,YES,15
+230,Cephalexin,Hennepin,YES,12
+621,Cephalexin,Hennepin,YES,2
+341,Cephalexin,Hennepin,YES,11
+330,Cephalexin,Hennepin,YES,15
+240,Cephalexin,Hennepin,YES,12
+221,Cephalexin,Hennepin,YES,16
+121,Cephalexin,Hennepin,YES,11
+641,Cephalexin,Hennepin,YES,15
+20,Cephalexin,Hennepin,YES,12
+400,Cephalexin,Hennepin,YES,16
+331,Cephalexin,Hennepin,YES,11
+650,Cephalexin,Hennepin,YES,15
+770,Cephalexin,Hennepin,YES,12
+610,Cephalexin,Hennepin,YES,16
+161,Cephalexin,Hennepin,YES,11
+600,Cephalexin,Hennepin,YES,15
+E. coli,Ceftazidime,Hennepin,YES,4
+561,Ceftazidime,Hennepin,YES,15
+620,Ceftazidime,Hennepin,YES,0
+571,Ceftazidime,Hennepin,YES,3
+271,Ceftazidime,Hennepin,YES,2
+530,Ceftazidime,Hennepin,YES,5
+760,Ceftazidime,Hennepin,YES,0
+361,Ceftazidime,Hennepin,YES,9
+771,Ceftazidime,Hennepin,YES,0
+560,Ceftazidime,Hennepin,YES,2
+360,Ceftazidime,Hennepin,YES,0
+761,Ceftazidime,Hennepin,YES,17
+751,Ceftazidime,Hennepin,YES,0
+721,Ceftazidime,Hennepin,YES,2
+371,Ceftazidime,Hennepin,NO,47
+531,Ceftazidime,Hennepin,YES,9
+131,Ceftazidime,Hennepin,YES,18
+661,Ceftazidime,Hennepin,YES,9
+511,Ceftazidime,Hennepin,YES,0
+261,Ceftazidime,Hennepin,YES,1
+551,Ceftazidime,Hennepin,YES,0
+520,Ceftazidime,Hennepin,YES,2
+700,Ceftazidime,Hennepin,YES,0
+231,Ceftazidime,Hennepin,NO,41
+260,Ceftazidime,Hennepin,YES,0
+510,Ceftazidime,Hennepin,YES,2
+171,Ceftazidime,Hennepin,YES,0
+500,Ceftazidime,Hennepin,YES,1
+200,Ceftazidime,Hennepin,YES,4
+220,Ceftazidime,Hennepin,YES,7
+731,Ceftazidime,Hennepin,YES,8
+351,Ceftazidime,Hennepin,NO,34
+570,Ceftazidime,Hennepin,YES,0
+300,Ceftazidime,Hennepin,YES,2
+671,Ceftazidime,Hennepin,YES,0
+630,Ceftazidime,Hennepin,NO,21
+251,Ceftazidime,Hennepin,YES,0
+711,Ceftazidime,Hennepin,YES,7
+321,Ceftazidime,Hennepin,YES,3
+160,Ceftazidime,Hennepin,YES,1
+651,Ceftazidime,Hennepin,YES,0
+370,Ceftazidime,Hennepin,NO,52
+550,Ceftazidime,Hennepin,YES,3
+350,Ceftazidime,Hennepin,YES,1
+660,Ceftazidime,Hennepin,YES,0
+741,Ceftazidime,Hennepin,YES,7
+750,Ceftazidime,Hennepin,YES,3
+710,Ceftazidime,Hennepin,YES,7
+521,Ceftazidime,Hennepin,YES,4
+130,Ceftazidime,Hennepin,YES,7
+320,Ceftazidime,Hennepin,YES,3
+720,Ceftazidime,Hennepin,YES,7
+611,Ceftazidime,Hennepin,YES,4
+540,Ceftazidime,Hennepin,YES,7
+730,Ceftazidime,Hennepin,YES,3
+631,Ceftazidime,Hennepin,YES,7
+230,Ceftazidime,Hennepin,YES,4
+621,Ceftazidime,Hennepin,YES,2
+341,Ceftazidime,Hennepin,YES,3
+330,Ceftazidime,Hennepin,YES,7
+240,Ceftazidime,Hennepin,YES,4
+221,Ceftazidime,Hennepin,YES,7
+121,Ceftazidime,Hennepin,YES,3
+641,Ceftazidime,Hennepin,YES,7
+20,Ceftazidime,Hennepin,YES,4
+400,Ceftazidime,Hennepin,YES,7
+331,Ceftazidime,Hennepin,YES,3
+650,Ceftazidime,Hennepin,YES,7
+770,Ceftazidime,Hennepin,YES,4
+610,Ceftazidime,Hennepin,YES,7
+161,Ceftazidime,Hennepin,YES,3
+600,Ceftazidime,Hennepin,YES,7
+E. coli,ESBL,Hennepin,YES,2
+561,ESBL,Hennepin,YES,14
+620,ESBL,Hennepin,YES,0
+571,ESBL,Hennepin,YES,3
+271,ESBL,Hennepin,YES,0
+530,ESBL,Hennepin,YES,5
+760,ESBL,Hennepin,YES,0
+361,ESBL,Hennepin,YES,1
+771,ESBL,Hennepin,YES,0
+560,ESBL,Hennepin,YES,2
+360,ESBL,Hennepin,YES,0
+761,ESBL,Hennepin,YES,6
+751,ESBL,Hennepin,YES,0
+721,ESBL,Hennepin,YES,2
+371,ESBL,Hennepin,NO,47
+531,ESBL,Hennepin,YES,9
+131,ESBL,Hennepin,YES,0
+661,ESBL,Hennepin,YES,2
+511,ESBL,Hennepin,YES,0
+261,ESBL,Hennepin,YES,1
+551,ESBL,Hennepin,YES,0
+520,ESBL,Hennepin,YES,2
+700,ESBL,Hennepin,YES,0
+231,ESBL,Hennepin,NO,21
+260,ESBL,Hennepin,YES,0
+510,ESBL,Hennepin,YES,2
+171,ESBL,Hennepin,YES,0
+500,ESBL,Hennepin,YES,1
+200,ESBL,Hennepin,YES,2
+220,ESBL,Hennepin,YES,5
+731,ESBL,Hennepin,YES,8
+351,ESBL,Hennepin,NO,34
+570,ESBL,Hennepin,YES,0
+300,ESBL,Hennepin,YES,2
+671,ESBL,Hennepin,YES,0
+630,ESBL,Hennepin,YES,1
+251,ESBL,Hennepin,YES,0
+711,ESBL,Hennepin,YES,5
+321,ESBL,Hennepin,YES,1
+160,ESBL,Hennepin,YES,1
+651,ESBL,Hennepin,YES,0
+370,ESBL,Hennepin,NO,52
+550,ESBL,Hennepin,YES,1
+350,ESBL,Hennepin,YES,1
+660,ESBL,Hennepin,YES,0
+741,ESBL,Hennepin,YES,5
+750,ESBL,Hennepin,YES,1
+710,ESBL,Hennepin,YES,5
+521,ESBL,Hennepin,YES,2
+130,ESBL,Hennepin,YES,5
+320,ESBL,Hennepin,YES,1
+720,ESBL,Hennepin,YES,5
+611,ESBL,Hennepin,YES,2
+540,ESBL,Hennepin,YES,5
+730,ESBL,Hennepin,YES,1
+631,ESBL,Hennepin,YES,5
+230,ESBL,Hennepin,YES,2
+621,ESBL,Hennepin,YES,2
+341,ESBL,Hennepin,YES,1
+330,ESBL,Hennepin,YES,5
+240,ESBL,Hennepin,YES,2
+221,ESBL,Hennepin,YES,5
+121,ESBL,Hennepin,YES,1
+641,ESBL,Hennepin,YES,5
+20,ESBL,Hennepin,YES,2
+400,ESBL,Hennepin,YES,5
+331,ESBL,Hennepin,YES,1
+650,ESBL,Hennepin,YES,5
+770,ESBL,Hennepin,YES,2
+610,ESBL,Hennepin,YES,5
+161,ESBL,Hennepin,YES,1
+600,ESBL,Hennepin,YES,5
+E. coli,Trimethoprim/Sulfamethoxazole,Hennepin,NO,27
+561,Trimethoprim/Sulfamethoxazole,Hennepin,NO,39
+620,Trimethoprim/Sulfamethoxazole,Hennepin,YES,12
+571,Trimethoprim/Sulfamethoxazole,Hennepin,NO,53
+271,Trimethoprim/Sulfamethoxazole,Hennepin,NO,54
+530,Trimethoprim/Sulfamethoxazole,Hennepin,YES,13
+760,Trimethoprim/Sulfamethoxazole,Hennepin,YES,15
+361,Trimethoprim/Sulfamethoxazole,Hennepin,YES,18
+771,Trimethoprim/Sulfamethoxazole,Hennepin,NO,51
+560,Trimethoprim/Sulfamethoxazole,Hennepin,NO,28
+360,Trimethoprim/Sulfamethoxazole,Hennepin,YES,6
+761,Trimethoprim/Sulfamethoxazole,Hennepin,YES,12
+751,Trimethoprim/Sulfamethoxazole,Hennepin,YES,0
+721,Trimethoprim/Sulfamethoxazole,Hennepin,YES,14
+371,Trimethoprim/Sulfamethoxazole,Hennepin,NO,22
+531,Trimethoprim/Sulfamethoxazole,Hennepin,YES,9
+131,Trimethoprim/Sulfamethoxazole,Hennepin,YES,18
+661,Trimethoprim/Sulfamethoxazole,Hennepin,NO,32
+511,Trimethoprim/Sulfamethoxazole,Hennepin,YES,4
+261,Trimethoprim/Sulfamethoxazole,Hennepin,YES,1
+551,Trimethoprim/Sulfamethoxazole,Hennepin,YES,7
+520,Trimethoprim/Sulfamethoxazole,Hennepin,NO,100
+700,Trimethoprim/Sulfamethoxazole,Hennepin,YES,0
+231,Trimethoprim/Sulfamethoxazole,Hennepin,NO,100
+260,Trimethoprim/Sulfamethoxazole,Hennepin,YES,0
+510,Trimethoprim/Sulfamethoxazole,Hennepin,NO,38
+171,Trimethoprim/Sulfamethoxazole,Hennepin,NO,97
+500,Trimethoprim/Sulfamethoxazole,Hennepin,NO,100
+200,Trimethoprim/Sulfamethoxazole,Hennepin,NO,27
+220,Trimethoprim/Sulfamethoxazole,Hennepin,NO,30
+731,Trimethoprim/Sulfamethoxazole,Hennepin,YES,8
+351,Trimethoprim/Sulfamethoxazole,Hennepin,NO,100
+570,Trimethoprim/Sulfamethoxazole,Hennepin,YES,18
+300,Trimethoprim/Sulfamethoxazole,Hennepin,YES,2
+671,Trimethoprim/Sulfamethoxazole,Hennepin,NO,97
+630,Trimethoprim/Sulfamethoxazole,Hennepin,NO,21
+251,Trimethoprim/Sulfamethoxazole,Hennepin,YES,0
+711,Trimethoprim/Sulfamethoxazole,Hennepin,NO,30
+321,Trimethoprim/Sulfamethoxazole,Hennepin,NO,26
+160,Trimethoprim/Sulfamethoxazole,Hennepin,NO,26
+651,Trimethoprim/Sulfamethoxazole,Hennepin,NO,48
+370,Trimethoprim/Sulfamethoxazole,Hennepin,YES,2
+550,Trimethoprim/Sulfamethoxazole,Hennepin,NO,26
+350,Trimethoprim/Sulfamethoxazole,Hennepin,YES,1
+660,Trimethoprim/Sulfamethoxazole,Hennepin,YES,0
+741,Trimethoprim/Sulfamethoxazole,Hennepin,NO,30
+750,Trimethoprim/Sulfamethoxazole,Hennepin,NO,26
+710,Trimethoprim/Sulfamethoxazole,Hennepin,NO,30
+521,Trimethoprim/Sulfamethoxazole,Hennepin,NO,27
+130,Trimethoprim/Sulfamethoxazole,Hennepin,NO,30
+320,Trimethoprim/Sulfamethoxazole,Hennepin,NO,26
+720,Trimethoprim/Sulfamethoxazole,Hennepin,NO,30
+611,Trimethoprim/Sulfamethoxazole,Hennepin,NO,27
+540,Trimethoprim/Sulfamethoxazole,Hennepin,NO,30
+730,Trimethoprim/Sulfamethoxazole,Hennepin,NO,26
+631,Trimethoprim/Sulfamethoxazole,Hennepin,NO,30
+230,Trimethoprim/Sulfamethoxazole,Hennepin,NO,27
+621,Trimethoprim/Sulfamethoxazole,Hennepin,YES,2
+341,Trimethoprim/Sulfamethoxazole,Hennepin,NO,26
+330,Trimethoprim/Sulfamethoxazole,Hennepin,NO,30
+240,Trimethoprim/Sulfamethoxazole,Hennepin,NO,27
+221,Trimethoprim/Sulfamethoxazole,Hennepin,NO,30
+121,Trimethoprim/Sulfamethoxazole,Hennepin,NO,26
+641,Trimethoprim/Sulfamethoxazole,Hennepin,NO,30
+20,Trimethoprim/Sulfamethoxazole,Hennepin,NO,27
+400,Trimethoprim/Sulfamethoxazole,Hennepin,NO,30
+331,Trimethoprim/Sulfamethoxazole,Hennepin,NO,26
+650,Trimethoprim/Sulfamethoxazole,Hennepin,NO,30
+770,Trimethoprim/Sulfamethoxazole,Hennepin,NO,27
+610,Trimethoprim/Sulfamethoxazole,Hennepin,NO,30
+161,Trimethoprim/Sulfamethoxazole,Hennepin,NO,26
+600,Trimethoprim/Sulfamethoxazole,Hennepin,NO,30
+E. coli,Ciprofloxacin,Hennepin,YES,18
+561,Ciprofloxacin,Hennepin,NO,88
+620,Ciprofloxacin,Hennepin,YES,1
+571,Ciprofloxacin,Hennepin,NO,41
+271,Ciprofloxacin,Hennepin,YES,2
+530,Ciprofloxacin,Hennepin,YES,5
+760,Ciprofloxacin,Hennepin,YES,0
+361,Ciprofloxacin,Hennepin,YES,1
+771,Ciprofloxacin,Hennepin,YES,18
+560,Ciprofloxacin,Hennepin,YES,8
+360,Ciprofloxacin,Hennepin,YES,6
+761,Ciprofloxacin,Hennepin,YES,6
+751,Ciprofloxacin,Hennepin,YES,0
+721,Ciprofloxacin,Hennepin,YES,2
+371,Ciprofloxacin,Hennepin,NO,97
+531,Ciprofloxacin,Hennepin,YES,1
+131,Ciprofloxacin,Hennepin,YES,18
+661,Ciprofloxacin,Hennepin,YES,17
+511,Ciprofloxacin,Hennepin,YES,0
+261,Ciprofloxacin,Hennepin,YES,14
+551,Ciprofloxacin,Hennepin,YES,0
+520,Ciprofloxacin,Hennepin,YES,2
+700,Ciprofloxacin,Hennepin,YES,0
+231,Ciprofloxacin,Hennepin,NO,41
+260,Ciprofloxacin,Hennepin,NO,31
+510,Ciprofloxacin,Hennepin,YES,2
+171,Ciprofloxacin,Hennepin,YES,0
+500,Ciprofloxacin,Hennepin,YES,1
+200,Ciprofloxacin,Hennepin,YES,18
+220,Ciprofloxacin,Hennepin,NO,22
+731,Ciprofloxacin,Hennepin,YES,8
+351,Ciprofloxacin,Hennepin,YES,1
+570,Ciprofloxacin,Hennepin,YES,18
+300,Ciprofloxacin,Hennepin,YES,2
+671,Ciprofloxacin,Hennepin,YES,0
+630,Ciprofloxacin,Hennepin,NO,21
+251,Ciprofloxacin,Hennepin,YES,0
+711,Ciprofloxacin,Hennepin,NO,22
+321,Ciprofloxacin,Hennepin,YES,17
+160,Ciprofloxacin,Hennepin,YES,1
+651,Ciprofloxacin,Hennepin,YES,0
+370,Ciprofloxacin,Hennepin,NO,52
+550,Ciprofloxacin,Hennepin,YES,17
+350,Ciprofloxacin,Hennepin,YES,1
+660,Ciprofloxacin,Hennepin,NO,48
+741,Ciprofloxacin,Hennepin,NO,22
+750,Ciprofloxacin,Hennepin,YES,17
+710,Ciprofloxacin,Hennepin,NO,21
+521,Ciprofloxacin,Hennepin,YES,18
+130,Ciprofloxacin,Hennepin,NO,22
+320,Ciprofloxacin,Hennepin,YES,17
+720,Ciprofloxacin,Hennepin,NO,21
+611,Ciprofloxacin,Hennepin,YES,18
+540,Ciprofloxacin,Hennepin,NO,22
+730,Ciprofloxacin,Hennepin,YES,17
+631,Ciprofloxacin,Hennepin,NO,21
+230,Ciprofloxacin,Hennepin,YES,18
+621,Ciprofloxacin,Hennepin,YES,2
+341,Ciprofloxacin,Hennepin,YES,17
+330,Ciprofloxacin,Hennepin,NO,21
+240,Ciprofloxacin,Hennepin,YES,18
+221,Ciprofloxacin,Hennepin,NO,22
+121,Ciprofloxacin,Hennepin,YES,17
+641,Ciprofloxacin,Hennepin,NO,21
+20,Ciprofloxacin,Hennepin,YES,18
+400,Ciprofloxacin,Hennepin,NO,22
+331,Ciprofloxacin,Hennepin,YES,17
+650,Ciprofloxacin,Hennepin,NO,21
+770,Ciprofloxacin,Hennepin,YES,18
+610,Ciprofloxacin,Hennepin,NO,22
+161,Ciprofloxacin,Hennepin,YES,17
+600,Ciprofloxacin,Hennepin,NO,21
+E. coli,Nitrofurantoin,Hennepin,YES,3
+561,Nitrofurantoin,Hennepin,YES,5
+620,Nitrofurantoin,Hennepin,YES,0
+571,Nitrofurantoin,Hennepin,YES,1
+271,Nitrofurantoin,Hennepin,YES,6
+530,Nitrofurantoin,Hennepin,YES,5
+760,Nitrofurantoin,Hennepin,YES,0
+361,Nitrofurantoin,Hennepin,YES,18
+771,Nitrofurantoin,Hennepin,YES,5
+560,Nitrofurantoin,Hennepin,YES,2
+360,Nitrofurantoin,Hennepin,YES,6
+761,Nitrofurantoin,Hennepin,YES,6
+751,Nitrofurantoin,Hennepin,YES,0
+721,Nitrofurantoin,Hennepin,YES,2
+371,Nitrofurantoin,Hennepin,YES,0
+531,Nitrofurantoin,Hennepin,YES,1
+131,Nitrofurantoin,Hennepin,NO,38
+661,Nitrofurantoin,Hennepin,YES,18
+511,Nitrofurantoin,Hennepin,YES,0
+261,Nitrofurantoin,Hennepin,YES,14
+551,Nitrofurantoin,Hennepin,YES,0
+520,Nitrofurantoin,Hennepin,YES,2
+700,Nitrofurantoin,Hennepin,YES,0
+231,Nitrofurantoin,Hennepin,YES,1
+260,Nitrofurantoin,Hennepin,NO,31
+510,Nitrofurantoin,Hennepin,NO,29
+171,Nitrofurantoin,Hennepin,YES,0
+500,Nitrofurantoin,Hennepin,YES,1
+200,Nitrofurantoin,Hennepin,YES,3
+220,Nitrofurantoin,Hennepin,YES,7
+731,Nitrofurantoin,Hennepin,YES,19
+351,Nitrofurantoin,Hennepin,YES,1
+570,Nitrofurantoin,Hennepin,YES,18
+300,Nitrofurantoin,Hennepin,YES,2
+671,Nitrofurantoin,Hennepin,YES,0
+630,Nitrofurantoin,Hennepin,NO,21
+251,Nitrofurantoin,Hennepin,YES,0
+711,Nitrofurantoin,Hennepin,YES,7
+321,Nitrofurantoin,Hennepin,YES,2
+160,Nitrofurantoin,Hennepin,NO,26
+651,Nitrofurantoin,Hennepin,YES,0
+370,Nitrofurantoin,Hennepin,YES,2
+550,Nitrofurantoin,Hennepin,YES,2
+350,Nitrofurantoin,Hennepin,YES,1
+660,Nitrofurantoin,Hennepin,YES,0
+741,Nitrofurantoin,Hennepin,YES,7
+750,Nitrofurantoin,Hennepin,YES,2
+710,Nitrofurantoin,Hennepin,YES,6
+521,Nitrofurantoin,Hennepin,YES,3
+130,Nitrofurantoin,Hennepin,YES,7
+320,Nitrofurantoin,Hennepin,YES,2
+720,Nitrofurantoin,Hennepin,YES,6
+611,Nitrofurantoin,Hennepin,YES,3
+540,Nitrofurantoin,Hennepin,YES,7
+730,Nitrofurantoin,Hennepin,YES,2
+631,Nitrofurantoin,Hennepin,YES,6
+230,Nitrofurantoin,Hennepin,YES,3
+621,Nitrofurantoin,Hennepin,YES,2
+341,Nitrofurantoin,Hennepin,YES,2
+330,Nitrofurantoin,Hennepin,YES,6
+240,Nitrofurantoin,Hennepin,YES,3
+221,Nitrofurantoin,Hennepin,YES,7
+121,Nitrofurantoin,Hennepin,YES,2
+641,Nitrofurantoin,Hennepin,YES,6
+20,Nitrofurantoin,Hennepin,YES,3
+400,Nitrofurantoin,Hennepin,YES,7
+331,Nitrofurantoin,Hennepin,YES,2
+650,Nitrofurantoin,Hennepin,YES,6
+770,Nitrofurantoin,Hennepin,YES,3
+610,Nitrofurantoin,Hennepin,YES,7
+161,Nitrofurantoin,Hennepin,YES,2
+600,Nitrofurantoin,Hennepin,YES,6
+E. coli,Ampicillin,Harvorview,NO,69
+561,Ampicillin,Harvorview,NO,91
+620,Ampicillin,Harvorview,NO,68
+571,Ampicillin,Harvorview,NO,74
+271,Ampicillin,Harvorview,NO,77
+530,Ampicillin,Harvorview,NO,55
+760,Ampicillin,Harvorview,NO,59
+361,Ampicillin,Harvorview,NO,76
+771,Ampicillin,Harvorview,NO,56
+560,Ampicillin,Harvorview,NO,86
+360,Ampicillin,Harvorview,NO,70
+761,Ampicillin,Harvorview,NO,81
+751,Ampicillin,Harvorview,NO,55
+721,Ampicillin,Harvorview,NO,85
+371,Ampicillin,Harvorview,NO,30
+531,Ampicillin,Harvorview,NO,41
+131,Ampicillin,Harvorview,NO,98
+661,Ampicillin,Harvorview,NO,77
+511,Ampicillin,Harvorview,NO,30
+261,Ampicillin,Harvorview,NO,44
+551,Ampicillin,Harvorview,NO,98
+520,Ampicillin,Harvorview,NO,52
+700,Ampicillin,Harvorview,NO,47
+231,Ampicillin,Harvorview,NO,72
+260,Ampicillin,Harvorview,NO,78
+510,Ampicillin,Harvorview,NO,35
+171,Ampicillin,Harvorview,NO,53
+500,Ampicillin,Harvorview,NO,100
+200,Ampicillin,Harvorview,NO,69
+220,Ampicillin,Harvorview,NO,59
+731,Ampicillin,Harvorview,NO,30
+351,Ampicillin,Harvorview,NO,100
+570,Ampicillin,Harvorview,NO,98
+300,Ampicillin,Harvorview,YES,2
+671,Ampicillin,Harvorview,NO,97
+630,Ampicillin,Harvorview,NO,100
+251,Ampicillin,Harvorview,NO,98
+711,Ampicillin,Harvorview,YES,2
+321,Ampicillin,Harvorview,NO,47
+160,Ampicillin,Harvorview,NO,72
+651,Ampicillin,Harvorview,NO,98
+370,Ampicillin,Harvorview,NO,100
+550,Ampicillin,Harvorview,NO,68
+350,Ampicillin,Harvorview,NO,100
+660,Ampicillin,Harvorview,YES,0
+741,Ampicillin,Harvorview,NO,73
+750,Ampicillin,Harvorview,NO,68
+710,Ampicillin,Harvorview,NO,72
+521,Ampicillin,Harvorview,NO,69
+130,Ampicillin,Harvorview,YES,2
+320,Ampicillin,Harvorview,NO,68
+720,Ampicillin,Harvorview,NO,72
+611,Ampicillin,Harvorview,YES,0
+540,Ampicillin,Harvorview,NO,73
+730,Ampicillin,Harvorview,NO,68
+631,Ampicillin,Harvorview,NO,72
+230,Ampicillin,Harvorview,NO,69
+621,Ampicillin,Harvorview,NO,100
+341,Ampicillin,Harvorview,NO,68
+330,Ampicillin,Harvorview,NO,72
+240,Ampicillin,Harvorview,YES,0
+221,Ampicillin,Harvorview,YES,2
+121,Ampicillin,Harvorview,NO,68
+641,Ampicillin,Harvorview,NO,72
+20,Ampicillin,Harvorview,NO,69
+400,Ampicillin,Harvorview,NO,73
+331,Ampicillin,Harvorview,NO,68
+650,Ampicillin,Harvorview,NO,72
+770,Ampicillin,Harvorview,NO,69
+610,Ampicillin,Harvorview,NO,73
+161,Ampicillin,Harvorview,NO,68
+600,Ampicillin,Harvorview,NO,72
+E. coli,Amoxicillin/Clavulanate,Harvorview,NO,28
+561,Amoxicillin/Clavulanate,Harvorview,NO,43
+620,Amoxicillin/Clavulanate,Harvorview,NO,44
+571,Amoxicillin/Clavulanate,Harvorview,NO,36
+271,Amoxicillin/Clavulanate,Harvorview,YES,1
+530,Amoxicillin/Clavulanate,Harvorview,NO,22
+760,Amoxicillin/Clavulanate,Harvorview,NO,35
+361,Amoxicillin/Clavulanate,Harvorview,NO,26
+771,Amoxicillin/Clavulanate,Harvorview,NO,23
+560,Amoxicillin/Clavulanate,Harvorview,NO,32
+360,Amoxicillin/Clavulanate,Harvorview,YES,6
+761,Amoxicillin/Clavulanate,Harvorview,NO,61
+751,Amoxicillin/Clavulanate,Harvorview,YES,0
+721,Amoxicillin/Clavulanate,Harvorview,NO,85
+371,Amoxicillin/Clavulanate,Harvorview,NO,30
+531,Amoxicillin/Clavulanate,Harvorview,YES,1
+131,Amoxicillin/Clavulanate,Harvorview,NO,65
+661,Amoxicillin/Clavulanate,Harvorview,NO,52
+511,Amoxicillin/Clavulanate,Harvorview,YES,0
+261,Amoxicillin/Clavulanate,Harvorview,YES,1
+551,Amoxicillin/Clavulanate,Harvorview,NO,48
+520,Amoxicillin/Clavulanate,Harvorview,YES,2
+700,Amoxicillin/Clavulanate,Harvorview,YES,0
+231,Amoxicillin/Clavulanate,Harvorview,NO,44
+260,Amoxicillin/Clavulanate,Harvorview,NO,58
+510,Amoxicillin/Clavulanate,Harvorview,YES,2
+171,Amoxicillin/Clavulanate,Harvorview,YES,19
+500,Amoxicillin/Clavulanate,Harvorview,YES,1
+200,Amoxicillin/Clavulanate,Harvorview,NO,28
+220,Amoxicillin/Clavulanate,Harvorview,YES,16
+731,Amoxicillin/Clavulanate,Harvorview,YES,0
+351,Amoxicillin/Clavulanate,Harvorview,NO,76
+570,Amoxicillin/Clavulanate,Harvorview,NO,65
+300,Amoxicillin/Clavulanate,Harvorview,YES,2
+671,Amoxicillin/Clavulanate,Harvorview,YES,0
+630,Amoxicillin/Clavulanate,Harvorview,NO,100
+251,Amoxicillin/Clavulanate,Harvorview,YES,0
+711,Amoxicillin/Clavulanate,Harvorview,YES,2
+321,Amoxicillin/Clavulanate,Harvorview,YES,0
+160,Amoxicillin/Clavulanate,Harvorview,NO,31
+651,Amoxicillin/Clavulanate,Harvorview,NO,98
+370,Amoxicillin/Clavulanate,Harvorview,NO,100
+550,Amoxicillin/Clavulanate,Harvorview,NO,27
+350,Amoxicillin/Clavulanate,Harvorview,YES,1
+660,Amoxicillin/Clavulanate,Harvorview,YES,0
+741,Amoxicillin/Clavulanate,Harvorview,NO,31
+750,Amoxicillin/Clavulanate,Harvorview,NO,27
+710,Amoxicillin/Clavulanate,Harvorview,NO,31
+521,Amoxicillin/Clavulanate,Harvorview,NO,28
+130,Amoxicillin/Clavulanate,Harvorview,YES,2
+320,Amoxicillin/Clavulanate,Harvorview,NO,27
+720,Amoxicillin/Clavulanate,Harvorview,NO,31
+611,Amoxicillin/Clavulanate,Harvorview,YES,0
+540,Amoxicillin/Clavulanate,Harvorview,NO,31
+730,Amoxicillin/Clavulanate,Harvorview,NO,27
+631,Amoxicillin/Clavulanate,Harvorview,NO,31
+230,Amoxicillin/Clavulanate,Harvorview,NO,28
+621,Amoxicillin/Clavulanate,Harvorview,NO,100
+341,Amoxicillin/Clavulanate,Harvorview,NO,27
+330,Amoxicillin/Clavulanate,Harvorview,NO,31
+240,Amoxicillin/Clavulanate,Harvorview,YES,0
+221,Amoxicillin/Clavulanate,Harvorview,YES,2
+121,Amoxicillin/Clavulanate,Harvorview,NO,27
+641,Amoxicillin/Clavulanate,Harvorview,NO,31
+20,Amoxicillin/Clavulanate,Harvorview,NO,28
+400,Amoxicillin/Clavulanate,Harvorview,NO,31
+331,Amoxicillin/Clavulanate,Harvorview,NO,27
+650,Amoxicillin/Clavulanate,Harvorview,NO,31
+770,Amoxicillin/Clavulanate,Harvorview,NO,28
+610,Amoxicillin/Clavulanate,Harvorview,NO,31
+161,Amoxicillin/Clavulanate,Harvorview,NO,27
+600,Amoxicillin/Clavulanate,Harvorview,NO,31
+E. coli,Cephalexin,Harvorview,NO,20
+561,Cephalexin,Harvorview,NO,54
+620,Cephalexin,Harvorview,NO,26
+571,Cephalexin,Harvorview,NO,24
+271,Cephalexin,Harvorview,YES,4
+530,Cephalexin,Harvorview,YES,8
+760,Cephalexin,Harvorview,NO,20
+361,Cephalexin,Harvorview,YES,14
+771,Cephalexin,Harvorview,YES,15
+560,Cephalexin,Harvorview,NO,25
+360,Cephalexin,Harvorview,YES,6
+761,Cephalexin,Harvorview,NO,41
+751,Cephalexin,Harvorview,YES,0
+721,Cephalexin,Harvorview,NO,35
+371,Cephalexin,Harvorview,NO,30
+531,Cephalexin,Harvorview,YES,1
+131,Cephalexin,Harvorview,NO,65
+661,Cephalexin,Harvorview,YES,2
+511,Cephalexin,Harvorview,YES,0
+261,Cephalexin,Harvorview,YES,1
+551,Cephalexin,Harvorview,YES,0
+520,Cephalexin,Harvorview,YES,2
+700,Cephalexin,Harvorview,YES,0
+231,Cephalexin,Harvorview,YES,15
+260,Cephalexin,Harvorview,NO,58
+510,Cephalexin,Harvorview,YES,2
+171,Cephalexin,Harvorview,YES,8
+500,Cephalexin,Harvorview,YES,1
+200,Cephalexin,Harvorview,NO,20
+220,Cephalexin,Harvorview,YES,2
+731,Cephalexin,Harvorview,YES,0
+351,Cephalexin,Harvorview,NO,76
+570,Cephalexin,Harvorview,NO,31
+300,Cephalexin,Harvorview,YES,2
+671,Cephalexin,Harvorview,YES,17
+630,Cephalexin,Harvorview,YES,1
+251,Cephalexin,Harvorview,YES,0
+711,Cephalexin,Harvorview,YES,2
+321,Cephalexin,Harvorview,YES,0
+160,Cephalexin,Harvorview,NO,23
+651,Cephalexin,Harvorview,YES,0
+370,Cephalexin,Harvorview,NO,100
+550,Cephalexin,Harvorview,YES,19
+350,Cephalexin,Harvorview,YES,1
+660,Cephalexin,Harvorview,YES,0
+741,Cephalexin,Harvorview,NO,24
+750,Cephalexin,Harvorview,YES,19
+710,Cephalexin,Harvorview,NO,23
+521,Cephalexin,Harvorview,NO,20
+130,Cephalexin,Harvorview,YES,2
+320,Cephalexin,Harvorview,YES,19
+720,Cephalexin,Harvorview,NO,23
+611,Cephalexin,Harvorview,YES,0
+540,Cephalexin,Harvorview,NO,24
+730,Cephalexin,Harvorview,YES,19
+631,Cephalexin,Harvorview,NO,23
+230,Cephalexin,Harvorview,NO,20
+621,Cephalexin,Harvorview,YES,2
+341,Cephalexin,Harvorview,YES,19
+330,Cephalexin,Harvorview,NO,23
+240,Cephalexin,Harvorview,YES,0
+221,Cephalexin,Harvorview,YES,2
+121,Cephalexin,Harvorview,YES,19
+641,Cephalexin,Harvorview,NO,23
+20,Cephalexin,Harvorview,NO,20
+400,Cephalexin,Harvorview,NO,24
+331,Cephalexin,Harvorview,YES,19
+650,Cephalexin,Harvorview,NO,23
+770,Cephalexin,Harvorview,NO,20
+610,Cephalexin,Harvorview,NO,24
+161,Cephalexin,Harvorview,YES,19
+600,Cephalexin,Harvorview,NO,23
+E. coli,Ceftazidime,Harvorview,YES,17
+561,Ceftazidime,Harvorview,NO,47
+620,Ceftazidime,Harvorview,NO,21
+571,Ceftazidime,Harvorview,YES,16
+271,Ceftazidime,Harvorview,YES,1
+530,Ceftazidime,Harvorview,YES,8
+760,Ceftazidime,Harvorview,NO,20
+361,Ceftazidime,Harvorview,YES,14
+771,Ceftazidime,Harvorview,YES,15
+560,Ceftazidime,Harvorview,YES,17
+360,Ceftazidime,Harvorview,YES,6
+761,Ceftazidime,Harvorview,NO,41
+751,Ceftazidime,Harvorview,YES,0
+721,Ceftazidime,Harvorview,NO,35
+371,Ceftazidime,Harvorview,NO,30
+531,Ceftazidime,Harvorview,YES,1
+131,Ceftazidime,Harvorview,NO,31
+661,Ceftazidime,Harvorview,YES,2
+511,Ceftazidime,Harvorview,YES,0
+261,Ceftazidime,Harvorview,YES,1
+551,Ceftazidime,Harvorview,YES,0
+520,Ceftazidime,Harvorview,YES,2
+700,Ceftazidime,Harvorview,YES,0
+231,Ceftazidime,Harvorview,YES,15
+260,Ceftazidime,Harvorview,NO,58
+510,Ceftazidime,Harvorview,YES,2
+171,Ceftazidime,Harvorview,YES,8
+500,Ceftazidime,Harvorview,YES,1
+200,Ceftazidime,Harvorview,YES,17
+220,Ceftazidime,Harvorview,YES,2
+731,Ceftazidime,Harvorview,YES,0
+351,Ceftazidime,Harvorview,NO,76
+570,Ceftazidime,Harvorview,NO,31
+300,Ceftazidime,Harvorview,YES,2
+671,Ceftazidime,Harvorview,YES,17
+630,Ceftazidime,Harvorview,YES,1
+251,Ceftazidime,Harvorview,YES,0
+711,Ceftazidime,Harvorview,YES,2
+321,Ceftazidime,Harvorview,YES,0
+160,Ceftazidime,Harvorview,NO,20
+651,Ceftazidime,Harvorview,YES,0
+370,Ceftazidime,Harvorview,NO,100
+550,Ceftazidime,Harvorview,YES,16
+350,Ceftazidime,Harvorview,YES,1
+660,Ceftazidime,Harvorview,YES,0
+741,Ceftazidime,Harvorview,NO,21
+750,Ceftazidime,Harvorview,YES,16
+710,Ceftazidime,Harvorview,NO,20
+521,Ceftazidime,Harvorview,YES,17
+130,Ceftazidime,Harvorview,YES,2
+320,Ceftazidime,Harvorview,YES,16
+720,Ceftazidime,Harvorview,NO,20
+611,Ceftazidime,Harvorview,YES,0
+540,Ceftazidime,Harvorview,NO,21
+730,Ceftazidime,Harvorview,YES,16
+631,Ceftazidime,Harvorview,NO,20
+230,Ceftazidime,Harvorview,YES,17
+621,Ceftazidime,Harvorview,YES,2
+341,Ceftazidime,Harvorview,YES,16
+330,Ceftazidime,Harvorview,NO,20
+240,Ceftazidime,Harvorview,YES,0
+221,Ceftazidime,Harvorview,YES,2
+121,Ceftazidime,Harvorview,YES,16
+641,Ceftazidime,Harvorview,NO,20
+20,Ceftazidime,Harvorview,YES,17
+400,Ceftazidime,Harvorview,NO,21
+331,Ceftazidime,Harvorview,YES,16
+650,Ceftazidime,Harvorview,NO,20
+770,Ceftazidime,Harvorview,YES,17
+610,Ceftazidime,Harvorview,NO,21
+161,Ceftazidime,Harvorview,YES,16
+600,Ceftazidime,Harvorview,NO,20
+E. coli,ESBL,Harvorview,YES,8
+561,ESBL,Harvorview,NO,47
+620,ESBL,Harvorview,YES,0
+571,ESBL,Harvorview,YES,9
+271,ESBL,Harvorview,YES,0
+530,ESBL,Harvorview,YES,2
+760,ESBL,Harvorview,YES,5
+361,ESBL,Harvorview,YES,1
+771,ESBL,Harvorview,YES,6
+560,ESBL,Harvorview,YES,9
+360,ESBL,Harvorview,YES,0
+761,ESBL,Harvorview,YES,1
+751,ESBL,Harvorview,YES,0
+721,ESBL,Harvorview,YES,2
+371,ESBL,Harvorview,YES,0
+531,ESBL,Harvorview,YES,1
+131,ESBL,Harvorview,YES,0
+661,ESBL,Harvorview,YES,2
+511,ESBL,Harvorview,YES,0
+261,ESBL,Harvorview,YES,1
+551,ESBL,Harvorview,YES,0
+520,ESBL,Harvorview,YES,2
+700,ESBL,Harvorview,YES,0
+231,ESBL,Harvorview,YES,1
+260,ESBL,Harvorview,YES,0
+510,ESBL,Harvorview,YES,2
+171,ESBL,Harvorview,YES,0
+500,ESBL,Harvorview,YES,1
+200,ESBL,Harvorview,YES,8
+220,ESBL,Harvorview,YES,2
+731,ESBL,Harvorview,YES,0
+351,ESBL,Harvorview,NO,76
+570,ESBL,Harvorview,YES,0
+300,ESBL,Harvorview,YES,2
+671,ESBL,Harvorview,YES,17
+630,ESBL,Harvorview,YES,1
+251,ESBL,Harvorview,YES,0
+711,ESBL,Harvorview,YES,2
+321,ESBL,Harvorview,YES,0
+160,ESBL,Harvorview,YES,11
+651,ESBL,Harvorview,NO,98
+370,ESBL,Harvorview,YES,2
+550,ESBL,Harvorview,YES,7
+350,ESBL,Harvorview,YES,1
+660,ESBL,Harvorview,YES,0
+741,ESBL,Harvorview,YES,12
+750,ESBL,Harvorview,YES,7
+710,ESBL,Harvorview,YES,11
+521,ESBL,Harvorview,YES,8
+130,ESBL,Harvorview,YES,2
+320,ESBL,Harvorview,YES,7
+720,ESBL,Harvorview,YES,11
+611,ESBL,Harvorview,YES,0
+540,ESBL,Harvorview,YES,12
+730,ESBL,Harvorview,YES,7
+631,ESBL,Harvorview,YES,11
+230,ESBL,Harvorview,YES,8
+621,ESBL,Harvorview,YES,2
+341,ESBL,Harvorview,YES,7
+330,ESBL,Harvorview,YES,11
+240,ESBL,Harvorview,YES,0
+221,ESBL,Harvorview,YES,2
+121,ESBL,Harvorview,YES,7
+641,ESBL,Harvorview,YES,11
+20,ESBL,Harvorview,YES,8
+400,ESBL,Harvorview,YES,12
+331,ESBL,Harvorview,YES,7
+650,ESBL,Harvorview,YES,11
+770,ESBL,Harvorview,YES,8
+610,ESBL,Harvorview,YES,12
+161,ESBL,Harvorview,YES,7
+600,ESBL,Harvorview,YES,11
+E. coli,Trimethoprim/Sulfamethoxazole,Harvorview,NO,43
+561,Trimethoprim/Sulfamethoxazole,Harvorview,NO,69
+620,Trimethoprim/Sulfamethoxazole,Harvorview,NO,26
+571,Trimethoprim/Sulfamethoxazole,Harvorview,NO,70
+271,Trimethoprim/Sulfamethoxazole,Harvorview,NO,62
+530,Trimethoprim/Sulfamethoxazole,Harvorview,NO,28
+760,Trimethoprim/Sulfamethoxazole,Harvorview,NO,28
+361,Trimethoprim/Sulfamethoxazole,Harvorview,NO,26
+771,Trimethoprim/Sulfamethoxazole,Harvorview,NO,31
+560,Trimethoprim/Sulfamethoxazole,Harvorview,NO,48
+360,Trimethoprim/Sulfamethoxazole,Harvorview,NO,33
+761,Trimethoprim/Sulfamethoxazole,Harvorview,NO,41
+751,Trimethoprim/Sulfamethoxazole,Harvorview,NO,55
+721,Trimethoprim/Sulfamethoxazole,Harvorview,YES,18
+371,Trimethoprim/Sulfamethoxazole,Harvorview,NO,30
+531,Trimethoprim/Sulfamethoxazole,Harvorview,YES,1
+131,Trimethoprim/Sulfamethoxazole,Harvorview,YES,0
+661,Trimethoprim/Sulfamethoxazole,Harvorview,YES,2
+511,Trimethoprim/Sulfamethoxazole,Harvorview,YES,0
+261,Trimethoprim/Sulfamethoxazole,Harvorview,NO,30
+551,Trimethoprim/Sulfamethoxazole,Harvorview,NO,48
+520,Trimethoprim/Sulfamethoxazole,Harvorview,NO,27
+700,Trimethoprim/Sulfamethoxazole,Harvorview,NO,47
+231,Trimethoprim/Sulfamethoxazole,Harvorview,NO,87
+260,Trimethoprim/Sulfamethoxazole,Harvorview,YES,0
+510,Trimethoprim/Sulfamethoxazole,Harvorview,NO,35
+171,Trimethoprim/Sulfamethoxazole,Harvorview,NO,53
+500,Trimethoprim/Sulfamethoxazole,Harvorview,NO,100
+200,Trimethoprim/Sulfamethoxazole,Harvorview,NO,43
+220,Trimethoprim/Sulfamethoxazole,Harvorview,NO,44
+731,Trimethoprim/Sulfamethoxazole,Harvorview,YES,0
+351,Trimethoprim/Sulfamethoxazole,Harvorview,YES,1
+570,Trimethoprim/Sulfamethoxazole,Harvorview,YES,0
+300,Trimethoprim/Sulfamethoxazole,Harvorview,YES,2
+671,Trimethoprim/Sulfamethoxazole,Harvorview,NO,97
+630,Trimethoprim/Sulfamethoxazole,Harvorview,YES,1
+251,Trimethoprim/Sulfamethoxazole,Harvorview,NO,98
+711,Trimethoprim/Sulfamethoxazole,Harvorview,YES,2
+321,Trimethoprim/Sulfamethoxazole,Harvorview,NO,22
+160,Trimethoprim/Sulfamethoxazole,Harvorview,NO,46
+651,Trimethoprim/Sulfamethoxazole,Harvorview,YES,0
+370,Trimethoprim/Sulfamethoxazole,Harvorview,YES,2
+550,Trimethoprim/Sulfamethoxazole,Harvorview,NO,42
+350,Trimethoprim/Sulfamethoxazole,Harvorview,NO,100
+660,Trimethoprim/Sulfamethoxazole,Harvorview,YES,0
+741,Trimethoprim/Sulfamethoxazole,Harvorview,NO,46
+750,Trimethoprim/Sulfamethoxazole,Harvorview,NO,42
+710,Trimethoprim/Sulfamethoxazole,Harvorview,NO,46
+521,Trimethoprim/Sulfamethoxazole,Harvorview,NO,43
+130,Trimethoprim/Sulfamethoxazole,Harvorview,YES,2
+320,Trimethoprim/Sulfamethoxazole,Harvorview,NO,42
+720,Trimethoprim/Sulfamethoxazole,Harvorview,NO,46
+611,Trimethoprim/Sulfamethoxazole,Harvorview,YES,0
+540,Trimethoprim/Sulfamethoxazole,Harvorview,NO,46
+730,Trimethoprim/Sulfamethoxazole,Harvorview,NO,42
+631,Trimethoprim/Sulfamethoxazole,Harvorview,NO,46
+230,Trimethoprim/Sulfamethoxazole,Harvorview,NO,43
+621,Trimethoprim/Sulfamethoxazole,Harvorview,NO,100
+341,Trimethoprim/Sulfamethoxazole,Harvorview,NO,42
+330,Trimethoprim/Sulfamethoxazole,Harvorview,NO,46
+240,Trimethoprim/Sulfamethoxazole,Harvorview,YES,0
+221,Trimethoprim/Sulfamethoxazole,Harvorview,YES,2
+121,Trimethoprim/Sulfamethoxazole,Harvorview,NO,42
+641,Trimethoprim/Sulfamethoxazole,Harvorview,NO,46
+20,Trimethoprim/Sulfamethoxazole,Harvorview,NO,43
+400,Trimethoprim/Sulfamethoxazole,Harvorview,NO,46
+331,Trimethoprim/Sulfamethoxazole,Harvorview,NO,42
+650,Trimethoprim/Sulfamethoxazole,Harvorview,NO,46
+770,Trimethoprim/Sulfamethoxazole,Harvorview,NO,43
+610,Trimethoprim/Sulfamethoxazole,Harvorview,NO,46
+161,Trimethoprim/Sulfamethoxazole,Harvorview,NO,42
+600,Trimethoprim/Sulfamethoxazole,Harvorview,NO,46
+E. coli,Ciprofloxacin,Harvorview,NO,30
+561,Ciprofloxacin,Harvorview,NO,93
+620,Ciprofloxacin,Harvorview,YES,3
+571,Ciprofloxacin,Harvorview,NO,74
+271,Ciprofloxacin,Harvorview,YES,10
+530,Ciprofloxacin,Harvorview,YES,2
+760,Ciprofloxacin,Harvorview,YES,5
+361,Ciprofloxacin,Harvorview,NO,26
+771,Ciprofloxacin,Harvorview,YES,15
+560,Ciprofloxacin,Harvorview,NO,40
+360,Ciprofloxacin,Harvorview,YES,6
+761,Ciprofloxacin,Harvorview,NO,41
+751,Ciprofloxacin,Harvorview,YES,12
+721,Ciprofloxacin,Harvorview,NO,52
+371,Ciprofloxacin,Harvorview,YES,0
+531,Ciprofloxacin,Harvorview,YES,1
+131,Ciprofloxacin,Harvorview,YES,0
+661,Ciprofloxacin,Harvorview,YES,2
+511,Ciprofloxacin,Harvorview,YES,0
+261,Ciprofloxacin,Harvorview,YES,1
+551,Ciprofloxacin,Harvorview,YES,0
+520,Ciprofloxacin,Harvorview,YES,2
+700,Ciprofloxacin,Harvorview,YES,0
+231,Ciprofloxacin,Harvorview,NO,30
+260,Ciprofloxacin,Harvorview,YES,0
+510,Ciprofloxacin,Harvorview,YES,2
+171,Ciprofloxacin,Harvorview,NO,53
+500,Ciprofloxacin,Harvorview,YES,1
+200,Ciprofloxacin,Harvorview,NO,30
+220,Ciprofloxacin,Harvorview,YES,2
+731,Ciprofloxacin,Harvorview,YES,0
+351,Ciprofloxacin,Harvorview,YES,1
+570,Ciprofloxacin,Harvorview,NO,65
+300,Ciprofloxacin,Harvorview,NO,100
+671,Ciprofloxacin,Harvorview,YES,17
+630,Ciprofloxacin,Harvorview,NO,100
+251,Ciprofloxacin,Harvorview,YES,0
+711,Ciprofloxacin,Harvorview,YES,2
+321,Ciprofloxacin,Harvorview,YES,0
+160,Ciprofloxacin,Harvorview,NO,33
+651,Ciprofloxacin,Harvorview,YES,0
+370,Ciprofloxacin,Harvorview,YES,2
+550,Ciprofloxacin,Harvorview,NO,29
+350,Ciprofloxacin,Harvorview,YES,1
+660,Ciprofloxacin,Harvorview,YES,0
+741,Ciprofloxacin,Harvorview,NO,34
+750,Ciprofloxacin,Harvorview,NO,29
+710,Ciprofloxacin,Harvorview,NO,33
+521,Ciprofloxacin,Harvorview,NO,30
+130,Ciprofloxacin,Harvorview,YES,2
+320,Ciprofloxacin,Harvorview,NO,29
+720,Ciprofloxacin,Harvorview,NO,33
+611,Ciprofloxacin,Harvorview,YES,0
+540,Ciprofloxacin,Harvorview,NO,34
+730,Ciprofloxacin,Harvorview,NO,29
+631,Ciprofloxacin,Harvorview,NO,33
+230,Ciprofloxacin,Harvorview,NO,30
+621,Ciprofloxacin,Harvorview,YES,2
+341,Ciprofloxacin,Harvorview,NO,29
+330,Ciprofloxacin,Harvorview,NO,33
+240,Ciprofloxacin,Harvorview,YES,0
+221,Ciprofloxacin,Harvorview,YES,2
+121,Ciprofloxacin,Harvorview,NO,29
+641,Ciprofloxacin,Harvorview,NO,33
+20,Ciprofloxacin,Harvorview,NO,30
+400,Ciprofloxacin,Harvorview,NO,34
+331,Ciprofloxacin,Harvorview,NO,29
+650,Ciprofloxacin,Harvorview,NO,33
+770,Ciprofloxacin,Harvorview,NO,30
+610,Ciprofloxacin,Harvorview,NO,34
+161,Ciprofloxacin,Harvorview,NO,29
+600,Ciprofloxacin,Harvorview,NO,33
+E. coli,Nitrofurantoin,Harvorview,YES,5
+561,Nitrofurantoin,Harvorview,YES,11
+620,Nitrofurantoin,Harvorview,YES,0
+571,Nitrofurantoin,Harvorview,YES,14
+271,Nitrofurantoin,Harvorview,YES,0
+530,Nitrofurantoin,Harvorview,YES,2
+760,Nitrofurantoin,Harvorview,YES,10
+361,Nitrofurantoin,Harvorview,YES,1
+771,Nitrofurantoin,Harvorview,YES,0
+560,Nitrofurantoin,Harvorview,YES,2
+360,Nitrofurantoin,Harvorview,YES,7
+761,Nitrofurantoin,Harvorview,YES,1
+751,Nitrofurantoin,Harvorview,YES,0
+721,Nitrofurantoin,Harvorview,YES,2
+371,Nitrofurantoin,Harvorview,YES,0
+531,Nitrofurantoin,Harvorview,YES,1
+131,Nitrofurantoin,Harvorview,YES,0
+661,Nitrofurantoin,Harvorview,YES,2
+511,Nitrofurantoin,Harvorview,YES,0
+261,Nitrofurantoin,Harvorview,YES,18
+551,Nitrofurantoin,Harvorview,YES,0
+520,Nitrofurantoin,Harvorview,YES,2
+700,Nitrofurantoin,Harvorview,NO,97
+231,Nitrofurantoin,Harvorview,NO,21
+260,Nitrofurantoin,Harvorview,NO,31
+510,Nitrofurantoin,Harvorview,YES,2
+171,Nitrofurantoin,Harvorview,YES,0
+500,Nitrofurantoin,Harvorview,YES,1
+200,Nitrofurantoin,Harvorview,YES,5
+220,Nitrofurantoin,Harvorview,YES,2
+731,Nitrofurantoin,Harvorview,YES,0
+351,Nitrofurantoin,Harvorview,YES,1
+570,Nitrofurantoin,Harvorview,YES,0
+300,Nitrofurantoin,Harvorview,YES,2
+671,Nitrofurantoin,Harvorview,NO,37
+630,Nitrofurantoin,Harvorview,YES,8
+251,Nitrofurantoin,Harvorview,YES,0
+711,Nitrofurantoin,Harvorview,YES,2
+321,Nitrofurantoin,Harvorview,YES,0
+160,Nitrofurantoin,Harvorview,YES,8
+651,Nitrofurantoin,Harvorview,YES,5
+370,Nitrofurantoin,Harvorview,YES,8
+550,Nitrofurantoin,Harvorview,YES,4
+350,Nitrofurantoin,Harvorview,YES,1
+660,Nitrofurantoin,Harvorview,YES,0
+741,Nitrofurantoin,Harvorview,YES,8
+750,Nitrofurantoin,Harvorview,YES,4
+710,Nitrofurantoin,Harvorview,YES,8
+521,Nitrofurantoin,Harvorview,YES,5
+130,Nitrofurantoin,Harvorview,YES,2
+320,Nitrofurantoin,Harvorview,YES,4
+720,Nitrofurantoin,Harvorview,YES,8
+611,Nitrofurantoin,Harvorview,YES,0
+540,Nitrofurantoin,Harvorview,YES,8
+730,Nitrofurantoin,Harvorview,YES,4
+631,Nitrofurantoin,Harvorview,YES,8
+230,Nitrofurantoin,Harvorview,YES,5
+621,Nitrofurantoin,Harvorview,NO,100
+341,Nitrofurantoin,Harvorview,YES,4
+330,Nitrofurantoin,Harvorview,YES,8
+240,Nitrofurantoin,Harvorview,YES,0
+221,Nitrofurantoin,Harvorview,YES,2
+121,Nitrofurantoin,Harvorview,YES,4
+641,Nitrofurantoin,Harvorview,YES,8
+20,Nitrofurantoin,Harvorview,YES,5
+400,Nitrofurantoin,Harvorview,YES,8
+331,Nitrofurantoin,Harvorview,YES,4
+650,Nitrofurantoin,Harvorview,YES,8
+770,Nitrofurantoin,Harvorview,YES,5
+610,Nitrofurantoin,Harvorview,YES,8
+161,Nitrofurantoin,Harvorview,YES,4
+600,Nitrofurantoin,Harvorview,YES,8
+E. coli,Ampicillin,Keck,NO,66
+561,Ampicillin,Keck,NO,92
+620,Ampicillin,Keck,NO,75
+571,Ampicillin,Keck,NO,79
+271,Ampicillin,Keck,NO,81
+530,Ampicillin,Keck,NO,32
+760,Ampicillin,Keck,NO,22
+361,Ampicillin,Keck,NO,100
+771,Ampicillin,Keck,NO,65
+560,Ampicillin,Keck,NO,52
+360,Ampicillin,Keck,NO,30
+761,Ampicillin,Keck,NO,44
+751,Ampicillin,Keck,NO,48
+721,Ampicillin,Keck,NO,22
+371,Ampicillin,Keck,NO,77
+531,Ampicillin,Keck,YES,1
+131,Ampicillin,Keck,NO,66
+661,Ampicillin,Keck,YES,2
+511,Ampicillin,Keck,NO,65
+261,Ampicillin,Keck,NO,100
+551,Ampicillin,Keck,NO,66
+520,Ampicillin,Keck,NO,69
+700,Ampicillin,Keck,NO,97
+231,Ampicillin,Keck,NO,100
+260,Ampicillin,Keck,NO,65
+510,Ampicillin,Keck,YES,2
+171,Ampicillin,Keck,NO,65
+500,Ampicillin,Keck,NO,100
+200,Ampicillin,Keck,NO,98
+220,Ampicillin,Keck,NO,69
+731,Ampicillin,Keck,NO,97
+351,Ampicillin,Keck,NO,69
+570,Ampicillin,Keck,NO,66
+300,Ampicillin,Keck,NO,100
+671,Ampicillin,Keck,NO,97
+630,Ampicillin,Keck,YES,1
+251,Ampicillin,Keck,NO,98
+711,Ampicillin,Keck,NO,100
+321,Ampicillin,Keck,YES,0
+160,Ampicillin,Keck,NO,100
+651,Ampicillin,Keck,NO,66
+370,Ampicillin,Keck,NO,100
+550,Ampicillin,Keck,NO,65
+350,Ampicillin,Keck,NO,69
+660,Ampicillin,Keck,NO,66
+741,Ampicillin,Keck,NO,69
+750,Ampicillin,Keck,NO,65
+710,Ampicillin,Keck,NO,69
+521,Ampicillin,Keck,NO,66
+130,Ampicillin,Keck,NO,69
+320,Ampicillin,Keck,NO,65
+720,Ampicillin,Keck,NO,69
+611,Ampicillin,Keck,NO,66
+540,Ampicillin,Keck,NO,69
+730,Ampicillin,Keck,NO,65
+631,Ampicillin,Keck,YES,1
+230,Ampicillin,Keck,NO,98
+621,Ampicillin,Keck,NO,69
+341,Ampicillin,Keck,NO,65
+330,Ampicillin,Keck,NO,69
+240,Ampicillin,Keck,NO,66
+221,Ampicillin,Keck,NO,69
+121,Ampicillin,Keck,NO,65
+641,Ampicillin,Keck,NO,69
+20,Ampicillin,Keck,NO,66
+400,Ampicillin,Keck,NO,69
+331,Ampicillin,Keck,NO,65
+650,Ampicillin,Keck,NO,69
+770,Ampicillin,Keck,NO,66
+610,Ampicillin,Keck,NO,69
+161,Ampicillin,Keck,NO,65
+600,Ampicillin,Keck,NO,69
+E. coli,Amoxicillin/Clavulanate,Keck,NO,41
+561,Amoxicillin/Clavulanate,Keck,NO,71
+620,Amoxicillin/Clavulanate,Keck,NO,27
+571,Amoxicillin/Clavulanate,Keck,NO,34
+271,Amoxicillin/Clavulanate,Keck,NO,48
+530,Amoxicillin/Clavulanate,Keck,NO,29
+760,Amoxicillin/Clavulanate,Keck,YES,10
+361,Amoxicillin/Clavulanate,Keck,NO,41
+771,Amoxicillin/Clavulanate,Keck,NO,48
+560,Amoxicillin/Clavulanate,Keck,NO,27
+360,Amoxicillin/Clavulanate,Keck,NO,30
+761,Amoxicillin/Clavulanate,Keck,NO,30
+751,Amoxicillin/Clavulanate,Keck,YES,0
+721,Amoxicillin/Clavulanate,Keck,NO,22
+371,Amoxicillin/Clavulanate,Keck,NO,77
+531,Amoxicillin/Clavulanate,Keck,YES,1
+131,Amoxicillin/Clavulanate,Keck,NO,41
+661,Amoxicillin/Clavulanate,Keck,YES,2
+511,Amoxicillin/Clavulanate,Keck,NO,40
+261,Amoxicillin/Clavulanate,Keck,YES,1
+551,Amoxicillin/Clavulanate,Keck,NO,41
+520,Amoxicillin/Clavulanate,Keck,NO,44
+700,Amoxicillin/Clavulanate,Keck,NO,47
+231,Amoxicillin/Clavulanate,Keck,NO,100
+260,Amoxicillin/Clavulanate,Keck,YES,0
+510,Amoxicillin/Clavulanate,Keck,YES,2
+171,Amoxicillin/Clavulanate,Keck,NO,40
+500,Amoxicillin/Clavulanate,Keck,NO,51
+200,Amoxicillin/Clavulanate,Keck,NO,98
+220,Amoxicillin/Clavulanate,Keck,NO,44
+731,Amoxicillin/Clavulanate,Keck,NO,97
+351,Amoxicillin/Clavulanate,Keck,NO,44
+570,Amoxicillin/Clavulanate,Keck,NO,41
+300,Amoxicillin/Clavulanate,Keck,YES,2
+671,Amoxicillin/Clavulanate,Keck,NO,97
+630,Amoxicillin/Clavulanate,Keck,YES,1
+251,Amoxicillin/Clavulanate,Keck,YES,0
+711,Amoxicillin/Clavulanate,Keck,YES,2
+321,Amoxicillin/Clavulanate,Keck,YES,0
+160,Amoxicillin/Clavulanate,Keck,NO,100
+651,Amoxicillin/Clavulanate,Keck,NO,41
+370,Amoxicillin/Clavulanate,Keck,YES,2
+550,Amoxicillin/Clavulanate,Keck,NO,40
+350,Amoxicillin/Clavulanate,Keck,NO,44
+660,Amoxicillin/Clavulanate,Keck,NO,41
+741,Amoxicillin/Clavulanate,Keck,NO,44
+750,Amoxicillin/Clavulanate,Keck,NO,40
+710,Amoxicillin/Clavulanate,Keck,NO,44
+521,Amoxicillin/Clavulanate,Keck,NO,41
+130,Amoxicillin/Clavulanate,Keck,NO,44
+320,Amoxicillin/Clavulanate,Keck,NO,40
+720,Amoxicillin/Clavulanate,Keck,NO,44
+611,Amoxicillin/Clavulanate,Keck,NO,41
+540,Amoxicillin/Clavulanate,Keck,NO,44
+730,Amoxicillin/Clavulanate,Keck,NO,40
+631,Amoxicillin/Clavulanate,Keck,YES,1
+230,Amoxicillin/Clavulanate,Keck,NO,98
+621,Amoxicillin/Clavulanate,Keck,NO,44
+341,Amoxicillin/Clavulanate,Keck,NO,40
+330,Amoxicillin/Clavulanate,Keck,NO,44
+240,Amoxicillin/Clavulanate,Keck,NO,41
+221,Amoxicillin/Clavulanate,Keck,NO,44
+121,Amoxicillin/Clavulanate,Keck,NO,40
+641,Amoxicillin/Clavulanate,Keck,NO,44
+20,Amoxicillin/Clavulanate,Keck,NO,41
+400,Amoxicillin/Clavulanate,Keck,NO,44
+331,Amoxicillin/Clavulanate,Keck,NO,40
+650,Amoxicillin/Clavulanate,Keck,NO,44
+770,Amoxicillin/Clavulanate,Keck,NO,41
+610,Amoxicillin/Clavulanate,Keck,NO,44
+161,Amoxicillin/Clavulanate,Keck,NO,40
+600,Amoxicillin/Clavulanate,Keck,NO,44
+E. coli,Cephalexin,Keck,NO,22
+561,Cephalexin,Keck,NO,53
+620,Cephalexin,Keck,YES,7
+571,Cephalexin,Keck,YES,12
+271,Cephalexin,Keck,YES,15
+530,Cephalexin,Keck,YES,2
+760,Cephalexin,Keck,YES,10
+361,Cephalexin,Keck,NO,61
+771,Cephalexin,Keck,NO,48
+560,Cephalexin,Keck,YES,2
+360,Cephalexin,Keck,YES,0
+761,Cephalexin,Keck,YES,15
+751,Cephalexin,Keck,YES,0
+721,Cephalexin,Keck,YES,2
+371,Cephalexin,Keck,NO,37
+531,Cephalexin,Keck,YES,1
+131,Cephalexin,Keck,NO,22
+661,Cephalexin,Keck,YES,2
+511,Cephalexin,Keck,NO,21
+261,Cephalexin,Keck,YES,1
+551,Cephalexin,Keck,NO,22
+520,Cephalexin,Keck,NO,26
+700,Cephalexin,Keck,NO,47
+231,Cephalexin,Keck,NO,34
+260,Cephalexin,Keck,YES,0
+510,Cephalexin,Keck,YES,2
+171,Cephalexin,Keck,NO,21
+500,Cephalexin,Keck,YES,1
+200,Cephalexin,Keck,YES,0
+220,Cephalexin,Keck,NO,26
+731,Cephalexin,Keck,YES,0
+351,Cephalexin,Keck,NO,25
+570,Cephalexin,Keck,NO,22
+300,Cephalexin,Keck,YES,2
+671,Cephalexin,Keck,YES,0
+630,Cephalexin,Keck,YES,1
+251,Cephalexin,Keck,YES,0
+711,Cephalexin,Keck,YES,2
+321,Cephalexin,Keck,YES,0
+160,Cephalexin,Keck,YES,1
+651,Cephalexin,Keck,NO,22
+370,Cephalexin,Keck,NO,100
+550,Cephalexin,Keck,NO,21
+350,Cephalexin,Keck,NO,25
+660,Cephalexin,Keck,NO,22
+741,Cephalexin,Keck,NO,26
+750,Cephalexin,Keck,NO,21
+710,Cephalexin,Keck,NO,25
+521,Cephalexin,Keck,NO,22
+130,Cephalexin,Keck,NO,26
+320,Cephalexin,Keck,NO,21
+720,Cephalexin,Keck,NO,25
+611,Cephalexin,Keck,NO,22
+540,Cephalexin,Keck,NO,26
+730,Cephalexin,Keck,NO,21
+631,Cephalexin,Keck,YES,1
+230,Cephalexin,Keck,YES,0
+621,Cephalexin,Keck,NO,26
+341,Cephalexin,Keck,NO,21
+330,Cephalexin,Keck,NO,25
+240,Cephalexin,Keck,NO,22
+221,Cephalexin,Keck,NO,26
+121,Cephalexin,Keck,NO,21
+641,Cephalexin,Keck,NO,25
+20,Cephalexin,Keck,NO,22
+400,Cephalexin,Keck,NO,26
+331,Cephalexin,Keck,NO,21
+650,Cephalexin,Keck,NO,25
+770,Cephalexin,Keck,NO,22
+610,Cephalexin,Keck,NO,26
+161,Cephalexin,Keck,NO,21
+600,Cephalexin,Keck,NO,25
+E. coli,Ceftazidime,Keck,YES,18
+561,Ceftazidime,Keck,NO,47
+620,Ceftazidime,Keck,YES,0
+571,Ceftazidime,Keck,YES,12
+271,Ceftazidime,Keck,YES,15
+530,Ceftazidime,Keck,YES,2
+760,Ceftazidime,Keck,YES,10
+361,Ceftazidime,Keck,NO,41
+771,Ceftazidime,Keck,NO,23
+560,Ceftazidime,Keck,YES,2
+360,Ceftazidime,Keck,NO,30
+761,Ceftazidime,Keck,YES,15
+751,Ceftazidime,Keck,YES,0
+721,Ceftazidime,Keck,YES,2
+371,Ceftazidime,Keck,NO,37
+531,Ceftazidime,Keck,YES,1
+131,Ceftazidime,Keck,YES,18
+661,Ceftazidime,Keck,YES,2
+511,Ceftazidime,Keck,YES,17
+261,Ceftazidime,Keck,YES,1
+551,Ceftazidime,Keck,YES,18
+520,Ceftazidime,Keck,NO,21
+700,Ceftazidime,Keck,NO,47
+231,Ceftazidime,Keck,NO,34
+260,Ceftazidime,Keck,YES,0
+510,Ceftazidime,Keck,YES,2
+171,Ceftazidime,Keck,YES,17
+500,Ceftazidime,Keck,YES,1
+200,Ceftazidime,Keck,YES,0
+220,Ceftazidime,Keck,NO,21
+731,Ceftazidime,Keck,YES,0
+351,Ceftazidime,Keck,NO,21
+570,Ceftazidime,Keck,YES,18
+300,Ceftazidime,Keck,YES,2
+671,Ceftazidime,Keck,YES,0
+630,Ceftazidime,Keck,YES,1
+251,Ceftazidime,Keck,YES,0
+711,Ceftazidime,Keck,YES,2
+321,Ceftazidime,Keck,YES,0
+160,Ceftazidime,Keck,YES,1
+651,Ceftazidime,Keck,YES,18
+370,Ceftazidime,Keck,NO,100
+550,Ceftazidime,Keck,YES,17
+350,Ceftazidime,Keck,NO,21
+660,Ceftazidime,Keck,YES,18
+741,Ceftazidime,Keck,NO,21
+750,Ceftazidime,Keck,YES,17
+710,Ceftazidime,Keck,NO,21
+521,Ceftazidime,Keck,YES,18
+130,Ceftazidime,Keck,NO,21
+320,Ceftazidime,Keck,YES,17
+720,Ceftazidime,Keck,NO,21
+611,Ceftazidime,Keck,YES,18
+540,Ceftazidime,Keck,NO,21
+730,Ceftazidime,Keck,YES,17
+631,Ceftazidime,Keck,YES,1
+230,Ceftazidime,Keck,YES,0
+621,Ceftazidime,Keck,NO,21
+341,Ceftazidime,Keck,YES,17
+330,Ceftazidime,Keck,NO,21
+240,Ceftazidime,Keck,YES,18
+221,Ceftazidime,Keck,NO,21
+121,Ceftazidime,Keck,YES,17
+641,Ceftazidime,Keck,NO,21
+20,Ceftazidime,Keck,YES,18
+400,Ceftazidime,Keck,NO,21
+331,Ceftazidime,Keck,YES,17
+650,Ceftazidime,Keck,NO,21
+770,Ceftazidime,Keck,YES,18
+610,Ceftazidime,Keck,NO,21
+161,Ceftazidime,Keck,YES,17
+600,Ceftazidime,Keck,NO,21
+E. coli,ESBL,Keck,YES,10
+561,ESBL,Keck,NO,41
+620,ESBL,Keck,YES,0
+571,ESBL,Keck,YES,1
+271,ESBL,Keck,YES,15
+530,ESBL,Keck,YES,2
+760,ESBL,Keck,YES,0
+361,ESBL,Keck,YES,1
+771,ESBL,Keck,NO,23
+560,ESBL,Keck,YES,2
+360,ESBL,Keck,YES,0
+761,ESBL,Keck,YES,1
+751,ESBL,Keck,YES,0
+721,ESBL,Keck,YES,2
+371,ESBL,Keck,NO,37
+531,ESBL,Keck,YES,1
+131,ESBL,Keck,YES,10
+661,ESBL,Keck,YES,2
+511,ESBL,Keck,YES,9
+261,ESBL,Keck,YES,1
+551,ESBL,Keck,YES,10
+520,ESBL,Keck,YES,14
+700,ESBL,Keck,NO,47
+231,ESBL,Keck,YES,1
+260,ESBL,Keck,YES,0
+510,ESBL,Keck,YES,2
+171,ESBL,Keck,YES,9
+500,ESBL,Keck,YES,1
+200,ESBL,Keck,YES,0
+220,ESBL,Keck,YES,14
+731,ESBL,Keck,YES,0
+351,ESBL,Keck,YES,13
+570,ESBL,Keck,YES,10
+300,ESBL,Keck,YES,2
+671,ESBL,Keck,YES,0
+630,ESBL,Keck,YES,1
+251,ESBL,Keck,YES,0
+711,ESBL,Keck,YES,2
+321,ESBL,Keck,YES,0
+160,ESBL,Keck,YES,1
+651,ESBL,Keck,YES,10
+370,ESBL,Keck,YES,2
+550,ESBL,Keck,YES,9
+350,ESBL,Keck,YES,13
+660,ESBL,Keck,YES,10
+741,ESBL,Keck,YES,14
+750,ESBL,Keck,YES,9
+710,ESBL,Keck,YES,13
+521,ESBL,Keck,YES,10
+130,ESBL,Keck,YES,14
+320,ESBL,Keck,YES,9
+720,ESBL,Keck,YES,13
+611,ESBL,Keck,YES,10
+540,ESBL,Keck,YES,14
+730,ESBL,Keck,YES,9
+631,ESBL,Keck,YES,1
+230,ESBL,Keck,YES,0
+621,ESBL,Keck,YES,14
+341,ESBL,Keck,YES,9
+330,ESBL,Keck,YES,13
+240,ESBL,Keck,YES,10
+221,ESBL,Keck,YES,14
+121,ESBL,Keck,YES,9
+641,ESBL,Keck,YES,13
+20,ESBL,Keck,YES,10
+400,ESBL,Keck,YES,14
+331,ESBL,Keck,YES,9
+650,ESBL,Keck,YES,13
+770,ESBL,Keck,YES,10
+610,ESBL,Keck,YES,14
+161,ESBL,Keck,YES,9
+600,ESBL,Keck,YES,13
+E. coli,Trimethoprim/Sulfamethoxazole,Keck,NO,49
+561,Trimethoprim/Sulfamethoxazole,Keck,NO,77
+620,Trimethoprim/Sulfamethoxazole,Keck,YES,17
+571,Trimethoprim/Sulfamethoxazole,Keck,NO,57
+271,Trimethoprim/Sulfamethoxazole,Keck,NO,98
+530,Trimethoprim/Sulfamethoxazole,Keck,YES,20
+760,Trimethoprim/Sulfamethoxazole,Keck,YES,10
+361,Trimethoprim/Sulfamethoxazole,Keck,NO,21
+771,Trimethoprim/Sulfamethoxazole,Keck,NO,48
+560,Trimethoprim/Sulfamethoxazole,Keck,NO,52
+360,Trimethoprim/Sulfamethoxazole,Keck,YES,0
+761,Trimethoprim/Sulfamethoxazole,Keck,NO,72
+751,Trimethoprim/Sulfamethoxazole,Keck,NO,23
+721,Trimethoprim/Sulfamethoxazole,Keck,NO,22
+371,Trimethoprim/Sulfamethoxazole,Keck,NO,77
+531,Trimethoprim/Sulfamethoxazole,Keck,YES,1
+131,Trimethoprim/Sulfamethoxazole,Keck,NO,49
+661,Trimethoprim/Sulfamethoxazole,Keck,YES,2
+511,Trimethoprim/Sulfamethoxazole,Keck,NO,48
+261,Trimethoprim/Sulfamethoxazole,Keck,YES,1
+551,Trimethoprim/Sulfamethoxazole,Keck,NO,49
+520,Trimethoprim/Sulfamethoxazole,Keck,NO,53
+700,Trimethoprim/Sulfamethoxazole,Keck,NO,97
+231,Trimethoprim/Sulfamethoxazole,Keck,NO,68
+260,Trimethoprim/Sulfamethoxazole,Keck,NO,98
+510,Trimethoprim/Sulfamethoxazole,Keck,YES,2
+171,Trimethoprim/Sulfamethoxazole,Keck,NO,48
+500,Trimethoprim/Sulfamethoxazole,Keck,NO,100
+200,Trimethoprim/Sulfamethoxazole,Keck,NO,98
+220,Trimethoprim/Sulfamethoxazole,Keck,NO,53
+731,Trimethoprim/Sulfamethoxazole,Keck,YES,0
+351,Trimethoprim/Sulfamethoxazole,Keck,NO,52
+570,Trimethoprim/Sulfamethoxazole,Keck,NO,49
+300,Trimethoprim/Sulfamethoxazole,Keck,NO,100
+671,Trimethoprim/Sulfamethoxazole,Keck,NO,97
+630,Trimethoprim/Sulfamethoxazole,Keck,YES,1
+251,Trimethoprim/Sulfamethoxazole,Keck,NO,98
+711,Trimethoprim/Sulfamethoxazole,Keck,YES,2
+321,Trimethoprim/Sulfamethoxazole,Keck,YES,0
+160,Trimethoprim/Sulfamethoxazole,Keck,NO,100
+651,Trimethoprim/Sulfamethoxazole,Keck,NO,49
+370,Trimethoprim/Sulfamethoxazole,Keck,NO,100
+550,Trimethoprim/Sulfamethoxazole,Keck,NO,48
+350,Trimethoprim/Sulfamethoxazole,Keck,NO,52
+660,Trimethoprim/Sulfamethoxazole,Keck,NO,49
+741,Trimethoprim/Sulfamethoxazole,Keck,NO,53
+750,Trimethoprim/Sulfamethoxazole,Keck,NO,48
+710,Trimethoprim/Sulfamethoxazole,Keck,NO,52
+521,Trimethoprim/Sulfamethoxazole,Keck,NO,49
+130,Trimethoprim/Sulfamethoxazole,Keck,NO,53
+320,Trimethoprim/Sulfamethoxazole,Keck,NO,48
+720,Trimethoprim/Sulfamethoxazole,Keck,NO,52
+611,Trimethoprim/Sulfamethoxazole,Keck,NO,49
+540,Trimethoprim/Sulfamethoxazole,Keck,NO,53
+730,Trimethoprim/Sulfamethoxazole,Keck,NO,48
+631,Trimethoprim/Sulfamethoxazole,Keck,YES,1
+230,Trimethoprim/Sulfamethoxazole,Keck,NO,98
+621,Trimethoprim/Sulfamethoxazole,Keck,NO,53
+341,Trimethoprim/Sulfamethoxazole,Keck,NO,48
+330,Trimethoprim/Sulfamethoxazole,Keck,NO,52
+240,Trimethoprim/Sulfamethoxazole,Keck,NO,49
+221,Trimethoprim/Sulfamethoxazole,Keck,NO,53
+121,Trimethoprim/Sulfamethoxazole,Keck,NO,48
+641,Trimethoprim/Sulfamethoxazole,Keck,NO,52
+20,Trimethoprim/Sulfamethoxazole,Keck,NO,49
+400,Trimethoprim/Sulfamethoxazole,Keck,NO,53
+331,Trimethoprim/Sulfamethoxazole,Keck,NO,48
+650,Trimethoprim/Sulfamethoxazole,Keck,NO,52
+770,Trimethoprim/Sulfamethoxazole,Keck,NO,49
+610,Trimethoprim/Sulfamethoxazole,Keck,NO,53
+161,Trimethoprim/Sulfamethoxazole,Keck,NO,48
+600,Trimethoprim/Sulfamethoxazole,Keck,NO,52
+E. coli,Ciprofloxacin,Keck,NO,44
+561,Ciprofloxacin,Keck,NO,92
+620,Ciprofloxacin,Keck,YES,7
+571,Ciprofloxacin,Keck,NO,100
+271,Ciprofloxacin,Keck,NO,48
+530,Ciprofloxacin,Keck,YES,20
+760,Ciprofloxacin,Keck,YES,10
+361,Ciprofloxacin,Keck,NO,41
+771,Ciprofloxacin,Keck,NO,23
+560,Ciprofloxacin,Keck,YES,2
+360,Ciprofloxacin,Keck,YES,0
+761,Ciprofloxacin,Keck,NO,44
+751,Ciprofloxacin,Keck,NO,23
+721,Ciprofloxacin,Keck,NO,22
+371,Ciprofloxacin,Keck,NO,97
+531,Ciprofloxacin,Keck,YES,1
+131,Ciprofloxacin,Keck,NO,44
+661,Ciprofloxacin,Keck,YES,2
+511,Ciprofloxacin,Keck,NO,43
+261,Ciprofloxacin,Keck,YES,1
+551,Ciprofloxacin,Keck,NO,44
+520,Ciprofloxacin,Keck,NO,47
+700,Ciprofloxacin,Keck,NO,97
+231,Ciprofloxacin,Keck,NO,68
+260,Ciprofloxacin,Keck,NO,31
+510,Ciprofloxacin,Keck,YES,2
+171,Ciprofloxacin,Keck,NO,43
+500,Ciprofloxacin,Keck,YES,1
+200,Ciprofloxacin,Keck,YES,0
+220,Ciprofloxacin,Keck,NO,47
+731,Ciprofloxacin,Keck,YES,0
+351,Ciprofloxacin,Keck,NO,47
+570,Ciprofloxacin,Keck,NO,44
+300,Ciprofloxacin,Keck,YES,2
+671,Ciprofloxacin,Keck,YES,0
+630,Ciprofloxacin,Keck,YES,1
+251,Ciprofloxacin,Keck,YES,0
+711,Ciprofloxacin,Keck,YES,2
+321,Ciprofloxacin,Keck,YES,0
+160,Ciprofloxacin,Keck,YES,1
+651,Ciprofloxacin,Keck,NO,44
+370,Ciprofloxacin,Keck,NO,100
+550,Ciprofloxacin,Keck,NO,43
+350,Ciprofloxacin,Keck,NO,47
+660,Ciprofloxacin,Keck,NO,44
+741,Ciprofloxacin,Keck,NO,47
+750,Ciprofloxacin,Keck,NO,43
+710,Ciprofloxacin,Keck,NO,47
+521,Ciprofloxacin,Keck,NO,44
+130,Ciprofloxacin,Keck,NO,47
+320,Ciprofloxacin,Keck,NO,43
+720,Ciprofloxacin,Keck,NO,47
+611,Ciprofloxacin,Keck,NO,44
+540,Ciprofloxacin,Keck,NO,47
+730,Ciprofloxacin,Keck,NO,43
+631,Ciprofloxacin,Keck,YES,1
+230,Ciprofloxacin,Keck,YES,0
+621,Ciprofloxacin,Keck,NO,47
+341,Ciprofloxacin,Keck,NO,43
+330,Ciprofloxacin,Keck,NO,47
+240,Ciprofloxacin,Keck,NO,44
+221,Ciprofloxacin,Keck,NO,47
+121,Ciprofloxacin,Keck,NO,43
+641,Ciprofloxacin,Keck,NO,47
+20,Ciprofloxacin,Keck,NO,44
+400,Ciprofloxacin,Keck,NO,47
+331,Ciprofloxacin,Keck,NO,43
+650,Ciprofloxacin,Keck,NO,47
+770,Ciprofloxacin,Keck,NO,44
+610,Ciprofloxacin,Keck,NO,47
+161,Ciprofloxacin,Keck,NO,43
+600,Ciprofloxacin,Keck,NO,47
+E. coli,Nitrofurantoin,Keck,YES,16
+561,Nitrofurantoin,Keck,YES,17
+620,Nitrofurantoin,Keck,NO,27
+571,Nitrofurantoin,Keck,NO,23
+271,Nitrofurantoin,Keck,YES,15
+530,Nitrofurantoin,Keck,YES,11
+760,Nitrofurantoin,Keck,YES,10
+361,Nitrofurantoin,Keck,NO,61
+771,Nitrofurantoin,Keck,NO,23
+560,Nitrofurantoin,Keck,YES,2
+360,Nitrofurantoin,Keck,NO,30
+761,Nitrofurantoin,Keck,YES,15
+751,Nitrofurantoin,Keck,YES,0
+721,Nitrofurantoin,Keck,YES,2
+371,Nitrofurantoin,Keck,NO,37
+531,Nitrofurantoin,Keck,YES,1
+131,Nitrofurantoin,Keck,YES,16
+661,Nitrofurantoin,Keck,YES,2
+511,Nitrofurantoin,Keck,YES,15
+261,Nitrofurantoin,Keck,YES,1
+551,Nitrofurantoin,Keck,YES,16
+520,Nitrofurantoin,Keck,YES,20
+700,Nitrofurantoin,Keck,NO,47
+231,Nitrofurantoin,Keck,YES,1
+260,Nitrofurantoin,Keck,NO,31
+510,Nitrofurantoin,Keck,YES,2
+171,Nitrofurantoin,Keck,YES,15
+500,Nitrofurantoin,Keck,YES,1
+200,Nitrofurantoin,Keck,NO,98
+220,Nitrofurantoin,Keck,YES,20
+731,Nitrofurantoin,Keck,NO,97
+351,Nitrofurantoin,Keck,YES,19
+570,Nitrofurantoin,Keck,YES,16
+300,Nitrofurantoin,Keck,YES,2
+671,Nitrofurantoin,Keck,YES,0
+630,Nitrofurantoin,Keck,YES,1
+251,Nitrofurantoin,Keck,YES,0
+711,Nitrofurantoin,Keck,YES,2
+321,Nitrofurantoin,Keck,YES,0
+160,Nitrofurantoin,Keck,YES,1
+651,Nitrofurantoin,Keck,YES,16
+370,Nitrofurantoin,Keck,YES,2
+550,Nitrofurantoin,Keck,YES,15
+350,Nitrofurantoin,Keck,YES,19
+660,Nitrofurantoin,Keck,YES,16
+741,Nitrofurantoin,Keck,YES,20
+750,Nitrofurantoin,Keck,YES,15
+710,Nitrofurantoin,Keck,YES,19
+521,Nitrofurantoin,Keck,YES,16
+130,Nitrofurantoin,Keck,YES,20
+320,Nitrofurantoin,Keck,YES,15
+720,Nitrofurantoin,Keck,YES,19
+611,Nitrofurantoin,Keck,YES,16
+540,Nitrofurantoin,Keck,YES,20
+730,Nitrofurantoin,Keck,YES,15
+631,Nitrofurantoin,Keck,YES,1
+230,Nitrofurantoin,Keck,YES,0
+621,Nitrofurantoin,Keck,YES,20
+341,Nitrofurantoin,Keck,YES,15
+330,Nitrofurantoin,Keck,YES,19
+240,Nitrofurantoin,Keck,YES,16
+221,Nitrofurantoin,Keck,YES,20
+121,Nitrofurantoin,Keck,YES,15
+641,Nitrofurantoin,Keck,YES,19
+20,Nitrofurantoin,Keck,YES,16
+400,Nitrofurantoin,Keck,YES,20
+331,Nitrofurantoin,Keck,YES,15
+650,Nitrofurantoin,Keck,YES,19
+770,Nitrofurantoin,Keck,YES,16
+610,Nitrofurantoin,Keck,YES,20
+161,Nitrofurantoin,Keck,YES,15
+600,Nitrofurantoin,Keck,YES,19
+E. coli,Ampicillin,LA County,NO,73
+561,Ampicillin,LA County,NO,88
+620,Ampicillin,LA County,NO,57
+571,Ampicillin,LA County,NO,94
+271,Ampicillin,LA County,NO,91
+530,Ampicillin,LA County,YES,2
+760,Ampicillin,LA County,NO,57
+361,Ampicillin,LA County,NO,71
+771,Ampicillin,LA County,NO,31
+560,Ampicillin,LA County,NO,68
+360,Ampicillin,LA County,NO,47
+761,Ampicillin,LA County,YES,1
+751,Ampicillin,LA County,NO,61
+721,Ampicillin,LA County,YES,2
+371,Ampicillin,LA County,NO,97
+531,Ampicillin,LA County,NO,51
+131,Ampicillin,LA County,NO,73
+661,Ampicillin,LA County,NO,76
+511,Ampicillin,LA County,NO,97
+261,Ampicillin,LA County,NO,100
+551,Ampicillin,LA County,NO,98
+520,Ampicillin,LA County,NO,76
+700,Ampicillin,LA County,NO,97
+231,Ampicillin,LA County,NO,100
+260,Ampicillin,LA County,NO,48
+510,Ampicillin,LA County,NO,76
+171,Ampicillin,LA County,YES,0
+500,Ampicillin,LA County,NO,100
+200,Ampicillin,LA County,NO,98
+220,Ampicillin,LA County,NO,76
+731,Ampicillin,LA County,NO,72
+351,Ampicillin,LA County,NO,76
+570,Ampicillin,LA County,NO,98
+300,Ampicillin,LA County,NO,76
+671,Ampicillin,LA County,NO,72
+630,Ampicillin,LA County,NO,76
+251,Ampicillin,LA County,NO,98
+711,Ampicillin,LA County,NO,76
+321,Ampicillin,LA County,NO,72
+160,Ampicillin,LA County,NO,76
+651,Ampicillin,LA County,NO,73
+370,Ampicillin,LA County,NO,76
+550,Ampicillin,LA County,NO,72
+350,Ampicillin,LA County,NO,76
+660,Ampicillin,LA County,NO,73
+741,Ampicillin,LA County,YES,2
+750,Ampicillin,LA County,NO,97
+710,Ampicillin,LA County,NO,76
+521,Ampicillin,LA County,NO,73
+130,Ampicillin,LA County,NO,76
+320,Ampicillin,LA County,NO,72
+720,Ampicillin,LA County,NO,76
+611,Ampicillin,LA County,NO,73
+540,Ampicillin,LA County,NO,100
+730,Ampicillin,LA County,NO,72
+631,Ampicillin,LA County,NO,76
+230,Ampicillin,LA County,NO,73
+621,Ampicillin,LA County,NO,76
+341,Ampicillin,LA County,NO,72
+330,Ampicillin,LA County,NO,76
+240,Ampicillin,LA County,NO,73
+221,Ampicillin,LA County,NO,76
+121,Ampicillin,LA County,NO,72
+641,Ampicillin,LA County,NO,76
+20,Ampicillin,LA County,NO,73
+400,Ampicillin,LA County,NO,76
+331,Ampicillin,LA County,NO,72
+650,Ampicillin,LA County,NO,76
+770,Ampicillin,LA County,NO,73
+610,Ampicillin,LA County,NO,76
+161,Ampicillin,LA County,NO,72
+600,Ampicillin,LA County,NO,76
+E. coli,Amoxicillin/Clavulanate,LA County,NO,39
+561,Amoxicillin/Clavulanate,LA County,NO,88
+620,Amoxicillin/Clavulanate,LA County,NO,37
+571,Amoxicillin/Clavulanate,LA County,NO,37
+271,Amoxicillin/Clavulanate,LA County,NO,31
+530,Amoxicillin/Clavulanate,LA County,YES,2
+760,Amoxicillin/Clavulanate,LA County,YES,0
+361,Amoxicillin/Clavulanate,LA County,NO,61
+771,Amoxicillin/Clavulanate,LA County,YES,0
+560,Amoxicillin/Clavulanate,LA County,YES,18
+360,Amoxicillin/Clavulanate,LA County,YES,0
+761,Amoxicillin/Clavulanate,LA County,YES,1
+751,Amoxicillin/Clavulanate,LA County,NO,36
+721,Amoxicillin/Clavulanate,LA County,YES,2
+371,Amoxicillin/Clavulanate,LA County,NO,97
+531,Amoxicillin/Clavulanate,LA County,NO,51
+131,Amoxicillin/Clavulanate,LA County,NO,39
+661,Amoxicillin/Clavulanate,LA County,NO,43
+511,Amoxicillin/Clavulanate,LA County,YES,0
+261,Amoxicillin/Clavulanate,LA County,NO,34
+551,Amoxicillin/Clavulanate,LA County,YES,0
+520,Amoxicillin/Clavulanate,LA County,NO,43
+700,Amoxicillin/Clavulanate,LA County,NO,97
+231,Amoxicillin/Clavulanate,LA County,NO,100
+260,Amoxicillin/Clavulanate,LA County,YES,0
+510,Amoxicillin/Clavulanate,LA County,NO,43
+171,Amoxicillin/Clavulanate,LA County,YES,0
+500,Amoxicillin/Clavulanate,LA County,NO,68
+200,Amoxicillin/Clavulanate,LA County,YES,0
+220,Amoxicillin/Clavulanate,LA County,NO,43
+731,Amoxicillin/Clavulanate,LA County,NO,38
+351,Amoxicillin/Clavulanate,LA County,NO,42
+570,Amoxicillin/Clavulanate,LA County,YES,0
+300,Amoxicillin/Clavulanate,LA County,NO,43
+671,Amoxicillin/Clavulanate,LA County,NO,38
+630,Amoxicillin/Clavulanate,LA County,NO,42
+251,Amoxicillin/Clavulanate,LA County,YES,0
+711,Amoxicillin/Clavulanate,LA County,NO,43
+321,Amoxicillin/Clavulanate,LA County,NO,38
+160,Amoxicillin/Clavulanate,LA County,NO,42
+651,Amoxicillin/Clavulanate,LA County,NO,39
+370,Amoxicillin/Clavulanate,LA County,NO,43
+550,Amoxicillin/Clavulanate,LA County,NO,38
+350,Amoxicillin/Clavulanate,LA County,NO,42
+660,Amoxicillin/Clavulanate,LA County,NO,39
+741,Amoxicillin/Clavulanate,LA County,YES,2
+750,Amoxicillin/Clavulanate,LA County,YES,0
+710,Amoxicillin/Clavulanate,LA County,NO,42
+521,Amoxicillin/Clavulanate,LA County,NO,39
+130,Amoxicillin/Clavulanate,LA County,NO,43
+320,Amoxicillin/Clavulanate,LA County,NO,38
+720,Amoxicillin/Clavulanate,LA County,NO,42
+611,Amoxicillin/Clavulanate,LA County,NO,39
+540,Amoxicillin/Clavulanate,LA County,YES,2
+730,Amoxicillin/Clavulanate,LA County,NO,38
+631,Amoxicillin/Clavulanate,LA County,NO,42
+230,Amoxicillin/Clavulanate,LA County,NO,39
+621,Amoxicillin/Clavulanate,LA County,NO,43
+341,Amoxicillin/Clavulanate,LA County,NO,38
+330,Amoxicillin/Clavulanate,LA County,NO,42
+240,Amoxicillin/Clavulanate,LA County,NO,39
+221,Amoxicillin/Clavulanate,LA County,NO,43
+121,Amoxicillin/Clavulanate,LA County,NO,38
+641,Amoxicillin/Clavulanate,LA County,NO,42
+20,Amoxicillin/Clavulanate,LA County,NO,39
+400,Amoxicillin/Clavulanate,LA County,NO,43
+331,Amoxicillin/Clavulanate,LA County,NO,38
+650,Amoxicillin/Clavulanate,LA County,NO,42
+770,Amoxicillin/Clavulanate,LA County,NO,39
+610,Amoxicillin/Clavulanate,LA County,NO,43
+161,Amoxicillin/Clavulanate,LA County,NO,38
+600,Amoxicillin/Clavulanate,LA County,NO,42
+E. coli,Cephalexin,LA County,NO,28
+561,Cephalexin,LA County,NO,70
+620,Cephalexin,LA County,YES,7
+571,Cephalexin,LA County,YES,8
+271,Cephalexin,LA County,YES,5
+530,Cephalexin,LA County,YES,2
+760,Cephalexin,LA County,YES,0
+361,Cephalexin,LA County,NO,51
+771,Cephalexin,LA County,YES,0
+560,Cephalexin,LA County,YES,2
+360,Cephalexin,LA County,YES,0
+761,Cephalexin,LA County,YES,1
+751,Cephalexin,LA County,NO,48
+721,Cephalexin,LA County,YES,2
+371,Cephalexin,LA County,NO,47
+531,Cephalexin,LA County,YES,1
+131,Cephalexin,LA County,NO,28
+661,Cephalexin,LA County,NO,31
+511,Cephalexin,LA County,YES,0
+261,Cephalexin,LA County,NO,34
+551,Cephalexin,LA County,NO,65
+520,Cephalexin,LA County,NO,31
+700,Cephalexin,LA County,NO,97
+231,Cephalexin,LA County,NO,34
+260,Cephalexin,LA County,YES,0
+510,Cephalexin,LA County,NO,31
+171,Cephalexin,LA County,YES,0
+500,Cephalexin,LA County,NO,34
+200,Cephalexin,LA County,NO,48
+220,Cephalexin,LA County,NO,31
+731,Cephalexin,LA County,NO,27
+351,Cephalexin,LA County,NO,31
+570,Cephalexin,LA County,YES,0
+300,Cephalexin,LA County,NO,31
+671,Cephalexin,LA County,NO,27
+630,Cephalexin,LA County,NO,31
+251,Cephalexin,LA County,NO,48
+711,Cephalexin,LA County,NO,31
+321,Cephalexin,LA County,NO,27
+160,Cephalexin,LA County,NO,31
+651,Cephalexin,LA County,NO,28
+370,Cephalexin,LA County,NO,31
+550,Cephalexin,LA County,NO,27
+350,Cephalexin,LA County,NO,31
+660,Cephalexin,LA County,NO,28
+741,Cephalexin,LA County,YES,2
+750,Cephalexin,LA County,YES,0
+710,Cephalexin,LA County,NO,31
+521,Cephalexin,LA County,NO,28
+130,Cephalexin,LA County,NO,31
+320,Cephalexin,LA County,NO,27
+720,Cephalexin,LA County,NO,31
+611,Cephalexin,LA County,NO,28
+540,Cephalexin,LA County,YES,2
+730,Cephalexin,LA County,NO,27
+631,Cephalexin,LA County,NO,31
+230,Cephalexin,LA County,NO,28
+621,Cephalexin,LA County,NO,31
+341,Cephalexin,LA County,NO,27
+330,Cephalexin,LA County,NO,31
+240,Cephalexin,LA County,NO,28
+221,Cephalexin,LA County,NO,31
+121,Cephalexin,LA County,NO,27
+641,Cephalexin,LA County,NO,31
+20,Cephalexin,LA County,NO,28
+400,Cephalexin,LA County,NO,31
+331,Cephalexin,LA County,NO,27
+650,Cephalexin,LA County,NO,31
+770,Cephalexin,LA County,NO,28
+610,Cephalexin,LA County,NO,31
+161,Cephalexin,LA County,NO,27
+600,Cephalexin,LA County,NO,31
+E. coli,Ceftazidime,LA County,NO,21
+561,Ceftazidime,LA County,NO,52
+620,Ceftazidime,LA County,YES,0
+571,Ceftazidime,LA County,YES,1
+271,Ceftazidime,LA County,YES,5
+530,Ceftazidime,LA County,YES,2
+760,Ceftazidime,LA County,YES,0
+361,Ceftazidime,LA County,NO,51
+771,Ceftazidime,LA County,YES,0
+560,Ceftazidime,LA County,YES,2
+360,Ceftazidime,LA County,YES,0
+761,Ceftazidime,LA County,YES,1
+751,Ceftazidime,LA County,NO,36
+721,Ceftazidime,LA County,YES,2
+371,Ceftazidime,LA County,NO,47
+531,Ceftazidime,LA County,YES,1
+131,Ceftazidime,LA County,NO,21
+661,Ceftazidime,LA County,NO,25
+511,Ceftazidime,LA County,YES,0
+261,Ceftazidime,LA County,YES,1
+551,Ceftazidime,LA County,NO,65
+520,Ceftazidime,LA County,NO,25
+700,Ceftazidime,LA County,NO,97
+231,Ceftazidime,LA County,NO,34
+260,Ceftazidime,LA County,YES,0
+510,Ceftazidime,LA County,NO,25
+171,Ceftazidime,LA County,YES,0
+500,Ceftazidime,LA County,YES,1
+200,Ceftazidime,LA County,NO,31
+220,Ceftazidime,LA County,NO,25
+731,Ceftazidime,LA County,NO,20
+351,Ceftazidime,LA County,NO,24
+570,Ceftazidime,LA County,YES,0
+300,Ceftazidime,LA County,NO,25
+671,Ceftazidime,LA County,NO,20
+630,Ceftazidime,LA County,NO,24
+251,Ceftazidime,LA County,NO,48
+711,Ceftazidime,LA County,NO,25
+321,Ceftazidime,LA County,NO,20
+160,Ceftazidime,LA County,NO,24
+651,Ceftazidime,LA County,NO,21
+370,Ceftazidime,LA County,NO,25
+550,Ceftazidime,LA County,NO,20
+350,Ceftazidime,LA County,NO,24
+660,Ceftazidime,LA County,NO,21
+741,Ceftazidime,LA County,YES,2
+750,Ceftazidime,LA County,YES,0
+710,Ceftazidime,LA County,NO,24
+521,Ceftazidime,LA County,NO,21
+130,Ceftazidime,LA County,NO,25
+320,Ceftazidime,LA County,NO,20
+720,Ceftazidime,LA County,NO,24
+611,Ceftazidime,LA County,NO,21
+540,Ceftazidime,LA County,YES,2
+730,Ceftazidime,LA County,NO,20
+631,Ceftazidime,LA County,NO,24
+230,Ceftazidime,LA County,NO,21
+621,Ceftazidime,LA County,NO,25
+341,Ceftazidime,LA County,NO,20
+330,Ceftazidime,LA County,NO,24
+240,Ceftazidime,LA County,NO,21
+221,Ceftazidime,LA County,NO,25
+121,Ceftazidime,LA County,NO,20
+641,Ceftazidime,LA County,NO,24
+20,Ceftazidime,LA County,NO,21
+400,Ceftazidime,LA County,NO,25
+331,Ceftazidime,LA County,NO,20
+650,Ceftazidime,LA County,NO,24
+770,Ceftazidime,LA County,NO,21
+610,Ceftazidime,LA County,NO,25
+161,Ceftazidime,LA County,NO,20
+600,Ceftazidime,LA County,NO,24
+E. coli,ESBL,LA County,YES,15
+561,ESBL,LA County,NO,42
+620,ESBL,LA County,YES,0
+571,ESBL,LA County,YES,1
+271,ESBL,LA County,YES,5
+530,ESBL,LA County,YES,2
+760,ESBL,LA County,YES,0
+361,ESBL,LA County,NO,31
+771,ESBL,LA County,YES,0
+560,ESBL,LA County,YES,2
+360,ESBL,LA County,YES,0
+761,ESBL,LA County,YES,1
+751,ESBL,LA County,NO,36
+721,ESBL,LA County,YES,2
+371,ESBL,LA County,NO,47
+531,ESBL,LA County,YES,1
+131,ESBL,LA County,YES,15
+661,ESBL,LA County,YES,19
+511,ESBL,LA County,YES,0
+261,ESBL,LA County,YES,1
+551,ESBL,LA County,NO,65
+520,ESBL,LA County,YES,19
+700,ESBL,LA County,NO,97
+231,ESBL,LA County,YES,1
+260,ESBL,LA County,YES,0
+510,ESBL,LA County,YES,19
+171,ESBL,LA County,YES,0
+500,ESBL,LA County,YES,1
+200,ESBL,LA County,NO,31
+220,ESBL,LA County,YES,19
+731,ESBL,LA County,YES,14
+351,ESBL,LA County,YES,18
+570,ESBL,LA County,YES,0
+300,ESBL,LA County,YES,19
+671,ESBL,LA County,YES,14
+630,ESBL,LA County,YES,18
+251,ESBL,LA County,NO,48
+711,ESBL,LA County,YES,19
+321,ESBL,LA County,YES,14
+160,ESBL,LA County,YES,18
+651,ESBL,LA County,YES,15
+370,ESBL,LA County,YES,19
+550,ESBL,LA County,YES,14
+350,ESBL,LA County,YES,18
+660,ESBL,LA County,YES,15
+741,ESBL,LA County,YES,2
+750,ESBL,LA County,YES,0
+710,ESBL,LA County,YES,18
+521,ESBL,LA County,YES,15
+130,ESBL,LA County,YES,19
+320,ESBL,LA County,YES,14
+720,ESBL,LA County,YES,18
+611,ESBL,LA County,YES,15
+540,ESBL,LA County,YES,2
+730,ESBL,LA County,YES,14
+631,ESBL,LA County,YES,18
+230,ESBL,LA County,YES,15
+621,ESBL,LA County,YES,19
+341,ESBL,LA County,YES,14
+330,ESBL,LA County,YES,18
+240,ESBL,LA County,YES,15
+221,ESBL,LA County,YES,19
+121,ESBL,LA County,YES,14
+641,ESBL,LA County,YES,18
+20,ESBL,LA County,YES,15
+400,ESBL,LA County,YES,19
+331,ESBL,LA County,YES,14
+650,ESBL,LA County,YES,18
+770,ESBL,LA County,YES,15
+610,ESBL,LA County,YES,19
+161,ESBL,LA County,YES,14
+600,ESBL,LA County,YES,18
+E. coli,Trimethoprim/Sulfamethoxazole,LA County,NO,47
+561,Trimethoprim/Sulfamethoxazole,LA County,NO,52
+620,Trimethoprim/Sulfamethoxazole,LA County,YES,17
+571,Trimethoprim/Sulfamethoxazole,LA County,NO,72
+271,Trimethoprim/Sulfamethoxazole,LA County,NO,78
+530,Trimethoprim/Sulfamethoxazole,LA County,YES,2
+760,Trimethoprim/Sulfamethoxazole,LA County,YES,0
+361,Trimethoprim/Sulfamethoxazole,LA County,NO,21
+771,Trimethoprim/Sulfamethoxazole,LA County,NO,98
+560,Trimethoprim/Sulfamethoxazole,LA County,YES,18
+360,Trimethoprim/Sulfamethoxazole,LA County,NO,47
+761,Trimethoprim/Sulfamethoxazole,LA County,NO,51
+751,Trimethoprim/Sulfamethoxazole,LA County,NO,73
+721,Trimethoprim/Sulfamethoxazole,LA County,YES,2
+371,Trimethoprim/Sulfamethoxazole,LA County,NO,72
+531,Trimethoprim/Sulfamethoxazole,LA County,YES,1
+131,Trimethoprim/Sulfamethoxazole,LA County,NO,47
+661,Trimethoprim/Sulfamethoxazole,LA County,NO,50
+511,Trimethoprim/Sulfamethoxazole,LA County,YES,0
+261,Trimethoprim/Sulfamethoxazole,LA County,NO,68
+551,Trimethoprim/Sulfamethoxazole,LA County,NO,31
+520,Trimethoprim/Sulfamethoxazole,LA County,NO,50
+700,Trimethoprim/Sulfamethoxazole,LA County,NO,97
+231,Trimethoprim/Sulfamethoxazole,LA County,NO,34
+260,Trimethoprim/Sulfamethoxazole,LA County,NO,48
+510,Trimethoprim/Sulfamethoxazole,LA County,NO,50
+171,Trimethoprim/Sulfamethoxazole,LA County,YES,0
+500,Trimethoprim/Sulfamethoxazole,LA County,NO,100
+200,Trimethoprim/Sulfamethoxazole,LA County,NO,31
+220,Trimethoprim/Sulfamethoxazole,LA County,NO,50
+731,Trimethoprim/Sulfamethoxazole,LA County,NO,46
+351,Trimethoprim/Sulfamethoxazole,LA County,NO,50
+570,Trimethoprim/Sulfamethoxazole,LA County,YES,0
+300,Trimethoprim/Sulfamethoxazole,LA County,NO,50
+671,Trimethoprim/Sulfamethoxazole,LA County,NO,46
+630,Trimethoprim/Sulfamethoxazole,LA County,NO,50
+251,Trimethoprim/Sulfamethoxazole,LA County,NO,98
+711,Trimethoprim/Sulfamethoxazole,LA County,NO,50
+321,Trimethoprim/Sulfamethoxazole,LA County,NO,46
+160,Trimethoprim/Sulfamethoxazole,LA County,NO,50
+651,Trimethoprim/Sulfamethoxazole,LA County,NO,47
+370,Trimethoprim/Sulfamethoxazole,LA County,NO,50
+550,Trimethoprim/Sulfamethoxazole,LA County,NO,46
+350,Trimethoprim/Sulfamethoxazole,LA County,NO,50
+660,Trimethoprim/Sulfamethoxazole,LA County,NO,47
+741,Trimethoprim/Sulfamethoxazole,LA County,YES,2
+750,Trimethoprim/Sulfamethoxazole,LA County,YES,0
+710,Trimethoprim/Sulfamethoxazole,LA County,NO,50
+521,Trimethoprim/Sulfamethoxazole,LA County,NO,47
+130,Trimethoprim/Sulfamethoxazole,LA County,NO,50
+320,Trimethoprim/Sulfamethoxazole,LA County,NO,46
+720,Trimethoprim/Sulfamethoxazole,LA County,NO,50
+611,Trimethoprim/Sulfamethoxazole,LA County,NO,47
+540,Trimethoprim/Sulfamethoxazole,LA County,NO,100
+730,Trimethoprim/Sulfamethoxazole,LA County,NO,46
+631,Trimethoprim/Sulfamethoxazole,LA County,NO,50
+230,Trimethoprim/Sulfamethoxazole,LA County,NO,47
+621,Trimethoprim/Sulfamethoxazole,LA County,NO,50
+341,Trimethoprim/Sulfamethoxazole,LA County,NO,46
+330,Trimethoprim/Sulfamethoxazole,LA County,NO,50
+240,Trimethoprim/Sulfamethoxazole,LA County,NO,47
+221,Trimethoprim/Sulfamethoxazole,LA County,NO,50
+121,Trimethoprim/Sulfamethoxazole,LA County,NO,46
+641,Trimethoprim/Sulfamethoxazole,LA County,NO,50
+20,Trimethoprim/Sulfamethoxazole,LA County,NO,47
+400,Trimethoprim/Sulfamethoxazole,LA County,NO,50
+331,Trimethoprim/Sulfamethoxazole,LA County,NO,46
+650,Trimethoprim/Sulfamethoxazole,LA County,NO,50
+770,Trimethoprim/Sulfamethoxazole,LA County,NO,47
+610,Trimethoprim/Sulfamethoxazole,LA County,NO,50
+161,Trimethoprim/Sulfamethoxazole,LA County,NO,46
+600,Trimethoprim/Sulfamethoxazole,LA County,NO,50
+E. coli,Ciprofloxacin,LA County,NO,38
+561,Ciprofloxacin,LA County,NO,92
+620,Ciprofloxacin,LA County,YES,7
+571,Ciprofloxacin,LA County,NO,72
+271,Ciprofloxacin,LA County,NO,25
+530,Ciprofloxacin,LA County,YES,2
+760,Ciprofloxacin,LA County,YES,0
+361,Ciprofloxacin,LA County,YES,11
+771,Ciprofloxacin,LA County,YES,0
+560,Ciprofloxacin,LA County,NO,35
+360,Ciprofloxacin,LA County,YES,0
+761,Ciprofloxacin,LA County,YES,1
+751,Ciprofloxacin,LA County,NO,86
+721,Ciprofloxacin,LA County,YES,2
+371,Ciprofloxacin,LA County,NO,72
+531,Ciprofloxacin,LA County,YES,1
+131,Ciprofloxacin,LA County,NO,38
+661,Ciprofloxacin,LA County,NO,42
+511,Ciprofloxacin,LA County,YES,0
+261,Ciprofloxacin,LA County,YES,1
+551,Ciprofloxacin,LA County,NO,65
+520,Ciprofloxacin,LA County,NO,42
+700,Ciprofloxacin,LA County,NO,97
+231,Ciprofloxacin,LA County,NO,34
+260,Ciprofloxacin,LA County,YES,0
+510,Ciprofloxacin,LA County,NO,42
+171,Ciprofloxacin,LA County,YES,0
+500,Ciprofloxacin,LA County,YES,1
+200,Ciprofloxacin,LA County,NO,31
+220,Ciprofloxacin,LA County,NO,42
+731,Ciprofloxacin,LA County,NO,37
+351,Ciprofloxacin,LA County,NO,41
+570,Ciprofloxacin,LA County,YES,0
+300,Ciprofloxacin,LA County,NO,42
+671,Ciprofloxacin,LA County,NO,37
+630,Ciprofloxacin,LA County,NO,41
+251,Ciprofloxacin,LA County,YES,0
+711,Ciprofloxacin,LA County,NO,42
+321,Ciprofloxacin,LA County,NO,37
+160,Ciprofloxacin,LA County,NO,41
+651,Ciprofloxacin,LA County,NO,38
+370,Ciprofloxacin,LA County,NO,42
+550,Ciprofloxacin,LA County,NO,37
+350,Ciprofloxacin,LA County,NO,41
+660,Ciprofloxacin,LA County,NO,38
+741,Ciprofloxacin,LA County,YES,2
+750,Ciprofloxacin,LA County,NO,97
+710,Ciprofloxacin,LA County,NO,41
+521,Ciprofloxacin,LA County,NO,38
+130,Ciprofloxacin,LA County,NO,42
+320,Ciprofloxacin,LA County,NO,37
+720,Ciprofloxacin,LA County,NO,41
+611,Ciprofloxacin,LA County,NO,38
+540,Ciprofloxacin,LA County,YES,2
+730,Ciprofloxacin,LA County,NO,37
+631,Ciprofloxacin,LA County,NO,41
+230,Ciprofloxacin,LA County,NO,38
+621,Ciprofloxacin,LA County,NO,42
+341,Ciprofloxacin,LA County,NO,37
+330,Ciprofloxacin,LA County,NO,41
+240,Ciprofloxacin,LA County,NO,38
+221,Ciprofloxacin,LA County,NO,42
+121,Ciprofloxacin,LA County,NO,37
+641,Ciprofloxacin,LA County,NO,41
+20,Ciprofloxacin,LA County,NO,38
+400,Ciprofloxacin,LA County,NO,42
+331,Ciprofloxacin,LA County,NO,37
+650,Ciprofloxacin,LA County,NO,41
+770,Ciprofloxacin,LA County,NO,38
+610,Ciprofloxacin,LA County,NO,42
+161,Ciprofloxacin,LA County,NO,37
+600,Ciprofloxacin,LA County,NO,41
+E. coli,Nitrofurantoin,LA County,YES,12
+561,Nitrofurantoin,LA County,YES,11
+620,Nitrofurantoin,LA County,YES,0
+571,Nitrofurantoin,LA County,YES,1
+271,Nitrofurantoin,LA County,YES,11
+530,Nitrofurantoin,LA County,YES,2
+760,Nitrofurantoin,LA County,YES,17
+361,Nitrofurantoin,LA County,NO,31
+771,Nitrofurantoin,LA County,YES,0
+560,Nitrofurantoin,LA County,YES,2
+360,Nitrofurantoin,LA County,YES,0
+761,Nitrofurantoin,LA County,YES,1
+751,Nitrofurantoin,LA County,NO,48
+721,Nitrofurantoin,LA County,YES,2
+371,Nitrofurantoin,LA County,YES,0
+531,Nitrofurantoin,LA County,YES,1
+131,Nitrofurantoin,LA County,YES,12
+661,Nitrofurantoin,LA County,YES,16
+511,Nitrofurantoin,LA County,YES,0
+261,Nitrofurantoin,LA County,NO,34
+551,Nitrofurantoin,LA County,YES,0
+520,Nitrofurantoin,LA County,YES,16
+700,Nitrofurantoin,LA County,NO,97
+231,Nitrofurantoin,LA County,YES,1
+260,Nitrofurantoin,LA County,YES,0
+510,Nitrofurantoin,LA County,YES,16
+171,Nitrofurantoin,LA County,YES,0
+500,Nitrofurantoin,LA County,YES,1
+200,Nitrofurantoin,LA County,NO,65
+220,Nitrofurantoin,LA County,YES,16
+731,Nitrofurantoin,LA County,YES,11
+351,Nitrofurantoin,LA County,YES,15
+570,Nitrofurantoin,LA County,YES,0
+300,Nitrofurantoin,LA County,YES,16
+671,Nitrofurantoin,LA County,YES,11
+630,Nitrofurantoin,LA County,YES,15
+251,Nitrofurantoin,LA County,NO,48
+711,Nitrofurantoin,LA County,YES,16
+321,Nitrofurantoin,LA County,YES,11
+160,Nitrofurantoin,LA County,YES,15
+651,Nitrofurantoin,LA County,YES,12
+370,Nitrofurantoin,LA County,YES,16
+550,Nitrofurantoin,LA County,YES,11
+350,Nitrofurantoin,LA County,YES,15
+660,Nitrofurantoin,LA County,YES,12
+741,Nitrofurantoin,LA County,YES,2
+750,Nitrofurantoin,LA County,YES,0
+710,Nitrofurantoin,LA County,YES,15
+521,Nitrofurantoin,LA County,YES,12
+130,Nitrofurantoin,LA County,YES,16
+320,Nitrofurantoin,LA County,YES,11
+720,Nitrofurantoin,LA County,YES,15
+611,Nitrofurantoin,LA County,YES,12
+540,Nitrofurantoin,LA County,YES,2
+730,Nitrofurantoin,LA County,YES,11
+631,Nitrofurantoin,LA County,YES,15
+230,Nitrofurantoin,LA County,YES,12
+621,Nitrofurantoin,LA County,YES,16
+341,Nitrofurantoin,LA County,YES,11
+330,Nitrofurantoin,LA County,YES,15
+240,Nitrofurantoin,LA County,YES,12
+221,Nitrofurantoin,LA County,YES,16
+121,Nitrofurantoin,LA County,YES,11
+641,Nitrofurantoin,LA County,YES,15
+20,Nitrofurantoin,LA County,YES,12
+400,Nitrofurantoin,LA County,YES,16
+331,Nitrofurantoin,LA County,YES,11
+650,Nitrofurantoin,LA County,YES,15
+770,Nitrofurantoin,LA County,YES,12
+610,Nitrofurantoin,LA County,YES,16
+161,Nitrofurantoin,LA County,YES,11
+600,Nitrofurantoin,LA County,YES,15
+E. coli,Ampicillin,NY Langone,NO,55
+561,Ampicillin,NY Langone,NO,95
+620,Ampicillin,NY Langone,NO,58
+571,Ampicillin,NY Langone,NO,34
+271,Ampicillin,NY Langone,NO,65
+530,Ampicillin,NY Langone,NO,46
+760,Ampicillin,NY Langone,YES,8
+361,Ampicillin,NY Langone,NO,51
+771,Ampicillin,NY Langone,NO,48
+560,Ampicillin,NY Langone,NO,100
+360,Ampicillin,NY Langone,NO,30
+761,Ampicillin,NY Langone,NO,61
+751,Ampicillin,NY Langone,YES,0
+721,Ampicillin,NY Langone,NO,77
+371,Ampicillin,NY Langone,NO,97
+531,Ampicillin,NY Langone,YES,1
+131,Ampicillin,NY Langone,NO,23
+661,Ampicillin,NY Langone,NO,52
+511,Ampicillin,NY Langone,NO,30
+261,Ampicillin,NY Langone,NO,100
+551,Ampicillin,NY Langone,NO,65
+520,Ampicillin,NY Langone,NO,100
+700,Ampicillin,NY Langone,NO,22
+231,Ampicillin,NY Langone,NO,58
+260,Ampicillin,NY Langone,NO,48
+510,Ampicillin,NY Langone,NO,58
+171,Ampicillin,NY Langone,NO,97
+500,Ampicillin,NY Langone,NO,58
+200,Ampicillin,NY Langone,YES,0
+220,Ampicillin,NY Langone,NO,58
+731,Ampicillin,NY Langone,YES,0
+351,Ampicillin,NY Langone,NO,100
+570,Ampicillin,NY Langone,NO,55
+300,Ampicillin,NY Langone,YES,2
+671,Ampicillin,NY Langone,YES,0
+630,Ampicillin,NY Langone,NO,58
+251,Ampicillin,NY Langone,NO,55
+711,Ampicillin,NY Langone,NO,58
+321,Ampicillin,NY Langone,NO,54
+160,Ampicillin,NY Langone,NO,58
+651,Ampicillin,NY Langone,NO,55
+370,Ampicillin,NY Langone,NO,58
+550,Ampicillin,NY Langone,NO,54
+350,Ampicillin,NY Langone,NO,58
+660,Ampicillin,NY Langone,NO,55
+741,Ampicillin,NY Langone,NO,58
+750,Ampicillin,NY Langone,NO,54
+710,Ampicillin,NY Langone,NO,58
+521,Ampicillin,NY Langone,YES,0
+130,Ampicillin,NY Langone,NO,100
+320,Ampicillin,NY Langone,NO,97
+720,Ampicillin,NY Langone,NO,58
+611,Ampicillin,NY Langone,NO,55
+540,Ampicillin,NY Langone,NO,58
+730,Ampicillin,NY Langone,NO,54
+631,Ampicillin,NY Langone,NO,58
+230,Ampicillin,NY Langone,NO,55
+621,Ampicillin,NY Langone,NO,58
+341,Ampicillin,NY Langone,NO,54
+330,Ampicillin,NY Langone,NO,58
+240,Ampicillin,NY Langone,NO,55
+221,Ampicillin,NY Langone,NO,58
+121,Ampicillin,NY Langone,NO,54
+641,Ampicillin,NY Langone,NO,58
+20,Ampicillin,NY Langone,NO,55
+400,Ampicillin,NY Langone,NO,58
+331,Ampicillin,NY Langone,NO,54
+650,Ampicillin,NY Langone,NO,58
+770,Ampicillin,NY Langone,NO,55
+610,Ampicillin,NY Langone,NO,58
+161,Ampicillin,NY Langone,NO,54
+600,Ampicillin,NY Langone,NO,58
+E. coli,Amoxicillin/Clavulanate,NY Langone,YES,20
+561,Amoxicillin/Clavulanate,NY Langone,NO,39
+620,Amoxicillin/Clavulanate,NY Langone,NO,25
+571,Amoxicillin/Clavulanate,NY Langone,YES,1
+271,Amoxicillin/Clavulanate,NY Langone,YES,15
+530,Amoxicillin/Clavulanate,NY Langone,YES,13
+760,Amoxicillin/Clavulanate,NY Langone,YES,0
+361,Amoxicillin/Clavulanate,NY Langone,NO,26
+771,Amoxicillin/Clavulanate,NY Langone,NO,23
+560,Amoxicillin/Clavulanate,NY Langone,NO,52
+360,Amoxicillin/Clavulanate,NY Langone,YES,0
+761,Amoxicillin/Clavulanate,NY Langone,YES,1
+751,Amoxicillin/Clavulanate,NY Langone,YES,0
+721,Amoxicillin/Clavulanate,NY Langone,YES,2
+371,Amoxicillin/Clavulanate,NY Langone,NO,97
+531,Amoxicillin/Clavulanate,NY Langone,YES,1
+131,Amoxicillin/Clavulanate,NY Langone,NO,23
+661,Amoxicillin/Clavulanate,NY Langone,NO,52
+511,Amoxicillin/Clavulanate,NY Langone,NO,30
+261,Amoxicillin/Clavulanate,NY Langone,NO,51
+551,Amoxicillin/Clavulanate,NY Langone,NO,31
+520,Amoxicillin/Clavulanate,NY Langone,NO,100
+700,Amoxicillin/Clavulanate,NY Langone,NO,22
+231,Amoxicillin/Clavulanate,NY Langone,NO,23
+260,Amoxicillin/Clavulanate,NY Langone,YES,0
+510,Amoxicillin/Clavulanate,NY Langone,NO,24
+171,Amoxicillin/Clavulanate,NY Langone,YES,0
+500,Amoxicillin/Clavulanate,NY Langone,NO,23
+200,Amoxicillin/Clavulanate,NY Langone,YES,0
+220,Amoxicillin/Clavulanate,NY Langone,NO,24
+731,Amoxicillin/Clavulanate,NY Langone,YES,0
+351,Amoxicillin/Clavulanate,NY Langone,NO,100
+570,Amoxicillin/Clavulanate,NY Langone,YES,20
+300,Amoxicillin/Clavulanate,NY Langone,YES,2
+671,Amoxicillin/Clavulanate,NY Langone,YES,0
+630,Amoxicillin/Clavulanate,NY Langone,NO,23
+251,Amoxicillin/Clavulanate,NY Langone,YES,20
+711,Amoxicillin/Clavulanate,NY Langone,NO,24
+321,Amoxicillin/Clavulanate,NY Langone,YES,19
+160,Amoxicillin/Clavulanate,NY Langone,NO,23
+651,Amoxicillin/Clavulanate,NY Langone,YES,20
+370,Amoxicillin/Clavulanate,NY Langone,NO,24
+550,Amoxicillin/Clavulanate,NY Langone,YES,19
+350,Amoxicillin/Clavulanate,NY Langone,NO,23
+660,Amoxicillin/Clavulanate,NY Langone,YES,20
+741,Amoxicillin/Clavulanate,NY Langone,NO,24
+750,Amoxicillin/Clavulanate,NY Langone,YES,19
+710,Amoxicillin/Clavulanate,NY Langone,NO,23
+521,Amoxicillin/Clavulanate,NY Langone,YES,0
+130,Amoxicillin/Clavulanate,NY Langone,YES,2
+320,Amoxicillin/Clavulanate,NY Langone,YES,0
+720,Amoxicillin/Clavulanate,NY Langone,NO,23
+611,Amoxicillin/Clavulanate,NY Langone,YES,20
+540,Amoxicillin/Clavulanate,NY Langone,NO,24
+730,Amoxicillin/Clavulanate,NY Langone,YES,19
+631,Amoxicillin/Clavulanate,NY Langone,NO,23
+230,Amoxicillin/Clavulanate,NY Langone,YES,20
+621,Amoxicillin/Clavulanate,NY Langone,NO,24
+341,Amoxicillin/Clavulanate,NY Langone,YES,19
+330,Amoxicillin/Clavulanate,NY Langone,NO,23
+240,Amoxicillin/Clavulanate,NY Langone,YES,20
+221,Amoxicillin/Clavulanate,NY Langone,NO,24
+121,Amoxicillin/Clavulanate,NY Langone,YES,19
+641,Amoxicillin/Clavulanate,NY Langone,NO,23
+20,Amoxicillin/Clavulanate,NY Langone,YES,20
+400,Amoxicillin/Clavulanate,NY Langone,NO,24
+331,Amoxicillin/Clavulanate,NY Langone,YES,19
+650,Amoxicillin/Clavulanate,NY Langone,NO,23
+770,Amoxicillin/Clavulanate,NY Langone,YES,20
+610,Amoxicillin/Clavulanate,NY Langone,NO,24
+161,Amoxicillin/Clavulanate,NY Langone,YES,19
+600,Amoxicillin/Clavulanate,NY Langone,NO,23
+E. coli,Cephalexin,NY Langone,YES,15
+561,Cephalexin,NY Langone,NO,43
+620,Cephalexin,NY Langone,YES,3
+571,Cephalexin,NY Langone,YES,18
+271,Cephalexin,NY Langone,YES,15
+530,Cephalexin,NY Langone,YES,13
+760,Cephalexin,NY Langone,YES,0
+361,Cephalexin,NY Langone,NO,26
+771,Cephalexin,NY Langone,NO,23
+560,Cephalexin,NY Langone,YES,2
+360,Cephalexin,NY Langone,YES,0
+761,Cephalexin,NY Langone,YES,1
+751,Cephalexin,NY Langone,YES,0
+721,Cephalexin,NY Langone,YES,2
+371,Cephalexin,NY Langone,NO,97
+531,Cephalexin,NY Langone,YES,1
+131,Cephalexin,NY Langone,YES,0
+661,Cephalexin,NY Langone,YES,2
+511,Cephalexin,NY Langone,YES,0
+261,Cephalexin,NY Langone,YES,1
+551,Cephalexin,NY Langone,NO,31
+520,Cephalexin,NY Langone,YES,2
+700,Cephalexin,NY Langone,YES,0
+231,Cephalexin,NY Langone,YES,18
+260,Cephalexin,NY Langone,YES,0
+510,Cephalexin,NY Langone,YES,18
+171,Cephalexin,NY Langone,YES,0
+500,Cephalexin,NY Langone,YES,18
+200,Cephalexin,NY Langone,YES,0
+220,Cephalexin,NY Langone,YES,18
+731,Cephalexin,NY Langone,YES,0
+351,Cephalexin,NY Langone,YES,1
+570,Cephalexin,NY Langone,YES,15
+300,Cephalexin,NY Langone,YES,2
+671,Cephalexin,NY Langone,YES,0
+630,Cephalexin,NY Langone,YES,18
+251,Cephalexin,NY Langone,YES,15
+711,Cephalexin,NY Langone,YES,18
+321,Cephalexin,NY Langone,YES,14
+160,Cephalexin,NY Langone,YES,18
+651,Cephalexin,NY Langone,YES,15
+370,Cephalexin,NY Langone,YES,18
+550,Cephalexin,NY Langone,YES,14
+350,Cephalexin,NY Langone,YES,18
+660,Cephalexin,NY Langone,YES,15
+741,Cephalexin,NY Langone,YES,18
+750,Cephalexin,NY Langone,YES,14
+710,Cephalexin,NY Langone,YES,18
+521,Cephalexin,NY Langone,YES,0
+130,Cephalexin,NY Langone,YES,2
+320,Cephalexin,NY Langone,YES,0
+720,Cephalexin,NY Langone,YES,18
+611,Cephalexin,NY Langone,YES,15
+540,Cephalexin,NY Langone,YES,18
+730,Cephalexin,NY Langone,YES,14
+631,Cephalexin,NY Langone,YES,18
+230,Cephalexin,NY Langone,YES,15
+621,Cephalexin,NY Langone,YES,18
+341,Cephalexin,NY Langone,YES,14
+330,Cephalexin,NY Langone,YES,18
+240,Cephalexin,NY Langone,YES,15
+221,Cephalexin,NY Langone,YES,18
+121,Cephalexin,NY Langone,YES,14
+641,Cephalexin,NY Langone,YES,18
+20,Cephalexin,NY Langone,YES,15
+400,Cephalexin,NY Langone,YES,18
+331,Cephalexin,NY Langone,YES,14
+650,Cephalexin,NY Langone,YES,18
+770,Cephalexin,NY Langone,YES,15
+610,Cephalexin,NY Langone,YES,18
+161,Cephalexin,NY Langone,YES,14
+600,Cephalexin,NY Langone,YES,18
+E. coli,Ceftazidime,NY Langone,YES,11
+561,Ceftazidime,NY Langone,NO,36
+620,Ceftazidime,NY Langone,YES,0
+571,Ceftazidime,NY Langone,YES,18
+271,Ceftazidime,NY Langone,YES,15
+530,Ceftazidime,NY Langone,YES,13
+760,Ceftazidime,NY Langone,YES,0
+361,Ceftazidime,NY Langone,NO,26
+771,Ceftazidime,NY Langone,NO,23
+560,Ceftazidime,NY Langone,YES,2
+360,Ceftazidime,NY Langone,YES,0
+761,Ceftazidime,NY Langone,YES,1
+751,Ceftazidime,NY Langone,YES,0
+721,Ceftazidime,NY Langone,YES,2
+371,Ceftazidime,NY Langone,NO,97
+531,Ceftazidime,NY Langone,YES,1
+131,Ceftazidime,NY Langone,YES,0
+661,Ceftazidime,NY Langone,YES,2
+511,Ceftazidime,NY Langone,YES,0
+261,Ceftazidime,NY Langone,YES,1
+551,Ceftazidime,NY Langone,YES,0
+520,Ceftazidime,NY Langone,YES,2
+700,Ceftazidime,NY Langone,YES,0
+231,Ceftazidime,NY Langone,YES,14
+260,Ceftazidime,NY Langone,YES,0
+510,Ceftazidime,NY Langone,YES,14
+171,Ceftazidime,NY Langone,YES,0
+500,Ceftazidime,NY Langone,YES,14
+200,Ceftazidime,NY Langone,YES,0
+220,Ceftazidime,NY Langone,YES,14
+731,Ceftazidime,NY Langone,YES,0
+351,Ceftazidime,NY Langone,YES,1
+570,Ceftazidime,NY Langone,YES,11
+300,Ceftazidime,NY Langone,YES,2
+671,Ceftazidime,NY Langone,YES,0
+630,Ceftazidime,NY Langone,YES,14
+251,Ceftazidime,NY Langone,YES,11
+711,Ceftazidime,NY Langone,YES,14
+321,Ceftazidime,NY Langone,YES,10
+160,Ceftazidime,NY Langone,YES,14
+651,Ceftazidime,NY Langone,YES,11
+370,Ceftazidime,NY Langone,YES,14
+550,Ceftazidime,NY Langone,YES,10
+350,Ceftazidime,NY Langone,YES,14
+660,Ceftazidime,NY Langone,YES,11
+741,Ceftazidime,NY Langone,YES,14
+750,Ceftazidime,NY Langone,YES,10
+710,Ceftazidime,NY Langone,YES,14
+521,Ceftazidime,NY Langone,YES,0
+130,Ceftazidime,NY Langone,YES,2
+320,Ceftazidime,NY Langone,YES,0
+720,Ceftazidime,NY Langone,YES,14
+611,Ceftazidime,NY Langone,YES,11
+540,Ceftazidime,NY Langone,YES,14
+730,Ceftazidime,NY Langone,YES,10
+631,Ceftazidime,NY Langone,YES,14
+230,Ceftazidime,NY Langone,YES,11
+621,Ceftazidime,NY Langone,YES,14
+341,Ceftazidime,NY Langone,YES,10
+330,Ceftazidime,NY Langone,YES,14
+240,Ceftazidime,NY Langone,YES,11
+221,Ceftazidime,NY Langone,YES,14
+121,Ceftazidime,NY Langone,YES,10
+641,Ceftazidime,NY Langone,YES,14
+20,Ceftazidime,NY Langone,YES,11
+400,Ceftazidime,NY Langone,YES,14
+331,Ceftazidime,NY Langone,YES,10
+650,Ceftazidime,NY Langone,YES,14
+770,Ceftazidime,NY Langone,YES,11
+610,Ceftazidime,NY Langone,YES,14
+161,Ceftazidime,NY Langone,YES,10
+600,Ceftazidime,NY Langone,YES,14
+E. coli,ESBL,NY Langone,YES,8
+561,ESBL,NY Langone,NO,33
+620,ESBL,NY Langone,YES,0
+571,ESBL,NY Langone,YES,18
+271,ESBL,NY Langone,YES,0
+530,ESBL,NY Langone,YES,2
+760,ESBL,NY Langone,YES,0
+361,ESBL,NY Langone,YES,1
+771,ESBL,NY Langone,NO,23
+560,ESBL,NY Langone,YES,2
+360,ESBL,NY Langone,YES,0
+761,ESBL,NY Langone,YES,1
+751,ESBL,NY Langone,YES,0
+721,ESBL,NY Langone,YES,2
+371,ESBL,NY Langone,NO,97
+531,ESBL,NY Langone,YES,1
+131,ESBL,NY Langone,YES,0
+661,ESBL,NY Langone,YES,2
+511,ESBL,NY Langone,YES,0
+261,ESBL,NY Langone,YES,1
+551,ESBL,NY Langone,YES,0
+520,ESBL,NY Langone,YES,2
+700,ESBL,NY Langone,YES,0
+231,ESBL,NY Langone,YES,11
+260,ESBL,NY Langone,YES,0
+510,ESBL,NY Langone,YES,12
+171,ESBL,NY Langone,YES,0
+500,ESBL,NY Langone,YES,11
+200,ESBL,NY Langone,YES,0
+220,ESBL,NY Langone,YES,12
+731,ESBL,NY Langone,YES,0
+351,ESBL,NY Langone,YES,1
+570,ESBL,NY Langone,YES,8
+300,ESBL,NY Langone,YES,2
+671,ESBL,NY Langone,YES,0
+630,ESBL,NY Langone,YES,11
+251,ESBL,NY Langone,YES,8
+711,ESBL,NY Langone,YES,12
+321,ESBL,NY Langone,YES,7
+160,ESBL,NY Langone,YES,11
+651,ESBL,NY Langone,YES,8
+370,ESBL,NY Langone,YES,12
+550,ESBL,NY Langone,YES,7
+350,ESBL,NY Langone,YES,11
+660,ESBL,NY Langone,YES,8
+741,ESBL,NY Langone,YES,12
+750,ESBL,NY Langone,YES,7
+710,ESBL,NY Langone,YES,11
+521,ESBL,NY Langone,YES,0
+130,ESBL,NY Langone,YES,2
+320,ESBL,NY Langone,YES,0
+720,ESBL,NY Langone,YES,11
+611,ESBL,NY Langone,YES,8
+540,ESBL,NY Langone,YES,12
+730,ESBL,NY Langone,YES,7
+631,ESBL,NY Langone,YES,11
+230,ESBL,NY Langone,YES,8
+621,ESBL,NY Langone,YES,12
+341,ESBL,NY Langone,YES,7
+330,ESBL,NY Langone,YES,11
+240,ESBL,NY Langone,YES,8
+221,ESBL,NY Langone,YES,12
+121,ESBL,NY Langone,YES,7
+641,ESBL,NY Langone,YES,11
+20,ESBL,NY Langone,YES,8
+400,ESBL,NY Langone,YES,12
+331,ESBL,NY Langone,YES,7
+650,ESBL,NY Langone,YES,11
+770,ESBL,NY Langone,YES,8
+610,ESBL,NY Langone,YES,12
+161,ESBL,NY Langone,YES,7
+600,ESBL,NY Langone,YES,11
+E. coli,Trimethoprim/Sulfamethoxazole,NY Langone,NO,25
+561,Trimethoprim/Sulfamethoxazole,NY Langone,NO,50
+620,Trimethoprim/Sulfamethoxazole,NY Langone,YES,19
+571,Trimethoprim/Sulfamethoxazole,NY Langone,NO,26
+271,Trimethoprim/Sulfamethoxazole,NY Langone,YES,15
+530,Trimethoprim/Sulfamethoxazole,NY Langone,NO,24
+760,Trimethoprim/Sulfamethoxazole,NY Langone,YES,8
+361,Trimethoprim/Sulfamethoxazole,NY Langone,NO,26
+771,Trimethoprim/Sulfamethoxazole,NY Langone,NO,23
+560,Trimethoprim/Sulfamethoxazole,NY Langone,NO,52
+360,Trimethoprim/Sulfamethoxazole,NY Langone,YES,0
+761,Trimethoprim/Sulfamethoxazole,NY Langone,NO,61
+751,Trimethoprim/Sulfamethoxazole,NY Langone,YES,0
+721,Trimethoprim/Sulfamethoxazole,NY Langone,YES,2
+371,Trimethoprim/Sulfamethoxazole,NY Langone,NO,47
+531,Trimethoprim/Sulfamethoxazole,NY Langone,YES,1
+131,Trimethoprim/Sulfamethoxazole,NY Langone,YES,0
+661,Trimethoprim/Sulfamethoxazole,NY Langone,YES,2
+511,Trimethoprim/Sulfamethoxazole,NY Langone,YES,0
+261,Trimethoprim/Sulfamethoxazole,NY Langone,NO,51
+551,Trimethoprim/Sulfamethoxazole,NY Langone,NO,31
+520,Trimethoprim/Sulfamethoxazole,NY Langone,NO,100
+700,Trimethoprim/Sulfamethoxazole,NY Langone,NO,22
+231,Trimethoprim/Sulfamethoxazole,NY Langone,NO,28
+260,Trimethoprim/Sulfamethoxazole,NY Langone,NO,48
+510,Trimethoprim/Sulfamethoxazole,NY Langone,NO,28
+171,Trimethoprim/Sulfamethoxazole,NY Langone,YES,0
+500,Trimethoprim/Sulfamethoxazole,NY Langone,NO,28
+200,Trimethoprim/Sulfamethoxazole,NY Langone,YES,0
+220,Trimethoprim/Sulfamethoxazole,NY Langone,NO,28
+731,Trimethoprim/Sulfamethoxazole,NY Langone,YES,0
+351,Trimethoprim/Sulfamethoxazole,NY Langone,YES,1
+570,Trimethoprim/Sulfamethoxazole,NY Langone,NO,25
+300,Trimethoprim/Sulfamethoxazole,NY Langone,NO,100
+671,Trimethoprim/Sulfamethoxazole,NY Langone,YES,0
+630,Trimethoprim/Sulfamethoxazole,NY Langone,NO,28
+251,Trimethoprim/Sulfamethoxazole,NY Langone,NO,25
+711,Trimethoprim/Sulfamethoxazole,NY Langone,NO,28
+321,Trimethoprim/Sulfamethoxazole,NY Langone,NO,24
+160,Trimethoprim/Sulfamethoxazole,NY Langone,NO,28
+651,Trimethoprim/Sulfamethoxazole,NY Langone,NO,25
+370,Trimethoprim/Sulfamethoxazole,NY Langone,NO,28
+550,Trimethoprim/Sulfamethoxazole,NY Langone,NO,24
+350,Trimethoprim/Sulfamethoxazole,NY Langone,NO,28
+660,Trimethoprim/Sulfamethoxazole,NY Langone,NO,25
+741,Trimethoprim/Sulfamethoxazole,NY Langone,NO,28
+750,Trimethoprim/Sulfamethoxazole,NY Langone,NO,24
+710,Trimethoprim/Sulfamethoxazole,NY Langone,NO,28
+521,Trimethoprim/Sulfamethoxazole,NY Langone,YES,0
+130,Trimethoprim/Sulfamethoxazole,NY Langone,YES,2
+320,Trimethoprim/Sulfamethoxazole,NY Langone,YES,0
+720,Trimethoprim/Sulfamethoxazole,NY Langone,NO,28
+611,Trimethoprim/Sulfamethoxazole,NY Langone,NO,25
+540,Trimethoprim/Sulfamethoxazole,NY Langone,NO,28
+730,Trimethoprim/Sulfamethoxazole,NY Langone,NO,24
+631,Trimethoprim/Sulfamethoxazole,NY Langone,NO,28
+230,Trimethoprim/Sulfamethoxazole,NY Langone,NO,25
+621,Trimethoprim/Sulfamethoxazole,NY Langone,NO,28
+341,Trimethoprim/Sulfamethoxazole,NY Langone,NO,24
+330,Trimethoprim/Sulfamethoxazole,NY Langone,NO,28
+240,Trimethoprim/Sulfamethoxazole,NY Langone,NO,25
+221,Trimethoprim/Sulfamethoxazole,NY Langone,NO,28
+121,Trimethoprim/Sulfamethoxazole,NY Langone,NO,24
+641,Trimethoprim/Sulfamethoxazole,NY Langone,NO,28
+20,Trimethoprim/Sulfamethoxazole,NY Langone,NO,25
+400,Trimethoprim/Sulfamethoxazole,NY Langone,NO,28
+331,Trimethoprim/Sulfamethoxazole,NY Langone,NO,24
+650,Trimethoprim/Sulfamethoxazole,NY Langone,NO,28
+770,Trimethoprim/Sulfamethoxazole,NY Langone,NO,25
+610,Trimethoprim/Sulfamethoxazole,NY Langone,NO,28
+161,Trimethoprim/Sulfamethoxazole,NY Langone,NO,24
+600,Trimethoprim/Sulfamethoxazole,NY Langone,NO,28
+E. coli,Ciprofloxacin,NY Langone,NO,23
+561,Ciprofloxacin,NY Langone,NO,70
+620,Ciprofloxacin,NY Langone,YES,0
+571,Ciprofloxacin,NY Langone,NO,59
+271,Ciprofloxacin,NY Langone,YES,0
+530,Ciprofloxacin,NY Langone,YES,13
+760,Ciprofloxacin,NY Langone,YES,0
+361,Ciprofloxacin,NY Langone,NO,26
+771,Ciprofloxacin,NY Langone,NO,23
+560,Ciprofloxacin,NY Langone,YES,2
+360,Ciprofloxacin,NY Langone,YES,0
+761,Ciprofloxacin,NY Langone,NO,21
+751,Ciprofloxacin,NY Langone,YES,0
+721,Ciprofloxacin,NY Langone,YES,2
+371,Ciprofloxacin,NY Langone,NO,97
+531,Ciprofloxacin,NY Langone,YES,1
+131,Ciprofloxacin,NY Langone,YES,0
+661,Ciprofloxacin,NY Langone,YES,2
+511,Ciprofloxacin,NY Langone,YES,0
+261,Ciprofloxacin,NY Langone,YES,1
+551,Ciprofloxacin,NY Langone,YES,0
+520,Ciprofloxacin,NY Langone,YES,2
+700,Ciprofloxacin,NY Langone,YES,0
+231,Ciprofloxacin,NY Langone,NO,26
+260,Ciprofloxacin,NY Langone,NO,48
+510,Ciprofloxacin,NY Langone,NO,27
+171,Ciprofloxacin,NY Langone,YES,0
+500,Ciprofloxacin,NY Langone,NO,26
+200,Ciprofloxacin,NY Langone,YES,0
+220,Ciprofloxacin,NY Langone,NO,27
+731,Ciprofloxacin,NY Langone,YES,0
+351,Ciprofloxacin,NY Langone,YES,1
+570,Ciprofloxacin,NY Langone,NO,23
+300,Ciprofloxacin,NY Langone,NO,100
+671,Ciprofloxacin,NY Langone,YES,0
+630,Ciprofloxacin,NY Langone,NO,26
+251,Ciprofloxacin,NY Langone,NO,23
+711,Ciprofloxacin,NY Langone,NO,27
+321,Ciprofloxacin,NY Langone,NO,22
+160,Ciprofloxacin,NY Langone,NO,26
+651,Ciprofloxacin,NY Langone,NO,23
+370,Ciprofloxacin,NY Langone,NO,27
+550,Ciprofloxacin,NY Langone,NO,22
+350,Ciprofloxacin,NY Langone,NO,26
+660,Ciprofloxacin,NY Langone,NO,23
+741,Ciprofloxacin,NY Langone,NO,27
+750,Ciprofloxacin,NY Langone,NO,22
+710,Ciprofloxacin,NY Langone,NO,26
+521,Ciprofloxacin,NY Langone,YES,0
+130,Ciprofloxacin,NY Langone,YES,2
+320,Ciprofloxacin,NY Langone,YES,0
+720,Ciprofloxacin,NY Langone,NO,26
+611,Ciprofloxacin,NY Langone,NO,23
+540,Ciprofloxacin,NY Langone,NO,27
+730,Ciprofloxacin,NY Langone,NO,22
+631,Ciprofloxacin,NY Langone,NO,26
+230,Ciprofloxacin,NY Langone,NO,23
+621,Ciprofloxacin,NY Langone,NO,27
+341,Ciprofloxacin,NY Langone,NO,22
+330,Ciprofloxacin,NY Langone,NO,26
+240,Ciprofloxacin,NY Langone,NO,23
+221,Ciprofloxacin,NY Langone,NO,27
+121,Ciprofloxacin,NY Langone,NO,22
+641,Ciprofloxacin,NY Langone,NO,26
+20,Ciprofloxacin,NY Langone,NO,23
+400,Ciprofloxacin,NY Langone,NO,27
+331,Ciprofloxacin,NY Langone,NO,22
+650,Ciprofloxacin,NY Langone,NO,26
+770,Ciprofloxacin,NY Langone,NO,23
+610,Ciprofloxacin,NY Langone,NO,27
+161,Ciprofloxacin,NY Langone,NO,22
+600,Ciprofloxacin,NY Langone,NO,26
+E. coli,Nitrofurantoin,NY Langone,YES,4
+561,Nitrofurantoin,NY Langone,YES,8
+620,Nitrofurantoin,NY Langone,YES,3
+571,Nitrofurantoin,NY Langone,YES,9
+271,Nitrofurantoin,NY Langone,YES,0
+530,Nitrofurantoin,NY Langone,YES,2
+760,Nitrofurantoin,NY Langone,YES,0
+361,Nitrofurantoin,NY Langone,YES,1
+771,Nitrofurantoin,NY Langone,NO,23
+560,Nitrofurantoin,NY Langone,YES,2
+360,Nitrofurantoin,NY Langone,NO,30
+761,Nitrofurantoin,NY Langone,YES,1
+751,Nitrofurantoin,NY Langone,YES,0
+721,Nitrofurantoin,NY Langone,YES,2
+371,Nitrofurantoin,NY Langone,YES,0
+531,Nitrofurantoin,NY Langone,YES,1
+131,Nitrofurantoin,NY Langone,YES,0
+661,Nitrofurantoin,NY Langone,YES,2
+511,Nitrofurantoin,NY Langone,YES,0
+261,Nitrofurantoin,NY Langone,YES,1
+551,Nitrofurantoin,NY Langone,YES,0
+520,Nitrofurantoin,NY Langone,YES,2
+700,Nitrofurantoin,NY Langone,NO,22
+231,Nitrofurantoin,NY Langone,YES,7
+260,Nitrofurantoin,NY Langone,YES,0
+510,Nitrofurantoin,NY Langone,YES,8
+171,Nitrofurantoin,NY Langone,YES,0
+500,Nitrofurantoin,NY Langone,YES,7
+200,Nitrofurantoin,NY Langone,YES,0
+220,Nitrofurantoin,NY Langone,YES,8
+731,Nitrofurantoin,NY Langone,YES,0
+351,Nitrofurantoin,NY Langone,YES,1
+570,Nitrofurantoin,NY Langone,YES,4
+300,Nitrofurantoin,NY Langone,NO,100
+671,Nitrofurantoin,NY Langone,YES,0
+630,Nitrofurantoin,NY Langone,YES,7
+251,Nitrofurantoin,NY Langone,YES,4
+711,Nitrofurantoin,NY Langone,YES,8
+321,Nitrofurantoin,NY Langone,YES,3
+160,Nitrofurantoin,NY Langone,YES,7
+651,Nitrofurantoin,NY Langone,YES,4
+370,Nitrofurantoin,NY Langone,YES,8
+550,Nitrofurantoin,NY Langone,YES,3
+350,Nitrofurantoin,NY Langone,YES,7
+660,Nitrofurantoin,NY Langone,YES,4
+741,Nitrofurantoin,NY Langone,YES,8
+750,Nitrofurantoin,NY Langone,YES,3
+710,Nitrofurantoin,NY Langone,YES,7
+521,Nitrofurantoin,NY Langone,YES,0
+130,Nitrofurantoin,NY Langone,YES,2
+320,Nitrofurantoin,NY Langone,YES,0
+720,Nitrofurantoin,NY Langone,YES,7
+611,Nitrofurantoin,NY Langone,YES,4
+540,Nitrofurantoin,NY Langone,YES,8
+730,Nitrofurantoin,NY Langone,YES,3
+631,Nitrofurantoin,NY Langone,YES,7
+230,Nitrofurantoin,NY Langone,YES,4
+621,Nitrofurantoin,NY Langone,YES,8
+341,Nitrofurantoin,NY Langone,YES,3
+330,Nitrofurantoin,NY Langone,YES,7
+240,Nitrofurantoin,NY Langone,YES,4
+221,Nitrofurantoin,NY Langone,YES,8
+121,Nitrofurantoin,NY Langone,YES,3
+641,Nitrofurantoin,NY Langone,YES,7
+20,Nitrofurantoin,NY Langone,YES,4
+400,Nitrofurantoin,NY Langone,YES,8
+331,Nitrofurantoin,NY Langone,YES,3
+650,Nitrofurantoin,NY Langone,YES,7
+770,Nitrofurantoin,NY Langone,YES,4
+610,Nitrofurantoin,NY Langone,YES,8
+161,Nitrofurantoin,NY Langone,YES,3
+600,Nitrofurantoin,NY Langone,YES,7
+E. coli,Ampicillin,Seattle Children's,NO,58
+561,Ampicillin,Seattle Children's,NO,97
+620,Ampicillin,Seattle Children's,NO,57
+571,Ampicillin,Seattle Children's,NO,81
+271,Ampicillin,Seattle Children's,NO,87
+530,Ampicillin,Seattle Children's,NO,78
+760,Ampicillin,Seattle Children's,NO,41
+361,Ampicillin,Seattle Children's,NO,60
+771,Ampicillin,Seattle Children's,NO,43
+560,Ampicillin,Seattle Children's,NO,100
+360,Ampicillin,Seattle Children's,NO,64
+761,Ampicillin,Seattle Children's,NO,61
+751,Ampicillin,Seattle Children's,NO,69
+721,Ampicillin,Seattle Children's,NO,22
+371,Ampicillin,Seattle Children's,NO,68
+531,Ampicillin,Seattle Children's,NO,44
+131,Ampicillin,Seattle Children's,YES,11
+661,Ampicillin,Seattle Children's,YES,2
+511,Ampicillin,Seattle Children's,NO,47
+261,Ampicillin,Seattle Children's,YES,1
+551,Ampicillin,Seattle Children's,YES,0
+520,Ampicillin,Seattle Children's,NO,100
+700,Ampicillin,Seattle Children's,NO,64
+231,Ampicillin,Seattle Children's,YES,1
+260,Ampicillin,Seattle Children's,NO,98
+510,Ampicillin,Seattle Children's,NO,68
+171,Ampicillin,Seattle Children's,NO,47
+500,Ampicillin,Seattle Children's,NO,100
+200,Ampicillin,Seattle Children's,NO,58
+220,Ampicillin,Seattle Children's,NO,62
+731,Ampicillin,Seattle Children's,YES,0
+351,Ampicillin,Seattle Children's,YES,1
+570,Ampicillin,Seattle Children's,NO,23
+300,Ampicillin,Seattle Children's,NO,100
+671,Ampicillin,Seattle Children's,NO,57
+630,Ampicillin,Seattle Children's,NO,61
+251,Ampicillin,Seattle Children's,NO,58
+711,Ampicillin,Seattle Children's,YES,2
+321,Ampicillin,Seattle Children's,NO,57
+160,Ampicillin,Seattle Children's,NO,51
+651,Ampicillin,Seattle Children's,NO,58
+370,Ampicillin,Seattle Children's,NO,62
+550,Ampicillin,Seattle Children's,YES,0
+350,Ampicillin,Seattle Children's,NO,100
+660,Ampicillin,Seattle Children's,NO,98
+741,Ampicillin,Seattle Children's,NO,62
+750,Ampicillin,Seattle Children's,NO,57
+710,Ampicillin,Seattle Children's,NO,61
+521,Ampicillin,Seattle Children's,NO,58
+130,Ampicillin,Seattle Children's,NO,62
+320,Ampicillin,Seattle Children's,NO,57
+720,Ampicillin,Seattle Children's,NO,100
+611,Ampicillin,Seattle Children's,NO,58
+540,Ampicillin,Seattle Children's,NO,62
+730,Ampicillin,Seattle Children's,NO,57
+631,Ampicillin,Seattle Children's,NO,61
+230,Ampicillin,Seattle Children's,NO,58
+621,Ampicillin,Seattle Children's,NO,62
+341,Ampicillin,Seattle Children's,NO,57
+330,Ampicillin,Seattle Children's,NO,61
+240,Ampicillin,Seattle Children's,NO,58
+221,Ampicillin,Seattle Children's,NO,62
+121,Ampicillin,Seattle Children's,NO,57
+641,Ampicillin,Seattle Children's,NO,61
+20,Ampicillin,Seattle Children's,NO,58
+400,Ampicillin,Seattle Children's,NO,62
+331,Ampicillin,Seattle Children's,NO,57
+650,Ampicillin,Seattle Children's,NO,61
+770,Ampicillin,Seattle Children's,NO,58
+610,Ampicillin,Seattle Children's,NO,62
+161,Ampicillin,Seattle Children's,NO,57
+600,Ampicillin,Seattle Children's,NO,61
+E. coli,Amoxicillin/Clavulanate,Seattle Children's,NO,30
+561,Amoxicillin/Clavulanate,Seattle Children's,NO,67
+620,Amoxicillin/Clavulanate,Seattle Children's,NO,37
+571,Amoxicillin/Clavulanate,Seattle Children's,NO,41
+271,Amoxicillin/Clavulanate,Seattle Children's,NO,46
+530,Amoxicillin/Clavulanate,Seattle Children's,YES,7
+760,Amoxicillin/Clavulanate,Seattle Children's,YES,17
+361,Amoxicillin/Clavulanate,Seattle Children's,NO,30
+771,Amoxicillin/Clavulanate,Seattle Children's,NO,21
+560,Amoxicillin/Clavulanate,Seattle Children's,NO,52
+360,Amoxicillin/Clavulanate,Seattle Children's,NO,30
+761,Amoxicillin/Clavulanate,Seattle Children's,NO,33
+751,Amoxicillin/Clavulanate,Seattle Children's,NO,27
+721,Amoxicillin/Clavulanate,Seattle Children's,YES,12
+371,Amoxicillin/Clavulanate,Seattle Children's,NO,54
+531,Amoxicillin/Clavulanate,Seattle Children's,NO,30
+131,Amoxicillin/Clavulanate,Seattle Children's,YES,11
+661,Amoxicillin/Clavulanate,Seattle Children's,YES,2
+511,Amoxicillin/Clavulanate,Seattle Children's,YES,0
+261,Amoxicillin/Clavulanate,Seattle Children's,YES,1
+551,Amoxicillin/Clavulanate,Seattle Children's,YES,0
+520,Amoxicillin/Clavulanate,Seattle Children's,YES,2
+700,Amoxicillin/Clavulanate,Seattle Children's,YES,0
+231,Amoxicillin/Clavulanate,Seattle Children's,YES,1
+260,Amoxicillin/Clavulanate,Seattle Children's,NO,98
+510,Amoxicillin/Clavulanate,Seattle Children's,NO,35
+171,Amoxicillin/Clavulanate,Seattle Children's,NO,47
+500,Amoxicillin/Clavulanate,Seattle Children's,YES,1
+200,Amoxicillin/Clavulanate,Seattle Children's,NO,30
+220,Amoxicillin/Clavulanate,Seattle Children's,NO,34
+731,Amoxicillin/Clavulanate,Seattle Children's,YES,0
+351,Amoxicillin/Clavulanate,Seattle Children's,YES,1
+570,Amoxicillin/Clavulanate,Seattle Children's,NO,23
+300,Amoxicillin/Clavulanate,Seattle Children's,NO,100
+671,Amoxicillin/Clavulanate,Seattle Children's,NO,29
+630,Amoxicillin/Clavulanate,Seattle Children's,NO,33
+251,Amoxicillin/Clavulanate,Seattle Children's,NO,30
+711,Amoxicillin/Clavulanate,Seattle Children's,YES,2
+321,Amoxicillin/Clavulanate,Seattle Children's,NO,29
+160,Amoxicillin/Clavulanate,Seattle Children's,NO,51
+651,Amoxicillin/Clavulanate,Seattle Children's,NO,30
+370,Amoxicillin/Clavulanate,Seattle Children's,NO,34
+550,Amoxicillin/Clavulanate,Seattle Children's,YES,0
+350,Amoxicillin/Clavulanate,Seattle Children's,NO,100
+660,Amoxicillin/Clavulanate,Seattle Children's,NO,48
+741,Amoxicillin/Clavulanate,Seattle Children's,NO,34
+750,Amoxicillin/Clavulanate,Seattle Children's,NO,29
+710,Amoxicillin/Clavulanate,Seattle Children's,NO,33
+521,Amoxicillin/Clavulanate,Seattle Children's,NO,30
+130,Amoxicillin/Clavulanate,Seattle Children's,NO,34
+320,Amoxicillin/Clavulanate,Seattle Children's,NO,29
+720,Amoxicillin/Clavulanate,Seattle Children's,NO,100
+611,Amoxicillin/Clavulanate,Seattle Children's,NO,30
+540,Amoxicillin/Clavulanate,Seattle Children's,NO,34
+730,Amoxicillin/Clavulanate,Seattle Children's,NO,29
+631,Amoxicillin/Clavulanate,Seattle Children's,NO,33
+230,Amoxicillin/Clavulanate,Seattle Children's,NO,30
+621,Amoxicillin/Clavulanate,Seattle Children's,NO,34
+341,Amoxicillin/Clavulanate,Seattle Children's,NO,29
+330,Amoxicillin/Clavulanate,Seattle Children's,NO,33
+240,Amoxicillin/Clavulanate,Seattle Children's,NO,30
+221,Amoxicillin/Clavulanate,Seattle Children's,NO,34
+121,Amoxicillin/Clavulanate,Seattle Children's,NO,29
+641,Amoxicillin/Clavulanate,Seattle Children's,NO,33
+20,Amoxicillin/Clavulanate,Seattle Children's,NO,30
+400,Amoxicillin/Clavulanate,Seattle Children's,NO,34
+331,Amoxicillin/Clavulanate,Seattle Children's,NO,29
+650,Amoxicillin/Clavulanate,Seattle Children's,NO,33
+770,Amoxicillin/Clavulanate,Seattle Children's,NO,30
+610,Amoxicillin/Clavulanate,Seattle Children's,NO,34
+161,Amoxicillin/Clavulanate,Seattle Children's,NO,29
+600,Amoxicillin/Clavulanate,Seattle Children's,NO,33
+E. coli,Cephalexin,Seattle Children's,YES,15
+561,Cephalexin,Seattle Children's,NO,58
+620,Cephalexin,Seattle Children's,YES,17
+571,Cephalexin,Seattle Children's,NO,21
+271,Cephalexin,Seattle Children's,NO,24
+530,Cephalexin,Seattle Children's,YES,19
+760,Cephalexin,Seattle Children's,YES,9
+361,Cephalexin,Seattle Children's,YES,19
+771,Cephalexin,Seattle Children's,YES,3
+560,Cephalexin,Seattle Children's,NO,27
+360,Cephalexin,Seattle Children's,YES,5
+761,Cephalexin,Seattle Children's,YES,18
+751,Cephalexin,Seattle Children's,YES,12
+721,Cephalexin,Seattle Children's,YES,2
+371,Cephalexin,Seattle Children's,YES,11
+531,Cephalexin,Seattle Children's,YES,1
+131,Cephalexin,Seattle Children's,YES,0
+661,Cephalexin,Seattle Children's,YES,2
+511,Cephalexin,Seattle Children's,YES,0
+261,Cephalexin,Seattle Children's,YES,1
+551,Cephalexin,Seattle Children's,YES,0
+520,Cephalexin,Seattle Children's,YES,2
+700,Cephalexin,Seattle Children's,YES,0
+231,Cephalexin,Seattle Children's,YES,1
+260,Cephalexin,Seattle Children's,YES,0
+510,Cephalexin,Seattle Children's,YES,2
+171,Cephalexin,Seattle Children's,NO,47
+500,Cephalexin,Seattle Children's,NO,100
+200,Cephalexin,Seattle Children's,YES,15
+220,Cephalexin,Seattle Children's,YES,19
+731,Cephalexin,Seattle Children's,YES,0
+351,Cephalexin,Seattle Children's,YES,1
+570,Cephalexin,Seattle Children's,NO,23
+300,Cephalexin,Seattle Children's,NO,100
+671,Cephalexin,Seattle Children's,YES,14
+630,Cephalexin,Seattle Children's,YES,18
+251,Cephalexin,Seattle Children's,YES,15
+711,Cephalexin,Seattle Children's,YES,2
+321,Cephalexin,Seattle Children's,YES,14
+160,Cephalexin,Seattle Children's,YES,1
+651,Cephalexin,Seattle Children's,YES,15
+370,Cephalexin,Seattle Children's,YES,19
+550,Cephalexin,Seattle Children's,YES,0
+350,Cephalexin,Seattle Children's,YES,1
+660,Cephalexin,Seattle Children's,YES,0
+741,Cephalexin,Seattle Children's,YES,19
+750,Cephalexin,Seattle Children's,YES,14
+710,Cephalexin,Seattle Children's,YES,18
+521,Cephalexin,Seattle Children's,YES,15
+130,Cephalexin,Seattle Children's,YES,19
+320,Cephalexin,Seattle Children's,YES,14
+720,Cephalexin,Seattle Children's,YES,1
+611,Cephalexin,Seattle Children's,YES,15
+540,Cephalexin,Seattle Children's,YES,19
+730,Cephalexin,Seattle Children's,YES,14
+631,Cephalexin,Seattle Children's,YES,18
+230,Cephalexin,Seattle Children's,YES,15
+621,Cephalexin,Seattle Children's,YES,19
+341,Cephalexin,Seattle Children's,YES,14
+330,Cephalexin,Seattle Children's,YES,18
+240,Cephalexin,Seattle Children's,YES,15
+221,Cephalexin,Seattle Children's,YES,19
+121,Cephalexin,Seattle Children's,YES,14
+641,Cephalexin,Seattle Children's,YES,18
+20,Cephalexin,Seattle Children's,YES,15
+400,Cephalexin,Seattle Children's,YES,19
+331,Cephalexin,Seattle Children's,YES,14
+650,Cephalexin,Seattle Children's,YES,18
+770,Cephalexin,Seattle Children's,YES,15
+610,Cephalexin,Seattle Children's,YES,19
+161,Cephalexin,Seattle Children's,YES,14
+600,Cephalexin,Seattle Children's,YES,18
+E. coli,Ceftazidime,Seattle Children's,YES,9
+561,Ceftazidime,Seattle Children's,NO,54
+620,Ceftazidime,Seattle Children's,YES,4
+571,Ceftazidime,Seattle Children's,YES,8
+271,Ceftazidime,Seattle Children's,YES,13
+530,Ceftazidime,Seattle Children's,YES,19
+760,Ceftazidime,Seattle Children's,YES,0
+361,Ceftazidime,Seattle Children's,YES,19
+771,Ceftazidime,Seattle Children's,YES,3
+560,Ceftazidime,Seattle Children's,YES,2
+360,Ceftazidime,Seattle Children's,YES,0
+761,Ceftazidime,Seattle Children's,YES,12
+751,Ceftazidime,Seattle Children's,YES,12
+721,Ceftazidime,Seattle Children's,YES,2
+371,Ceftazidime,Seattle Children's,YES,11
+531,Ceftazidime,Seattle Children's,YES,1
+131,Ceftazidime,Seattle Children's,YES,0
+661,Ceftazidime,Seattle Children's,YES,2
+511,Ceftazidime,Seattle Children's,YES,0
+261,Ceftazidime,Seattle Children's,YES,1
+551,Ceftazidime,Seattle Children's,YES,0
+520,Ceftazidime,Seattle Children's,YES,2
+700,Ceftazidime,Seattle Children's,YES,0
+231,Ceftazidime,Seattle Children's,YES,1
+260,Ceftazidime,Seattle Children's,YES,0
+510,Ceftazidime,Seattle Children's,YES,2
+171,Ceftazidime,Seattle Children's,YES,0
+500,Ceftazidime,Seattle Children's,NO,100
+200,Ceftazidime,Seattle Children's,YES,9
+220,Ceftazidime,Seattle Children's,YES,13
+731,Ceftazidime,Seattle Children's,YES,0
+351,Ceftazidime,Seattle Children's,YES,1
+570,Ceftazidime,Seattle Children's,NO,23
+300,Ceftazidime,Seattle Children's,NO,100
+671,Ceftazidime,Seattle Children's,YES,8
+630,Ceftazidime,Seattle Children's,YES,12
+251,Ceftazidime,Seattle Children's,YES,9
+711,Ceftazidime,Seattle Children's,YES,2
+321,Ceftazidime,Seattle Children's,YES,8
+160,Ceftazidime,Seattle Children's,YES,1
+651,Ceftazidime,Seattle Children's,YES,9
+370,Ceftazidime,Seattle Children's,YES,13
+550,Ceftazidime,Seattle Children's,YES,0
+350,Ceftazidime,Seattle Children's,YES,1
+660,Ceftazidime,Seattle Children's,YES,0
+741,Ceftazidime,Seattle Children's,YES,13
+750,Ceftazidime,Seattle Children's,YES,8
+710,Ceftazidime,Seattle Children's,YES,12
+521,Ceftazidime,Seattle Children's,YES,9
+130,Ceftazidime,Seattle Children's,YES,13
+320,Ceftazidime,Seattle Children's,YES,8
+720,Ceftazidime,Seattle Children's,YES,1
+611,Ceftazidime,Seattle Children's,YES,9
+540,Ceftazidime,Seattle Children's,YES,13
+730,Ceftazidime,Seattle Children's,YES,8
+631,Ceftazidime,Seattle Children's,YES,12
+230,Ceftazidime,Seattle Children's,YES,9
+621,Ceftazidime,Seattle Children's,YES,13
+341,Ceftazidime,Seattle Children's,YES,8
+330,Ceftazidime,Seattle Children's,YES,12
+240,Ceftazidime,Seattle Children's,YES,9
+221,Ceftazidime,Seattle Children's,YES,13
+121,Ceftazidime,Seattle Children's,YES,8
+641,Ceftazidime,Seattle Children's,YES,12
+20,Ceftazidime,Seattle Children's,YES,9
+400,Ceftazidime,Seattle Children's,YES,13
+331,Ceftazidime,Seattle Children's,YES,8
+650,Ceftazidime,Seattle Children's,YES,12
+770,Ceftazidime,Seattle Children's,YES,9
+610,Ceftazidime,Seattle Children's,YES,13
+161,Ceftazidime,Seattle Children's,YES,8
+600,Ceftazidime,Seattle Children's,YES,12
+E. coli,ESBL,Seattle Children's,YES,8
+561,ESBL,Seattle Children's,NO,49
+620,ESBL,Seattle Children's,YES,4
+571,ESBL,Seattle Children's,YES,1
+271,ESBL,Seattle Children's,YES,17
+530,ESBL,Seattle Children's,YES,13
+760,ESBL,Seattle Children's,YES,5
+361,ESBL,Seattle Children's,YES,7
+771,ESBL,Seattle Children's,YES,7
+560,ESBL,Seattle Children's,YES,2
+360,ESBL,Seattle Children's,YES,0
+761,ESBL,Seattle Children's,YES,11
+751,ESBL,Seattle Children's,YES,0
+721,ESBL,Seattle Children's,YES,2
+371,ESBL,Seattle Children's,YES,0
+531,ESBL,Seattle Children's,YES,1
+131,ESBL,Seattle Children's,YES,0
+661,ESBL,Seattle Children's,YES,2
+511,ESBL,Seattle Children's,YES,0
+261,ESBL,Seattle Children's,YES,1
+551,ESBL,Seattle Children's,YES,0
+520,ESBL,Seattle Children's,YES,2
+700,ESBL,Seattle Children's,YES,0
+231,ESBL,Seattle Children's,YES,1
+260,ESBL,Seattle Children's,YES,0
+510,ESBL,Seattle Children's,YES,2
+171,ESBL,Seattle Children's,YES,0
+500,ESBL,Seattle Children's,NO,100
+200,ESBL,Seattle Children's,YES,8
+220,ESBL,Seattle Children's,YES,11
+731,ESBL,Seattle Children's,YES,0
+351,ESBL,Seattle Children's,YES,1
+570,ESBL,Seattle Children's,YES,0
+300,ESBL,Seattle Children's,NO,100
+671,ESBL,Seattle Children's,YES,7
+630,ESBL,Seattle Children's,YES,11
+251,ESBL,Seattle Children's,YES,8
+711,ESBL,Seattle Children's,YES,2
+321,ESBL,Seattle Children's,YES,7
+160,ESBL,Seattle Children's,YES,1
+651,ESBL,Seattle Children's,YES,8
+370,ESBL,Seattle Children's,YES,11
+550,ESBL,Seattle Children's,YES,0
+350,ESBL,Seattle Children's,YES,1
+660,ESBL,Seattle Children's,YES,0
+741,ESBL,Seattle Children's,YES,11
+750,ESBL,Seattle Children's,YES,7
+710,ESBL,Seattle Children's,YES,11
+521,ESBL,Seattle Children's,YES,8
+130,ESBL,Seattle Children's,YES,11
+320,ESBL,Seattle Children's,YES,7
+720,ESBL,Seattle Children's,YES,1
+611,ESBL,Seattle Children's,YES,8
+540,ESBL,Seattle Children's,YES,11
+730,ESBL,Seattle Children's,YES,7
+631,ESBL,Seattle Children's,YES,11
+230,ESBL,Seattle Children's,YES,8
+621,ESBL,Seattle Children's,YES,11
+341,ESBL,Seattle Children's,YES,7
+330,ESBL,Seattle Children's,YES,11
+240,ESBL,Seattle Children's,YES,8
+221,ESBL,Seattle Children's,YES,11
+121,ESBL,Seattle Children's,YES,7
+641,ESBL,Seattle Children's,YES,11
+20,ESBL,Seattle Children's,YES,8
+400,ESBL,Seattle Children's,YES,11
+331,ESBL,Seattle Children's,YES,7
+650,ESBL,Seattle Children's,YES,11
+770,ESBL,Seattle Children's,YES,8
+610,ESBL,Seattle Children's,YES,11
+161,ESBL,Seattle Children's,YES,7
+600,ESBL,Seattle Children's,YES,11
+E. coli,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,29
+561,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,41
+620,Trimethoprim/Sulfamethoxazole,Seattle Children's,YES,14
+571,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,48
+271,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,72
+530,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,31
+760,Trimethoprim/Sulfamethoxazole,Seattle Children's,YES,13
+361,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,25
+771,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,25
+560,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,64
+360,Trimethoprim/Sulfamethoxazole,Seattle Children's,YES,5
+761,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,32
+751,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,41
+721,Trimethoprim/Sulfamethoxazole,Seattle Children's,YES,2
+371,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,40
+531,Trimethoprim/Sulfamethoxazole,Seattle Children's,YES,1
+131,Trimethoprim/Sulfamethoxazole,Seattle Children's,YES,11
+661,Trimethoprim/Sulfamethoxazole,Seattle Children's,YES,2
+511,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,47
+261,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,100
+551,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,23
+520,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,100
+700,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,64
+231,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,100
+260,Trimethoprim/Sulfamethoxazole,Seattle Children's,YES,0
+510,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,35
+171,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,47
+500,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,100
+200,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,29
+220,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,32
+731,Trimethoprim/Sulfamethoxazole,Seattle Children's,YES,0
+351,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,51
+570,Trimethoprim/Sulfamethoxazole,Seattle Children's,YES,0
+300,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,100
+671,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,28
+630,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,32
+251,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,29
+711,Trimethoprim/Sulfamethoxazole,Seattle Children's,YES,2
+321,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,28
+160,Trimethoprim/Sulfamethoxazole,Seattle Children's,YES,1
+651,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,29
+370,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,32
+550,Trimethoprim/Sulfamethoxazole,Seattle Children's,YES,0
+350,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,100
+660,Trimethoprim/Sulfamethoxazole,Seattle Children's,YES,0
+741,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,32
+750,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,28
+710,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,32
+521,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,29
+130,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,32
+320,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,28
+720,Trimethoprim/Sulfamethoxazole,Seattle Children's,YES,1
+611,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,29
+540,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,32
+730,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,28
+631,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,32
+230,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,29
+621,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,32
+341,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,28
+330,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,32
+240,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,29
+221,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,32
+121,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,28
+641,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,32
+20,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,29
+400,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,32
+331,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,28
+650,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,32
+770,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,29
+610,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,32
+161,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,28
+600,Trimethoprim/Sulfamethoxazole,Seattle Children's,NO,32
+E. coli,Ciprofloxacin,Seattle Children's,YES,18
+561,Ciprofloxacin,Seattle Children's,NO,88
+620,Ciprofloxacin,Seattle Children's,YES,0
+571,Ciprofloxacin,Seattle Children's,NO,88
+271,Ciprofloxacin,Seattle Children's,YES,5
+530,Ciprofloxacin,Seattle Children's,YES,2
+760,Ciprofloxacin,Seattle Children's,YES,9
+361,Ciprofloxacin,Seattle Children's,YES,7
+771,Ciprofloxacin,Seattle Children's,YES,12
+560,Ciprofloxacin,Seattle Children's,NO,27
+360,Ciprofloxacin,Seattle Children's,YES,5
+761,Ciprofloxacin,Seattle Children's,NO,21
+751,Ciprofloxacin,Seattle Children's,YES,0
+721,Ciprofloxacin,Seattle Children's,NO,22
+371,Ciprofloxacin,Seattle Children's,YES,11
+531,Ciprofloxacin,Seattle Children's,NO,30
+131,Ciprofloxacin,Seattle Children's,YES,0
+661,Ciprofloxacin,Seattle Children's,YES,2
+511,Ciprofloxacin,Seattle Children's,NO,47
+261,Ciprofloxacin,Seattle Children's,YES,1
+551,Ciprofloxacin,Seattle Children's,YES,0
+520,Ciprofloxacin,Seattle Children's,NO,100
+700,Ciprofloxacin,Seattle Children's,NO,30
+231,Ciprofloxacin,Seattle Children's,NO,51
+260,Ciprofloxacin,Seattle Children's,YES,0
+510,Ciprofloxacin,Seattle Children's,YES,2
+171,Ciprofloxacin,Seattle Children's,YES,0
+500,Ciprofloxacin,Seattle Children's,YES,1
+200,Ciprofloxacin,Seattle Children's,YES,18
+220,Ciprofloxacin,Seattle Children's,NO,21
+731,Ciprofloxacin,Seattle Children's,YES,0
+351,Ciprofloxacin,Seattle Children's,YES,1
+570,Ciprofloxacin,Seattle Children's,YES,0
+300,Ciprofloxacin,Seattle Children's,NO,100
+671,Ciprofloxacin,Seattle Children's,YES,17
+630,Ciprofloxacin,Seattle Children's,NO,21
+251,Ciprofloxacin,Seattle Children's,YES,18
+711,Ciprofloxacin,Seattle Children's,YES,2
+321,Ciprofloxacin,Seattle Children's,YES,17
+160,Ciprofloxacin,Seattle Children's,YES,1
+651,Ciprofloxacin,Seattle Children's,YES,18
+370,Ciprofloxacin,Seattle Children's,NO,21
+550,Ciprofloxacin,Seattle Children's,YES,0
+350,Ciprofloxacin,Seattle Children's,YES,1
+660,Ciprofloxacin,Seattle Children's,YES,0
+741,Ciprofloxacin,Seattle Children's,NO,21
+750,Ciprofloxacin,Seattle Children's,YES,17
+710,Ciprofloxacin,Seattle Children's,NO,21
+521,Ciprofloxacin,Seattle Children's,YES,18
+130,Ciprofloxacin,Seattle Children's,NO,21
+320,Ciprofloxacin,Seattle Children's,YES,17
+720,Ciprofloxacin,Seattle Children's,YES,1
+611,Ciprofloxacin,Seattle Children's,YES,18
+540,Ciprofloxacin,Seattle Children's,NO,21
+730,Ciprofloxacin,Seattle Children's,YES,17
+631,Ciprofloxacin,Seattle Children's,NO,21
+230,Ciprofloxacin,Seattle Children's,YES,18
+621,Ciprofloxacin,Seattle Children's,NO,21
+341,Ciprofloxacin,Seattle Children's,YES,17
+330,Ciprofloxacin,Seattle Children's,NO,21
+240,Ciprofloxacin,Seattle Children's,YES,18
+221,Ciprofloxacin,Seattle Children's,NO,21
+121,Ciprofloxacin,Seattle Children's,YES,17
+641,Ciprofloxacin,Seattle Children's,NO,21
+20,Ciprofloxacin,Seattle Children's,YES,18
+400,Ciprofloxacin,Seattle Children's,NO,21
+331,Ciprofloxacin,Seattle Children's,YES,17
+650,Ciprofloxacin,Seattle Children's,NO,21
+770,Ciprofloxacin,Seattle Children's,YES,18
+610,Ciprofloxacin,Seattle Children's,NO,21
+161,Ciprofloxacin,Seattle Children's,YES,17
+600,Ciprofloxacin,Seattle Children's,NO,21
+E. coli,Nitrofurantoin,Seattle Children's,YES,9
+561,Nitrofurantoin,Seattle Children's,YES,6
+620,Nitrofurantoin,Seattle Children's,YES,14
+571,Nitrofurantoin,Seattle Children's,YES,14
+271,Nitrofurantoin,Seattle Children's,YES,6
+530,Nitrofurantoin,Seattle Children's,NO,31
+760,Nitrofurantoin,Seattle Children's,YES,1
+361,Nitrofurantoin,Seattle Children's,YES,7
+771,Nitrofurantoin,Seattle Children's,YES,0
+560,Nitrofurantoin,Seattle Children's,YES,2
+360,Nitrofurantoin,Seattle Children's,YES,0
+761,Nitrofurantoin,Seattle Children's,YES,12
+751,Nitrofurantoin,Seattle Children's,YES,12
+721,Nitrofurantoin,Seattle Children's,NO,22
+371,Nitrofurantoin,Seattle Children's,NO,40
+531,Nitrofurantoin,Seattle Children's,NO,30
+131,Nitrofurantoin,Seattle Children's,YES,11
+661,Nitrofurantoin,Seattle Children's,YES,2
+511,Nitrofurantoin,Seattle Children's,YES,0
+261,Nitrofurantoin,Seattle Children's,YES,1
+551,Nitrofurantoin,Seattle Children's,YES,0
+520,Nitrofurantoin,Seattle Children's,YES,2
+700,Nitrofurantoin,Seattle Children's,NO,30
+231,Nitrofurantoin,Seattle Children's,YES,1
+260,Nitrofurantoin,Seattle Children's,YES,0
+510,Nitrofurantoin,Seattle Children's,NO,35
+171,Nitrofurantoin,Seattle Children's,YES,0
+500,Nitrofurantoin,Seattle Children's,YES,1
+200,Nitrofurantoin,Seattle Children's,YES,9
+220,Nitrofurantoin,Seattle Children's,YES,13
+731,Nitrofurantoin,Seattle Children's,YES,0
+351,Nitrofurantoin,Seattle Children's,YES,1
+570,Nitrofurantoin,Seattle Children's,NO,23
+300,Nitrofurantoin,Seattle Children's,NO,100
+671,Nitrofurantoin,Seattle Children's,YES,8
+630,Nitrofurantoin,Seattle Children's,YES,12
+251,Nitrofurantoin,Seattle Children's,YES,9
+711,Nitrofurantoin,Seattle Children's,YES,2
+321,Nitrofurantoin,Seattle Children's,YES,8
+160,Nitrofurantoin,Seattle Children's,YES,1
+651,Nitrofurantoin,Seattle Children's,YES,9
+370,Nitrofurantoin,Seattle Children's,YES,13
+550,Nitrofurantoin,Seattle Children's,NO,30
+350,Nitrofurantoin,Seattle Children's,YES,1
+660,Nitrofurantoin,Seattle Children's,NO,48
+741,Nitrofurantoin,Seattle Children's,YES,13
+750,Nitrofurantoin,Seattle Children's,YES,8
+710,Nitrofurantoin,Seattle Children's,YES,12
+521,Nitrofurantoin,Seattle Children's,YES,9
+130,Nitrofurantoin,Seattle Children's,YES,13
+320,Nitrofurantoin,Seattle Children's,YES,8
+720,Nitrofurantoin,Seattle Children's,YES,1
+611,Nitrofurantoin,Seattle Children's,YES,9
+540,Nitrofurantoin,Seattle Children's,YES,13
+730,Nitrofurantoin,Seattle Children's,YES,8
+631,Nitrofurantoin,Seattle Children's,YES,12
+230,Nitrofurantoin,Seattle Children's,YES,9
+621,Nitrofurantoin,Seattle Children's,YES,13
+341,Nitrofurantoin,Seattle Children's,YES,8
+330,Nitrofurantoin,Seattle Children's,YES,12
+240,Nitrofurantoin,Seattle Children's,YES,9
+221,Nitrofurantoin,Seattle Children's,YES,13
+121,Nitrofurantoin,Seattle Children's,YES,8
+641,Nitrofurantoin,Seattle Children's,YES,12
+20,Nitrofurantoin,Seattle Children's,YES,9
+400,Nitrofurantoin,Seattle Children's,YES,13
+331,Nitrofurantoin,Seattle Children's,YES,8
+650,Nitrofurantoin,Seattle Children's,YES,12
+770,Nitrofurantoin,Seattle Children's,YES,9
+610,Nitrofurantoin,Seattle Children's,YES,13
+161,Nitrofurantoin,Seattle Children's,YES,8
+600,Nitrofurantoin,Seattle Children's,YES,12
+E. coli,Ampicillin,VA Minneapolis,NO,45
+561,Ampicillin,VA Minneapolis,NO,82
+620,Ampicillin,VA Minneapolis,NO,39
+571,Ampicillin,VA Minneapolis,NO,59
+271,Ampicillin,VA Minneapolis,NO,65
+530,Ampicillin,VA Minneapolis,NO,44
+760,Ampicillin,VA Minneapolis,YES,17
+361,Ampicillin,VA Minneapolis,NO,42
+771,Ampicillin,VA Minneapolis,NO,55
+560,Ampicillin,VA Minneapolis,NO,92
+360,Ampicillin,VA Minneapolis,NO,47
+761,Ampicillin,VA Minneapolis,NO,34
+751,Ampicillin,VA Minneapolis,YES,18
+721,Ampicillin,VA Minneapolis,NO,35
+371,Ampicillin,VA Minneapolis,NO,97
+531,Ampicillin,VA Minneapolis,YES,1
+131,Ampicillin,VA Minneapolis,NO,31
+661,Ampicillin,VA Minneapolis,YES,18
+511,Ampicillin,VA Minneapolis,NO,47
+261,Ampicillin,VA Minneapolis,NO,34
+551,Ampicillin,VA Minneapolis,YES,18
+520,Ampicillin,VA Minneapolis,NO,47
+700,Ampicillin,VA Minneapolis,NO,47
+231,Ampicillin,VA Minneapolis,NO,48
+260,Ampicillin,VA Minneapolis,YES,0
+510,Ampicillin,VA Minneapolis,NO,22
+171,Ampicillin,VA Minneapolis,NO,44
+500,Ampicillin,VA Minneapolis,NO,100
+200,Ampicillin,VA Minneapolis,NO,45
+220,Ampicillin,VA Minneapolis,NO,49
+731,Ampicillin,VA Minneapolis,YES,0
+351,Ampicillin,VA Minneapolis,NO,100
+570,Ampicillin,VA Minneapolis,NO,45
+300,Ampicillin,VA Minneapolis,YES,2
+671,Ampicillin,VA Minneapolis,NO,44
+630,Ampicillin,VA Minneapolis,NO,51
+251,Ampicillin,VA Minneapolis,NO,45
+711,Ampicillin,VA Minneapolis,NO,52
+321,Ampicillin,VA Minneapolis,NO,44
+160,Ampicillin,VA Minneapolis,NO,48
+651,Ampicillin,VA Minneapolis,YES,0
+370,Ampicillin,VA Minneapolis,NO,49
+550,Ampicillin,VA Minneapolis,YES,0
+350,Ampicillin,VA Minneapolis,NO,48
+660,Ampicillin,VA Minneapolis,NO,45
+741,Ampicillin,VA Minneapolis,NO,49
+750,Ampicillin,VA Minneapolis,NO,44
+710,Ampicillin,VA Minneapolis,YES,1
+521,Ampicillin,VA Minneapolis,YES,0
+130,Ampicillin,VA Minneapolis,NO,49
+320,Ampicillin,VA Minneapolis,NO,44
+720,Ampicillin,VA Minneapolis,NO,48
+611,Ampicillin,VA Minneapolis,YES,0
+540,Ampicillin,VA Minneapolis,NO,49
+730,Ampicillin,VA Minneapolis,NO,44
+631,Ampicillin,VA Minneapolis,NO,48
+230,Ampicillin,VA Minneapolis,NO,45
+621,Ampicillin,VA Minneapolis,NO,49
+341,Ampicillin,VA Minneapolis,NO,44
+330,Ampicillin,VA Minneapolis,NO,48
+240,Ampicillin,VA Minneapolis,NO,45
+221,Ampicillin,VA Minneapolis,NO,49
+121,Ampicillin,VA Minneapolis,NO,44
+641,Ampicillin,VA Minneapolis,NO,48
+20,Ampicillin,VA Minneapolis,NO,45
+400,Ampicillin,VA Minneapolis,NO,49
+331,Ampicillin,VA Minneapolis,NO,44
+650,Ampicillin,VA Minneapolis,NO,48
+770,Ampicillin,VA Minneapolis,NO,45
+610,Ampicillin,VA Minneapolis,NO,49
+161,Ampicillin,VA Minneapolis,NO,44
+600,Ampicillin,VA Minneapolis,NO,48
+E. coli,Amoxicillin/Clavulanate,VA Minneapolis,NO,21
+561,Amoxicillin/Clavulanate,VA Minneapolis,NO,53
+620,Amoxicillin/Clavulanate,VA Minneapolis,YES,13
+571,Amoxicillin/Clavulanate,VA Minneapolis,YES,6
+271,Amoxicillin/Clavulanate,VA Minneapolis,NO,25
+530,Amoxicillin/Clavulanate,VA Minneapolis,NO,23
+760,Amoxicillin/Clavulanate,VA Minneapolis,YES,9
+361,Amoxicillin/Clavulanate,VA Minneapolis,NO,25
+771,Amoxicillin/Clavulanate,VA Minneapolis,YES,0
+560,Amoxicillin/Clavulanate,VA Minneapolis,YES,18
+360,Amoxicillin/Clavulanate,VA Minneapolis,YES,0
+761,Amoxicillin/Clavulanate,VA Minneapolis,NO,23
+751,Amoxicillin/Clavulanate,VA Minneapolis,YES,15
+721,Amoxicillin/Clavulanate,VA Minneapolis,YES,2
+371,Amoxicillin/Clavulanate,VA Minneapolis,NO,54
+531,Amoxicillin/Clavulanate,VA Minneapolis,YES,1
+131,Amoxicillin/Clavulanate,VA Minneapolis,NO,31
+661,Amoxicillin/Clavulanate,VA Minneapolis,YES,18
+511,Amoxicillin/Clavulanate,VA Minneapolis,YES,0
+261,Amoxicillin/Clavulanate,VA Minneapolis,NO,34
+551,Amoxicillin/Clavulanate,VA Minneapolis,YES,0
+520,Amoxicillin/Clavulanate,VA Minneapolis,NO,47
+700,Amoxicillin/Clavulanate,VA Minneapolis,YES,0
+231,Amoxicillin/Clavulanate,VA Minneapolis,NO,24
+260,Amoxicillin/Clavulanate,VA Minneapolis,YES,0
+510,Amoxicillin/Clavulanate,VA Minneapolis,NO,22
+171,Amoxicillin/Clavulanate,VA Minneapolis,NO,20
+500,Amoxicillin/Clavulanate,VA Minneapolis,NO,100
+200,Amoxicillin/Clavulanate,VA Minneapolis,NO,21
+220,Amoxicillin/Clavulanate,VA Minneapolis,NO,25
+731,Amoxicillin/Clavulanate,VA Minneapolis,YES,0
+351,Amoxicillin/Clavulanate,VA Minneapolis,NO,100
+570,Amoxicillin/Clavulanate,VA Minneapolis,NO,21
+300,Amoxicillin/Clavulanate,VA Minneapolis,NO,52
+671,Amoxicillin/Clavulanate,VA Minneapolis,NO,20
+630,Amoxicillin/Clavulanate,VA Minneapolis,NO,51
+251,Amoxicillin/Clavulanate,VA Minneapolis,NO,21
+711,Amoxicillin/Clavulanate,VA Minneapolis,YES,2
+321,Amoxicillin/Clavulanate,VA Minneapolis,NO,20
+160,Amoxicillin/Clavulanate,VA Minneapolis,NO,24
+651,Amoxicillin/Clavulanate,VA Minneapolis,YES,0
+370,Amoxicillin/Clavulanate,VA Minneapolis,NO,25
+550,Amoxicillin/Clavulanate,VA Minneapolis,YES,0
+350,Amoxicillin/Clavulanate,VA Minneapolis,NO,24
+660,Amoxicillin/Clavulanate,VA Minneapolis,NO,21
+741,Amoxicillin/Clavulanate,VA Minneapolis,NO,25
+750,Amoxicillin/Clavulanate,VA Minneapolis,NO,20
+710,Amoxicillin/Clavulanate,VA Minneapolis,YES,1
+521,Amoxicillin/Clavulanate,VA Minneapolis,YES,0
+130,Amoxicillin/Clavulanate,VA Minneapolis,NO,25
+320,Amoxicillin/Clavulanate,VA Minneapolis,NO,20
+720,Amoxicillin/Clavulanate,VA Minneapolis,NO,24
+611,Amoxicillin/Clavulanate,VA Minneapolis,YES,0
+540,Amoxicillin/Clavulanate,VA Minneapolis,NO,25
+730,Amoxicillin/Clavulanate,VA Minneapolis,NO,20
+631,Amoxicillin/Clavulanate,VA Minneapolis,NO,24
+230,Amoxicillin/Clavulanate,VA Minneapolis,NO,21
+621,Amoxicillin/Clavulanate,VA Minneapolis,NO,25
+341,Amoxicillin/Clavulanate,VA Minneapolis,NO,20
+330,Amoxicillin/Clavulanate,VA Minneapolis,NO,24
+240,Amoxicillin/Clavulanate,VA Minneapolis,NO,21
+221,Amoxicillin/Clavulanate,VA Minneapolis,NO,25
+121,Amoxicillin/Clavulanate,VA Minneapolis,NO,20
+641,Amoxicillin/Clavulanate,VA Minneapolis,NO,24
+20,Amoxicillin/Clavulanate,VA Minneapolis,NO,21
+400,Amoxicillin/Clavulanate,VA Minneapolis,NO,25
+331,Amoxicillin/Clavulanate,VA Minneapolis,NO,20
+650,Amoxicillin/Clavulanate,VA Minneapolis,NO,24
+770,Amoxicillin/Clavulanate,VA Minneapolis,NO,21
+610,Amoxicillin/Clavulanate,VA Minneapolis,NO,25
+161,Amoxicillin/Clavulanate,VA Minneapolis,NO,20
+600,Amoxicillin/Clavulanate,VA Minneapolis,NO,24
+E. coli,Cephalexin,VA Minneapolis,YES,11
+561,Cephalexin,VA Minneapolis,NO,30
+620,Cephalexin,VA Minneapolis,YES,0
+571,Cephalexin,VA Minneapolis,YES,12
+271,Cephalexin,VA Minneapolis,YES,7
+530,Cephalexin,VA Minneapolis,YES,18
+760,Cephalexin,VA Minneapolis,YES,0
+361,Cephalexin,VA Minneapolis,YES,7
+771,Cephalexin,VA Minneapolis,YES,12
+560,Cephalexin,VA Minneapolis,YES,2
+360,Cephalexin,VA Minneapolis,YES,7
+761,Cephalexin,VA Minneapolis,NO,23
+751,Cephalexin,VA Minneapolis,YES,15
+721,Cephalexin,VA Minneapolis,YES,2
+371,Cephalexin,VA Minneapolis,NO,47
+531,Cephalexin,VA Minneapolis,YES,1
+131,Cephalexin,VA Minneapolis,NO,20
+661,Cephalexin,VA Minneapolis,YES,2
+511,Cephalexin,VA Minneapolis,YES,0
+261,Cephalexin,VA Minneapolis,YES,1
+551,Cephalexin,VA Minneapolis,YES,0
+520,Cephalexin,VA Minneapolis,NO,38
+700,Cephalexin,VA Minneapolis,YES,0
+231,Cephalexin,VA Minneapolis,YES,14
+260,Cephalexin,VA Minneapolis,YES,0
+510,Cephalexin,VA Minneapolis,NO,22
+171,Cephalexin,VA Minneapolis,YES,10
+500,Cephalexin,VA Minneapolis,YES,1
+200,Cephalexin,VA Minneapolis,YES,11
+220,Cephalexin,VA Minneapolis,YES,15
+731,Cephalexin,VA Minneapolis,YES,0
+351,Cephalexin,VA Minneapolis,YES,1
+570,Cephalexin,VA Minneapolis,YES,11
+300,Cephalexin,VA Minneapolis,YES,2
+671,Cephalexin,VA Minneapolis,YES,10
+630,Cephalexin,VA Minneapolis,YES,1
+251,Cephalexin,VA Minneapolis,YES,11
+711,Cephalexin,VA Minneapolis,YES,2
+321,Cephalexin,VA Minneapolis,YES,10
+160,Cephalexin,VA Minneapolis,YES,14
+651,Cephalexin,VA Minneapolis,YES,0
+370,Cephalexin,VA Minneapolis,YES,15
+550,Cephalexin,VA Minneapolis,YES,0
+350,Cephalexin,VA Minneapolis,YES,14
+660,Cephalexin,VA Minneapolis,YES,11
+741,Cephalexin,VA Minneapolis,YES,15
+750,Cephalexin,VA Minneapolis,YES,10
+710,Cephalexin,VA Minneapolis,YES,1
+521,Cephalexin,VA Minneapolis,YES,0
+130,Cephalexin,VA Minneapolis,YES,15
+320,Cephalexin,VA Minneapolis,YES,10
+720,Cephalexin,VA Minneapolis,YES,14
+611,Cephalexin,VA Minneapolis,YES,0
+540,Cephalexin,VA Minneapolis,YES,15
+730,Cephalexin,VA Minneapolis,YES,10
+631,Cephalexin,VA Minneapolis,YES,14
+230,Cephalexin,VA Minneapolis,YES,11
+621,Cephalexin,VA Minneapolis,YES,15
+341,Cephalexin,VA Minneapolis,YES,10
+330,Cephalexin,VA Minneapolis,YES,14
+240,Cephalexin,VA Minneapolis,YES,11
+221,Cephalexin,VA Minneapolis,YES,15
+121,Cephalexin,VA Minneapolis,YES,10
+641,Cephalexin,VA Minneapolis,YES,14
+20,Cephalexin,VA Minneapolis,YES,11
+400,Cephalexin,VA Minneapolis,YES,15
+331,Cephalexin,VA Minneapolis,YES,10
+650,Cephalexin,VA Minneapolis,YES,14
+770,Cephalexin,VA Minneapolis,YES,11
+610,Cephalexin,VA Minneapolis,YES,15
+161,Cephalexin,VA Minneapolis,YES,10
+600,Cephalexin,VA Minneapolis,YES,14
+E. coli,Ceftazidime,VA Minneapolis,YES,5
+561,Ceftazidime,VA Minneapolis,NO,22
+620,Ceftazidime,VA Minneapolis,YES,0
+571,Ceftazidime,VA Minneapolis,YES,12
+271,Ceftazidime,VA Minneapolis,YES,0
+530,Ceftazidime,VA Minneapolis,YES,4
+760,Ceftazidime,VA Minneapolis,YES,0
+361,Ceftazidime,VA Minneapolis,YES,7
+771,Ceftazidime,VA Minneapolis,YES,0
+560,Ceftazidime,VA Minneapolis,YES,10
+360,Ceftazidime,VA Minneapolis,YES,0
+761,Ceftazidime,VA Minneapolis,YES,1
+751,Ceftazidime,VA Minneapolis,YES,15
+721,Ceftazidime,VA Minneapolis,YES,2
+371,Ceftazidime,VA Minneapolis,YES,11
+531,Ceftazidime,VA Minneapolis,YES,1
+131,Ceftazidime,VA Minneapolis,YES,0
+661,Ceftazidime,VA Minneapolis,YES,2
+511,Ceftazidime,VA Minneapolis,YES,0
+261,Ceftazidime,VA Minneapolis,YES,1
+551,Ceftazidime,VA Minneapolis,YES,0
+520,Ceftazidime,VA Minneapolis,NO,38
+700,Ceftazidime,VA Minneapolis,YES,0
+231,Ceftazidime,VA Minneapolis,YES,8
+260,Ceftazidime,VA Minneapolis,YES,0
+510,Ceftazidime,VA Minneapolis,YES,2
+171,Ceftazidime,VA Minneapolis,YES,4
+500,Ceftazidime,VA Minneapolis,YES,1
+200,Ceftazidime,VA Minneapolis,YES,5
+220,Ceftazidime,VA Minneapolis,YES,8
+731,Ceftazidime,VA Minneapolis,YES,0
+351,Ceftazidime,VA Minneapolis,YES,1
+570,Ceftazidime,VA Minneapolis,YES,5
+300,Ceftazidime,VA Minneapolis,YES,2
+671,Ceftazidime,VA Minneapolis,YES,4
+630,Ceftazidime,VA Minneapolis,YES,1
+251,Ceftazidime,VA Minneapolis,YES,5
+711,Ceftazidime,VA Minneapolis,YES,2
+321,Ceftazidime,VA Minneapolis,YES,4
+160,Ceftazidime,VA Minneapolis,YES,8
+651,Ceftazidime,VA Minneapolis,YES,0
+370,Ceftazidime,VA Minneapolis,YES,8
+550,Ceftazidime,VA Minneapolis,YES,0
+350,Ceftazidime,VA Minneapolis,YES,8
+660,Ceftazidime,VA Minneapolis,YES,5
+741,Ceftazidime,VA Minneapolis,YES,8
+750,Ceftazidime,VA Minneapolis,YES,4
+710,Ceftazidime,VA Minneapolis,YES,1
+521,Ceftazidime,VA Minneapolis,YES,0
+130,Ceftazidime,VA Minneapolis,YES,8
+320,Ceftazidime,VA Minneapolis,YES,4
+720,Ceftazidime,VA Minneapolis,YES,8
+611,Ceftazidime,VA Minneapolis,YES,0
+540,Ceftazidime,VA Minneapolis,YES,8
+730,Ceftazidime,VA Minneapolis,YES,4
+631,Ceftazidime,VA Minneapolis,YES,8
+230,Ceftazidime,VA Minneapolis,YES,5
+621,Ceftazidime,VA Minneapolis,YES,8
+341,Ceftazidime,VA Minneapolis,YES,4
+330,Ceftazidime,VA Minneapolis,YES,8
+240,Ceftazidime,VA Minneapolis,YES,5
+221,Ceftazidime,VA Minneapolis,YES,8
+121,Ceftazidime,VA Minneapolis,YES,4
+641,Ceftazidime,VA Minneapolis,YES,8
+20,Ceftazidime,VA Minneapolis,YES,5
+400,Ceftazidime,VA Minneapolis,YES,8
+331,Ceftazidime,VA Minneapolis,YES,4
+650,Ceftazidime,VA Minneapolis,YES,8
+770,Ceftazidime,VA Minneapolis,YES,5
+610,Ceftazidime,VA Minneapolis,YES,8
+161,Ceftazidime,VA Minneapolis,YES,4
+600,Ceftazidime,VA Minneapolis,YES,8
+E. coli,ESBL,VA Minneapolis,YES,2
+561,ESBL,VA Minneapolis,YES,18
+620,ESBL,VA Minneapolis,YES,0
+571,ESBL,VA Minneapolis,YES,6
+271,ESBL,VA Minneapolis,YES,0
+530,ESBL,VA Minneapolis,YES,4
+760,ESBL,VA Minneapolis,YES,0
+361,ESBL,VA Minneapolis,YES,1
+771,ESBL,VA Minneapolis,YES,0
+560,ESBL,VA Minneapolis,YES,2
+360,ESBL,VA Minneapolis,YES,0
+761,ESBL,VA Minneapolis,YES,1
+751,ESBL,VA Minneapolis,YES,15
+721,ESBL,VA Minneapolis,YES,2
+371,ESBL,VA Minneapolis,YES,11
+531,ESBL,VA Minneapolis,YES,1
+131,ESBL,VA Minneapolis,YES,0
+661,ESBL,VA Minneapolis,YES,2
+511,ESBL,VA Minneapolis,YES,0
+261,ESBL,VA Minneapolis,YES,1
+551,ESBL,VA Minneapolis,YES,0
+520,ESBL,VA Minneapolis,YES,11
+700,ESBL,VA Minneapolis,YES,0
+231,ESBL,VA Minneapolis,YES,5
+260,ESBL,VA Minneapolis,YES,0
+510,ESBL,VA Minneapolis,YES,2
+171,ESBL,VA Minneapolis,YES,1
+500,ESBL,VA Minneapolis,YES,1
+200,ESBL,VA Minneapolis,YES,2
+220,ESBL,VA Minneapolis,YES,6
+731,ESBL,VA Minneapolis,YES,0
+351,ESBL,VA Minneapolis,YES,1
+570,ESBL,VA Minneapolis,YES,2
+300,ESBL,VA Minneapolis,YES,2
+671,ESBL,VA Minneapolis,YES,1
+630,ESBL,VA Minneapolis,YES,1
+251,ESBL,VA Minneapolis,YES,2
+711,ESBL,VA Minneapolis,YES,2
+321,ESBL,VA Minneapolis,YES,1
+160,ESBL,VA Minneapolis,YES,5
+651,ESBL,VA Minneapolis,YES,0
+370,ESBL,VA Minneapolis,YES,6
+550,ESBL,VA Minneapolis,YES,0
+350,ESBL,VA Minneapolis,YES,5
+660,ESBL,VA Minneapolis,YES,2
+741,ESBL,VA Minneapolis,YES,6
+750,ESBL,VA Minneapolis,YES,1
+710,ESBL,VA Minneapolis,YES,1
+521,ESBL,VA Minneapolis,YES,0
+130,ESBL,VA Minneapolis,YES,6
+320,ESBL,VA Minneapolis,YES,1
+720,ESBL,VA Minneapolis,YES,5
+611,ESBL,VA Minneapolis,YES,0
+540,ESBL,VA Minneapolis,YES,6
+730,ESBL,VA Minneapolis,YES,1
+631,ESBL,VA Minneapolis,YES,5
+230,ESBL,VA Minneapolis,YES,2
+621,ESBL,VA Minneapolis,YES,6
+341,ESBL,VA Minneapolis,YES,1
+330,ESBL,VA Minneapolis,YES,5
+240,ESBL,VA Minneapolis,YES,2
+221,ESBL,VA Minneapolis,YES,6
+121,ESBL,VA Minneapolis,YES,1
+641,ESBL,VA Minneapolis,YES,5
+20,ESBL,VA Minneapolis,YES,2
+400,ESBL,VA Minneapolis,YES,6
+331,ESBL,VA Minneapolis,YES,1
+650,ESBL,VA Minneapolis,YES,5
+770,ESBL,VA Minneapolis,YES,2
+610,ESBL,VA Minneapolis,YES,6
+161,ESBL,VA Minneapolis,YES,1
+600,ESBL,VA Minneapolis,YES,5
+E. coli,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,24
+561,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,38
+620,Trimethoprim/Sulfamethoxazole,VA Minneapolis,YES,8
+571,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,69
+271,Trimethoprim/Sulfamethoxazole,VA Minneapolis,YES,16
+530,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,37
+760,Trimethoprim/Sulfamethoxazole,VA Minneapolis,YES,3
+361,Trimethoprim/Sulfamethoxazole,VA Minneapolis,YES,7
+771,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,55
+560,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,52
+360,Trimethoprim/Sulfamethoxazole,VA Minneapolis,YES,7
+761,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,34
+751,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,31
+721,Trimethoprim/Sulfamethoxazole,VA Minneapolis,YES,2
+371,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,54
+531,Trimethoprim/Sulfamethoxazole,VA Minneapolis,YES,1
+131,Trimethoprim/Sulfamethoxazole,VA Minneapolis,YES,9
+661,Trimethoprim/Sulfamethoxazole,VA Minneapolis,YES,2
+511,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,47
+261,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,34
+551,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,38
+520,Trimethoprim/Sulfamethoxazole,VA Minneapolis,YES,20
+700,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,47
+231,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,27
+260,Trimethoprim/Sulfamethoxazole,VA Minneapolis,YES,0
+510,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,22
+171,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,23
+500,Trimethoprim/Sulfamethoxazole,VA Minneapolis,YES,1
+200,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,24
+220,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,27
+731,Trimethoprim/Sulfamethoxazole,VA Minneapolis,YES,0
+351,Trimethoprim/Sulfamethoxazole,VA Minneapolis,YES,1
+570,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,24
+300,Trimethoprim/Sulfamethoxazole,VA Minneapolis,YES,2
+671,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,23
+630,Trimethoprim/Sulfamethoxazole,VA Minneapolis,YES,1
+251,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,24
+711,Trimethoprim/Sulfamethoxazole,VA Minneapolis,YES,2
+321,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,23
+160,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,27
+651,Trimethoprim/Sulfamethoxazole,VA Minneapolis,YES,0
+370,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,27
+550,Trimethoprim/Sulfamethoxazole,VA Minneapolis,YES,0
+350,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,27
+660,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,24
+741,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,27
+750,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,23
+710,Trimethoprim/Sulfamethoxazole,VA Minneapolis,YES,1
+521,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,98
+130,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,27
+320,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,23
+720,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,27
+611,Trimethoprim/Sulfamethoxazole,VA Minneapolis,YES,0
+540,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,27
+730,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,23
+631,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,27
+230,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,24
+621,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,27
+341,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,23
+330,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,27
+240,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,24
+221,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,27
+121,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,23
+641,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,27
+20,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,24
+400,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,27
+331,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,23
+650,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,27
+770,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,24
+610,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,27
+161,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,23
+600,Trimethoprim/Sulfamethoxazole,VA Minneapolis,NO,27
+E. coli,Ciprofloxacin,VA Minneapolis,NO,29
+561,Ciprofloxacin,VA Minneapolis,NO,93
+620,Ciprofloxacin,VA Minneapolis,YES,8
+571,Ciprofloxacin,VA Minneapolis,NO,59
+271,Ciprofloxacin,VA Minneapolis,YES,7
+530,Ciprofloxacin,VA Minneapolis,YES,12
+760,Ciprofloxacin,VA Minneapolis,YES,15
+361,Ciprofloxacin,VA Minneapolis,YES,1
+771,Ciprofloxacin,VA Minneapolis,NO,55
+560,Ciprofloxacin,VA Minneapolis,NO,35
+360,Ciprofloxacin,VA Minneapolis,YES,17
+761,Ciprofloxacin,VA Minneapolis,YES,12
+751,Ciprofloxacin,VA Minneapolis,NO,81
+721,Ciprofloxacin,VA Minneapolis,YES,2
+371,Ciprofloxacin,VA Minneapolis,NO,40
+531,Ciprofloxacin,VA Minneapolis,NO,41
+131,Ciprofloxacin,VA Minneapolis,NO,20
+661,Ciprofloxacin,VA Minneapolis,YES,2
+511,Ciprofloxacin,VA Minneapolis,YES,0
+261,Ciprofloxacin,VA Minneapolis,YES,1
+551,Ciprofloxacin,VA Minneapolis,YES,0
+520,Ciprofloxacin,VA Minneapolis,YES,20
+700,Ciprofloxacin,VA Minneapolis,YES,0
+231,Ciprofloxacin,VA Minneapolis,NO,32
+260,Ciprofloxacin,VA Minneapolis,YES,0
+510,Ciprofloxacin,VA Minneapolis,YES,2
+171,Ciprofloxacin,VA Minneapolis,NO,28
+500,Ciprofloxacin,VA Minneapolis,YES,1
+200,Ciprofloxacin,VA Minneapolis,NO,29
+220,Ciprofloxacin,VA Minneapolis,NO,32
+731,Ciprofloxacin,VA Minneapolis,YES,0
+351,Ciprofloxacin,VA Minneapolis,YES,1
+570,Ciprofloxacin,VA Minneapolis,NO,29
+300,Ciprofloxacin,VA Minneapolis,NO,52
+671,Ciprofloxacin,VA Minneapolis,NO,28
+630,Ciprofloxacin,VA Minneapolis,YES,1
+251,Ciprofloxacin,VA Minneapolis,NO,29
+711,Ciprofloxacin,VA Minneapolis,NO,52
+321,Ciprofloxacin,VA Minneapolis,NO,28
+160,Ciprofloxacin,VA Minneapolis,NO,32
+651,Ciprofloxacin,VA Minneapolis,YES,0
+370,Ciprofloxacin,VA Minneapolis,NO,32
+550,Ciprofloxacin,VA Minneapolis,YES,0
+350,Ciprofloxacin,VA Minneapolis,NO,32
+660,Ciprofloxacin,VA Minneapolis,NO,29
+741,Ciprofloxacin,VA Minneapolis,NO,32
+750,Ciprofloxacin,VA Minneapolis,NO,28
+710,Ciprofloxacin,VA Minneapolis,YES,1
+521,Ciprofloxacin,VA Minneapolis,NO,98
+130,Ciprofloxacin,VA Minneapolis,NO,32
+320,Ciprofloxacin,VA Minneapolis,NO,28
+720,Ciprofloxacin,VA Minneapolis,NO,32
+611,Ciprofloxacin,VA Minneapolis,YES,0
+540,Ciprofloxacin,VA Minneapolis,NO,32
+730,Ciprofloxacin,VA Minneapolis,NO,28
+631,Ciprofloxacin,VA Minneapolis,NO,32
+230,Ciprofloxacin,VA Minneapolis,NO,29
+621,Ciprofloxacin,VA Minneapolis,NO,32
+341,Ciprofloxacin,VA Minneapolis,NO,28
+330,Ciprofloxacin,VA Minneapolis,NO,32
+240,Ciprofloxacin,VA Minneapolis,NO,29
+221,Ciprofloxacin,VA Minneapolis,NO,32
+121,Ciprofloxacin,VA Minneapolis,NO,28
+641,Ciprofloxacin,VA Minneapolis,NO,32
+20,Ciprofloxacin,VA Minneapolis,NO,29
+400,Ciprofloxacin,VA Minneapolis,NO,32
+331,Ciprofloxacin,VA Minneapolis,NO,28
+650,Ciprofloxacin,VA Minneapolis,NO,32
+770,Ciprofloxacin,VA Minneapolis,NO,29
+610,Ciprofloxacin,VA Minneapolis,NO,32
+161,Ciprofloxacin,VA Minneapolis,NO,28
+600,Ciprofloxacin,VA Minneapolis,NO,32
+E. coli,Nitrofurantoin,VA Minneapolis,YES,8
+561,Nitrofurantoin,VA Minneapolis,YES,8
+620,Nitrofurantoin,VA Minneapolis,YES,5
+571,Nitrofurantoin,VA Minneapolis,YES,12
+271,Nitrofurantoin,VA Minneapolis,YES,16
+530,Nitrofurantoin,VA Minneapolis,YES,12
+760,Nitrofurantoin,VA Minneapolis,YES,15
+361,Nitrofurantoin,VA Minneapolis,YES,18
+771,Nitrofurantoin,VA Minneapolis,NO,27
+560,Nitrofurantoin,VA Minneapolis,YES,2
+360,Nitrofurantoin,VA Minneapolis,NO,27
+761,Nitrofurantoin,VA Minneapolis,YES,1
+751,Nitrofurantoin,VA Minneapolis,YES,15
+721,Nitrofurantoin,VA Minneapolis,YES,2
+371,Nitrofurantoin,VA Minneapolis,NO,26
+531,Nitrofurantoin,VA Minneapolis,YES,1
+131,Nitrofurantoin,VA Minneapolis,YES,9
+661,Nitrofurantoin,VA Minneapolis,YES,18
+511,Nitrofurantoin,VA Minneapolis,YES,0
+261,Nitrofurantoin,VA Minneapolis,NO,34
+551,Nitrofurantoin,VA Minneapolis,YES,0
+520,Nitrofurantoin,VA Minneapolis,YES,2
+700,Nitrofurantoin,VA Minneapolis,YES,0
+231,Nitrofurantoin,VA Minneapolis,YES,11
+260,Nitrofurantoin,VA Minneapolis,YES,0
+510,Nitrofurantoin,VA Minneapolis,NO,22
+171,Nitrofurantoin,VA Minneapolis,YES,7
+500,Nitrofurantoin,VA Minneapolis,YES,1
+200,Nitrofurantoin,VA Minneapolis,YES,8
+220,Nitrofurantoin,VA Minneapolis,YES,12
+731,Nitrofurantoin,VA Minneapolis,YES,0
+351,Nitrofurantoin,VA Minneapolis,YES,1
+570,Nitrofurantoin,VA Minneapolis,YES,8
+300,Nitrofurantoin,VA Minneapolis,YES,2
+671,Nitrofurantoin,VA Minneapolis,YES,7
+630,Nitrofurantoin,VA Minneapolis,YES,1
+251,Nitrofurantoin,VA Minneapolis,YES,8
+711,Nitrofurantoin,VA Minneapolis,YES,2
+321,Nitrofurantoin,VA Minneapolis,YES,7
+160,Nitrofurantoin,VA Minneapolis,YES,11
+651,Nitrofurantoin,VA Minneapolis,YES,0
+370,Nitrofurantoin,VA Minneapolis,YES,12
+550,Nitrofurantoin,VA Minneapolis,YES,0
+350,Nitrofurantoin,VA Minneapolis,YES,11
+660,Nitrofurantoin,VA Minneapolis,YES,8
+741,Nitrofurantoin,VA Minneapolis,YES,12
+750,Nitrofurantoin,VA Minneapolis,YES,7
+710,Nitrofurantoin,VA Minneapolis,YES,1
+521,Nitrofurantoin,VA Minneapolis,YES,0
+130,Nitrofurantoin,VA Minneapolis,YES,12
+320,Nitrofurantoin,VA Minneapolis,YES,7
+720,Nitrofurantoin,VA Minneapolis,YES,11
+611,Nitrofurantoin,VA Minneapolis,YES,0
+540,Nitrofurantoin,VA Minneapolis,YES,12
+730,Nitrofurantoin,VA Minneapolis,YES,7
+631,Nitrofurantoin,VA Minneapolis,YES,11
+230,Nitrofurantoin,VA Minneapolis,YES,8
+621,Nitrofurantoin,VA Minneapolis,YES,12
+341,Nitrofurantoin,VA Minneapolis,YES,7
+330,Nitrofurantoin,VA Minneapolis,YES,11
+240,Nitrofurantoin,VA Minneapolis,YES,8
+221,Nitrofurantoin,VA Minneapolis,YES,12
+121,Nitrofurantoin,VA Minneapolis,YES,7
+641,Nitrofurantoin,VA Minneapolis,YES,11
+20,Nitrofurantoin,VA Minneapolis,YES,8
+400,Nitrofurantoin,VA Minneapolis,YES,12
+331,Nitrofurantoin,VA Minneapolis,YES,7
+650,Nitrofurantoin,VA Minneapolis,YES,11
+770,Nitrofurantoin,VA Minneapolis,YES,8
+610,Nitrofurantoin,VA Minneapolis,YES,12
+161,Nitrofurantoin,VA Minneapolis,YES,7
+600,Nitrofurantoin,VA Minneapolis,YES,11

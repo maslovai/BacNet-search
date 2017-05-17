@@ -9,12 +9,23 @@
     $('#header-container').show();
     $('#section-video-container').show();
     $('#barcode-container').hide();
+
     $('#aboutTable').hide(); //this hides our About Us table...
+
+    $('#nav-links #query-request-tab').hide().siblings().show();
+
   }
+
+  // query.handleFilter = function(){
+  //    $('#author-filter').on('change', function() {
+  //    if ($(this).val())
+  //    }
+  // }
+
 
   $('#submit').on('click', function(){
     console.log(' in submit')
-     $('#result-ul').empty().append('<li>Look what we have got for you!</li>');
+     $('#result-ul').empty().append('<li>Look what we have for you!</li>');
    });
 
 
