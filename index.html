@@ -5,6 +5,8 @@
   <title>ID Genomics</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="styles/layout.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Baumans" rel="stylesheet">
   <script id="template" type="text/x-handlebars-template">
     <article class="clone-box" data-category="{{cloneCategory}}"></article>
   </script>
@@ -12,12 +14,6 @@
 <body>
   <header id="header"class="fixed clearfix header-menu header" data-header-type="header-menu" data-header-resize="true" data-header-height="85" data-header-max-height="115" data-menu-link="1">
     <div id="header-container" style="height:8em" class="section-container header-container">
-
-      <!-- <div id="header-overlay-slider" style="opacity:0.45;"></div>
-      <div id="header-overlay" class="headerColor header-overlay" style="opacity:0.2;"></div>
-      <div class="sliding-menu-open"></div> -->
-
-
 
       <div class="website-logo">
         <a href="http://idgenomics.com">
@@ -27,7 +23,8 @@
       <div>
       <nav id="top-nav" class="headerColor top-nav">
         <ul id = "nav-links"class="top-menu">
-          <li class="menu-item" data-content=""><a href="http://idgenomics.com/" class="hover" target="_blank" <span>ID Genomics</span></a></li>
+
+          <li class="menu-item" data-content=""><a href="http://idgenomics.com/" class="hover" target="_blank" <span>ID Genomics</span></a></li> 
           <li id = "clonet-tab" class="menu-item" data-content=""><a href="/" class="hover" <span>CloNeT</span></a></li>
           <li id = "barcode-tab"class="menu-item" data-content=""><a href="/barcode" class="hover" <span>Barcode Generator</span></a></li>
           <li id = "query-request-tab" class="menu-item" data-content=""><a href="/query" class="hover" <span>BactNeT Query</span></a></li>
@@ -37,10 +34,10 @@
     </div>
   </header>
 
-  <div id = "clonet-principle" class="containers clonet-principle" style="background-image:">
-    <div id = "decorative-pargraph">
-      <h3>CLONET PRINCIPLES</h3>
-    </div>
+<!-- <div class="div-bar"></div> -->
+  <div id = "decorative-pargraph" class="decorative-pargraph" style="background-image: url(assets/images/blue-background.png); height: 48px; width: 100%;">
+    <h3>CloNet Principles</h3>
+
     <div id = "clonet-wrapper">
 
       <img class = "tubes" src = "assets/images/tubes.png">
@@ -91,7 +88,6 @@
       </div>
       </section>
 
-
     <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
     <script src ="https://code.jquery.com/jquery-3.2.1.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -103,7 +99,6 @@
     <script src ="scripts/indexView.js"></script>
     <script src ="scripts/barcodeView.js"></script>
     <script src = "scripts/routes.js"></script>
-
 
   </body>
   </html>
