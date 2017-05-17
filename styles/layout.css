@@ -22,9 +22,6 @@ html .top-nav {
   top: 0;
   margin: 0 auto;
   background: none;
-  /*overflow: auto;*/
-  /*text-align: center;*/
-  /*-webkit-transform: translateZ(0);*/
 }
 .header-menu {
   display: inline-block;
@@ -32,35 +29,6 @@ html .top-nav {
   border-color: blue;
   margin: 0 auto;
 }
-
-/*.header .fixed {
-position: fixed !important;
-}*/
-
-/*.header-overlay {
-border-style: dashed;
-border-color: green;
-position: absolute;
-display: inline-block;
-top: 0;
-left: 0;
-bottom: 0;
-right: 0;
--webkit-box-shadow: 5px 5px 10px rgba(0,0,0,0.05);
--moz-box-shadow: 5px 5px 10px rgba(0,0,0,0.05);
-box-shadow: 5px 5px 10px rgba(0,0,0,0.05);
-}*/
-/*.headerColor {
-background: #ffffff;
-color: #646464;
-}*/
-/*.section-container {
-border-style: dashed;
-border-color: red;
-position: relative;
-max-width: 1180px;
-margin: 0 auto;
-}*/
 
 .top-nav{
   border-style: dashed;
@@ -193,27 +161,6 @@ video {
   /*removing this in html to have colored boxes instead */
 }
 
-/*#textBox1 {
-  float: left;
-  width: 40%;
-  margin: 1em;
-}
-#textBox2 {
-  float: right;
-  width: 40%;
-  margin: 1em;
-}
-#textBox3 {
-  float: left;
-  width: 40%;
-  margin: 1em;
-}
-#textBox4 {
-  float: right;
-  width: 40%;
-  margin: 1em;
-}*/
-
 .tbl {
     border-collapse: collapse;
     border-spacing: 0;
@@ -245,7 +192,6 @@ video {
     color: white;
     background-color: #26ADE4;
 }
-
 .tbl .tbl-box1 {
     background-color: #DEE9F7;
     text-align: center;
@@ -268,44 +214,6 @@ video {
   height: 25em;
   width: 35em;
 }
-
-/************* Aside video styles *******************/
-/*.aside-video-container{*/
-  /*border-style: dashed;
-  border-color: green;*/
-  /*height: 900px;
-  width: 50%;
-  border-left: none;
-  border-right: none;
-  position: relative;
-  background: transparent;
-}
-.aside-video-container-inner{*/
-  /*background: url('assets/videoposter.jpeg') no-repeat;*/
-  /*border-style: dashed;
-  border-color: red;*/
-  /*background: transparent;
-  background-size: cover;
-
-  height: 75em;
-  width: 100%;
-
-  position: absolute;
-  overflow: hidden;
-}
-.portrait-video-background {*/
-  /*border-style: dashed;
-  border-color: black;*/
-  /*position: absolute;
-  z-index: -1;
-  opacity: 0.78;
-
-  height: 30em;
-  width: 100%;
-
-  object-fit: cover;
-}*/
-/***************Clonet View styles***************/
 
 .clonet-wrapper{
   display: inline-block;
