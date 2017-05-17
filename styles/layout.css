@@ -1,35 +1,35 @@
-body {
-  background-color: D6E2EA;
-  margin-left: auto;
-}
+
 
 html .top-nav {
+    width: 850px;
+    max-width: 100%;
+    padding: 0;
+    position: relative;
+    line-height: 1em;
+    margin:0 auto;
+}
 
-  /*width: 700px;*/
-  max-width: 90%;
+body {
+  display: block;
+  margin: 0;
+  padding: 0;
   position: relative;
-  line-height: 1em;
-  margin:0 auto;
 }
 
 .header {
-
-  border-style: dashed;
-  border-color: pink;
-  display: inline-block;
-  position: absolute;
-  z-index: 4;
-  min-width: 320px;
-  width: 100%;
-  height: auto;
-  top: 0;
-  margin: 0 auto;
-  background: none;
-  /*overflow: auto;*/
-  /*text-align: center;*/
-  /*-webkit-transform: translateZ(0);*/
-
+    border-style: dashed;
+    border-color: pink;
+    display: inline-block;
+    position: absolute;
+    z-index: 4;
+    width: 100%;
+    height: auto;
+    top: 0;
+    margin: 0 auto;
+    text-align: center;
+    background: none;
 }
+
 .header-menu {
   display: inline-block;
   border-style: dashed;
@@ -38,35 +38,60 @@ html .top-nav {
 
 }
 
-/*.header .fixed {
-position: fixed !important;
-}*/
+.top-nav{
+    border-style: dashed;
+    border-color: brown;
+    display: inline-block;
+    background: transparent;
+    list-style: none;
+    height: 100%;
+    float:right;
+}
 
-/*.header-overlay {
-border-style: dashed;
-border-color: green;
-position: absolute;
-display: inline-block;
-top: 0;
-left: 0;
-bottom: 0;
-right: 0;
--webkit-box-shadow: 5px 5px 10px rgba(0,0,0,0.05);
--moz-box-shadow: 5px 5px 10px rgba(0,0,0,0.05);
-box-shadow: 5px 5px 10px rgba(0,0,0,0.05);
-}*/
-/*.headerColor {
-background: #ffffff;
-color: #646464;
-}*/
-/*.section-container {
-border-style: dashed;
-border-color: red;
-position: relative;
-max-width: 1180px;
-margin: 0 auto;
-}*/
+.top-nav ul{
+    height: 100%;
+    float:right;
+}
+.top-nav > ul > li > a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    border-bottom: 3px solid;
+      border-bottom-width: 3px;
+      border-bottom-style: solid;
+    transform: scale(0) translateZ(0);
+    -webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease;
+    -moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease;
+    -ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
+    -o-transition: -o-transform 0.5s ease, opacity 0.5s ease;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+      transition-property: transform, opacity;
+      transition-duration: 0.5s, 0.5s;
+      transition-timing-function: ease, ease;
+      transition-delay: initial, initial;
+}
+.top-nav > ul > li > a.hover {
+  border-color: #006699;
 
+}
+.top-nav > ul > li > a.hover:after, .top-nav > ul > .current-menu-ancestor > a:after, .top-nav > ul > .current-menu-item > a:after {
+    opacity: 1;
+    transform: scale(1) translateZ(0);
+  }
+.top-nav li {
+    display: inline-block;
+    height: 100%;
+    line-height: 55px;
+    transform: none;
+    float: right;
+    margin: 0;
+    margin: 5px;
+    margin-left: -1.5em;
+}
+  
 .top-nav{
   border-style: dashed;
   border-color: yellow;
@@ -80,38 +105,6 @@ margin: 0 auto;
   height: 100%;
   float:right;
 }
-/*.top-nav .top-menu {
-height: auto;
-width: 70%;
-top: 50%;
-left: 0;
-bottom: 0;
-text-align: right;
-float:right;
-margin-top: -15px;
-position: absolute;
-display: inline-block;
-}*/
-
-/*.top-nav > ul > li > a:after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 0;
-  border-bottom: 3px solid;
-  transform: scale(0) translateZ(0);
-  -webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease;
-  -moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease;
-  -ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
-  -o-transition: -o-transform 0.5s ease, opacity 0.5s ease;
-  transition: transform 0.5s ease, opacity 0.5s ease;
-}*/
-/*.top-nav > ul > li > a.hover:after, .top-nav > ul > li.current-menu-ancestor > a:after, .top-nav > ul > li.current-menu-item > a:after {
-  opacity: 1;
-  transform: scale(1) translateZ(0);
-}*/
 
 .top-nav li {
   display: inline-block;
@@ -124,12 +117,11 @@ display: inline-block;
 }
 
 ul li {
-  list-style: disc;
+  list-style: none;
   list-style-position: outside;
 }
 /*ul {
   display: block;
-  list-style-type: disc;
   -webkit-margin-before: 1em;
   -webkit-margin-after: 1em;
   -webkit-margin-start: 0px;
@@ -137,10 +129,32 @@ ul li {
   -webkit-padding-start: 40px
 }*/
 li {
+  display: inline;
   letter-spacing: 0.3px;
   line-height: 30px;
+  list-style-position: outside;
   text-transform: uppercase;
   padding: 0 16px 0 14px;
+}
+.hover {
+  color: #59585b;
+  display: inline;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  text-decoration: none;
+  list-style-position: outside;
+  -webkit-transition: border .2s;
+  transition: border .2s;
+}
+h3 {
+    color: #ffffff;
+    font-family: Baumans;
+    line-height: 48px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 34px;
 }
 .website-logo img {
   min-height: 100%;
@@ -149,9 +163,11 @@ li {
   float: left;
 }
 .website-logo {
-  z-index: 1;
-  float: left;
-  height: 100%;
+
+    z-index: 1;
+    float: left;
+    height: 100%;
+    width: 350px;
 }
 
 .sliding-menu-open {
@@ -314,42 +330,6 @@ video {
   width: 35em;
 }
 
-/************* Aside video styles *******************/
-/*.aside-video-container{*/
-  /*border-style: dashed;
-  border-color: green;*/
-  /*height: 900px;
-  width: 50%;
-  border-left: none;
-  border-right: none;
-  position: relative;
-  background: transparent;
-}
-.aside-video-container-inner{*/
-  /*background: url('assets/videoposter.jpeg') no-repeat;*/
-  /*border-style: dashed;
-  border-color: red;*/
-  /*background: transparent;
-  background-size: cover;
-
-  height: 75em;
-  width: 100%;
-
-  position: absolute;
-  overflow: hidden;
-}
-.portrait-video-background {*/
-  /*border-style: dashed;
-  border-color: black;*/
-  /*position: absolute;
-  z-index: -1;
-  opacity: 0.78;
-
-  height: 30em;
-  width: 100%;
-
-  object-fit: cover;
-}*/
 /***************Clonet View styles***************/
 
 .clonet-wrapper{
@@ -368,11 +348,15 @@ border-style: dashed;
 border-color: red;
 padding: 0;
 }
-#decorative-paragraph{
-  background-color: #999999;
+/*.div-bar {
+    height: 48px;
+    background: #22385a;
+    position: relative;
+}*/
+.decorative-paragraph{
   color:white;
   width: 100%;
-  height: 10em;
+  height: 48px;
 }
 
 /**********request page styles by Iryna:************/
