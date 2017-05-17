@@ -4,8 +4,6 @@ body {
 }
 
 html .top-nav {
-
-  /*width: 700px;*/
   max-width: 90%;
   position: relative;
   line-height: 1em;
@@ -13,7 +11,6 @@ html .top-nav {
 }
 
 .header {
-
   border-style: dashed;
   border-color: pink;
   display: inline-block;
@@ -28,14 +25,12 @@ html .top-nav {
   /*overflow: auto;*/
   /*text-align: center;*/
   /*-webkit-transform: translateZ(0);*/
-
 }
 .header-menu {
   display: inline-block;
   border-style: dashed;
   border-color: blue;
   margin: 0 auto;
-
 }
 
 /*.header .fixed {
@@ -80,38 +75,6 @@ margin: 0 auto;
   height: 100%;
   float:right;
 }
-/*.top-nav .top-menu {
-height: auto;
-width: 70%;
-top: 50%;
-left: 0;
-bottom: 0;
-text-align: right;
-float:right;
-margin-top: -15px;
-position: absolute;
-display: inline-block;
-}*/
-
-/*.top-nav > ul > li > a:after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 0;
-  border-bottom: 3px solid;
-  transform: scale(0) translateZ(0);
-  -webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease;
-  -moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease;
-  -ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
-  -o-transition: -o-transform 0.5s ease, opacity 0.5s ease;
-  transition: transform 0.5s ease, opacity 0.5s ease;
-}*/
-/*.top-nav > ul > li > a.hover:after, .top-nav > ul > li.current-menu-ancestor > a:after, .top-nav > ul > li.current-menu-item > a:after {
-  opacity: 1;
-  transform: scale(1) translateZ(0);
-}*/
 
 .top-nav li {
   display: inline-block;
@@ -124,18 +87,10 @@ display: inline-block;
 }
 
 ul li {
-  list-style: disc;
+  list-style: none;
   list-style-position: outside;
 }
-/*ul {
-  display: block;
-  list-style-type: disc;
-  -webkit-margin-before: 1em;
-  -webkit-margin-after: 1em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
-  -webkit-padding-start: 40px
-}*/
+
 li {
   letter-spacing: 0.3px;
   line-height: 30px;
@@ -207,7 +162,6 @@ li {
 
 video {
   position: relative;
-
   z-index: -1;
   opacity: 0.78;
   height: 3em;
@@ -227,6 +181,7 @@ video {
   border-style: dotted;
   border-color: green;
   text-align: center;
+  float: right;
 
 }
 
@@ -238,7 +193,7 @@ video {
   /*removing this in html to have colored boxes instead */
 }
 
-#textBox1 {
+/*#textBox1 {
   float: left;
   width: 40%;
   margin: 1em;
@@ -257,7 +212,7 @@ video {
   float: right;
   width: 40%;
   margin: 1em;
-}
+}*/
 
 .tbl {
     border-collapse: collapse;
@@ -360,13 +315,31 @@ video {
 .tubes{
   border-style: dashed;
   border-color: green;
+  margin-top: 10em;
+  display: inline-flex;
   width: 30em;
-  height: 30em;
+  height: 25em;
+  float: left;
+  border-style: dotted;
+  border-color: black;
+  position: relative;
 }
+
+.tube {
+  width: 30em;
+  height: 25em;
+}
+
+a:hover{
+  color:red;
+  text-decoration: overline;
+}
+
 .clonet-article {
 border-style: dashed;
 border-color: red;
 padding: 0;
+float: right;
 }
 #decorative-paragraph{
   background-color: #999999;
