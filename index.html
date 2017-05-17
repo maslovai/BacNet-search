@@ -11,7 +11,7 @@
 </head>
 <body>
   <header id="header"class="fixed clearfix header-menu header" data-header-type="header-menu" data-header-resize="true" data-header-height="85" data-header-max-height="115" data-menu-link="1">
-    <div id="header-container containers" style="height:85px" class="section-container header-container">
+    <div id="header-container containers" style="height:8em" class="section-container header-container">
 
       <div class="website-logo">
         <a href="http://idgenomics.com">
@@ -19,82 +19,76 @@
         </a>
       </div>
       <nav id="top-nav" class="headerColor top-nav">
-        <ul class="top-menu">
-          <li class="menu-item" data-content=""><a href="http://idgenomics.com/" class="hover" target="_blank" <span>ID Genomics</span></a></li>
-          <li class="menu-item" data-content=""><a href="/" class="hover" <span>CloNeT</span></a></li>
-          <li class="menu-item" data-content=""><a href="/barcode" class="hover" <span>Barcoding Generator</span></a></li>
-          <li class="menu-item" data-content=""><a href="/query" class="hover" <span>BactNeT Query</span></a></li>
+        <ul id = "nav-links"class="top-menu">
+          <li class="menu-item" data-content=""><a href="http://idgenomics.com/" class="hover" target="_blank" <span>ID Genomics</span></a></li> 
+
+          <li id = "clonet-tab" class="menu-item" data-content=""><a href="/" class="hover" <span>CloNeT</span></a></li>
+          <li id = "barcode-tab"class="menu-item" data-content=""><a href="/barcode" class="hover" <span>Barcoding Generator</span></a></li>
+          <li id = "query-request-tab" class="menu-item" data-content=""><a href="/query" class="hover" <span>BactNeT Query</span></a></li>
+
         </ul>
       </nav>
     </div>
   </header>
 
-  <br>
-  <div id="clonet-principle" class="containers">
-    <p>Clonet principle and a corresponding picture go here: </p>
-    <!-- test with page within a page beings -->
-    <iframe id="article-link" src="assets/clonet-principles.pdf" name="targetframe" allowTransparency="true" scrolling="yes" frameborder="3" >
-    </iframe>
-    <!-- test with page within a page ends -->
-  </div>
+  <div id = "clonet-principle" class="containers clonet-principle" style="background-image:">
+    <div id = "decorative-pargraph">
+      <h3>CLONET PRINCIPLES</h3>
+    </div>
+    <div id = "clonet-wrapper">
 
-  <!-- test with a table begins -->
-  <div id="aboutTable">
-    <table class="tbl">
-      <tr>
-        <th class="tbl-box1">box1 Person 1 will have their tuff in here and more information. </th>
-        <th class="tbl-box2">box2 Person 2 will have their tuff in here and more information. </th>
-      </tr>
-      <tr>
-        <td class="tbl-box3">box3 Person 3 will have their tuff in here and more information. </td>
-        <td class="tbl-box4">box4 Person 4 will have their tuff in here and more information. </td>
-      </tr>
-    </table>
-  </div>
-  <!-- test with a table ends-->
+      <img class = "tubes" src = "assets/images/tubes.png">
+      <div id = "clonet-article" class="clonet-article">
+        <embed src="assets/clonet-principles.pdf" width="600em" height="600em"/>
+      </div>
+    </div>
+    </div>
 
-  <div id="request-container" class="containers">
-    <h1>Things are going to happen here:</h1>
-    <select name="select">
-      <option value="value1">Value 1</option>
-      <option value="value2" selected>Value 2</option>
-      <option value="value3">Value 3</option>
-    </select>
-    <br>
-    <form>
-      <label for="locus">Enter query sequence:</label>
-      <input id="sequence" class="sequence"type="textarea" name="sequence" placeholder="sequence">
+  <div id = "request-container" class ="containers">
+    <div id = "form-buttons">
+      <label for "select">Pick a hospital:</label>
+      <select name="select" id = "hospital-filter">
+        <option value="All" selected>All</option>
+        <option value="Seattle Childrens" >Seattle Childrens</option>
+        <option value="Kaiser">Kaiser</option>
+        <option value="Hennepin">Hennepin</option>
+        <option value="Harborview">Harborview</option>
+        <option value="Keck">Keck</option>
+        <option value="LACounty">LA County</option>
+        <option value="NYLangone">NY Langone</option>
+      </select>
 
-      <input id="submit" type="submit" name = "submit">
-      <br>
-      <input id="reset" type="reset" name = "reset">
-    </form>
-    <p>Results will go here:</p>
-    <table id="results-table">
-      <tr>
-        <td>
-          Ampicillin::::::::::::::
-        </td>
-        <td>
-          <ul id="result-ul">
-          </ul>
-        </td>
-      </tr>
-    </table>
-  </div>
-  <div id="barcode-container" class="containers">
-    <p>This is a placeholder for the barcode generator</p>
-  </div>
+      <form id = "bac-form">
+        <label for="bacCode">Enter the bacteria barcode:</label>
+        <input id="bacCode" class = "bacCode"type="textarea" name="bacCode" placeholder="bacCode">
 
-  <div id="footer">
-  <section id="section-video-container" class="section-video-container">
-    <div class="video-container">
-      <video preload="true" autoplay loop muted poster="assets/videoposter.jpeg" class="video-background">
-        <source src="assets/videos/Atoms - 5205.mp4" type="video/mp4" media="(orientation:landscape)">
+        <input id = "submit" type="submit" name = "submit">
+        <input id = "reset" type="reset" name = "reset">
+      </form>
+    </div>
+    <div  id = "results">
+      <p>You will veiw the results here:</p>
+      <table id = "results-table">
+        <tr>
+          <td>
+            Ampicillin::::::::::::::
+          </td>
+        </tr>
+      </table>
+    </div>
+    </div>
+
+    <div id = "barcode-container" class="containers">
+      <p>This is a placeholder for the barcode generator</p>
+    </div>
+
+    <section id="section-video-container" class = "section-video-container">
+      <div class="video-container">
+        <video preload="true" autoplay loop muted poster="" class="landscape-video-background">
+          <source src="assets/videos/Atoms - 5205.mp4" type="video/mp4" media="(orientation:landscape)">
         </video>
       </div>
-    </section>
-  </div>
+      </section>
 
     <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
     <script src ="https://code.jquery.com/jquery-3.2.1.js"></script>

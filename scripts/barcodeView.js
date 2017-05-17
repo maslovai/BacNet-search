@@ -5,12 +5,15 @@ const barcode = {};
 
   barcode.showBarcodePage = function(){
 
-    $('#header-container').show();
     $('#barcode-container').show();
     $('#request-container').hide();
-    $('#section-video-container').show();
+
     $('#clonet-principle').hide();
+    $('#section-video-container').show();
+    $('#nav-links #barcode-tab').hide().siblings().show();
+    $('#header-container').show();
     $('#aboutTable').hide();
+    
   }
 
   module.barcode = barcode;
