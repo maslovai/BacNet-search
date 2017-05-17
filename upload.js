@@ -1,9 +1,12 @@
-'use strict'
+'use strict';
 
-const conString = process.env.DATABASE_URL ||
-                  'postgres://USERNAME:PASSWORD@HOST:PORT';
+const lineReader = require('readline')
+// const conString = process.env.DATABASE_URL ||
+//                   'postgres://USERNAME:PASSWORD@HOST:PORT';
+const conString = '';
 const pg = require('pg');
-const client = new pg.client(conString);
+const fs = require('fs');
+const client = new pg.Client(conString);
 client.connect();
 client.on('error', err => console.error(err));
 
@@ -86,44 +89,43 @@ function createTables() {
   }
 }
 
-// write the siteTable and resistanceTable to the DOM, to check the values.
-function display() {
-  for (var i = 0; i < siteTable.length; i++) {
-    var st = siteTable[i];
-    $('body').append('<p>' + st.site + ', ' + st.barcode + ' and ' + st.antibiotic + ': ' + (st.recommended? 'YES' : 'NO') + '</p>');
-  }
-
-  for (var i = 0; i < resistanceTable.length; i++) {
-    var rt = resistanceTable[i];
-    $('body').append('<p>' + rt.barcode + ' vs. ' + rt.antibiotic + ' resistance: ' + rt.resistance + '%' + '</p>');
-  }
-}
-
 //write the data to the database
 function writeSQL() {
   //create the database
-  client.query('
-  CREATE TABLE IF NOT EXISTS
+  client.query(
+  `CREATE TABLE IF NOT EXISTS
     entries (
-      barcode VARCHAR(64) NOT NULL,
-      antibiotic VARCHAR(64) NOT NULL,
-      site VARCHAR(120) NOT NULL,
+      barcode VARCHAR(32) NOT NULL,
+      antibiotic VARCHAR(32) NOT NULL,
+      site VARCHAR(64) NOT NULL,
       recommended BOOLEAN,
       resistance INTEGER
-    );
-  ')
+    );`
+  );
+  for(var i = 0; i < entries.length; ++i) {
+    var e = entries[i];
+    client.query(`
+      INSERT INTO entries(barcode, antibiotic, site, recommended, resistance)
+      VALUES($1, $2, $3, $4, $5)
+    ;` [e.barcode, e.antibiotic, e.site, e.recommended, e.resistance]);
+  }
+
+  console.log(client.query(`SELECT * FROM entries`));
 }
 
 // set off all the above.
-$(document).ready(function() {
-  $.ajax({
-    type: 'GET',
-    url: 'BacNeT.csv',
-    dataType: 'text',
-    success: function(data){readCSV(data);}
-  }).then(function() {
-    createTables();
-  }).then(function() {
-    display();
-  })
+fs.readFile('BacNeT.csv', 'utf8', (err, data) => {
+  if (err) throw err;
+  readCSV(data);
+  createTables();
 });
+  // $.ajax({
+  //   type: 'GET',
+  //   url: 'BacNeT.csv',
+  //   dataType: 'text',
+  //   success: function(data){readCSV(data);}
+  // }).then(function() {
+  //   createTables();
+  // }).then(function() {
+  //   display();
+  // })
