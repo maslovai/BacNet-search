@@ -23,18 +23,17 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
 
-// app.get('data-test', function(request, response) {
-//
-//   client.query(`SELECT * FROM all_data
-//       WHERE hospital===option.value and bacteria === textarea.value
-//     `)
-//   .then(function(result) {
-//     response.send();
-//   })
-//   .catch(function(err) {
-//     console.error(err)
-//   })
-// });
+app.get('/entries', (request, response) => {
+  client.query(`SELECT * FROM entries
+      WHERE site=$1 and barcode=$2;
+    `,[request.site,request.barcode]
+  ).then(function(result) {
+    response.send(dataString);
+  })
+  .catch(function(err) {
+    console.error(err)
+  })
+});
 
 
 

@@ -88,7 +88,7 @@ body {
     margin: 5px;
     margin-left: -1.5em;
 }
-  
+
 .top-nav{
   border-style: dashed;
   border-color: yellow;
@@ -181,7 +181,7 @@ h3 {
   text-align: center;
   border-color: green;
 
-  width: 50%;
+  /*width: 50%;*/
   border: 2px dotted green;
   padding: 2px;
   margin-left: auto;

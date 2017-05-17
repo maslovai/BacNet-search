@@ -7,13 +7,12 @@ const barcode = {};
 
     $('#barcode-container').show();
     $('#request-container').hide();
-
-    $('#clonet-principle').hide();
+    $('#clonet-principle-container').hide();
     $('#section-video-container').show();
     $('#nav-links #barcode-tab').hide().siblings().show();
     $('#header-container').show();
     $('#aboutTable').hide();
-    
+
   }
 
   module.barcode = barcode;

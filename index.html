@@ -21,29 +21,28 @@
         </a>
       </div>
       <div>
-      <nav id="top-nav" class="headerColor top-nav">
-        <ul id = "nav-links"class="top-menu">
-          <li class="menu-item" data-content=""><a href="http://idgenomics.com/" class="hover" target="_blank" <span>ID Genomics</span></a></li> 
-          <li id = "clonet-tab" class="menu-item" data-content=""><a href="/" class="hover" <span>CloNeT</span></a></li>
-          <li id = "barcode-tab"class="menu-item" data-content=""><a href="/barcode" class="hover" <span>Barcode Generator</span></a></li>
-          <li id = "query-request-tab" class="menu-item" data-content=""><a href="/query" class="hover" <span>BactNeT Query</span></a></li>
-        </ul>
-      </nav>
-    </div>
+        <nav id="top-nav" class="headerColor top-nav">
+          <ul id = "nav-links"class="top-menu">
+            <li class="menu-item" data-content=""><a href="http://idgenomics.com/" class="hover" target="_blank" <span>ID Genomics</span></a></li>
+            <li id = "clonet-tab" class="menu-item" data-content=""><a href="/" class="hover" <span>CloNeT</span></a></li>
+            <li id = "barcode-tab"class="menu-item" data-content=""><a href="/barcode" class="hover" <span>Barcode Generator</span></a></li>
+            <li id = "query-request-tab" class="menu-item" data-content=""><a href="/query" class="hover" <span>BactNeT Query</span></a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
   </header>
 
-<!-- <div class="div-bar"></div> -->
+  <!-- <div class="div-bar"></div> -->
   <div id = "decorative-pargraph" class="decorative-pargraph" style="background-image: url(assets/images/blue-background.png); height: 48px; width: 100%;">
-    <h3>CloNet Principles<sup>&trade;</sup></h3>
-    <div id = "clonet-wrapper">
-
+    <div id = "clonet-principle-container">
+      <h3>CloNet Principles<sup>&trade;</sup></h3>
       <img class = "tubes" src = "assets/images/tubes.png">
       <div id = "clonet-article" class="clonet-article">
         <embed src="assets/clonet-principles.pdf" width="600em" height="600em"/>
       </div>
     </div>
-    </div>
+  </div>
 
   <div id = "request-container" class ="containers">
     <div id = "form-buttons-div">
@@ -61,7 +60,7 @@
 
       <form id = "bac-form">
         <label for="bacCode">Enter the bacteria barcode:</label>
-        <input id="bacCode" class = "bacCode"type="textarea" name="bacCode" placeholder="bacCode">
+        <input id="bacCode" class = "bacCode"type="textarea" name="bacCode" placeholder="barcode">
         <br>
         <input id = "submit" type="submit" name = "submit">
         <input id = "reset" type="reset" name = "reset">
@@ -72,26 +71,27 @@
       <ul id ="result-ul">
       </ul>
     </div>
-    </div>
+  </div>
 
-    <div id = "barcode-container" class="containers">
-      <p>This is a placeholder for the barcode generator</p>
-    </div>
+  <div id = "barcode-container" class="containers">
+    <p>This is a placeholder for the barcode generator</p>
+  </div>
 
-    <section id="section-video-container" class = "section-video-container">
-      <div class="video-container">
-        <video preload="true" autoplay loop muted poster="" class="landscape-video-background">
-          <source src="assets/videos/Atoms - 5205.mp4" type="video/mp4" media="(orientation:landscape)">
+  <section id="section-video-container" class = "section-video-container">
+    <div class="video-container">
+      <video preload="true" autoplay loop muted poster="" class="landscape-video-background">
+        <source src="assets/videos/Atoms - 5205.mp4" type="video/mp4" media="(orientation:landscape)">
         </video>
       </div>
-      </section>
+  </section>
 
     <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
     <script src ="https://code.jquery.com/jquery-3.2.1.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
-    <script src = "node_modules/page/page.js"></script>
     <script src="vendor/handlebars.js"></script>
+    <script src = "node_modules/page/page.js"></script>
+
     <script src="scripts/queryView.js" charset="utf-8"></script>
     <script src="scripts/cloneView.js" charset="utf-8"></script>
     <script src ="scripts/indexView.js"></script>
