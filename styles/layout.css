@@ -97,7 +97,7 @@ html .top-nav {
     /*margin: 150;*/
     /*padding: 0;*/
 }
-.top-nav > ul > li > a:after {
+/*.top-nav > ul > li > a:after {
     content: "";
     position: absolute;
     left: 0;
@@ -111,18 +111,17 @@ html .top-nav {
     -ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
     -o-transition: -o-transform 0.5s ease, opacity 0.5s ease;
     transition: transform 0.5s ease, opacity 0.5s ease;
-}
-.top-nav > ul > li > a.hover:after, .top-nav > ul > li.current-menu-ancestor > a:after, .top-nav > ul > li.current-menu-item > a:after {
+}*/
+/*.top-nav > ul > li > a.hover:after, .top-nav > ul > li.current-menu-ancestor > a:after, .top-nav > ul > li.current-menu-item > a:after {
     opacity: 1;
     transform: scale(1) translateZ(0);
-  }
+  }*/
 .top-nav li {
     display: inline-block;
     height: 100%;
     line-height: 55px;
     transform: none;
     float: right;
-    margin: 0;
     margin: 5px;
     margin-left: -1.5em;
     /*padding: 0;*/
@@ -346,4 +345,7 @@ font-size: 1em;
 #header-container{
   display: flex;
   justify-content: space-between;
+}
+#result-ul{
+
 }
