@@ -63,5 +63,4 @@ function writeSQL() {
 fs.readFile('BacNeT.csv', 'utf8', (err, data) => {
   if (err) throw err;
   readCSV(data);
-  createTables();
 });
