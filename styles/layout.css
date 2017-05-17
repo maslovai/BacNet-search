@@ -52,7 +52,9 @@ body {
     height: 100%;
     float:right;
 }
-.top-nav > ul > li > a::after {
+
+/*.top-nav > ul > li > a:after {
+
     content: "";
     position: absolute;
     left: 0;
@@ -68,6 +70,10 @@ body {
     -ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
     -o-transition: -o-transform 0.5s ease, opacity 0.5s ease;
     transition: transform 0.5s ease, opacity 0.5s ease;
+
+}*/
+/*.top-nav > ul > li > a.hover:after, .top-nav > ul > li.current-menu-ancestor > a:after, .top-nav > ul > li.current-menu-item > a:after {
+
       transition-property: transform, opacity;
       transition-duration: 0.5s, 0.5s;
       transition-timing-function: ease, ease;
@@ -78,16 +84,16 @@ body {
 
 }
 .top-nav > ul > li > a.hover:after, .top-nav > ul > .current-menu-ancestor > a:after, .top-nav > ul > .current-menu-item > a:after {
+
     opacity: 1;
     transform: scale(1) translateZ(0);
-  }
+  }*/
 .top-nav li {
     display: inline-block;
     height: 100%;
     line-height: 55px;
     transform: none;
     float: right;
-    margin: 0;
     margin: 5px;
     margin-left: -1.5em;
 }
@@ -361,21 +367,46 @@ padding: 0;
 
 /**********request page styles by Iryna:************/
 #request-container {
-  margin-top: 15em;
+  width:90%
+  margin-top: 10%;
   margin-bottom: 15em;
+  font-family: "Open Sans", sans-serif;
+}
+#hospital-filter{
+  font-size:1em;
+}
+#form-buttons-div{
+  margin-top: 5%;
+  width: 40%;
+  height: 2em;
+  font-size: 1.5em;
+  float:left;
+}
+#results-div{
+  width:50%;
+  margin-left: 5%;
+  font-size: 1.5em;
+  display: inline;
+  float:right;
+}
+label{
+  font-size: 1em;
+}
+#bacCode{
+/*height: 5em;
+width: 15em;*/
+font-size: 1em;
+}
+#submit, #reset{
+  width:4em;
+  height:1.5em;
+  font-size: 1.5em;
+  font-family: "Open Sans", sans-serif;
+}
+#header-container{
   display: flex;
   justify-content: space-between;
 }
-#form-buttons{
-  width: 30%;
-  height: 2em;
-  font-size: 1.5em;
-  display: flex;
-  justify-content: space-around;
-}
-#results{
-  width:50%;
-}
-#bacCode{
-  height:2em;
+#result-ul{
+
 }
