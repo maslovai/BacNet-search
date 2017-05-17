@@ -1,146 +1,133 @@
 body {
   background-color: D6E2EA;
+  margin-left: auto;
 }
 
 html .top-nav {
-    width: 850px;
-    max-width: 100%;
-    position: relative;
-    line-height: 1em;
-    margin:0 auto;
-}
 
-/*div {
-  display: block;
-}*/
+  /*width: 700px;*/
+  max-width: 90%;
+  position: relative;
+  line-height: 1em;
+  margin:0 auto;
+}
 
 .header {
-    /*overflow: auto;*/
-    border-style: dashed;
-    border-color: pink;
-    display: inline-block;
-    position: absolute;
-    z-index: 4;
-    /*min-width: 320px;*/
-    width: 100%;
-    height: auto;
-    top: 0;
-    margin: 0 auto;
-    text-align: center;
-    background: none;
-    /*-webkit-transform: translateZ(0);*/
+
+  border-style: dashed;
+  border-color: pink;
+  display: inline-block;
+  position: absolute;
+  z-index: 4;
+  min-width: 320px;
+  width: 100%;
+  height: auto;
+  top: 0;
+  margin: 0 auto;
+  background: none;
+  /*overflow: auto;*/
+  /*text-align: center;*/
+  /*-webkit-transform: translateZ(0);*/
+
 }
-.header-menu .header-container {
-    display: inline-block;
-    border-style: dashed;
-    border-color: blue;
-    margin: 0 auto;
-    width: 350;
+.header-menu {
+  display: inline-block;
+  border-style: dashed;
+  border-color: blue;
+  margin: 0 auto;
+
 }
 
 /*.header .fixed {
-    position: fixed !important;
+position: fixed !important;
 }*/
 
 /*.header-overlay {
-    border-style: dashed;
-    border-color: green;
-    position: absolute;
-    display: inline-block;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    -webkit-box-shadow: 5px 5px 10px rgba(0,0,0,0.05);
-    -moz-box-shadow: 5px 5px 10px rgba(0,0,0,0.05);
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.05);
+border-style: dashed;
+border-color: green;
+position: absolute;
+display: inline-block;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+-webkit-box-shadow: 5px 5px 10px rgba(0,0,0,0.05);
+-moz-box-shadow: 5px 5px 10px rgba(0,0,0,0.05);
+box-shadow: 5px 5px 10px rgba(0,0,0,0.05);
 }*/
 /*.headerColor {
-  background: #ffffff;
-  color: #646464;
-  }*/
+background: #ffffff;
+color: #646464;
+}*/
 /*.section-container {
-    border-style: dashed;
-    border-color: red;
-    position: relative;
-    max-width: 1180px;
-    margin: 0 auto;
+border-style: dashed;
+border-color: red;
+position: relative;
+max-width: 1180px;
+margin: 0 auto;
 }*/
+
 .top-nav{
-    border-style: dashed;
-    border-color: brown;
-    display: inline-block;
-    background: transparent;
-    list-style: none;
-    height: 100%;
-    float:right;
-    /*width:500px;*/
-    /*position: relative;*/
-}
-
-/*.top-nav .top-menu {
-    height: auto;
-    width: 70%;
-    top: 50%;
-    left: 0;
-    bottom: 0;
-    text-align: right;
-    float:right;
-    margin-top: -15px;
-    position: absolute;
-    display: inline-block;
-  }*/
-
-.top-nav ul{
-    height: 100%;
-    float:right;
-    /*margin: 150;*/
-    /*padding: 0;*/
-}
-.top-nav > ul > li > a:after {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 0;
-    border-bottom: 3px solid;
-    transform: scale(0) translateZ(0);
-    -webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease;
-    -moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease;
-    -ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
-    -o-transition: -o-transform 0.5s ease, opacity 0.5s ease;
-    transition: transform 0.5s ease, opacity 0.5s ease;
-}
-.top-nav > ul > li > a.hover:after, .top-nav > ul > li.current-menu-ancestor > a:after, .top-nav > ul > li.current-menu-item > a:after {
-    opacity: 1;
-    transform: scale(1) translateZ(0);
-  }
-.top-nav li {
-    display: inline-block;
-    height: 100%;
-    line-height: 55px;
-    transform: none;
-    float: right;
-    margin: 0;
-    margin: 5px;
-    margin-left: -1.5em;
-    /*padding: 0;*/
-    /*vertical-align: top;*/
-    /*position: relative;*/
-}
-/*ul {
   border-style: dashed;
-  border-color: grey;
+  border-color: yellow;
+  display: inline-block;
+  background: transparent;
   list-style: none;
-  margin-left: 30px;
-  margin-bottom: 30px;
+  height: 100%;
+  float:right;
+}
+.top-nav ul{
+  height: 100%;
+  float:right;
+}
+/*.top-nav .top-menu {
+height: auto;
+width: 70%;
+top: 50%;
+left: 0;
+bottom: 0;
+text-align: right;
+float:right;
+margin-top: -15px;
+position: absolute;
+display: inline-block;
 }*/
+
+/*.top-nav > ul > li > a:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  border-bottom: 3px solid;
+  transform: scale(0) translateZ(0);
+  -webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease;
+  -moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease;
+  -ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
+  -o-transition: -o-transform 0.5s ease, opacity 0.5s ease;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}*/
+/*.top-nav > ul > li > a.hover:after, .top-nav > ul > li.current-menu-ancestor > a:after, .top-nav > ul > li.current-menu-item > a:after {
+  opacity: 1;
+  transform: scale(1) translateZ(0);
+}*/
+
+.top-nav li {
+  display: inline-block;
+  height: 100%;
+  line-height: 2.5em;
+  float: right;
+  margin: 0;
+  margin: 1em;
+  margin-left: -2em;
+}
+
 ul li {
   list-style: disc;
   list-style-position: outside;
 }
-ul {
+/*ul {
   display: block;
   list-style-type: disc;
   -webkit-margin-before: 1em;
@@ -148,7 +135,7 @@ ul {
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
   -webkit-padding-start: 40px
-}
+}*/
 li {
   letter-spacing: 0.3px;
   line-height: 30px;
@@ -160,89 +147,172 @@ li {
   max-height: 100%;
   display: block;
   float: left;
-  /*max-width: 350px;*/
-  /*margin: auto;*/
-  /*width: auto;*/
-  /*position: absolute;*/
-  /*top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;*/
 }
 .website-logo {
-    z-index: 1;
-    float: left;
-    height: 100%;
-    width: 350px;
-    /*max-width: 350px;*/
-    /*position: relative;*/
-    /*display: inline-block;*/
+  z-index: 1;
+  float: left;
+  height: 100%;
 }
 
 .sliding-menu-open {
-    display: none;
+  display: none;
 }
 
+#request-container {
+  border-color: grey;
+}
 
-.solid-bar{
-  /* Clonet principle */
-  margin-top: 110px;
+.containers{
+  margin-top: 10%;
   border-style: dotted;
   text-align: center;
   border-color: green;
-    /*width: 40%;*/
-    border: 2px dotted green;
-    padding: 5px;
-    margin-left: 350px;
-  /*margin: auto;*/
-  /*position: relative;*/
-  /*align-self: auto;*/
-  /*float: right;*/
-}
-.containers{
-margin-top: 8em;
-margin-left: 0;
-border-style: dotted;
-/*text-align: center;*/
-border-color: green;
-  /*width: 40%;
+
+  width: 50%;
   border: 2px dotted green;
-  margin-left: 10em;*/
+  padding: 2px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 /* request page video styles: */
+#footer {
+    clear: both;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+    margin-top: -3em;
+    bottom: 0;
+}
 .section-video-container{
-  /*border-style: dashed;
-  border-color: green;*/
-  height: 277px;
   width: 100%;
+  height: 5em;
+
   border-left: none;
   border-right: none;
-  position: relative;
   background: transparent;
+  border: 2px dotted green;
+  position: absolute;
+  bottom:0;
 }
 .video-container{
-  /*background: url('assets/videoposter.jpeg') no-repeat;*/
-  /*border-style: dashed;
-  border-color: red;*/
   background: transparent;
   background-size: cover;
-  height: 280px;
+  height: 5em;
   width: 100%;
-  position: absolute;
+  position: relative;
   overflow: hidden;
+  bottom:0;
 }
-.landscape-video-background {
-  /*border-style: dashed;
-  border-color: black;*/
-  position: absolute;
+
+video {
+  position: relative;
+
   z-index: -1;
   opacity: 0.78;
-  height: 277px;
+  height: 3em;
   width: 100%;
   object-fit: cover;
+  bottom:0;
 }
 
+.clonetBox {
+  border-style: dotted;
+  text-align: center;
+  position: relative;
+  border-color: blue;
+}
 
+#clonet-principle{
+  border-style: dotted;
+  border-color: green;
+  text-align: center;
+
+}
+
+#about-us{
+  width: auto;
+  height: 15em;
+  border-color:red;
+  line-height: auto;
+  /*removing this in html to have colored boxes instead */
+}
+
+#textBox1 {
+  float: left;
+  width: 40%;
+  margin: 1em;
+}
+#textBox2 {
+  float: right;
+  width: 40%;
+  margin: 1em;
+}
+#textBox3 {
+  float: left;
+  width: 40%;
+  margin: 1em;
+}
+#textBox4 {
+  float: right;
+  width: 40%;
+  margin: 1em;
+}
+
+.tbl {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    margin: 0px auto;
+}
+.tbl td {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+    padding: 10px 10px;
+    border-style: solid;
+    border-width: 0px;
+    overflow: hidden;
+    word-break: normal;
+    color: black;
+}
+.tbl th {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 10px;
+    border-style: solid;
+    border-width: 0px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: #999;
+    color: white;
+    background-color: #26ADE4;
+}
+
+.tbl .tbl-box1 {
+    background-color: #DEE9F7;
+    text-align: center;
+}
+.tbl .tbl-box2 {
+    background-color: #59B5DB;
+    vertical-align: top;
+}
+.tbl .tbl-box3 {
+    background-color: #59B5DB;
+    text-align: center;
+    vertical-align: top;
+}
+.tbl .tbl-box4 {
+    background-color: #DEE9F7;
+    vertical-align: top;
+}
+
+#article-link{
+  height: 25em;
+  width: 35em;
+}
 
 /************* Aside video styles *******************/
 /*.aside-video-container{*/

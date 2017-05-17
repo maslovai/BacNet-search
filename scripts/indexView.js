@@ -9,7 +9,11 @@ const index = {};
     $('#request-container').hide();
     $('#barcode-container').hide();
     $('#section-video-container').show();
+
+    $('#aboutTable').hide(); //this hides our About Us table...
+
     $('#header-container').show();
+
   }
 //   var windowObjectReference;
 //   index.openRequestedPopup = function() {
