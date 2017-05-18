@@ -21,7 +21,7 @@
         console.log(listItems);
         $('#result-ul').append(`<li>`+ 'Results for ' + barcode + '</li>');
         listItems.map(ele => {
-        $('#result-ul').append(`<li>`+ele.antibiotic+ '   Resistance: '+ ele.resistance + '   Recommended: ' + ele.recommended + `</li>`);
+        $('#result-ul').append(`<li>`+ele.antibiotic+ ':   Resistance: '+ ele.resistance + '   Recommended: ' + ele.recommended + `</li>`);
         })
        });
 }
@@ -31,6 +31,7 @@ query.submitRequest = function() {
   $('#bac-form').on('click', '#submit', function(e) {
     e.preventDefault();
     $('#result-ul').empty();
+    $('#you-view').hide();
     $hospital = $("#hospital-filter").val();
     $barcode = $("#bacCode").val();
     //console.log($hospital, $barcode);
@@ -47,7 +48,9 @@ query.submitRequest = function() {
 
 
   $('#reset').on('click', function(){
-    $('#hospital-filter').val("All").attr("selected","true");
+    $('#you-view').show();
+    $('#result-ul').empty();
+    $('#hospital-filter').val("Any").attr("selected","true");
     $('#sequence').val('').attr("placeholder","barcode");
   });
   query.submitRequest();
