@@ -29,7 +29,7 @@ app.get('/entries/:site/:barcode', (request, response) => {
       WHERE site=$1 AND barcode=$2;`,
     [request.params.site,request.params.barcode]
   ).then(function(result) {
-    console.log(result);
+    //console.log(result);
     response.send(result.rows)
   })
   .catch(function(err) {
