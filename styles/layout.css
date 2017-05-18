@@ -1,7 +1,10 @@
 
 
 html .top-nav {
-    width: 850px;
+
+  max-width: 90%;
+
+ /* width: 850px; */
     max-width: 100%;
     padding: 0;
     position: relative;
@@ -13,6 +16,7 @@ body {
   display: block;
   margin: 0;
   padding: 0;
+
   position: relative;
 }
 
@@ -28,6 +32,7 @@ body {
     margin: 0 auto;
     text-align: center;
     background: none;
+
 }
 
 .header-menu {
@@ -35,9 +40,9 @@ body {
   border-style: dashed;
   border-color: blue;
   margin: 0 auto;
-
 }
 
+/*
 .top-nav{
     border-style: dashed;
     border-color: brown;
@@ -87,7 +92,7 @@ body {
     float: right;
     margin: 5px;
     margin-left: -1.5em;
-}
+} */
   
 .top-nav{
   border-style: dashed;
@@ -117,14 +122,7 @@ ul li {
   list-style: none;
   list-style-position: outside;
 }
-/*ul {
-  display: block;
-  -webkit-margin-before: 1em;
-  -webkit-margin-after: 1em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
-  -webkit-padding-start: 40px
-}*/
+
 li {
   display: inline;
   letter-spacing: 0.3px;
@@ -220,7 +218,6 @@ h3 {
 
 video {
   position: relative;
-
   z-index: -1;
   opacity: 0.78;
   height: 3em;
@@ -240,6 +237,7 @@ video {
   border-style: dotted;
   border-color: green;
   text-align: center;
+  float: right;
 
 }
 
@@ -249,27 +247,6 @@ video {
   border-color:red;
   line-height: auto;
   /*removing this in html to have colored boxes instead */
-}
-
-#textBox1 {
-  float: left;
-  width: 40%;
-  margin: 1em;
-}
-#textBox2 {
-  float: right;
-  width: 40%;
-  margin: 1em;
-}
-#textBox3 {
-  float: left;
-  width: 40%;
-  margin: 1em;
-}
-#textBox4 {
-  float: right;
-  width: 40%;
-  margin: 1em;
 }
 
 .tbl {
@@ -303,7 +280,6 @@ video {
     color: white;
     background-color: #26ADE4;
 }
-
 .tbl .tbl-box1 {
     background-color: #DEE9F7;
     text-align: center;
@@ -328,7 +304,6 @@ video {
 }
 
 /***************Clonet View styles***************/
-
 .clonet-wrapper{
   display: inline-block;
   /*justify-content: space-between;*/
@@ -337,13 +312,31 @@ video {
 .tubes{
   border-style: dashed;
   border-color: green;
+  margin-top: 10em;
+  display: inline-flex;
   width: 30em;
-  height: 30em;
+  height: 25em;
+  float: left;
+  border-style: dotted;
+  border-color: black;
+  position: relative;
 }
+
+.tube {
+  width: 30em;
+  height: 25em;
+}
+
+a:hover{
+  color:red;
+  text-decoration: overline;
+}
+
 .clonet-article {
 border-style: dashed;
 border-color: red;
 padding: 0;
+float: right;
 }
 /*.div-bar {
     height: 48px;
