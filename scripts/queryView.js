@@ -14,17 +14,17 @@
   query.getString = function(hospital, barcode){
     console.log(hospital, barcode);
     $.get('/entries/'+hospital+'/'+barcode)
-    .then(data =>{
-      var listItems = [];
-      data.forEach(ele => listItems.push(ele));
-      console.log(listItems);
-
-      listItems.map(ele =>
-      $('#result-ul').append(`<li>`+ele.antibiotic+ " "+ ele.site +' '+ ele.resistance + ' ' + ele.recommended + `</li>`));
-    });
-  }
-
-// handling submit:
+    .then(data =>
+      {
+        var listItems = [];
+        data.forEach(ele => listItems.push(ele));
+        console.log(listItems);
+        $('#result-ul').append(`<li>`+ 'Results for ' + barcode + '</li>');
+        listItems.map(ele => {
+        $('#result-ul').append(`<li>`+ele.antibiotic+ '   Resistance: '+ ele.resistance + '   Recommended: ' + ele.recommended + `</li>`);
+        })
+       });
+}
 let $hospital;
 let $barcode;
 query.submitRequest = function() {
