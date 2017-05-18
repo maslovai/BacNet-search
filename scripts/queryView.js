@@ -16,20 +16,27 @@
 
   }
 
-  // query.handleFilter = function(){
-  //    $('#author-filter').on('change', function() {
-  //    if ($(this).val())
-  //    }
-  // }
+   getAntibioticData = function(bacteria, hospital){
+     
+   }
+
+
+  query.handleFilter = function(){
+     $('#hospital-filter').on('change', function({
+     $bacCode = $("#bacCode").val();
+     $hospital = $this.val();
+       getAntibioticData($bacCode, $hospital);
+     }
+  }
 
 
   $('#submit').on('click', function(){
-    console.log(' in submit')
-     $('#result-ul').empty().append('<li>Look what we have for you!</li>');
+     $('#result-ul').append('<li>Look what we have for you!</li>');
    });
 
 
    $('#reset').on('click', function(){
+      $('#hospital-filter').val("All").attr("selected","true");
       $('#sequence').val('').attr("placeholder","sequence");
     });
 
