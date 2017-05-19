@@ -5,7 +5,7 @@
 
   query.showRequestPage = function(){
     $('#request-container').show();
-    $('#clonet-principle').hide();
+    $('#clonet-wrapper').hide();
     $('#header-container').show();
     $('#section-video-container').show();
     $('#barcode-container').hide();
@@ -16,18 +16,6 @@
 
   }
 
-   getAntibioticData = function(bacteria, hospital){
-     
-   }
-
-
-  query.handleFilter = function(){
-     $('#hospital-filter').on('change', function({
-     $bacCode = $("#bacCode").val();
-     $hospital = $this.val();
-       getAntibioticData($bacCode, $hospital);
-     }
-  }
 
 
   $('#submit').on('click', function(){

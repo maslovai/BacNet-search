@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="eng">
 <head>
+
   <meta charset="UTF-8">
   <title>ID Genomics</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,7 +24,7 @@
       <div>
       <nav id="top-nav" class="headerColor top-nav">
         <ul id = "nav-links"class="top-menu">
-          <li class="menu-item" data-content=""><a href="http://idgenomics.com/" class="hover" target="_blank" <span>ID Genomics</span></a></li> 
+          <li class="menu-item" data-content=""><a href="http://idgenomics.com/" class="hover" target="_blank" <span>ID Genomics</span></a></li>
           <li id = "clonet-tab" class="menu-item" data-content=""><a href="/" class="hover" <span>CloNeT</span></a></li>
           <li id = "barcode-tab"class="menu-item" data-content=""><a href="/barcode" class="hover" <span>Barcode Generator</span></a></li>
           <li id = "query-request-tab" class="menu-item" data-content=""><a href="/query" class="hover" <span>BactNeT Query</span></a></li>
@@ -33,17 +34,27 @@
     </div>
   </header>
 
-<!-- <div class="div-bar"></div> -->
-  <div id = "decorative-pargraph" class="decorative-pargraph" style="background-image: url(assets/images/blue-background.png); height: 48px; width: 100%;">
-    <h3>CloNet Principles<sup>&trade;</sup></h3>
-    <div id = "clonet-wrapper">
 
-      <img class = "tubes" src = "assets/images/tubes.png">
+<!-- 	<div class="containers" id="clonet-principle" style="background-image:">
+		<div id="decorative-pargraph">
+			<h3>CLONET PRINCIPLES</h3>
+      <iframe id="article-link" src="assets/clonet-principles.pdf" name="targetframe" allowTransparency="true" scrolling="yes" frameborder="3" >
+      </iframe>
+		</div> -->
+
+  <div id = "decorative-pargraph" class="decorative-pargraph" style="background-image: url(assets/images/blue-background.png); height: 48px; width: 100%;">  </div>
+    <div id = "clonet-wrapper">
+      <h3>CloNet Principles<sup>&trade;</sup></h3>
+      <div class="tubes">
+        <img class="tube" src="assets/images/tubes.png">
+      </div>
+
       <div id = "clonet-article" class="clonet-article">
-        <embed src="assets/clonet-principles.pdf" width="600em" height="600em"/>
+        <iframe id="article-link" src="assets/clonet-principles.pdf" name="targetframe" allowTransparency="true" scrolling="yes" frameborder="3" >
+      </iframe>
       </div>
     </div>
-    </div>
+
 
   <div id = "request-container" class ="containers">
     <div id = "form-buttons-div">
@@ -74,17 +85,30 @@
     </div>
     </div>
 
-    <div id = "barcode-container" class="containers">
-      <p>This is a placeholder for the barcode generator</p>
-    </div>
+  <!-- test with a table begins -->
+<div id="aboutTable">
+  <table class="tbl">
+    <tr>
+      <th class="tbl-box1">box1 Person 1 will have their tuff in here and more information. </th>
+      <th class="tbl-box2">box2 Person 2 will have their tuff in here and more information. </th>
+    </tr>
+    <tr>
+      <td class="tbl-box3">box3 Person 3 will have their tuff in here and more information. </td>
+      <td class="tbl-box4">box4 Person 4 will have their tuff in here and more information. </td>
+    </tr>
+  </table>
+</div>
+<!-- test with a table ends-->
 
-    <section id="section-video-container" class = "section-video-container">
-      <div class="video-container">
-        <video preload="true" autoplay loop muted poster="" class="landscape-video-background">
-          <source src="assets/videos/Atoms - 5205.mp4" type="video/mp4" media="(orientation:landscape)">
+  <div id="footer">
+  <section id="section-video-container" class="section-video-container">
+    <div class="video-container">
+      <video preload="true" autoplay loop muted poster="assets/videoposter.jpeg" class="video-background">
+        <source src="assets/videos/Atoms - 5205.mp4" type="video/mp4" media="(orientation:landscape)">
         </video>
       </div>
-      </section>
+    </section>
+  </div>
 
     <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
     <script src ="https://code.jquery.com/jquery-3.2.1.js"></script>
@@ -98,5 +122,15 @@
     <script src ="scripts/barcodeView.js"></script>
     <script src = "scripts/routes.js"></script>
 
-  </body>
-  </html>
+	<script charset="utf-8" src="scripts/queryView.js">
+	</script>
+	<script charset="utf-8" src="scripts/cloneView.js">
+	</script>
+	<script src="scripts/indexView.js">
+	</script>
+	<script src="scripts/barcodeView.js">
+	</script>
+	<script src="scripts/routes.js">
+	</script>
+</body>
+</html>
