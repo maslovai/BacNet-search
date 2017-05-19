@@ -16,18 +16,18 @@
 
   }
 
-   getAntibioticData = function(bacteria, hospital){
-     
-   }
-
-
-  query.handleFilter = function(){
-     $('#hospital-filter').on('change', function({
-     $bacCode = $("#bacCode").val();
-     $hospital = $this.val();
-       getAntibioticData($bacCode, $hospital);
-     }
-  }
+  //  getAntibioticData = function(bacteria, hospital){
+  //
+  //  }
+  //
+  //
+  // query.handleFilter = function(){
+  //    $('#hospital-filter').on('change', function({
+  //    $bacCode = $("#bacCode").val();
+  //    $hospital = $this.val();
+  //      getAntibioticData($bacCode, $hospital);
+  //    }
+  // }
 
 
   $('#submit').on('click', function(){
