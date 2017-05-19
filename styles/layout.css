@@ -1,10 +1,4 @@
-
-
 html .top-nav {
-
-  max-width: 90%;
-
- /* width: 850px; */
     max-width: 100%;
     padding: 0;
     position: relative;
@@ -16,7 +10,6 @@ body {
   display: block;
   margin: 0;
   padding: 0;
-
   position: relative;
 }
 
@@ -32,7 +25,6 @@ body {
     margin: 0 auto;
     text-align: center;
     background: none;
-
 }
 
 .header-menu {
@@ -41,8 +33,6 @@ body {
   border-color: blue;
   margin: 0 auto;
 }
-
-
 
 .top-nav{
   border-style: dashed;
@@ -71,8 +61,8 @@ body {
 li {
   list-style: none;
   display: inline;
-  letter-spacing: 0.3px;
-  line-height: 30px;
+  letter-spacing: 0.07em;
+  /*line-height: 30px;*/
   list-style-position: outside;
   text-transform: uppercase;
   padding: 0 16px 0 14px;
@@ -92,10 +82,12 @@ li {
 h3 {
     color: #ffffff;
     font-family: Baumans;
-    line-height: 48px;
+    line-height: 1px;
     font-weight: 400;
     font-style: normal;
-    font-size: 34px;
+    font-size: 20px;
+    float: left;
+    vertical-align: middle;
 }
 .website-logo img {
   min-height: 100%;
@@ -104,28 +96,28 @@ h3 {
   float: left;
 }
 .website-logo {
-
     z-index: 1;
     float: left;
     height: 100%;
     width: 350px;
+    position: static;
+    top:0;
 }
 
-.sliding-menu-open {
+/*.sliding-menu-open {
   display: none;
-}
+}*/
 
 .containers{
   margin-top: 10%;
   border-style: dotted;
   text-align: center;
   border-color: green;
-
   /*width: 50%;*/
-  border: 2px dotted green;
-  padding: 2px;
   margin-left: auto;
   margin-right: auto;
+  border: 2px dotted green;
+  padding: 2px;
 }
 
 /* request page video styles: */
@@ -140,12 +132,11 @@ h3 {
 .section-video-container{
   width: 100%;
   height: 5em;
-
   border-left: none;
   border-right: none;
   background: transparent;
   border: 2px dotted green;
-  position: absolute;
+  position: relative;
   bottom:0;
 }
 .video-container{
@@ -153,7 +144,7 @@ h3 {
   background-size: cover;
   height: 5em;
   width: 100%;
-  position: relative;
+  position:absolute;
   overflow: hidden;
   bottom:0;
 }
@@ -241,32 +232,32 @@ video {
 }
 
 #article-link{
-  height: 25em;
+  height: 30em;
   width: 35em;
+  float:right;
 }
 
 /***************Clonet View styles***************/
 .clonet-wrapper{
   display: inline-block;
   /*justify-content: space-between;*/
+  border: 2px dotted green;
+  position: static;
 }
 
 .tubes{
-  border-style: dashed;
-  border-color: green;
-  margin-top: 10em;
+
   display: inline-flex;
-  width: 30em;
-  height: 25em;
-  float: left;
+  width: 35em;
+  height: 30em;
   border-style: dotted;
   border-color: black;
-  position: relative;
 }
-
 .tube {
-  width: 30em;
-  height: 25em;
+  width: 35em;
+  height: 30em;
+  float: left;
+  position: relative;
 }
 
 a:hover{
@@ -340,8 +331,8 @@ font-size: 1em;
   display: block;
   font-size: 0.8em;
 }
-/***************Barcode View Page*************/
 
+/***************Barcode View Page*************/
 #form-table .test-numbers{
 
 }
