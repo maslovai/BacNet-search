@@ -10,6 +10,7 @@
     $('#barcode-container').hide();
     $('#aboutTable').hide(); //this hides our About Us table...
     $('#nav-links #query-request-tab').hide().siblings().show();
+    $('#page-name').text("BactNet Query");
 
   }
   query.getString = function(hospital, barcode){
@@ -51,7 +52,7 @@ query.submitRequest = function() {
 
 
    $('#reset').on('click', function(){
-      $('#hospital-filter').val("All").attr("selected","true");
+      $('#hospital-filter').val("Any").attr("selected","true");
       $('#sequence').val('').attr("placeholder","sequence");
     });
 

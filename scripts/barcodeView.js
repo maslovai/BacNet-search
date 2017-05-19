@@ -12,7 +12,7 @@ const barcode = {};
     $('#nav-links #barcode-tab').hide().siblings().show();
     $('#header-container').show();
     $('#aboutTable').hide();
-
+    $('#page-name').text('BarGen');
   }
 
   module.barcode = barcode;
