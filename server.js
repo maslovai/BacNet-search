@@ -83,3 +83,5 @@ function loadDB(){
   });
 }
 loadDB();
+
+console.log('SERVER IS ACTIVE');
