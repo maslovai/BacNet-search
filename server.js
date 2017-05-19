@@ -41,7 +41,9 @@ app.get('/entries/:site/:barcode', (request, response) => {
   })
 });
 
-
+app.get('*', (req, res) => {
+  res.sendFile('index.html', { root: '.' })
+});
 
 
 
