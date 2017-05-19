@@ -51,7 +51,9 @@ body {
     float: right;
     margin: 5px;
     margin-left: -1.5em;
+
 } */
+
 
 .top-nav{
   border-style: dashed;
@@ -138,7 +140,7 @@ h3 {
   text-align: center;
   border-color: green;
 
-  width: 50%;
+  /*width: 50%;*/
   border: 2px dotted green;
   padding: 2px;
   margin-left: auto;
@@ -319,7 +321,7 @@ float: right;
 #hospital-filter{
   font-size:1em;
 }
-#form-buttons-div{
+.form-buttons-div {
   margin-top: 5%;
   width: 40%;
   height: 2em;
@@ -351,6 +353,12 @@ font-size: 1em;
   display: flex;
   justify-content: space-between;
 }
-#result-ul{
+#result-ul li{
+  display: block;
+  font-size: 0.8em;
+}
+/***************Barcode View Page*************/
+
+#form-table .test-numbers{
 
 }
