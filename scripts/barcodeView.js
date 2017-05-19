@@ -15,5 +15,6 @@ const barcode = {};
 
   }
 
+
   module.barcode = barcode;
 })(window);

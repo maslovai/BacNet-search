@@ -366,7 +366,7 @@ padding: 0;
 #hospital-filter{
   font-size:1em;
 }
-#form-buttons-div{
+.form-buttons-div {
   margin-top: 5%;
   width: 40%;
   height: 2em;
@@ -401,4 +401,9 @@ font-size: 1em;
 #result-ul li{
   display: block;
   font-size: 0.8em;
+}
+/***************Barcode View Page*************/
+
+#form-table .test-numbers{
+
 }

@@ -21,7 +21,7 @@
         console.log(listItems);
         $('#result-ul').append(`<li>`+ 'Results for ' + barcode + '</li>');
         listItems.map(ele => {
-        $('#result-ul').append(`<li>`+ele.antibiotic+ ':   Resistance: '+ ele.resistance + '   Recommended: ' + ele.recommended + `</li>`);
+        $('#result-ul').append(`<li>`+ele.antibiotic+ ',   Resistance: '+ ele.resistance + '%,   Recommended: ' + ele.recommended + `</li>`);
         })
        });
 }
@@ -39,13 +39,6 @@ query.submitRequest = function() {
     //console.log(response);
   })
 }
-// query.appendListItems = function(responseString){
-//   console.log(responseString);
-//   var antibioticsListItems = responseString.split('\n');
-//   antibioticslistItems.map(ele =>
-//     $('#result-ul').append(`<li>`+ ele + `</li>`));
-//   }
-
 
   $('#reset').on('click', function(){
     $('#you-view').show();

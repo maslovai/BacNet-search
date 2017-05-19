@@ -45,7 +45,7 @@
   </div>
 
   <div id = "request-container" class ="containers">
-    <div id = "form-buttons-div">
+    <div id = "form-buttons-div" class = "form-buttons-div">
       <label for "select">Pick a hospital:</label>
       <select name="select" id = "hospital-filter">
         <option value="Any" selected>Any</option>
@@ -74,7 +74,17 @@
   </div>
 
   <div id = "barcode-container" class="containers">
-    <p>This is a placeholder for the barcode generator</p>
+    <div id = "form-table">
+    <form id = "barcode-numbers-form" class = "form-buttons-div">
+      <label for="test-numbers">Enter your test results here:</label>
+      <br>
+      <table id='numbers-entered'>
+        <tbody></tbody>
+      </table>
+      <!-- <textarea wrap = "hard" overflow= "auto" chars = "10" rows = "8" id = "test-numbers"></textarea> -->
+      <!-- <input id="test-numbers" class = "test-numbers" type="textarea"  name="test-numbers" placeholder="test-numbers"> -->
+    </form>
+  </div>
   </div>
 
   <section id="section-video-container" class = "section-video-container">
