@@ -82,10 +82,10 @@ li {
 h3 {
     color: #ffffff;
     font-family: Baumans;
-    line-height: 1px;
+    line-height: 0.5em;
     font-weight: 400;
     font-style: normal;
-    font-size: 20px;
+    font-size: 1.5em;
     float: left;
     vertical-align: middle;
 }
@@ -103,7 +103,6 @@ h3 {
     position: static;
     top:0;
 }
-
 /*.sliding-menu-open {
   display: none;
 }*/
@@ -132,8 +131,6 @@ h3 {
 .section-video-container{
   width: 100%;
   height: 5em;
-  border-left: none;
-  border-right: none;
   background: transparent;
   border: 2px dotted green;
   position: relative;
@@ -159,21 +156,12 @@ video {
   bottom:0;
 }
 
-.clonetBox {
-  border-style: dotted;
-  text-align: center;
-  position: relative;
-  border-color: blue;
-}
-
-#clonet-principle{
+/*#clonet-principle{
   border-style: dotted;
   border-color: green;
   text-align: center;
   float: right;
-
-}
-
+}*/
 #about-us{
   width: auto;
   height: 15em;
@@ -233,29 +221,29 @@ video {
 
 #article-link{
   height: 30em;
-  width: 35em;
+  width: 100%;
   float:right;
 }
 
-/***************Clonet View styles***************/
-.clonet-wrapper{
-  display: inline-block;
-  /*justify-content: space-between;*/
-  border: 2px dotted green;
-  position: static;
+.clonet-article {
+width: 50%;
+height: auto;
+border-style: dashed;
+border-color: red;
+padding: 0;
+float: right;
 }
 
 .tubes{
-
   display: inline-flex;
-  width: 35em;
+  width: 40%;
   height: 30em;
   border-style: dotted;
   border-color: black;
 }
 .tube {
-  width: 35em;
-  height: 30em;
+  width: 100%;
+  height: 100%;
   float: left;
   position: relative;
 }
@@ -263,13 +251,6 @@ video {
 a:hover{
   color: #22385a;
   text-decoration: underline;
-}
-
-.clonet-article {
-border-style: dashed;
-border-color: red;
-padding: 0;
-float: right;
 }
 
 .div-bar {
@@ -283,14 +264,13 @@ float: right;
   height: 48px;
 }
 
-/**********request page styles by Iryna:************/
-
 #request-container {
   font-family: "Open Sans", sans-serif;
   border-color: grey;
   width:100%;
   min-height: 35em;
   position:relative;
+  margin-top: 0;
 }
 #hospital-filter{
   font-size:1em;
@@ -313,8 +293,6 @@ label{
   font-size: 1em;
 }
 #bacCode{
-/*height: 5em;
-width: 15em;*/
 font-size: 1em;
 }
 #submit, #reset{
