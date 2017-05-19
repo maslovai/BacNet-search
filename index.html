@@ -22,17 +22,26 @@
         </a>
       </div>
       <div>
-      <nav id="top-nav" class="headerColor top-nav">
-        <ul id = "nav-links"class="top-menu">
-          <li class="menu-item" data-content=""><a href="http://idgenomics.com/" class="hover" target="_blank" <span>ID Genomics</span></a></li>
-          <li id = "clonet-tab" class="menu-item" data-content=""><a href="/" class="hover" <span>CloNeT</span></a></li>
-          <li id = "barcode-tab"class="menu-item" data-content=""><a href="/barcode" class="hover" <span>Barcode Generator</span></a></li>
-          <li id = "query-request-tab" class="menu-item" data-content=""><a href="/query" class="hover" <span>BactNeT Query</span></a></li>
-        </ul>
-      </nav>
-    </div>
+
+        <nav id="top-nav" class="headerColor top-nav">
+          <ul id = "nav-links"class="top-menu">
+            <li class="menu-item" data-content=""><a href="http://idgenomics.com/" class="hover" target="_blank" <span>ID Genomics</span></a></li>
+            <li id = "clonet-tab" class="menu-item" data-content=""><a href="/" class="hover" <span>CloNeT</span></a></li>
+            <li id = "barcode-tab"class="menu-item" data-content=""><a href="/barcode" class="hover" <span>Barcode Generator</span></a></li>
+            <li id = "query-request-tab" class="menu-item" data-content=""><a href="/query" class="hover" <span>BactNeT Query</span></a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
   </header>
+
+  <!-- <div class="div-bar"></div> -->
+  <div id = "decorative-pargraph" class="decorative-pargraph" style="background-image: url(assets/images/blue-background.png); height: 48px; width: 100%;">
+    <div id = "clonet-principle-container">
+      <h3>CloNet Principles<sup>&trade;</sup></h3>
+      <img class = "tubes" src = "assets/images/tubes.png">
+
+ 
 
 
 <!-- 	<div class="containers" id="clonet-principle" style="background-image:">
@@ -49,41 +58,63 @@
         <img class="tube" src="assets/images/tubes.png">
       </div>
 
+
       <div id = "clonet-article" class="clonet-article">
         <iframe id="article-link" src="assets/clonet-principles.pdf" name="targetframe" allowTransparency="true" scrolling="yes" frameborder="3" >
       </iframe>
       </div>
     </div>
 
-
   <div id = "request-container" class ="containers">
-    <div id = "form-buttons-div">
+    <div id = "form-buttons-div" class = "form-buttons-div">
       <label for "select">Pick a hospital:</label>
       <select name="select" id = "hospital-filter">
-        <option value="All" selected>All</option>
-        <option value="Seattle Childrens" >Seattle Childrens</option>
+        <option value="Any" selected>Any</option>
+        <option value="Seattle Children's" >Seattle Children's</option>
         <option value="Kaiser">Kaiser</option>
         <option value="Hennepin">Hennepin</option>
-        <option value="Harborview">Harborview</option>
+        <option value="Harvorview">Harvorview</option>
         <option value="Keck">Keck</option>
-        <option value="LACounty">LA County</option>
-        <option value="NYLangone">NY Langone</option>
+        <option value="LA County">LA County</option>
+        <option value="NY Langone">NY Langone</option>
       </select>
 
       <form id = "bac-form">
         <label for="bacCode">Enter the bacteria barcode:</label>
-        <input id="bacCode" class = "bacCode"type="textarea" name="bacCode" placeholder="bacCode">
+        <input id="bacCode" class = "bacCode"type="textarea" name="bacCode" placeholder="barcode">
         <br>
         <input id = "submit" type="submit" name = "submit">
         <input id = "reset" type="reset" name = "reset">
       </form>
     </div>
     <div  id = "results-div">
-      <p>You will veiw the results here:</p>
+      <p id="you-view">You will veiw the results here:</p>
       <ul id ="result-ul">
       </ul>
     </div>
-    </div>
+  </div>
+
+
+    <div id = "form-table">
+    <form id = "barcode-numbers-form" class = "form-buttons-div">
+      <label for="test-numbers">Enter your test results here:</label>
+      <br>
+      <table id='numbers-entered'>
+        <tbody></tbody>
+      </table>
+      <!-- <textarea wrap = "hard" overflow= "auto" chars = "10" rows = "8" id = "test-numbers"></textarea> -->
+      <!-- <input id="test-numbers" class = "test-numbers" type="textarea"  name="test-numbers" placeholder="test-numbers"> -->
+    </form>
+  </div>
+  </div>
+
+  <section id="section-video-container" class = "section-video-container">
+    <div class="video-container">
+      <video preload="true" autoplay loop muted poster="" class="landscape-video-background">
+        <source src="assets/videos/Atoms - 5205.mp4" type="video/mp4" media="(orientation:landscape)">
+        </video>
+      </div>
+  </section>
 
   <!-- test with a table begins -->
 <div id="aboutTable">
@@ -114,8 +145,9 @@
     <script src ="https://code.jquery.com/jquery-3.2.1.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
-    <script src = "node_modules/page/page.js"></script>
     <script src="vendor/handlebars.js"></script>
+    <script src = "node_modules/page/page.js"></script>
+
     <script src="scripts/queryView.js" charset="utf-8"></script>
     <script src="scripts/cloneView.js" charset="utf-8"></script>
     <script src ="scripts/indexView.js"></script>
