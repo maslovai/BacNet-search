@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="eng">
 <head>
-
   <meta charset="UTF-8">
   <title>ID Genomics</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="styles/layout.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Baumans" rel="stylesheet">
-  <script id="template" type="text/x-handlebars-template">
+  <!-- <script id="template" type="text/x-handlebars-template">
     <article class="clone-box" data-category="{{cloneCategory}}"></article>
-  </script>
+  </script> -->
 </head>
 <body>
   <header id="header"class="fixed clearfix header-menu header" data-header-type="header-menu" data-header-resize="true" data-header-height="85" data-header-max-height="115" data-menu-link="1">
@@ -35,23 +34,10 @@
     </div>
   </header>
 
-  <!-- <div class="div-bar"></div> -->
+
   <div id = "decorative-pargraph" class="decorative-pargraph" style="background-image: url(assets/images/blue-background.png); height: 48px; width: 100%;">
-    <div id = "clonet-wrapper">
-      <h3>CloNet Principles<sup>&trade;</sup></h3>
-      <img class = "tubes" src = "assets/images/tubes.png">
+  </div>
 
- 
-
-
-<!-- 	<div class="containers" id="clonet-principle" style="background-image:">
-		<div id="decorative-pargraph">
-			<h3>CLONET PRINCIPLES</h3>
-      <iframe id="article-link" src="assets/clonet-principles.pdf" name="targetframe" allowTransparency="true" scrolling="yes" frameborder="3" >
-      </iframe>
-		</div> -->
-
-  <div id = "decorative-pargraph" class="decorative-pargraph" style="background-image: url(assets/images/blue-background.png); height: 48px; width: 100%;">  </div>
     <div id = "clonet-wrapper">
       <h3>CloNet Principles<sup>&trade;</sup></h3>
       <div class="tubes">
@@ -94,20 +80,21 @@
     </div>
   </div>
 
-
-    <div id = "form-table">
+<div id ="barcode-container">
+  <p>This is a placeholder for the barcode page</p>
+    <!-- <div id = "form-table">
     <form id = "barcode-numbers-form" class = "form-buttons-div">
       <label for="test-numbers">Enter your test results here:</label>
       <br>
       <table id='numbers-entered'>
         <tbody></tbody>
       </table>
-      <!-- <textarea wrap = "hard" overflow= "auto" chars = "10" rows = "8" id = "test-numbers"></textarea> -->
-      <!-- <input id="test-numbers" class = "test-numbers" type="textarea"  name="test-numbers" placeholder="test-numbers"> -->
-    </form>
-  </div>
-  </div>
+       <textarea wrap = "hard" overflow= "auto" chars = "10" rows = "8" id = "test-numbers"></textarea>
+      <input id="test-numbers" class = "test-numbers" type="textarea"  name="test-numbers" placeholder="test-numbers">
+    </form>-->
 
+   </div>
+</div>
   <section id="section-video-container" class = "section-video-container">
     <div class="video-container">
       <video preload="true" autoplay loop muted poster="" class="landscape-video-background">
@@ -134,10 +121,10 @@
   <div id="footer">
   <section id="section-video-container" class="section-video-container">
     <div class="video-container">
-      <video preload="true" autoplay loop muted poster="assets/videoposter.jpeg" class="video-background">
+      <video preload="true" autoplay loop muted poster="" class="video-background">
         <source src="assets/videos/Atoms - 5205.mp4" type="video/mp4" media="(orientation:landscape)">
-        </video>
-      </div>
+      </video>
+    </div>
     </section>
   </div>
 
