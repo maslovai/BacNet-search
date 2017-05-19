@@ -4,7 +4,7 @@
   const query = {};
   query.showRequestPage = function(){
     $('#request-container').show();
-    $('#clonet-principle-container').hide();
+    $('#clonet-wrapper').hide();
     $('#header-container').show();
     $('#section-video-container').show();
     $('#barcode-container').hide();

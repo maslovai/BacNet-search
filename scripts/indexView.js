@@ -4,7 +4,7 @@
 const index = {};
 
   index.showIndexPage = function(){
-    $('#clonet-principle-container').show();
+    $('#clonet-wrapper').show();
     $('#nav-links #clonet-tab').hide().siblings().show();
     $('#request-container').hide();
     $('#barcode-container').hide();
