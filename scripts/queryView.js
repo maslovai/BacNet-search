@@ -5,7 +5,7 @@
   query.showRequestPage = function(){
     $('#request-container').show();
     $('#clonet-wrapper').hide();
-    $('#header-container').show();
+    $('#header').show();
     $('#section-video-container').show();
     $('#barcode-container').hide();
     $('#aboutTable').hide(); //this hides our About Us table...

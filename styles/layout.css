@@ -24,7 +24,7 @@ body {
     border-style: dashed;
     border-color: pink;
     display: inline-block;
-    position: absolute;
+    position: relative;
     z-index: 4;
     width: 100%;
     height: auto;
@@ -42,17 +42,6 @@ body {
   margin: 0 auto;
 }
 
-/*
-.top-nav li {
-    display: inline-block;
-    height: 100%;
-    line-height: 55px;
-    transform: none;
-    float: right;
-    margin: 5px;
-    margin-left: -1.5em;
-
-} */
 
 
 .top-nav{
@@ -79,12 +68,8 @@ body {
   margin-left: -2em;
 }
 
-ul li {
-  list-style: none;
-  list-style-position: outside;
-}
-
 li {
+  list-style: none;
   display: inline;
   letter-spacing: 0.3px;
   line-height: 30px;
@@ -130,10 +115,6 @@ h3 {
   display: none;
 }
 
-#request-container {
-  border-color: grey;
-}
-
 .containers{
   margin-top: 10%;
   border-style: dotted;
@@ -153,7 +134,7 @@ h3 {
     position: relative;
     z-index: 10;
     height: 3em;
-    margin-top: -3em;
+    /*margin-top: -3em;*/
     bottom: 0;
 }
 .section-video-container{
@@ -312,11 +293,13 @@ float: right;
 }
 
 /**********request page styles by Iryna:************/
+
 #request-container {
-  width:90%
-  margin-top: 10%;
-  margin-bottom: 15em;
   font-family: "Open Sans", sans-serif;
+  border-color: grey;
+  width:100%;
+  min-height: 35em;
+  position:relative;
 }
 #hospital-filter{
   font-size:1em;
