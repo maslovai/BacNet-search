@@ -10,6 +10,7 @@
     $('#barcode-container').hide();
     $('#aboutTable').hide(); //this hides our About Us table...
     $('#nav-links #query-request-tab').hide().siblings().show();
+
   }
   query.getString = function(hospital, barcode){
     console.log(hospital, barcode);
@@ -47,5 +48,14 @@ query.submitRequest = function() {
     $('#sequence').val('').attr("placeholder","barcode");
   });
   query.submitRequest();
+
+
+   $('#reset').on('click', function(){
+      $('#hospital-filter').val("All").attr("selected","true");
+      $('#sequence').val('').attr("placeholder","sequence");
+    });
+
+
+
   module.query = query;
 })(window);
