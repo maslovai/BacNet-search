@@ -31,13 +31,13 @@
 let $hospital;
 let $barcode;
 query.submitRequest = function() {
-  $('#bac-form').on('click', '#submit', function(e) {
+  $('#submit').on('click',  function(e) {
     e.preventDefault();
     $('#result-ul').empty();
     $('#you-view').hide();
     $hospital = $("#hospital-filter").val();
     $barcode = $("#bacCode").val();
-    //console.log($hospital, $barcode);
+    console.log($hospital, $barcode);
     var response = query.getString($hospital, $barcode);
     //console.log(response);
   })
