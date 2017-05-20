@@ -405,3 +405,13 @@ margin-left: 2em;
   object-position: center;
   margin-left: 15%;
 }
+#barcodeRecord{
+  width:50em;
+  margin:2em;
+}
+
+#barcodeEntry{
+  width:25em;
+  margin:2em;
+  height:5em;
+}
