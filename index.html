@@ -81,17 +81,16 @@
   </div>
 
 <div id ="barcode-container">
-  <p>This is a placeholder for the barcode page</p>
-    <!-- <div id = "form-table">
-    <form id = "barcode-numbers-form" class = "form-buttons-div">
-      <label for="test-numbers">Enter your test results here:</label>
+    <div id="form-table">
+    <form id="barcode-numbers-form" class="form-buttons-div">
+      <label for="barcodeEntry">Enter your test results here:</label>
       <br>
-      <table id='numbers-entered'>
-        <tbody></tbody>
-      </table>
-       <textarea wrap = "hard" overflow= "auto" chars = "10" rows = "8" id = "test-numbers"></textarea>
-      <input id="test-numbers" class = "test-numbers" type="textarea"  name="test-numbers" placeholder="test-numbers">
-    </form>-->
+      <input id="barcodeEntry" type="textarea"  name="barcodeEntry" placeholder="1 2 3 4 5 6 7 8">
+      <button type="button" id="bcSubmit">Submit</button>
+      <br><br>
+      <textarea wrap = "hard" overflow= "auto" chars = "10" rows = "8" id = "barcodeRecord"></textarea>
+      <button type="button" id="bcReset">Reset</button>
+    </form>
 
    </div>
 
@@ -144,5 +143,9 @@
 	</script>
 	<script src="scripts/routes.js">
 	</script>
+  <script type="text/javascript">
+    $('#bcSubmit').on('click', barcode.submit);
+    $('#bcReset').on('click', barcode.reset);
+  </script>
 </body>
 </html>
