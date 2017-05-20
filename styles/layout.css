@@ -1,7 +1,10 @@
 
 
 html .top-nav {
-    width: 850px;
+
+  max-width: 90%;
+
+ /* width: 850px; */
     max-width: 100%;
     padding: 0;
     position: relative;
@@ -13,6 +16,7 @@ body {
   display: block;
   margin: 0;
   padding: 0;
+
   position: relative;
 }
 
@@ -20,7 +24,7 @@ body {
     border-style: dashed;
     border-color: pink;
     display: inline-block;
-    position: absolute;
+    position: relative;
     z-index: 4;
     width: 100%;
     height: auto;
@@ -28,6 +32,7 @@ body {
     margin: 0 auto;
     text-align: center;
     background: none;
+
 }
 
 .header-menu {
@@ -35,60 +40,10 @@ body {
   border-style: dashed;
   border-color: blue;
   margin: 0 auto;
-
 }
 
-.top-nav{
-    border-style: dashed;
-    border-color: brown;
-    display: inline-block;
-    background: transparent;
-    list-style: none;
-    height: 100%;
-    float:right;
-}
 
-.top-nav ul{
-    height: 100%;
-    float:right;
-}
 
-.top-nav > ul > li > a.hover {
-  border-color: #006699;
-
-}
-.top-nav > ul > li > a.hover:after, .top-nav > ul > .current-menu-ancestor > a:after, .top-nav > ul > .current-menu-item > a:after {
-
-    opacity: 1;
-    transform: scale(1) translateZ(0);
-  }
-.top-nav > ul > li > a{
-  border-bottom: 3px solid;
-    border-bottom-width: 3px;
-    border-bottom-style: solid;
-  transform: scale(1) translateZ(0);
-  -webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease;
-  -moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease;
-  -ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
-  -o-transition: -o-transform 0.5s ease, opacity 0.5s ease;
-  transition: transform 0.5s ease, opacity 0.5s ease;
-      transition-property: transform, opacity;
-      transition-duration: 0.5s, 0.5s;
-      transition-timing-function: ease, ease;
-      transition-delay: initial, initial;
-  opacity: 1;
-}
-
-.top-nav li {
-    display: inline-block;
-    height: 100%;
-    line-height: 55px;
-    transform: none;
-    float: right;
-    margin: 5px;
-    margin-left: -1.5em;
-}
-  
 .top-nav{
   border-style: dashed;
   border-color: yellow;
@@ -113,19 +68,8 @@ body {
   margin-left: -2em;
 }
 
-ul li {
-  list-style: none;
-  list-style-position: outside;
-}
-/*ul {
-  display: block;
-  -webkit-margin-before: 1em;
-  -webkit-margin-after: 1em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
-  -webkit-padding-start: 40px
-}*/
 li {
+  list-style: none;
   display: inline;
   letter-spacing: 0.3px;
   line-height: 30px;
@@ -171,17 +115,13 @@ h3 {
   display: none;
 }
 
-#request-container {
-  border-color: grey;
-}
-
 .containers{
   margin-top: 10%;
   border-style: dotted;
   text-align: center;
   border-color: green;
 
-  width: 50%;
+  /*width: 50%;*/
   border: 2px dotted green;
   padding: 2px;
   margin-left: auto;
@@ -194,7 +134,7 @@ h3 {
     position: relative;
     z-index: 10;
     height: 3em;
-    margin-top: -3em;
+    /*margin-top: -3em;*/
     bottom: 0;
 }
 .section-video-container{
@@ -220,7 +160,6 @@ h3 {
 
 video {
   position: relative;
-
   z-index: -1;
   opacity: 0.78;
   height: 3em;
@@ -240,6 +179,7 @@ video {
   border-style: dotted;
   border-color: green;
   text-align: center;
+  float: right;
 
 }
 
@@ -249,27 +189,6 @@ video {
   border-color:red;
   line-height: auto;
   /*removing this in html to have colored boxes instead */
-}
-
-#textBox1 {
-  float: left;
-  width: 40%;
-  margin: 1em;
-}
-#textBox2 {
-  float: right;
-  width: 40%;
-  margin: 1em;
-}
-#textBox3 {
-  float: left;
-  width: 40%;
-  margin: 1em;
-}
-#textBox4 {
-  float: right;
-  width: 40%;
-  margin: 1em;
 }
 
 .tbl {
@@ -303,7 +222,6 @@ video {
     color: white;
     background-color: #26ADE4;
 }
-
 .tbl .tbl-box1 {
     background-color: #DEE9F7;
     text-align: center;
@@ -328,7 +246,6 @@ video {
 }
 
 /***************Clonet View styles***************/
-
 .clonet-wrapper{
   display: inline-block;
   /*justify-content: space-between;*/
@@ -337,19 +254,38 @@ video {
 .tubes{
   border-style: dashed;
   border-color: green;
+  margin-top: 10em;
+  display: inline-flex;
   width: 30em;
-  height: 30em;
+  height: 25em;
+  float: left;
+  border-style: dotted;
+  border-color: black;
+  position: relative;
 }
+
+.tube {
+  width: 30em;
+  height: 25em;
+}
+
+a:hover{
+  color: #22385a;
+  text-decoration: underline;
+}
+
 .clonet-article {
 border-style: dashed;
 border-color: red;
 padding: 0;
+float: right;
 }
-/*.div-bar {
+
+.div-bar {
     height: 48px;
     background: #22385a;
     position: relative;
-}*/
+}
 .decorative-paragraph{
   color:white;
   width: 100%;
@@ -357,16 +293,18 @@ padding: 0;
 }
 
 /**********request page styles by Iryna:************/
+
 #request-container {
-  width:90%
-  margin-top: 10%;
-  margin-bottom: 15em;
   font-family: "Open Sans", sans-serif;
+  border-color: grey;
+  width:100%;
+  min-height: 35em;
+  position:relative;
 }
 #hospital-filter{
   font-size:1em;
 }
-#form-buttons-div{
+.form-buttons-div {
   margin-top: 5%;
   width: 40%;
   height: 2em;
@@ -398,6 +336,12 @@ font-size: 1em;
   display: flex;
   justify-content: space-between;
 }
-#result-ul{
+#result-ul li{
+  display: block;
+  font-size: 0.8em;
+}
+/***************Barcode View Page*************/
+
+#form-table .test-numbers{
 
 }
