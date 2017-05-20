@@ -126,14 +126,23 @@ h3 {
   background-color: #DEE9F7;
 }
 
-footer {
+
+#footer {
+   clear: both;
+   position: fixed;
+   z-index: 10;
+   width: 100%;
+   height: 3.5em;
+   bottom: 0;
+}
+/*footer {
     clear: both;
-    position: relative;
+    position: fixed;
     z-index: 10;
     height: 5em;
     margin-top:0;
-    /*bottom: 0;*/
-}
+    bottom: 0;
+}*/
 .section-video-container{
   width: 100%;
   height: 7em;
@@ -237,15 +246,15 @@ video {
   background-color: #DEE9F7;
 }
 .tubes{
-  margin:2.5%;
-  width: 35%;
+  margin-top:1em;
+  width: 39%;
   height: 26em;
   float: left;
   /*position: relative;*/
 }
 
 .tube {
-  width: 95%;
+  width: 100%;
   height: 25em;
 }
 
@@ -287,10 +296,10 @@ a:hover{
   font-family: "Open Sans", sans-serif;
   border-color: grey;
   width:100%;
-  min-height: 90%;
+  max-height: 30em;
   position:relative;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom:0;
   background-color: #DEE9F7;
   /*#f9f9f9*/
 }
@@ -298,7 +307,7 @@ a:hover{
   margin-top: 2em;
   margin-left: 2em;
   margin-bottom: 2em;
-  height: 100%;
+  height: 90%;
   font-size: 1.5em;
   float:left;
   background-color: #59B5DB;
