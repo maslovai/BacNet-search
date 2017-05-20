@@ -110,7 +110,7 @@ h3 {
     z-index: 1;
     float: left;
     height: 100%;
-    width: 350px;
+    width: 50%;
 }
 
 .sliding-menu-open {
@@ -175,14 +175,55 @@ video {
   bottom:0;
   /*padding: 0;*/
 }
+/***************** About page styles*************/
 
-
-#about-us{
-  width: auto;
-  height: 15em;
-  border-color:red;
+#about-table{
   line-height: auto;
-  /*removing this in html to have colored boxes instead */
+  align-self: center;
+  display: inline-block;
+  margin-top: 3em;
+  margin-bottom: 5em;
+  /*width: auto;
+   height: auto;*/
+  /*position: fixed;*/
+  /*margin-left: auto;
+  margin-right: auto;*/
+}
+
+#about-section{
+  height: 100%;
+  width: 100%;
+  background-image: url("/assets/images/about-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: lightblue;
+  position: relative;
+  text-align: center;
+  /*object-fit: contain;*/
+  /*background-image: cover;*/
+  /*background-repeat: round;*/
+  /*background-size: contain;*/
+  /*border-style: dashed;
+  border-color: red;*/
+}
+
+#about-pic{
+  width:30em;
+  height:23em;
+}
+
+#about-title{
+    color: #1e3575;
+    font-family: Baumans;
+    line-height: 0.5em;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5em;
+    vertical-align: middle;
+    /*padding: 1em;*/
+    display: inline-block;
+    position: relative;
+    margin-left: 0.3em;
 }
 
 .tbl {
@@ -191,7 +232,9 @@ video {
     border-color: transparent;
     border-width: 1px;
     border-style: solid;
-    margin: 0px auto;
+    float: center;
+    vertical-align: middle;
+    position: relative;
 }
 .tbl td {
     font-family: "Times New Roman", Times, serif;
@@ -219,6 +262,7 @@ video {
 .tbl .tbl-box1 {
     background-color: #DEE9F7;
     text-align: center;
+    color: black;
 }
 .tbl .tbl-box2 {
     background-color: #59B5DB;
@@ -228,13 +272,18 @@ video {
     background-color: #59B5DB;
     text-align: center;
     vertical-align: top;
+    color: white;
 }
-
 .tbl .tbl-box4 {
     background-color: #DEE9F7;
     vertical-align: top;
 }
 
+#article-link{
+  height: 30em;
+  width: 100%;
+  float:right;
+}
 
 /***************Clonet View styles***************/
 
@@ -352,6 +401,7 @@ margin-left: 2em;
 #barcode-container{
   background-color: #DEE9F7;
 }
-#form-table .test-numbers{
-
+#barcode-container img{
+  object-position: center;
+  margin-left: 15%;
 }

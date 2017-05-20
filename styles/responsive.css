@@ -1,5 +1,35 @@
-@media screen and (max-width: 480px)
-{
+@media screen and (min-width:576px && max-width:1072px) {
+  .website-logo img {
+    min-height: 50%;
+    max-height: 50%;
+    display: block;
+    float: left;
+  }
+  .website-logo {
+      z-index: 1;
+      float: left;
+      height: 50%;
+      width: 50%;
+  }
+  .menu {
+    display: none;
+  }
+  .top-nav{
+    padding: .2em .2em .2em 2em;
+    justify-content: flex-end;
+    visibility: hidden;
+  }
+  .top-nav ul {
+    display: block;
+  }
+  .top-nav ul li {
+    display: inline;
+    border-bottom: none;
+    height: 10%;
+    line-height: 1em;
+    float: right;
+    margin: 0;
+  }
 
   .header {
     display: block;
@@ -16,17 +46,6 @@
     display: flex;
     justify-content:flex-start;
   }
-  .top-nav{
-    display: block;
-    justify-content: flex-end;
-  }
-  .top-nav li {
-    height: 10%;
-    line-height: 1em;
-    float: right;
-    margin: 0;
-
-  }
   #request-container div{
     display: block;
   }
@@ -38,17 +57,40 @@
   footer{
     visibility:hidden;
   }
+
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 517px){
+  .website-logo img {
+    min-height: 50%;
+    max-height: 50%;
+    display: block;
+    float: left;
+  }
+  .website-logo {
+      z-index: 1;
+      float: left;
+      height: 100%;
+      width: 100%;
+  }
   .top-nav{
+    padding: .2em .2em .2em 2em;
+    justify-content: flex-end;
+    visibility: hidden;
+  }
+  .top-nav ul {
     display: block;
   }
-  .top-nav li {
-    height: 5%;
-    font-style: 0.5em;
+  .top-nav ul li {
+    /*display: inline;*/
+    border-bottom: none;
+    height: 10%;
     line-height: 1em;
     float: right;
+    margin: 0;
+  }
+  .hamburger{
+    visibility: visible;
   }
   .tubes{
     background-color: #DEE9F7;
