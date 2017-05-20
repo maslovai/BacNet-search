@@ -15,15 +15,16 @@
   }
   query.getString = function(hospital, barcode){
     console.log(hospital, barcode);
+    // var listItems = [];
     $.get('/entries/'+hospital+'/'+barcode)
     .then(data =>
       {
-        var listItems = [];
-        data.forEach(ele => listItems.push(ele));
-        console.log(listItems);
-        $('#result-ul').append(`<li>`+ 'Results for ' + barcode + '</li>');
+        var listItems=data;
+        // data.forEach(ele => listItems.push(ele));
+        // console.log(listItems);
+        $('#result-ul').append(`<li>`+ 'Results for  <bold>' +  barcode +'  at  '+hospital+ '</bold></li>');
         listItems.map(ele => {
-        $('#result-ul').append(`<li>`+ele.antibiotic+ ',   Resistance: '+ ele.resistance + '%,   Recommended: ' + ele.recommended + `</li>`);
+        $('#result-ul').append(`<li>`+ele.antibiotic+ '  -   Resistance: '+ ele.resistance + '%,   Recommended: ' + ele.recommended + `</li>`);
         })
        });
 }
@@ -49,14 +50,6 @@ query.submitRequest = function() {
     $('#sequence').val('').attr("placeholder","barcode");
   });
   query.submitRequest();
-
-
-   $('#reset').on('click', function(){
-      $('#hospital-filter').val("Any").attr("selected","true");
-      $('#sequence').val('').attr("placeholder","sequence");
-    });
-
-
 
   module.query = query;
 })(window);

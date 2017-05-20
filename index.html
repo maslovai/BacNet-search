@@ -5,11 +5,12 @@
   <title>ID Genomics</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="styles/layout.css">
+  <link rel="stylesheet" href ="styles/responsive.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Baumans" rel="stylesheet">
   <!-- <script id="template" type="text/x-handlebars-template">
-    <article class="clone-box" data-category="{{cloneCategory}}"></article>
-  </script> -->
+  <article class="clone-box" data-category="{{cloneCategory}}"></article>
+</script> -->
 </head>
 <body>
   <header id="header"class="fixed clearfix header-menu header" data-header-type="header-menu" data-header-resize="true" data-header-height="85" data-header-max-height="115" data-menu-link="1">
@@ -21,7 +22,6 @@
         </a>
       </div>
       <div>
-
         <nav id="top-nav" class="headerColor top-nav">
           <ul id = "nav-links"class="top-menu">
             <li class="menu-item" data-content=""><a href="http://idgenomics.com/" class="hover" target="_blank" <span>ID Genomics</span></a></li>
@@ -38,88 +38,77 @@
   </header>
 
 
+  <div class = "all-around-wrapper">
 
-    <div id = "clonet-wrapper">
-      <div class="tubes">
-        <img class="tube" src="assets/images/tubes.png">
-      </div>
-
+      <div id = "clonet-wrapper">
+        <div class="tubes">
+          <img class="tube" src="assets/images/tubes.png">
+        </div>
 
       <div id = "clonet-article" class="clonet-article">
         <iframe id="article-link" src="assets/clonet-principles.pdf" name="targetframe" allowTransparency="true" scrolling="yes" frameborder="3" >
-      </iframe>
+        </iframe>
       </div>
     </div>
 
-  <div id = "request-container" class ="containers">
-    <div id = "form-buttons-div" class = "form-buttons-div">
-      <label for "select">Pick a hospital:</label>
-      <select name="select" id = "hospital-filter">
-        <option value="Any" selected>Any</option>
-        <option value="Seattle Children's" >Seattle Children's</option>
-        <option value="Kaiser">Kaiser</option>
-        <option value="Hennepin">Hennepin</option>
-        <option value="Harvorview">Harvorview</option>
-        <option value="Keck">Keck</option>
-        <option value="LA County">LA County</option>
-        <option value="NY Langone">NY Langone</option>
-      </select>
+    <div id = "request-container" class ="containers">
+      <div id = "form-buttons-div" class = "form-buttons-div">
+        <label for "select">Pick a hospital:</label>
+        <select name="select" id = "hospital-filter">
+          <option value="Any" selected>Any</option>
+          <option value="Seattle Children's" >Seattle Children's</option>
+          <option value="Kaiser">Kaiser</option>
+          <option value="Hennepin">Hennepin</option>
+          <option value="Harvorview">Harvorview</option>
+          <option value="Keck">Keck</option>
+          <option value="LA County">LA County</option>
+          <option value="NY Langone">NY Langone</option>
+        </select>
 
-      <form id = "bac-form">
-        <label for="bacCode">Enter the bacteria barcode:</label>
-        <input id="bacCode" class = "bacCode"type="textarea" name="bacCode" placeholder="barcode">
-        <br>
-        <input id = "submit" type="submit" name = "submit">
-        <input id = "reset" type="reset" name = "reset">
-      </form>
+        <form id = "bac-form">
+          <label for="bacCode">Enter the bacteria barcode:</label>
+          <input id="bacCode" class = "bacCode"type="textarea" name="bacCode" placeholder="barcode">
+          <br>
+          <input id = "submit" type="submit" name = "submit">
+          <input id = "reset" type="reset" name = "reset">
+        </form>
+      </div>
+      <div  id = "results-div">
+        <p id="you-view">You will veiw the results here:</p>
+          <ul id ="result-ul">
+          </ul>
+      </div>
     </div>
-    <div  id = "results-div">
-      <p id="you-view">You will veiw the results here:</p>
-      <ul id ="result-ul">
-      </ul>
-    </div>
-  </div>
 
-<div id ="barcode-container">
-  <p>This is a placeholder for the barcode page</p>
-    <!-- <div id = "form-table">
-    <form id = "barcode-numbers-form" class = "form-buttons-div">
-      <label for="test-numbers">Enter your test results here:</label>
-      <br>
-      <table id='numbers-entered'>
-        <tbody></tbody>
+    <div id ="barcode-container">
+      <p>This is a placeholder for the barcode page</p>
+
+    </div>
+
+    <!-- test with a table begins -->
+    <div id="aboutTable">
+      <table class="tbl">
+        <tr>
+          <th class="tbl-box1">box1 Person 1 will have their tuff in here and more information. </th>
+          <th class="tbl-box2">box2 Person 2 will have their tuff in here and more information. </th>
+        </tr>
+        <tr>
+          <td class="tbl-box3">box3 Person 3 will have their tuff in here and more information. </td>
+          <td class="tbl-box4">box4 Person 4 will have their tuff in here and more information. </td>
+        </tr>
       </table>
-       <textarea wrap = "hard" overflow= "auto" chars = "10" rows = "8" id = "test-numbers"></textarea>
-      <input id="test-numbers" class = "test-numbers" type="textarea"  name="test-numbers" placeholder="test-numbers">
-    </form>-->
-
-   </div>
-
-  <!-- test with a table begins -->
-<div id="aboutTable">
-  <table class="tbl">
-    <tr>
-      <th class="tbl-box1">box1 Person 1 will have their tuff in here and more information. </th>
-      <th class="tbl-box2">box2 Person 2 will have their tuff in here and more information. </th>
-    </tr>
-    <tr>
-      <td class="tbl-box3">box3 Person 3 will have their tuff in here and more information. </td>
-      <td class="tbl-box4">box4 Person 4 will have their tuff in here and more information. </td>
-    </tr>
-  </table>
-</div>
-<!-- test with a table ends-->
-<footer>
-  <div id="footer">
-  <section id="section-video-container" class="section-video-container">
-    <div class="video-container">
-      <video preload="true" autoplay loop muted poster="" class="video-background">
-        <source src="assets/videos/Atoms - 5205.mp4" type="video/mp4" media="(orientation:landscape)">
-      </video>
     </div>
-    </section>
+    <!-- test with a table ends-->
   </div>
-</footer>
+  <footer id="video-footer">
+    <section id="section-video-container" class="section-video-container">
+      <div class="video-container">
+        <video preload="true" autoplay loop muted poster="" class="video-background">
+          <source src="assets/videos/Atoms - 5205.mp4" type="video/mp4" media="(orientation:landscape)">
+        </video>
+      </div>
+    </section>
+  </footer>
 
     <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
     <script src ="https://code.jquery.com/jquery-3.2.1.js"></script>
@@ -134,15 +123,10 @@
     <script src ="scripts/barcodeView.js"></script>
     <script src = "scripts/routes.js"></script>
 
-	<script charset="utf-8" src="scripts/queryView.js">
-	</script>
-	<script charset="utf-8" src="scripts/cloneView.js">
-	</script>
-	<script src="scripts/indexView.js">
-	</script>
-	<script src="scripts/barcodeView.js">
-	</script>
-	<script src="scripts/routes.js">
-	</script>
-</body>
-</html>
+    <script charset="utf-8" src="scripts/queryView.js"></script>
+    <script charset="utf-8" src="scripts/cloneView.js"></script>
+    <script src="scripts/indexView.js"></script>
+    <script src="scripts/barcodeView.js"></script>
+    <script src="scripts/routes.js"></script>
+  </body>
+  </html>

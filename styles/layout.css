@@ -9,12 +9,11 @@ html .top-nav {
     margin:0 auto;
 }
 
-body {
+/*body {
   display: block;
   margin: 0;
   padding: 0;
-  /*position: relative;*/
-}
+}*/
 
 .header {
     /*border-style: dashed;
@@ -30,6 +29,10 @@ body {
     background: none;
 
 }
+#header-container{
+  display: flex;
+  justify-content: space-between;
+}
 
 .header-menu {
   display: inline-block;
@@ -38,7 +41,9 @@ body {
   margin: 0 auto;
 }
 
-
+.all-around-wrapper{
+  height:90%;
+}
 
 .top-nav{
   /*border-style: dashed;
@@ -112,25 +117,22 @@ h3 {
   display: none;
 }
 
-/*.containers{
+.containers{
   margin-top: 10%;
-  border-style: dotted;
-  text-align: center;
-  border-color: green;
-  border: 2px dotted green;
-  padding: 2px;
+  width: 100%;
+  height: 50%;
   margin-left: auto;
   margin-right: auto;
-}*/
+  background-color: #DEE9F7;
+}
 
-/* request page video styles: */
 footer {
     clear: both;
     position: relative;
     z-index: 10;
     height: 5em;
     margin-top:0;
-    bottom: 0;
+    /*bottom: 0;*/
 }
 .section-video-container{
   width: 100%;
@@ -139,8 +141,7 @@ footer {
   border-left: none;
   border-right: none;
   background: transparent;
-  border: 2px dotted green;
-  position: relative;
+  position:relative;
   bottom:0;
   padding: 0;
 }
@@ -231,31 +232,33 @@ video {
 #clonet-wrapper{
   width:100%;
   margin-top:0;
-  margin-left: 0.5%;
-  height:30em;
+  margin-left: 0;
+  height:40em;
   background-color: #DEE9F7;
 }
 .tubes{
-  margin-top: 0;
-  width: 40%;
-  height: 100%;
+  margin:2.5%;
+  width: 35%;
+  height: 26em;
   float: left;
   /*position: relative;*/
 }
 
 .tube {
-  width: 100%;
+  width: 95%;
   height: 25em;
 }
 
 .clonet-article {
   width: 60%;
-  height:25em;
+  height:38em;
   padding: 0;
-  float: left;
+  float: right;
+  background-color: #DEE9F7;
 }
 #article-link{
-  height: 25em;
+  margin-top: 1em;
+  height: 100%;
   width: 100%;
 }
 
@@ -266,68 +269,75 @@ a:hover{
 
 
 .div-bar {
-    height: 48px;
+    height: 8em;
     background: #22385a;
     position: relative;
 }
 .decorative-paragraph{
   color:white;
   width: 100%;
-  height: 48px;
+  align-content: center;
 }
-
+ h3#page-name{
+  margin-left: 5em;
+}
 /**********request page styles by Iryna:************/
 
 #request-container {
   font-family: "Open Sans", sans-serif;
   border-color: grey;
   width:100%;
-  min-height: 60em;
+  min-height: 90%;
   position:relative;
   margin-top: 0;
   margin-bottom: 0;
   background-color: #DEE9F7;
+  /*#f9f9f9*/
 }
-#hospital-filter{
-  font-size:1em;
-}
-.form-buttons-div {
-  margin-top: 10%;
-  width: 40%;
-  height: 40em;
+#request-container div{
+  margin-top: 2em;
+  margin-left: 2em;
+  margin-bottom: 2em;
+  height: 100%;
   font-size: 1.5em;
   float:left;
-}
-#results-div{
-  width:50%;
-  margin-left: 5%;
-  font-size: 1.5em;
-  display: inline;
-  float:right;
-  height: 40em;
   background-color: #59B5DB;
 }
-label{
-  font-size: 1em;
+#results-div{
+  min-height: 14.5em;
+  width:55%;
 }
-#bacCode{
+
+#form-buttons-div{
+  width:35%;
+}
+#bacCode, label,#hospital-filter{
 /*height: 5em;
 width: 15em;*/
 font-size: 1em;
+margin-top: 2em;
+margin-left: 2em;
 }
+
 #submit, #reset{
-  width:4em;
-  height:1.5em;
-  font-size: 1.5em;
+  width:25%;
+  height:15%;
+  font-size: 1.1em;
   font-family: "Open Sans", sans-serif;
+  margin-top: 2em;
+  margin-left: 3em;
+  margin-bottom: 2em;
 }
-#header-container{
-  display: flex;
-  justify-content: space-between;
+
+#you-view{
+  margin-left: 8em;
 }
 #result-ul li{
+  font-family: "Open Sans", sans-serif;
+  list-style: none;
   display: block;
-  font-size: 0.8em;
+  font-size: 0.7em;
+  text-transform:none;
 }
 /***************Barcode View Page*************/
 #barcode-container{

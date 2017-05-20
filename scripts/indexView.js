@@ -11,7 +11,7 @@ const index = {};
     $('#section-video-container').show();
 
     $('#aboutTable').hide(); //this hides our About Us table...
-
+    $('#page-name').text('     Clonet Principles');
     $('#header-container').show();
 
   }
