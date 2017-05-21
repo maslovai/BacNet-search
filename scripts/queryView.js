@@ -8,7 +8,7 @@
     $('#header').show();
     $('#section-video-container').show();
     $('#barcode-container').hide();
-    $('#aboutTable').hide(); //this hides our About Us table...
+    $('#about-table').hide(); //this hides our About Us table...
     $('#nav-links #query-request-tab').hide().siblings().show();
     $('#page-name').text("BactNet Query");
 

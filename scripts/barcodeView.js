@@ -11,7 +11,7 @@ const barcode = {};
     $('#section-video-container').show();
     $('#nav-links #barcode-tab').hide().siblings().show();
     $('#header-container').show();
-    $('#aboutTable').hide();
+    $('#about-table').hide();
     $('#page-name').text('BarGen');
   }
   barcode.getValueString = function(numbers) {
