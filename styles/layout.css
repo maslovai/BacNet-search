@@ -6,31 +6,29 @@ html .top-nav {
     margin:0 auto;
 }
 
+body {
+  display: block;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
 .header {
     display: inline-block;
     position: relative;
     z-index: 4;
     width: 100%;
-    height: 11em;
+    height: auto;
     top: 0;
     margin: 0 auto;
     text-align: center;
     background: none;
-}
-#header-container{
-  display: flex;
-  justify-content: space-between;
 }
 
 .header-menu {
   display: inline-block;
   margin: 0 auto;
 }
-
-.all-around-wrapper{
-  height:90%;
-}
-
 
 .top-nav{
   display: inline-block;
@@ -94,41 +92,34 @@ h3 {
     z-index: 1;
     float: left;
     height: 100%;
-    /*width: 350px;*/
+    width: 350px;
     position: static;
     top:0;
-    width: 50%;
 }
 
 .containers{
   margin-top: 10%;
   text-align: center;
-  padding: 2px;
-  width: 100%;
-  height: 50%;
   margin-left: auto;
   margin-right: auto;
-  background-color: #DEE9F7;
+  border: 2px dotted green;
+  padding: 2px;
 }
-
-
+/* request page video styles: */
 #footer {
-   clear: both;
-   position: fixed;
-   z-index: 10;
-   width: 100%;
-   height: 3.5em;
-   bottom: 0;
+    clear: both;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 3.5em;
+    bottom: 0;
 }
-
 .section-video-container{
   width: 100%;
-  height: 7em;
-  /*margin-top: 2%;*/
-  border-left: none;
-  border-right: none;
+  height: 5em;
   background: transparent;
-  position:relative;
+  border: 2px dotted green;
+  position: relative;
   bottom:0;
 }
 .video-container{
@@ -139,7 +130,6 @@ h3 {
   position:absolute;
   overflow: hidden;
   bottom:0;
-  padding: 0;
 }
 
 video {
@@ -158,11 +148,6 @@ video {
   display: inline-block;
   margin-top: 3em;
   margin-bottom: 5em;
-  /*width: auto;
-   height: auto;*/
-  /*position: fixed;*/
-  /*margin-left: auto;
-  margin-right: auto;*/
 }
 
 #about-section{
@@ -174,12 +159,6 @@ video {
   background-color: lightblue;
   position: relative;
   text-align: center;
-  /*object-fit: contain;*/
-  /*background-image: cover;*/
-  /*background-repeat: round;*/
-  /*background-size: contain;*/
-  /*border-style: dashed;
-  border-color: red;*/
 }
 
 #about-pic{
@@ -192,9 +171,12 @@ video {
 }
 
 #about-pic:hover {
-    opacity: 0.4;
-    filter: alpha(opacity=20);
-  }
+    opacity: 0.75;
+    filter: alpha(opacity=80);
+    filter: saturate(1.1);
+    transition: 0.7s ease;
+}
+
 
 #about-title{
     color: #1e3575;
@@ -204,7 +186,6 @@ video {
     font-style: normal;
     font-size: 2.5em;
     vertical-align: middle;
-    /*padding: 1em;*/
     display: inline-block;
     position: relative;
     margin-left: 0.3em;
@@ -263,59 +244,36 @@ video {
     vertical-align: top;
 }
 
+#clonet-wrapper {
+  margin-bottom: 3em;
+  margin-top: 1em;
+}
 #article-link{
   height: 30em;
   width: 100%;
   float:right;
 }
-
 .clonet-article {
 width: 50%;
-height: auto;
-border-style: dashed;
-border-color: red;
-padding: 0;
+height: 100%;
 float: right;
+box-shadow: -1.3em 1em 2em #59585b;
+margin-right: 0.2em;
 }
 
-#clonet-wrapper{
-  width:100%;
-  margin-top:0;
-  margin-left: 0;
-  height:40em;
-  background-color: #DEE9F7;
-}
 .tubes{
   display: inline-flex;
-  width: 40%;
-  height: 30em;
-  border-style: dotted;
-  border-color: black;
+  width: 45%;
+  height: 30.3em;
   margin-bottom: 1em;
-  margin-top:1em;
-  width: 39%;
-  height: 26em;
-  float: left;
+  box-shadow: 1.3em 1em 2em #59585b;
+  margin-left: 0.2em;
 }
 .tube {
   width: 100%;
   height: 100%;
   float: left;
   position: relative;
-  height: 25em;
-}
-
-.clonet-article {
-  width: 60%;
-  height:38em;
-  padding: 0;
-  float: right;
-  background-color: #DEE9F7;
-}
-#article-link{
-  margin-top: 1em;
-  height: 100%;
-  width: 100%;
 }
 
 a:hover{
@@ -324,102 +282,70 @@ a:hover{
 }
 
 .div-bar {
-    height: 8em;
+    height: 48px;
     background: #22385a;
     position: relative;
 }
 .decorative-paragraph{
   color:white;
   width: 100%;
-  align-content: center;
-}
- h3#page-name{
-  margin-left: 5em;
+  height: 48px;
 }
 
 #request-container {
   font-family: "Open Sans", sans-serif;
   border-color: grey;
   width:100%;
-  max-height: 30em;
+  min-height: 35em;
   position:relative;
   margin-top: 0;
-
 }
 #hospital-filter{
   font-size:1em;
 }
-.form-buttons-div {
-  margin-top: 5%;
-  width: 40%;
-  height: 2em;
-  margin-bottom:0;
-  background-color: #DEE9F7;
-}
-#request-container div{
-  margin-top: 2em;
-  margin-left: 2em;
-  margin-bottom: 2em;
-  height: 90%;
-  font-size: 1.5em;
-  float:left;
-  background-color: #59B5DB;
-}
-#results-div{
-  min-height: 14.5em;
-  width:55%;
-}
-
-#form-buttons-div{
-  width:35%;
-}
-
-#bacCode{
-font-size: 1em;
-margin-top: 2em;
-margin-left: 2em;
-}
-
-#submit, #reset{
-  width:25%;
-  height:15%;
-  font-size: 1.1em;
-  font-family: "Open Sans", sans-serif;
-  margin-top: 2em;
-  margin-left: 3em;
-  margin-bottom: 2em;
-}
-
-#you-view{
-  margin-left: 8em;
-}
-#result-ul li{
-  font-family: "Open Sans", sans-serif;
-  list-style: none;
-  display: block;
-  font-size: 0.7em;
-  text-transform:none;
-}
 
 #barcode-container{
-  background-color: #DEE9F7;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 5em;
 }
-#barcode-container img{
-  object-position: center;
-  margin-left: 15%;
-}
-#barcodeRecord{
-  width:50em;
-  margin:2em;
-}
-
-#barcodeEntry{
-  width:25em;
-  margin:2em;
-  height:5em;
+textarea {
+    width: 40%;
+    height: 15em;
+    margin: 1em;
 }
 
-#about-pic:hover {
-    opacity: 0.4;
-    filter: alpha(opacity=20);
+.form-buttons-div {
+  min-width: 15em;
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 7em;
+  margin-top: 0em;
+}
+#results-div{
+  width:50%;
+  margin-left: 5%;
+  font-size: 1.5em;
+  display: inline;
+  float:right;
+}
+label{
+  font-size: 1em;
+}
+#bacCode{
+font-size: 1em;
+}
+#submit, #reset{
+  width:4em;
+  height:1.5em;
+  font-size: 1.5em;
+  font-family: "Open Sans", sans-serif;
+}
+#header-container{
+  display: flex;
+  justify-content: space-between;
+}
+#result-ul li{
+  display: block;
+  font-size: 0.8em;
 }

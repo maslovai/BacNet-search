@@ -9,7 +9,7 @@ const index = {};
     $('#request-container').hide();
     $('#barcode-container').hide();
     $('#section-video-container').show();
-
+    $('#about-title').hide();
     $('#about-table').hide();
     $('#page-name').text('Clonet Principles');
     $('#header-container').show();
