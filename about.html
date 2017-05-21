@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+  <meta charset="UTF-8">
+  <title>About</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles/layout.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Baumans" rel="stylesheet">
+
+</head>
+<body>
+  <header id="header"class="fixed clearfix header-menu header" data-header-type="header-menu" data-header-resize="true" data-header-height="85" data-header-max-height="115" data-menu-link="1">
+    <div id="header-container" style="height:8em" class="header-container">
+      <div class="website-logo">
+        <a href="http://idgenomics.com">
+          <img src="http://idgenomics.com/wp-content/uploads/2017/01/idg_logo_full_high_res_compressed.png" alt="logo">
+        </a>
+      </div>
+
+      <div>
+        <nav id="top-nav" class="headerColor top-nav">
+          <ul id = "nav-links"class="top-menu">
+            <li class="menu-item" data-content=""><a href="http://idgenomics.com/" class="hover" target="_blank" <span>ID Genomics</span></a></li>
+            <li id = "clonet-tab" class="menu-item" data-content=""><a href="#clonet-wrapper" class="hover" <span>CloNeT</span></a></li>
+            <li id = "barcode-tab"class="menu-item" data-content=""><a href="/barcode" class="hover" <span>Barcode Generator</span></a></li>
+            <li id = "query-request-tab" class="menu-item" data-content=""><a href="/query" class="hover" <span>BactNeT Query</span></a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div id = "decorative-pargraph" class="decorative-pargraph" style="background-image: url(assets/images/blue-background.png); height: 3em; width: 100%;">
+          <h3>CloNet Principles<sup>&trade;</sup></h3>
+    </div>
+  </header>
+
+  <div id = "about-section">
+        <h3 id="about-title"> About Us</h3>
+        <!-- test with a table begins -->
+        <div id="about-table">
+          <table class="tbl">
+            <tr>
+              <th class="tbl-box1">
+                <img id="about-pic" src="assets/images/about/ira.jpg">
+                <p>Irina is a sutdent at Code Fellows.</p>
+                <p>She brought the idea of the project to the group. </p>
+              </th>
+              <th class="tbl-box2">
+                <img id="about-pic" src="assets/images/about/lou.jpg">
+                <p>Louis is a student at Code Fellows.</p>
+                <p>He participated in the project to make this work.</p>
+              </th>
+            </tr>
+            <tr>
+              <td class="tbl-box3">
+                <img id="about-pic" src="assets/images/about/max.jpg">
+                <p>Maks is a student at Code Fellows.</p>
+                <p>He participated in the project to make this work. </p>
+              </td>
+              <td class="tbl-box4">
+                <img id="about-pic" src="assets/images/about/kev.jpg">
+                <p>Kevin is a student at Code Fellows.</p>
+                <p>He participated in the project to make this work.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <!-- test with a table ends-->
+  </div>
+
+
+<footer>
+  <div id="footer">
+  <section id="section-video-container" class="section-video-container">
+    <div class="video-container">
+      <video preload="true" autoplay loop muted poster="" class="video-background">
+        <source src="assets/videos/Atoms - 5205.mp4" type="video/mp4" media="(orientation:landscape)">
+      </video>
+    </div>
+    </section>
+  </div>
+</footer>
+
+    <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
+    <script src ="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
+    <script src="vendor/handlebars.js"></script>
+    <script src = "node_modules/page/page.js"></script>
+
+    <script src="scripts/about.js" charset="utf-8"></script>
+    <script src="scripts/queryView.js" charset="utf-8"></script>
+    <script src="scripts/cloneView.js" charset="utf-8"></script>
+    <script src ="scripts/indexView.js"></script>
+    <script src ="scripts/barcodeView.js"></script>
+    <script src = "scripts/routes.js"></script>
+
+	<script charset="utf-8" src="scripts/queryView.js">
+	</script>
+	<script charset="utf-8" src="scripts/cloneView.js">
+	</script>
+	<script src="scripts/indexView.js">
+	</script>
+	<script src="scripts/barcodeView.js">
+	</script>
+	<script src="scripts/routes.js">
+	</script>
+</body>
+</html>
