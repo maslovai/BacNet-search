@@ -1,7 +1,4 @@
 html .top-nav {
-
-    max-width: 90%;
-    /* width: 850px; */
     max-width: 100%;
     padding: 0;
     position: relative;
@@ -9,15 +6,7 @@ html .top-nav {
     margin:0 auto;
 }
 
-/*body {
-  display: block;
-  margin: 0;
-  padding: 0;
-}*/
-
 .header {
-    /*border-style: dashed;
-    border-color: pink;*/
     display: inline-block;
     position: relative;
     z-index: 4;
@@ -27,7 +16,6 @@ html .top-nav {
     margin: 0 auto;
     text-align: center;
     background: none;
-
 }
 #header-container{
   display: flex;
@@ -36,8 +24,6 @@ html .top-nav {
 
 .header-menu {
   display: inline-block;
-  /*border-style: dashed;*/
-  border-color: blue;
   margin: 0 auto;
 }
 
@@ -45,9 +31,8 @@ html .top-nav {
   height:90%;
 }
 
+
 .top-nav{
-  /*border-style: dashed;
-  border-color: yellow;*/
   display: inline-block;
   background: transparent;
   list-style: none;
@@ -72,8 +57,7 @@ html .top-nav {
 li {
   list-style: none;
   display: inline;
-  letter-spacing: 0.3px;
-  line-height: 30px;
+  letter-spacing: 0.07em;
   list-style-position: outside;
   text-transform: uppercase;
   padding: 0 16px 0 14px;
@@ -110,15 +94,16 @@ h3 {
     z-index: 1;
     float: left;
     height: 100%;
+    /*width: 350px;*/
+    position: static;
+    top:0;
     width: 50%;
-}
-
-.sliding-menu-open {
-  display: none;
 }
 
 .containers{
   margin-top: 10%;
+  text-align: center;
+  padding: 2px;
   width: 100%;
   height: 50%;
   margin-left: auto;
@@ -135,14 +120,7 @@ h3 {
    height: 3.5em;
    bottom: 0;
 }
-/*footer {
-    clear: both;
-    position: fixed;
-    z-index: 10;
-    height: 5em;
-    margin-top:0;
-    bottom: 0;
-}*/
+
 .section-video-container{
   width: 100%;
   height: 7em;
@@ -152,14 +130,13 @@ h3 {
   background: transparent;
   position:relative;
   bottom:0;
-  padding: 0;
 }
 .video-container{
   background: transparent;
   background-size: cover;
   height: 5em;
   width: 100%;
-  position: relative;
+  position:absolute;
   overflow: hidden;
   bottom:0;
   padding: 0;
@@ -173,9 +150,7 @@ video {
   width: 100%;
   object-fit: cover;
   bottom:0;
-  /*padding: 0;*/
 }
-/***************** About page styles*************/
 
 #about-table{
   line-height: auto;
@@ -210,7 +185,16 @@ video {
 #about-pic{
   width:30em;
   height:23em;
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
 }
+
+#about-pic:hover {
+    opacity: 0.4;
+    filter: alpha(opacity=20);
+  }
 
 #about-title{
     color: #1e3575;
@@ -285,7 +269,14 @@ video {
   float:right;
 }
 
-/***************Clonet View styles***************/
+.clonet-article {
+width: 50%;
+height: auto;
+border-style: dashed;
+border-color: red;
+padding: 0;
+float: right;
+}
 
 #clonet-wrapper{
   width:100%;
@@ -295,15 +286,22 @@ video {
   background-color: #DEE9F7;
 }
 .tubes{
+  display: inline-flex;
+  width: 40%;
+  height: 30em;
+  border-style: dotted;
+  border-color: black;
+  margin-bottom: 1em;
   margin-top:1em;
   width: 39%;
   height: 26em;
   float: left;
-  /*position: relative;*/
 }
-
 .tube {
   width: 100%;
+  height: 100%;
+  float: left;
+  position: relative;
   height: 25em;
 }
 
@@ -325,7 +323,6 @@ a:hover{
   text-decoration: underline;
 }
 
-
 .div-bar {
     height: 8em;
     background: #22385a;
@@ -339,7 +336,6 @@ a:hover{
  h3#page-name{
   margin-left: 5em;
 }
-/**********request page styles by Iryna:************/
 
 #request-container {
   font-family: "Open Sans", sans-serif;
@@ -348,9 +344,17 @@ a:hover{
   max-height: 30em;
   position:relative;
   margin-top: 0;
+
+}
+#hospital-filter{
+  font-size:1em;
+}
+.form-buttons-div {
+  margin-top: 5%;
+  width: 40%;
+  height: 2em;
   margin-bottom:0;
   background-color: #DEE9F7;
-  /*#f9f9f9*/
 }
 #request-container div{
   margin-top: 2em;
@@ -369,9 +373,8 @@ a:hover{
 #form-buttons-div{
   width:35%;
 }
-#bacCode, label,#hospital-filter{
-/*height: 5em;
-width: 15em;*/
+
+#bacCode{
 font-size: 1em;
 margin-top: 2em;
 margin-left: 2em;
@@ -397,7 +400,7 @@ margin-left: 2em;
   font-size: 0.7em;
   text-transform:none;
 }
-/***************Barcode View Page*************/
+
 #barcode-container{
   background-color: #DEE9F7;
 }
