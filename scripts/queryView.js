@@ -6,10 +6,11 @@
     $('#request-container').show();
     $('#clonet-wrapper').hide();
     $('#header').show();
-    $('#section-video-container').show();
     $('#barcode-container').hide();
-    $('#about-table').hide(); //this hides our About Us table...
+    $('#about-table').hide();
+    $('#about-title').hide();
     $('#nav-links #query-request-tab').hide().siblings().show();
+    $('#section-video-container').show();
     $('#page-name').text("BactNet Query");
 
   }
