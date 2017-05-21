@@ -5,21 +5,25 @@
   <title>ID Genomics</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="styles/layout.css">
+  <link rel="stylesheet" href="styles/responsive.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Baumans" rel="stylesheet">
   <!-- <script id="template" type="text/x-handlebars-template">
-    <article class="clone-box" data-category="{{cloneCategory}}"></article>
-  </script> -->
+  <article class="clone-box" data-category="{{cloneCategory}}"></article>
+</script> -->
 </head>
 <body>
-  <header id="header"class="fixed clearfix header-menu header" data-header-type="header-menu" data-header-resize="true" data-header-height="85" data-header-max-height="115" data-menu-link="1">
+  <header id="header"class="fixed clearfix header-menu header" data-header-type="header-menu" data-header-resize="true" data-header-height="15em" data-header-max-height="25em" data-menu-link="1">
     <div id="header-container" style="height:8em" class="header-container">
       <div class="website-logo">
         <a href="http://idgenomics.com">
           <img src="http://idgenomics.com/wp-content/uploads/2017/01/idg_logo_full_high_res_compressed.png" alt="logo">
         </a>
       </div>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8327b54034cb1681101ad778f925ed7561c6aea9
       <div>
         <nav id="top-nav" class="headerColor top-nav">
           <ul id = "nav-links"class="top-menu">
@@ -27,11 +31,16 @@
             <li id = "clonet-tab" class="menu-item" data-content=""><a href="/" class="hover" <span>CloNeT</span></a></li>
             <li id = "barcode-tab"class="menu-item" data-content=""><a href="/barcode" class="hover" <span>Barcode Generator</span></a></li>
             <li id = "query-request-tab" class="menu-item" data-content=""><a href="/query" class="hover" <span>BactNeT Query</span></a></li>
+<<<<<<< HEAD
             <li id = "about"class="menu-item" data-content=""><a href="/about.html" class="hover" <span>About</span></a></li>
+=======
+            <li id = "about-tab" class="menu-item" data-content=""><a href="/about" class="hover" <span>About</span></a></li>
+>>>>>>> 8327b54034cb1681101ad778f925ed7561c6aea9
           </ul>
         </nav>
       </div>
     </div>
+<<<<<<< HEAD
     <div id = "decorative-pargraph" class="decorative-pargraph" style="background-image: url(assets/images/blue-background.png); height: 3em; width: 100%;">
           <h3>CloNet Principles<sup>&trade;</sup></h3>
     </div>
@@ -45,37 +54,67 @@
       <div id = "clonet-article" class="clonet-article">
         <iframe id="article-link" src="assets/clonet-principles.pdf" name="targetframe" allowTransparency="true" scrolling="yes" frameborder="3" >
       </iframe>
+=======
+    <div id = "decorative-pargraph" class="decorative-pargraph" style="background-image: url(assets/images/blue-background.png); height: 48px; width: 100%;">
+      <h3 id="page-name">CloNet Principles<sup>&trade;</sup></h3>
+    </div>
+  </header>
+
+  <div class = "all-around-wrapper">
+      <div id = "clonet-wrapper">
+        <div class="tubes">
+          <img class="tube" src="assets/images/tubes.png">
+        </div>
+        <div id = "clonet-article" class="clonet-article">
+          <iframe id="article-link" src="assets/clonet-principles.pdf" name="targetframe" allowTransparency="true" scrolling="yes" frameborder="3" >
+          </iframe>
+        </div>
+      </div>
+
+    <div id = "request-container" class ="containers">
+      <div id = "form-buttons-div" class = "form-buttons-div">
+        <label for "select">Pick a hospital:</label>
+        <select name="select" id = "hospital-filter">
+          <option value="Any" selected>Any</option>
+          <option value="Seattle Children's" >Seattle Children's</option>
+          <option value="Kaiser">Kaiser</option>
+          <option value="Hennepin">Hennepin</option>
+          <option value="Harvorview">Harvorview</option>
+          <option value="Keck">Keck</option>
+          <option value="LA County">LA County</option>
+          <option value="NY Langone">NY Langone</option>
+        </select>
+        <form id = "bac-form">
+          <label for="bacCode">Enter the bacteria barcode:</label>
+          <input id="bacCode" class = "bacCode"type="textarea" name="bacCode" placeholder="barcode">
+          <br>
+          <input id = "submit" type="submit" name = "submit">
+          <input id = "reset" type="reset" name = "reset">
+        </form>
+      </div>
+      <div  id = "results-div">
+          <p id="you-view">You will veiw the results here:</p>
+          <ul id ="result-ul">
+          </ul>
+>>>>>>> 8327b54034cb1681101ad778f925ed7561c6aea9
       </div>
     </div>
 
-  <div id = "request-container" class ="containers">
-    <div id = "form-buttons-div" class = "form-buttons-div">
-      <label for "select">Pick a hospital:</label>
-      <select name="select" id = "hospital-filter">
-        <option value="Any" selected>Any</option>
-        <option value="Seattle Children's" >Seattle Children's</option>
-        <option value="Kaiser">Kaiser</option>
-        <option value="Hennepin">Hennepin</option>
-        <option value="Harvorview">Harvorview</option>
-        <option value="Keck">Keck</option>
-        <option value="LA County">LA County</option>
-        <option value="NY Langone">NY Langone</option>
-      </select>
+    <div id ="barcode-container">
+        <div id="form-table">
+        <form id="barcode-numbers-form" class="form-buttons-div">
+          <label for="barcodeEntry">Enter your test results here:</label>
+          <br>
+          <input id="barcodeEntry" type="textarea"  name="barcodeEntry" placeholder="1 2 3 4 5 6 7 8">
+          <button type="button" id="bcSubmit">Submit</button>
+          <br><br>
+          <textarea wrap = "hard" overflow= "auto" chars = "10" rows = "8" id = "barcodeRecord"></textarea>
+          <button type="button" id="bcReset">Reset</button>
+        </form>
 
-      <form id = "bac-form">
-        <label for="bacCode">Enter the bacteria barcode:</label>
-        <input id="bacCode" class = "bacCode"type="textarea" name="bacCode" placeholder="barcode">
-        <br>
-        <input id = "submit" type="submit" name = "submit">
-        <input id = "reset" type="reset" name = "reset">
-      </form>
-    </div>
-    <div  id = "results-div">
-      <p id="you-view">You will veiw the results here:</p>
-      <ul id ="result-ul">
-      </ul>
     </div>
   </div>
+<<<<<<< HEAD
 
 <div id ="barcode-container">
   <p>This is a placeholder for the barcode page</p>
@@ -113,10 +152,46 @@
       <video preload="true" autoplay loop muted poster="" class="video-background">
         <source src="assets/videos/Atoms - 5205.mp4" type="video/mp4" media="(orientation:landscape)">
       </video>
+=======
+    <div id="about-table">
+      <table class="tbl">
+        <tr>
+          <th class="tbl-box1">
+            <img id="about-pic" src="assets/images/about/ira.jpg">
+            <p>Irina is a sutdent at Code Fellows.</p>
+            <p>She brought the idea of the project to the group. </p>
+          </th>
+          <th class="tbl-box2">
+            <img id="about-pic" src="assets/images/about/lou.jpg">
+            <p>Louis is a student at Code Fellows.</p>
+            <p>He participated in the project to make this work.</p>
+          </th>
+        </tr>
+        <tr>
+          <td class="tbl-box3">
+            <img id="about-pic" src="assets/images/about/max.jpg">
+            <p>Maks is a student at Code Fellows.</p>
+            <p>He participated in the project to make this work. </p>
+          </td>
+          <td class="tbl-box4">
+            <img id="about-pic" src="assets/images/about/kev.jpg">
+            <p>Kevin is a student at Code Fellows.</p>
+            <p>He participated in the project to make this work.</p>
+          </td>
+        </tr>
+      </table>
+>>>>>>> 8327b54034cb1681101ad778f925ed7561c6aea9
     </div>
+</div>
+  <footer id="video-footer">
+    <section id="section-video-container" class="section-video-container">
+      <div class="video-container">
+        <video preload="true" autoplay loop muted poster="" class="video-background">
+          <source src="assets/videos/Atoms - 5205.mp4" type="video/mp4" media="(orientation:landscape)">
+        </video>
+      </div>
     </section>
-  </div>
-</footer>
+  </footer>
 
     <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
     <script src ="https://code.jquery.com/jquery-3.2.1.js"></script>
@@ -126,20 +201,13 @@
     <script src = "node_modules/page/page.js"></script>
 
     <script src="scripts/queryView.js" charset="utf-8"></script>
-    <script src="scripts/cloneView.js" charset="utf-8"></script>
     <script src ="scripts/indexView.js"></script>
+    <script src= "scripts/aboutView.js"></script>
     <script src ="scripts/barcodeView.js"></script>
     <script src = "scripts/routes.js"></script>
-
-	<script charset="utf-8" src="scripts/queryView.js">
-	</script>
-	<script charset="utf-8" src="scripts/cloneView.js">
-	</script>
-	<script src="scripts/indexView.js">
-	</script>
-	<script src="scripts/barcodeView.js">
-	</script>
-	<script src="scripts/routes.js">
-	</script>
-</body>
-</html>
+    <script type="text/javascript">
+      $('#bcSubmit').on('click', barcode.submit);
+      $('#bcReset').on('click', barcode.reset);
+    </script>
+  </body>
+  </html>

@@ -1,4 +1,10 @@
 html .top-nav {
+<<<<<<< HEAD
+=======
+
+    max-width: 90%;
+    /* width: 850px; */
+>>>>>>> 8327b54034cb1681101ad778f925ed7561c6aea9
     max-width: 100%;
     padding: 0;
     position: relative;
@@ -6,37 +12,52 @@ html .top-nav {
     margin:0 auto;
 }
 
-body {
+/*body {
   display: block;
   margin: 0;
   padding: 0;
+<<<<<<< HEAD
   position: relative;
 }
+=======
+}*/
+>>>>>>> 8327b54034cb1681101ad778f925ed7561c6aea9
 
 .header {
-    border-style: dashed;
-    border-color: pink;
+    /*border-style: dashed;
+    border-color: pink;*/
     display: inline-block;
     position: relative;
     z-index: 4;
     width: 100%;
-    height: auto;
+    height: 11em;
     top: 0;
     margin: 0 auto;
     text-align: center;
     background: none;
 }
+#header-container{
+  display: flex;
+  justify-content: space-between;
+}
 
 .header-menu {
   display: inline-block;
-  border-style: dashed;
+  /*border-style: dashed;*/
   border-color: blue;
   margin: 0 auto;
 }
 
+<<<<<<< HEAD
+=======
+.all-around-wrapper{
+  height:90%;
+}
+
+>>>>>>> 8327b54034cb1681101ad778f925ed7561c6aea9
 .top-nav{
-  border-style: dashed;
-  border-color: yellow;
+  /*border-style: dashed;
+  border-color: yellow;*/
   display: inline-block;
   background: transparent;
   list-style: none;
@@ -99,13 +120,22 @@ h3 {
     z-index: 1;
     float: left;
     height: 100%;
+<<<<<<< HEAD
     width: 350px;
     position: static;
     top:0;
+=======
+    width: 50%;
+}
+
+.sliding-menu-open {
+  display: none;
+>>>>>>> 8327b54034cb1681101ad778f925ed7561c6aea9
 }
 
 .containers{
   margin-top: 10%;
+<<<<<<< HEAD
   border-style: dotted;
   text-align: center;
   border-color: green;
@@ -114,13 +144,29 @@ h3 {
   margin-right: auto;
   border: 2px dotted green;
   padding: 2px;
+=======
+  width: 100%;
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #DEE9F7;
+>>>>>>> 8327b54034cb1681101ad778f925ed7561c6aea9
 }
 
-/* request page video styles: */
+
 #footer {
+   clear: both;
+   position: fixed;
+   z-index: 10;
+   width: 100%;
+   height: 3.5em;
+   bottom: 0;
+}
+/*footer {
     clear: both;
     position: fixed;
     z-index: 10;
+<<<<<<< HEAD
     width: 100%;
     height: 3.5em;
     bottom: 0;
@@ -132,7 +178,22 @@ h3 {
   background: transparent;
   border: 2px dotted green;
   position: relative;
+=======
+    height: 5em;
+    margin-top:0;
+    bottom: 0;
+}*/
+.section-video-container{
+  width: 100%;
+  height: 7em;
+  /*margin-top: 2%;*/
+  border-left: none;
+  border-right: none;
+  background: transparent;
+  position:relative;
+>>>>>>> 8327b54034cb1681101ad778f925ed7561c6aea9
   bottom:0;
+  padding: 0;
 }
 .video-container{
   background: transparent;
@@ -142,6 +203,7 @@ h3 {
   position:absolute;
   overflow: hidden;
   bottom:0;
+  padding: 0;
 }
 
 video {
@@ -152,7 +214,9 @@ video {
   width: 100%;
   object-fit: cover;
   bottom:0;
+  /*padding: 0;*/
 }
+/***************** About page styles*************/
 
 #about-table{
   line-height: auto;
@@ -183,6 +247,7 @@ video {
   /*border-style: dashed;
   border-color: red;*/
 }
+<<<<<<< HEAD
 
 #about-pic{
   width:30em;
@@ -196,6 +261,12 @@ video {
 #about-pic:hover {
     opacity: 0.4;
     filter: alpha(opacity=20);
+=======
+
+#about-pic{
+  width:30em;
+  height:23em;
+>>>>>>> 8327b54034cb1681101ad778f925ed7561c6aea9
 }
 
 #about-title{
@@ -271,6 +342,7 @@ video {
   float:right;
 }
 
+<<<<<<< HEAD
 .clonet-article {
 width: 50%;
 height: auto;
@@ -279,20 +351,55 @@ border-color: red;
 padding: 0;
 float: right;
 }
+=======
+/***************Clonet View styles***************/
+>>>>>>> 8327b54034cb1681101ad778f925ed7561c6aea9
 
+#clonet-wrapper{
+  width:100%;
+  margin-top:0;
+  margin-left: 0;
+  height:40em;
+  background-color: #DEE9F7;
+}
 .tubes{
+<<<<<<< HEAD
   display: inline-flex;
   width: 40%;
   height: 30em;
   border-style: dotted;
   border-color: black;
   margin-bottom: 1em;
+=======
+  margin-top:1em;
+  width: 39%;
+  height: 26em;
+  float: left;
+  /*position: relative;*/
+>>>>>>> 8327b54034cb1681101ad778f925ed7561c6aea9
 }
 .tube {
   width: 100%;
+<<<<<<< HEAD
   height: 100%;
   float: left;
   position: relative;
+=======
+  height: 25em;
+>>>>>>> 8327b54034cb1681101ad778f925ed7561c6aea9
+}
+
+.clonet-article {
+  width: 60%;
+  height:38em;
+  padding: 0;
+  float: right;
+  background-color: #DEE9F7;
+}
+#article-link{
+  margin-top: 1em;
+  height: 100%;
+  width: 100%;
 }
 
 a:hover{
@@ -300,24 +407,36 @@ a:hover{
   text-decoration: underline;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8327b54034cb1681101ad778f925ed7561c6aea9
 .div-bar {
-    height: 48px;
+    height: 8em;
     background: #22385a;
     position: relative;
 }
 .decorative-paragraph{
   color:white;
   width: 100%;
-  height: 48px;
+  align-content: center;
 }
+ h3#page-name{
+  margin-left: 5em;
+}
+<<<<<<< HEAD
+=======
+/**********request page styles by Iryna:************/
+>>>>>>> 8327b54034cb1681101ad778f925ed7561c6aea9
 
 #request-container {
   font-family: "Open Sans", sans-serif;
   border-color: grey;
   width:100%;
-  min-height: 35em;
+  max-height: 30em;
   position:relative;
   margin-top: 0;
+<<<<<<< HEAD
 }
 #hospital-filter{
   font-size:1em;
@@ -326,38 +445,87 @@ a:hover{
   margin-top: 5%;
   width: 40%;
   height: 2em;
+=======
+  margin-bottom:0;
+  background-color: #DEE9F7;
+  /*#f9f9f9*/
+}
+#request-container div{
+  margin-top: 2em;
+  margin-left: 2em;
+  margin-bottom: 2em;
+  height: 90%;
+>>>>>>> 8327b54034cb1681101ad778f925ed7561c6aea9
   font-size: 1.5em;
   float:left;
+  background-color: #59B5DB;
 }
 #results-div{
-  width:50%;
-  margin-left: 5%;
-  font-size: 1.5em;
-  display: inline;
-  float:right;
+  min-height: 14.5em;
+  width:55%;
 }
-label{
-  font-size: 1em;
+
+#form-buttons-div{
+  width:35%;
 }
+<<<<<<< HEAD
 #bacCode{
+=======
+#bacCode, label,#hospital-filter{
+/*height: 5em;
+width: 15em;*/
+>>>>>>> 8327b54034cb1681101ad778f925ed7561c6aea9
 font-size: 1em;
+margin-top: 2em;
+margin-left: 2em;
 }
+
 #submit, #reset{
-  width:4em;
-  height:1.5em;
-  font-size: 1.5em;
+  width:25%;
+  height:15%;
+  font-size: 1.1em;
   font-family: "Open Sans", sans-serif;
+  margin-top: 2em;
+  margin-left: 3em;
+  margin-bottom: 2em;
 }
-#header-container{
-  display: flex;
-  justify-content: space-between;
+
+#you-view{
+  margin-left: 8em;
 }
 #result-ul li{
+  font-family: "Open Sans", sans-serif;
+  list-style: none;
   display: block;
-  font-size: 0.8em;
+  font-size: 0.7em;
+  text-transform:none;
 }
+<<<<<<< HEAD
 
 /***************Barcode View Page*************/
 #form-table .test-numbers{
+=======
+/***************Barcode View Page*************/
+#barcode-container{
+  background-color: #DEE9F7;
+}
+#barcode-container img{
+  object-position: center;
+  margin-left: 15%;
+}
+#barcodeRecord{
+  width:50em;
+  margin:2em;
+}
 
+#barcodeEntry{
+  width:25em;
+  margin:2em;
+  height:5em;
+}
+>>>>>>> 8327b54034cb1681101ad778f925ed7561c6aea9
+
+#about-pic:hover {
+    opacity: 0.4;
+    filter: alpha(opacity=20);
 }

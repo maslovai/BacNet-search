@@ -8,34 +8,36 @@
     $('#header').show();
     $('#section-video-container').show();
     $('#barcode-container').hide();
-    $('#aboutTable').hide(); //this hides our About Us table...
+    $('#about-table').hide(); //this hides our About Us table...
     $('#nav-links #query-request-tab').hide().siblings().show();
+    $('#page-name').text("BactNet Query");
 
   }
   query.getString = function(hospital, barcode){
     console.log(hospital, barcode);
+    // var listItems = [];
     $.get('/entries/'+hospital+'/'+barcode)
     .then(data =>
       {
-        var listItems = [];
-        data.forEach(ele => listItems.push(ele));
-        console.log(listItems);
-        $('#result-ul').append(`<li>`+ 'Results for ' + barcode + '</li>');
+        var listItems=data;
+        // data.forEach(ele => listItems.push(ele));
+        // console.log(listItems);
+        $('#result-ul').append(`<li>`+ 'Results for  <bold>' +  barcode +'  at  '+hospital+ '</bold></li>');
         listItems.map(ele => {
-        $('#result-ul').append(`<li>`+ele.antibiotic+ ',   Resistance: '+ ele.resistance + '%,   Recommended: ' + ele.recommended + `</li>`);
+        $('#result-ul').append(`<li>`+ele.antibiotic+ '  -   Resistance: '+ ele.resistance + '%,   Recommended: ' + ele.recommended + `</li>`);
         })
        });
 }
 let $hospital;
 let $barcode;
 query.submitRequest = function() {
-  $('#bac-form').on('click', '#submit', function(e) {
+  $('#submit').on('click',  function(e) {
     e.preventDefault();
     $('#result-ul').empty();
     $('#you-view').hide();
     $hospital = $("#hospital-filter").val();
     $barcode = $("#bacCode").val();
-    //console.log($hospital, $barcode);
+    console.log($hospital, $barcode);
     var response = query.getString($hospital, $barcode);
     //console.log(response);
   })
@@ -48,14 +50,6 @@ query.submitRequest = function() {
     $('#sequence').val('').attr("placeholder","barcode");
   });
   query.submitRequest();
-
-
-   $('#reset').on('click', function(){
-      $('#hospital-filter').val("All").attr("selected","true");
-      $('#sequence').val('').attr("placeholder","sequence");
-    });
-
-
 
   module.query = query;
 })(window);
