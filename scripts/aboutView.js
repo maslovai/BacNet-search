@@ -10,7 +10,7 @@ const about = {};
     $('#barcode-container').hide();
     $('#section-video-container').show();
     $('#about-table').show();
-    $('#page-name').text('About Us');
+    $('#page-name').text('About Us').show();
     $('#header-container').show();
 
   }
