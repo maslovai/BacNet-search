@@ -8,9 +8,6 @@
   <link rel="stylesheet" href="styles/responsive.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Baumans" rel="stylesheet">
-  <!-- <script id="template" type="text/x-handlebars-template">
-  <article class="clone-box" data-category="{{cloneCategory}}"></article>
-</script> -->
 </head>
 <body>
   <header id="header"class="fixed clearfix header-menu header" data-header-type="header-menu" data-header-resize="true" data-header-height="15em" data-header-max-height="25em" data-menu-link="1">
@@ -78,46 +75,53 @@
 
     <div id ="barcode-container">
         <div id="form-table">
-        <form id="barcode-numbers-form" class="form-buttons-div">
-          <label for="barcodeEntry">Enter your test results here:</label>
-          <br>
-          <input id="barcodeEntry" type="textarea"  name="barcodeEntry" placeholder="1 2 3 4 5 6 7 8">
-          <button type="button" id="bcSubmit">Submit</button>
-          <br><br>
-          <textarea wrap = "hard" overflow= "auto" chars = "10" rows = "8" id = "barcodeRecord"></textarea>
-          <button type="button" id="bcReset">Reset</button>
-        </form>
+          <form id="barcode-numbers-form" class="form-buttons-div">
+            <label for="barcodeEntry">Enter your test results here:</label>
+            <br>
+            <input id="barcodeEntry" type="textarea"  name="barcodeEntry" placeholder="1 2 3 4 5 6 7 8">
+            <button type="button" id="bcSubmit">Submit</button>
+            <br><br>
+            <textarea wrap = "hard" overflow= "auto" id = "barcodeRecord">
+            </textarea>
+            <button type="button" id="bcReset">Reset</button>
+          </form>
+        </div>
+    </div>
+
+    <div id = "about-section">
+          <h3 id="about-title"> About Us</h3>
+
+          <div id="about-table">
+            <table class="tbl">
+              <tr>
+                <th class="tbl-box1">
+                  <img id="about-pic" src="assets/images/about/ira.jpg">
+                  <p>Irina is a sutdent at Code Fellows.</p>
+                  <p>She brought the idea of the project to the group. </p>
+                </th>
+                <th class="tbl-box2">
+                  <img id="about-pic" src="assets/images/about/lou.jpg">
+                  <p>Louis is a student at Code Fellows.</p>
+                  <p>He participated in the project to make this work.</p>
+                </th>
+              </tr>
+              <tr>
+                <td class="tbl-box3">
+                  <img id="about-pic" src="assets/images/about/max.jpg">
+                  <p>Maks is a student at Code Fellows.</p>
+                  <p>He participated in the project to make this work. </p>
+                </td>
+                <td class="tbl-box4">
+                  <img id="about-pic" src="assets/images/about/kev.jpg">
+                  <p>Kevin is a student at Code Fellows.</p>
+                  <p>He participated in the project to make this work.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
 
     </div>
-  </div>
-    <div id="about-table">
-      <table class="tbl">
-        <tr>
-          <th class="tbl-box1">
-            <img id="about-pic" src="assets/images/about/ira.jpg">
-            <p>Irina is a sutdent at Code Fellows.</p>
-            <p>She brought the idea of the project to the group. </p>
-          </th>
-          <th class="tbl-box2">
-            <img id="about-pic" src="assets/images/about/lou.jpg">
-            <p>Louis is a student at Code Fellows.</p>
-            <p>He participated in the project to make this work.</p>
-          </th>
-        </tr>
-        <tr>
-          <td class="tbl-box3">
-            <img id="about-pic" src="assets/images/about/max.jpg">
-            <p>Maks is a student at Code Fellows.</p>
-            <p>He participated in the project to make this work. </p>
-          </td>
-          <td class="tbl-box4">
-            <img id="about-pic" src="assets/images/about/kev.jpg">
-            <p>Kevin is a student at Code Fellows.</p>
-            <p>He participated in the project to make this work.</p>
-          </td>
-        </tr>
-      </table>
-    </div>
+
 </div>
   <footer id="video-footer">
     <section id="section-video-container" class="section-video-container">

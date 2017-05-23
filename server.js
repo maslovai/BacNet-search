@@ -12,9 +12,9 @@ const fs = require('fs');
 const PORT = process.env.PORT || 3000;
 //const requestProxy = require('express-request-proxy');
 //const conString = 'postgres://kev:32167@localhost:5432/antibiotics';
+
 //const conString = 'postgres://maks@localhost:5432/antibiotics';
 const conString = 'postgres://irynamaslova@localhost:5432/antibiotics';
-
 
 const client = new pg.Client(conString);
 client.connect();

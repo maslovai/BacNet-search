@@ -8,11 +8,12 @@ const barcode = {};
     $('#barcode-container').show();
     $('#request-container').hide();
     $('#clonet-wrapper').hide();
-    $('#section-video-container').show();
     $('#nav-links #barcode-tab').hide().siblings().show();
     $('#header-container').show();
     $('#about-table').hide();
+    $('#about-title').hide();
     $('#page-name').text('BarGen');
+    $('#section-video-container').show();
   }
   barcode.getValueString = function(numbers) {
      if(numbers[7] >= 23)return 'unknown';
