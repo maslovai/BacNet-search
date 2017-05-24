@@ -10,9 +10,9 @@ const bodyParser = require('body-parser');
 const pg = require('pg');
 const fs = require('fs');
 // const requestProxy = require('express-request-proxy');
-const conString = 'postgres://irynamaslova@localhost:5432/antibiotics';
+//const conString = 'postgres://irynamaslova@localhost:5432/antibiotics';
 // const conString = 'postgres://maks@localhost:5432/antibiotics';
-// const conString = process.env.DATABASE_URL||'postgres://irynamaslova@localhost:5432/antibiotics';
+const conString = process.env.DATABASE_URL||'postgres://irynamaslova@localhost:5432/antibiotics';
 
 
 const client = new pg.Client(conString);
