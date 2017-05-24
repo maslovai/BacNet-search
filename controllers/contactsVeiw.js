@@ -2,8 +2,8 @@
 
   const myContact = {};
   myContact.show = function(){
-    $("#my-contact").show;
-    $("#my-contact").siblings().hide;
+    $("#my-contact").show().siblings().hide();
+    
   }
   module.myContact = myContact;
 })(window);
