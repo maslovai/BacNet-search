@@ -21,7 +21,7 @@ client.on('error', function(error) {
   console.error(error);
 });
 app.use(express.static(__dirname + '/'));
-app.listen(process.env.Port||3000);
+app.listen(PORT);
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
