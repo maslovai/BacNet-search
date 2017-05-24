@@ -10,7 +10,7 @@
     $('#about-table').hide();
     $('#about-title').hide();
     $('#nav-links #query-request-tab').hide().siblings().show();
-    $('#section-video-container').show();
+    $('#section-video-container').hide();
     $('#page-name').text("BactNet Query");
 
   }
