@@ -4,34 +4,88 @@ const express = require('express');
 const app = express();
 
 const page = require('page');
-
-const PORT = process.env.PORT || 3000;
+const lineReader = require('readline')
 const bodyParser = require('body-parser');
 const pg = require('pg');
 const fs = require('fs');
-// const requestProxy = require('express-request-proxy');
-//const conString = 'postgres://irynamaslova@localhost:5432/antibiotics';
-// const conString = 'postgres://maks@localhost:5432/antibiotics';
+
+
+const PORT = process.env.PORT || 3000;
+//const requestProxy = require('express-request-proxy');
 const conString = process.env.DATABASE_URL||'postgres://irynamaslova@localhost:5432/antibiotics';
-
-
 const client = new pg.Client(conString);
 client.connect();
 client.on('error', function(error) {
   console.error(error);
 });
 app.use(express.static(__dirname + '/'));
-app.listen(process.env.Port||3000);
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
-//app.get('/github/*', proxyGitHub);
+app.listen(PORT);
+
+var entries = []; //array of all entries
+
+//entry constructor. This is a direct copy from the .csv file
+var RawEntry = function(data) {
+  this.barcode = data[0];
+  this.antibiotic = data[1];
+  this.site = data[2];
+  this.recommended = data[3];
+  this.resistance = data[4];
+}
+//take the data imported from the .csv file and convert it to RawEntry objects (above)
+function readCSV(data) {
+  var dataLines = data.split('\n');
+
+  for(var i = 1; i < dataLines.length; ++i) {
+    if(dataLines[i] === '') continue;
+    entries.push(new RawEntry(dataLines[i].split(',')));
+  }
+}
+
+//write the data to the database
+function writeSQL() {
+  //create the database
+  client.query(
+  `CREATE TABLE IF NOT EXISTS
+    entries (
+      barcode VARCHAR(32) NOT NULL,
+      antibiotic VARCHAR(32) NOT NULL,
+      site VARCHAR(64) NOT NULL,
+      recommended BOOLEAN,
+      resistance INTEGER
+    );`
+  );
+  client.query(`SELECT COUNT(*) FROM entries`).then(function(result) {
+    if(!parseInt(result.rows[0].count)) {
+      for(var i = 0; i < entries.length; ++i) {
+        var e = entries[i];
+        client.query(`
+          INSERT INTO entries(barcode, antibiotic, site, recommended, resistance)
+          VALUES($1, $2, $3, $4, $5) ON CONFLICT DO NOTHING
+          ;`, [e.barcode, e.antibiotic, e.site, e.recommended, e.resistance]);
+      }
+    }
+});
+
+  client.query(`SELECT * FROM entries`, null, function(err, res) {
+    console.log(res.rows);
+  });
+}
+
+// set off all the above.
+fs.readFile('BacNeT.csv', 'utf8', (err, data) => {
+  if (err) throw err;
+  readCSV(data);
+  writeSQL();
+});
 
 app.get('/entries/:site/:barcode', (request, response) => {
-   //console.log(request.params);
+  //console.log(request.params);
   client.query(`SELECT * FROM entries
-      WHERE site=$1 AND barcode=$2;`,
+    WHERE site=$1 AND barcode=$2;`,
     [request.params.site,request.params.barcode]
   ).then(function(result) {
     //console.log(result);
@@ -45,6 +99,8 @@ app.get('/entries/:site/:barcode', (request, response) => {
 app.get('*', (req, res) => {
   res.sendFile('index.html', { root: '.' })
 });
+
+
 
 
 

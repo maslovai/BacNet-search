@@ -1,7 +1,4 @@
 html .top-nav {
-
-    max-width: 90%;
-    /* width: 850px; */
     max-width: 100%;
     padding: 0;
     position: relative;
@@ -9,45 +6,31 @@ html .top-nav {
     margin:0 auto;
 }
 
-/*body {
+body {
   display: block;
   margin: 0;
   padding: 0;
-}*/
+  position: relative;
+}
 
 .header {
-    /*border-style: dashed;
-    border-color: pink;*/
     display: inline-block;
     position: relative;
     z-index: 4;
     width: 100%;
-    height: 11em;
+    height: auto;
     top: 0;
     margin: 0 auto;
     text-align: center;
     background: none;
-
-}
-#header-container{
-  display: flex;
-  justify-content: space-between;
 }
 
 .header-menu {
   display: inline-block;
-  /*border-style: dashed;*/
-  border-color: blue;
   margin: 0 auto;
 }
 
-.all-around-wrapper{
-  height:90%;
-}
-
 .top-nav{
-  /*border-style: dashed;
-  border-color: yellow;*/
   display: inline-block;
   background: transparent;
   list-style: none;
@@ -72,8 +55,7 @@ html .top-nav {
 li {
   list-style: none;
   display: inline;
-  letter-spacing: 0.3px;
-  line-height: 30px;
+  letter-spacing: 0.07em;
   list-style-position: outside;
   text-transform: uppercase;
   padding: 0 16px 0 14px;
@@ -110,59 +92,44 @@ h3 {
     z-index: 1;
     float: left;
     height: 100%;
-    width: 50%;
-}
-
-.sliding-menu-open {
-  display: none;
+    width: 350px;
+    position: static;
+    top:0;
 }
 
 .containers{
   margin-top: 10%;
-  width: 100%;
-  height: 50%;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
-  background-color: #DEE9F7;
+  border: 2px dotted green;
+  padding: 2px;
 }
-
-
+/* request page video styles: */
 #footer {
-   clear: both;
-   position: fixed;
-   z-index: 10;
-   width: 100%;
-   height: 3.5em;
-   bottom: 0;
-}
-/*footer {
     clear: both;
     position: fixed;
     z-index: 10;
-    height: 5em;
-    margin-top:0;
+    width: 100%;
+    height: 3.5em;
     bottom: 0;
-}*/
+}
 .section-video-container{
   width: 100%;
-  height: 7em;
-  /*margin-top: 2%;*/
-  border-left: none;
-  border-right: none;
+  height: 5em;
   background: transparent;
-  position:relative;
+  border: 2px dotted green;
+  position: relative;
   bottom:0;
-  padding: 0;
 }
 .video-container{
   background: transparent;
   background-size: cover;
   height: 5em;
   width: 100%;
-  position: relative;
+  position:absolute;
   overflow: hidden;
   bottom:0;
-  padding: 0;
 }
 
 video {
@@ -173,9 +140,7 @@ video {
   width: 100%;
   object-fit: cover;
   bottom:0;
-  /*padding: 0;*/
 }
-/***************** About page styles*************/
 
 #about-table{
   line-height: auto;
@@ -183,11 +148,6 @@ video {
   display: inline-block;
   margin-top: 3em;
   margin-bottom: 5em;
-  /*width: auto;
-   height: auto;*/
-  /*position: fixed;*/
-  /*margin-left: auto;
-  margin-right: auto;*/
 }
 
 #about-section{
@@ -199,18 +159,24 @@ video {
   background-color: lightblue;
   position: relative;
   text-align: center;
-  /*object-fit: contain;*/
-  /*background-image: cover;*/
-  /*background-repeat: round;*/
-  /*background-size: contain;*/
-  /*border-style: dashed;
-  border-color: red;*/
 }
 
 #about-pic{
   width:30em;
   height:23em;
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
 }
+
+#about-pic:hover {
+    opacity: 0.75;
+    filter: alpha(opacity=80);
+    filter: saturate(1.1);
+    transition: 0.7s ease;
+}
+
 
 #about-title{
     color: #1e3575;
@@ -220,7 +186,6 @@ video {
     font-style: normal;
     font-size: 2.5em;
     vertical-align: middle;
-    /*padding: 1em;*/
     display: inline-block;
     position: relative;
     margin-left: 0.3em;
@@ -279,45 +244,36 @@ video {
     vertical-align: top;
 }
 
+#clonet-wrapper {
+  margin-bottom: 3em;
+  margin-top: 1em;
+}
 #article-link{
   height: 30em;
   width: 100%;
   float:right;
 }
-
-/***************Clonet View styles***************/
-
-#clonet-wrapper{
-  width:100%;
-  margin-top:0;
-  margin-left: 0;
-  height:40em;
-  background-color: #DEE9F7;
+.clonet-article {
+width: 50%;
+height: 100%;
+float: right;
+box-shadow: -1.3em 1em 2em #59585b;
+margin-right: 0.2em;
 }
+
 .tubes{
-  margin-top:1em;
-  width: 39%;
-  height: 26em;
-  float: left;
-  /*position: relative;*/
+  display: inline-flex;
+  width: 45%;
+  height: 30.3em;
+  margin-bottom: 1em;
+  box-shadow: 1.3em 1em 2em #59585b;
+  margin-left: 0.2em;
 }
-
 .tube {
   width: 100%;
-  height: 25em;
-}
-
-.clonet-article {
-  width: 60%;
-  height:38em;
-  padding: 0;
-  float: right;
-  background-color: #DEE9F7;
-}
-#article-link{
-  margin-top: 1em;
   height: 100%;
-  width: 100%;
+  float: left;
+  position: relative;
 }
 
 a:hover{
@@ -325,98 +281,76 @@ a:hover{
   text-decoration: underline;
 }
 
-
 .div-bar {
-    height: 8em;
+    height: 48px;
     background: #22385a;
     position: relative;
 }
 .decorative-paragraph{
   color:white;
   width: 100%;
-  align-content: center;
+  height: 48px;
 }
- h3#page-name{
-  margin-left: 5em;
-}
-/**********request page styles by Iryna:************/
 
 #request-container {
   font-family: "Open Sans", sans-serif;
   border-color: grey;
   width:100%;
-  max-height: 30em;
+  min-height: 35em;
   position:relative;
   margin-top: 0;
-  margin-bottom:0;
-  background-color: #DEE9F7;
-  /*#f9f9f9*/
 }
-#request-container div{
-  margin-top: 2em;
-  margin-left: 2em;
-  margin-bottom: 2em;
-  height: 90%;
+#hospital-filter{
+  font-size:1em;
+}
+
+#barcode-container{
+  height: 100%;
+  width: 100%;
+  background-image: url("/assets/images/about-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: lightblue;
+  position: relative;
+  text-align: center;
+}
+textarea {
+    width: 40%;
+    height: 15em;
+    margin: 1em;
+}
+
+.form-buttons-div {
+  min-width: 15em;
   font-size: 1.5em;
-  float:left;
-  background-color: #59B5DB;
+  text-align: center;
+  margin-bottom: 7em;
+  margin-top: 0em;
 }
 #results-div{
-  min-height: 14.5em;
-  width:55%;
+  width:50%;
+  margin-left: 5%;
+  font-size: 1.5em;
+  display: inline;
+  float:right;
 }
-
-#form-buttons-div{
-  width:35%;
+label{
+  font-size: 1em;
 }
-#bacCode, label,#hospital-filter{
-/*height: 5em;
-width: 15em;*/
+#bacCode{
 font-size: 1em;
-margin-top: 2em;
-margin-left: 2em;
 }
-
 #submit, #reset{
-  width:25%;
-  height:15%;
-  font-size: 1.1em;
+  width:4em;
+  height:1.5em;
+  font-size: 1.5em;
   font-family: "Open Sans", sans-serif;
-  margin-top: 2em;
-  margin-left: 3em;
-  margin-bottom: 2em;
 }
-
-#you-view{
-  margin-left: 8em;
+#header-container{
+  display: flex;
+  justify-content: space-between;
 }
 #result-ul li{
-  font-family: "Open Sans", sans-serif;
-  list-style: none;
   display: block;
-  font-size: 0.7em;
-  text-transform:none;
-}
-/***************Barcode View Page*************/
-#barcode-container{
-  background-color: #DEE9F7;
-}
-#barcode-container img{
-  object-position: center;
-  margin-left: 15%;
-}
-#barcodeRecord{
-  width:50em;
-  margin:2em;
-}
-
-#barcodeEntry{
-  width:25em;
-  margin:2em;
-  height:5em;
-}
-
-#about-pic:hover {
-    opacity: 0.4;
-    filter: alpha(opacity=20);
+  font-size: 0.8em;
 }
