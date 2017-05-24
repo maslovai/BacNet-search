@@ -9,24 +9,21 @@ const bodyParser = require('body-parser');
 const pg = require('pg');
 const fs = require('fs');
 
+
 const PORT = process.env.PORT || 3000;
 //const requestProxy = require('express-request-proxy');
-//const conString = 'postgres://kev:32167@localhost:5432/antibiotics';
-
-//const conString = 'postgres://maks@localhost:5432/antibiotics';
-const conString = 'postgres://irynamaslova@localhost:5432/antibiotics';
-
+const conString = process.env.DATABASE_URL||'postgres://irynamaslova@localhost:5432/antibiotics';
 const client = new pg.Client(conString);
 client.connect();
 client.on('error', function(error) {
   console.error(error);
 });
 app.use(express.static(__dirname + '/'));
+
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
-app.listen(3000);
-
+app.listen(PORT);
 
 var entries = []; //array of all entries
 
@@ -84,7 +81,6 @@ fs.readFile('BacNeT.csv', 'utf8', (err, data) => {
   readCSV(data);
   writeSQL();
 });
-
 
 app.get('/entries/:site/:barcode', (request, response) => {
   //console.log(request.params);
