@@ -1,7 +1,8 @@
 'use strict';
 
 const lineReader = require('readline')
-const conString = 'postgres://kev:32167@localhost:5432/antibiotics';
+//const conString = 'postgres://kev:32167@localhost:5432/antibiotics';
+const conString = process.env.DATABASE_URL;
 const pg = require('pg');
 const fs = require('fs');
 const client = new pg.Client(conString);
