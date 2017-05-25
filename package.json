@@ -4,6 +4,7 @@
   "description": "Iryna's first protfolio",
   "main": "server.js",
   "dependencies": {
+    "body-parser": "^1.17.2",
     "express": "^4.15.2",
     "page": "^1.7.1",
     "proxy": "^0.2.4"
