@@ -4,6 +4,7 @@ $("#hamburger").on("click", function(){
      $(this).toggle();
      $("#nav-responsive").css("visibility","visible");
    })
+ });
 
 // var theItem = Handlebars.compile($("#gallery-item-template").html());
 // itemContent.filter(ele => {
@@ -12,6 +13,3 @@ $("#hamburger").on("click", function(){
 //   $('#gallery').append(theItem(ele))
 // });
 // pageView.handleMainNav();
-
-
-});

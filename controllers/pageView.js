@@ -1,13 +1,13 @@
 (function(module) {
-
   var pageView = {};
-
+  pageView.initIndex = function(){
   var theItem = Handlebars.compile($("#gallery-item-template").html());
   itemContent.filter(ele => {
     if (ele.number<=3) return ele;
   }).map(ele =>{
     $('#gallery').append(theItem(ele))
   });
+}
   module.pageView = pageView;
 })(window);
 
