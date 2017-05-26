@@ -4,13 +4,14 @@
   const repos = {};
   repos.all = [];
   repos.requestRepos = function(callback) {
-    $.get('https://api.github.com/users/maslovai/repos?access_token=' + gitHubToken)
+
+    console.log("HEEEEYYYY!");
+    $.get('https://api.github.com/users/maslovai/repos?access_token=' + window.githubToken)
     .then(results => {
-      console.log(results);
+      console.log(repos);
       results.forEach(obj=> {
-        repos.all.push(obj);
+        repos.all.push(obj)
       })
-      pageView.listRepos(repos.all)
       callback(repos);
     },
     error => {
