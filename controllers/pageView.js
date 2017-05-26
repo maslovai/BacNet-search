@@ -1,9 +1,13 @@
 (function(module) {
   var pageView = {};
   pageView.initIndex = function(){
+    $("#my-contact").show();
+    $("#my-portfolio").show();
+    $("#my-resume").show();
    var theItem = Handlebars.compile($("#gallery-item-template").html());
+   $('#gallery').empty();
    itemContent.map(ele =>{
-    $('#gallery').empty().append(theItem(ele))
+    $('#gallery').append(theItem(ele))
   });
 }
   module.pageView = pageView;

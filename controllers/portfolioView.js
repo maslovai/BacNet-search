@@ -10,10 +10,11 @@
     $repos.show().siblings().hide();
   };
   var render = Handlebars.compile($('#repo-template').html());
-  myPortfolio.index = function(repos) {
+  myPortfolio.listRepos = function(reposArray){
     ui();
+    reposArray = repos.requestRepos();
     $('#repos').append(
-      repos.with('name').map(render)
+      reposArray.with('name').map(render)
     );
   };
   module.myPortfolio = myPortfolio;

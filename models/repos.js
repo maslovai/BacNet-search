@@ -4,11 +4,10 @@
   const repos = {};
   repos.all = [];
   repos.requestRepos = function(callback) {
-
     console.log("HEEEEYYYY!");
     $.get('https://api.github.com/users/maslovai/repos?access_token=' + window.githubToken)
     .then(results => {
-      console.log(repos);
+      console.log(rsults);
       results.forEach(obj=> {
         repos.all.push(obj)
       })
