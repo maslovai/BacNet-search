@@ -3,20 +3,27 @@
 (function(module) {
   const repos = {};
   repos.all = [];
-  repos.requestRepos = function(callback) {
+  repos.requestRepos = function() {
     console.log("HEEEEYYYY!");
-    $.get('https://api.github.com/users/maslovai/repos?access_token=' + window.githubToken)
+    $.ajax({
+     url : 'https://api.github.com/user/repos?type=owner',
+     method: 'GET',
+     headers: {
+       Authorization: 'token ' + gitHubToken
+     }
+    })
     .then(results => {
-      console.log(repos);
-      results.forEach(obj=> {
-        repos.all.push(obj)
+      console.log(results);
+      var render = Handlebars.compile($('#repo-template').html());
+      results.forEach(ele=> {
+        $('#repos').append('<li>' + render(ele) + '</li>')
       })
-      callback(repos);
+      // callback(repos);
     },
     error => {
       console.log(error);
     });
   }
-  repos.with = attr => repos.all.filter(repo => repo[attr]);
+  // repos.with = attr => repos.all.filter(repo => repo[attr]);
   module.repos = repos;
 })(window);

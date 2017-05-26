@@ -34,20 +34,19 @@
 <body>
 
   <header>
-    <a href="index.html" id="logo">
+    <a href="/" id="logo">
       <h1>Iryna Maslova</h1>
       <h2>Designer</h2>
     </a>
-
     <nav class = "main-nav" id = "nav">
     <ul id = "nav-responsive">
-        <li><a class  = "my-portfolio" href="/">Portfolio</a></li>
-        <li><a class  = "my-blog" href="/blog">Resume</a></li>
+        <li><a class  = "my-home" href="/">Home</a></li>
+        <li><a class  = "my-portfolio" id = "view-repos" href="/portfolio">Portfolio</a></li>
+        <li><a class  = "my-resume" href="/resume">Resume</a></li>
         <li><a class  = "my-contact" href="/contact">Contact</a></li>
     </ul>
     <a><i class = "fa fa-bars hamburger" id = "hamburger" aria-hidden="true"></i></a>
     </nav>
-
   </header>
 
 <div id="wrapper">
@@ -62,8 +61,7 @@
       </ul>
     </section>
   </div>
-
-  <div id="my-blog">
+  <div id="my-resume">
     <section>
           <img src="images/new.jpg" alt="Photograph of Iryna Maslova" class="profile-photo">
     </section>
@@ -111,16 +109,14 @@
   </script>
   <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
   <script src = "projects_data.js"></script>
-  <script src = "pageView.js"></script>``
-
+  <script src = "node_modules/page/page.js"></script>
+  <script src = "controllers/pageView.js"></script>
+  <script src = "models/gitHubToken.js"></script>
   <script src = "models/repos.js"></script>
   <script src = "controllers/contactsVeiw.js"></script>
   <script src = "controllers/portfolioView.js"></script>
   <script src = "controllers/aboutView.js"></script>
-  <script src = "models/github-token.js"></script>
   <script src = "routes.js"></script>
-  <script src = "node_modules/page/page.js"></script>
-  <!-- <script src = "https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script> -->
   <script src = "app.js"></script>
 </body>
 </html>

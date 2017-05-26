@@ -1,10 +1,9 @@
 (function(module){
 
-  const myBlog = {};
-  myBlog.show = function(){
-    $("#my-blog").show().siblings().hide();
+  const myResume = {};
+  myResume.show = function(){
+    $("#my-resume").show().siblings().hide();
 
   }
-  repos.requestRepos(myPortfolio.index);
-  module.myBlog = myBlog;
+  module.myResume = myResume;
 })(window);
