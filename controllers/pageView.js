@@ -4,6 +4,7 @@
     $("#my-contact").show();
     $("#my-portfolio").show();
     $("#my-resume").show();
+    $('#repos').hide();
    var theItem = Handlebars.compile($("#gallery-item-template").html());
    $('#gallery').empty();
    itemContent.map(ele =>{
