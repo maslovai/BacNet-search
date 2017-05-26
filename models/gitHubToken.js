@@ -1,1 +1,1 @@
-const window.gitHubToken='7d6bbae6fbbda1b1b25754075ba8faf1d62e1324'
+ const gitHubToken = '40fffc3528d5f474d7c64df06777793dbc8cd560'
