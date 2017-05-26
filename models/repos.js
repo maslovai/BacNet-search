@@ -9,7 +9,7 @@
      url : 'https://api.github.com/user/repos?type=owner',
      method: 'GET',
      headers: {
-       Authorization: 'token ' + window.gitHubToken
+       Authorization: 'token ' + gitHubToken
      }
     })
     .then(results => {
