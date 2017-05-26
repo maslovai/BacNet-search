@@ -10,8 +10,7 @@ app.use(express.static(__dirname + '/'));
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
-app.use(express.static('./public'));
-
+//
 // function proxyGitHub(request, response) {
 //   console.log('Routing GitHub request for', request.params[0]);
 //   (requestProxy({
