@@ -1,0 +1,129 @@
+html .top-nav {
+    max-width: 100%;
+    line-height: 1em;
+    margin:0 auto;
+}
+
+.header {
+    z-index: 4;
+    background: none;
+}
+
+.top-nav{
+  list-style: none;
+}
+.top-nav ul{
+  height: 100%;
+  float:right;
+}
+
+.top-nav li {
+  line-height: 2.5em;
+}
+
+.hover {
+  text-decoration: none;
+  list-style-position: outside;
+  -webkit-transition: border .2s;
+  transition: border .2s;
+}
+h3 {
+    vertical-align: middle;
+}
+
+.containers{
+  padding: 2px;
+}
+/* request page video styles: */
+#footer {
+    clear: both;
+    z-index: 10;
+}
+.section-video-container{
+  background: transparent;
+}
+.video-container{
+  background: transparent;
+  background-size: cover;
+  overflow: hidden;
+}
+
+video {
+  z-index: -1;
+  opacity: 0.78;
+  object-fit: cover;
+}
+
+#about-table{
+  line-height: auto;
+  align-self: center;
+}
+
+#about-pic{
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+#about-pic:hover {
+    opacity: 0.75;
+    filter: alpha(opacity=80);
+    filter: saturate(1.1);
+    transition: 0.7s ease;
+}
+.tbl td {
+    padding: 10px 10px;
+    overflow: hidden;
+    word-break: normal;
+}
+.tbl th {
+    padding: 10px 10px;
+    word-break: normal;
+}
+.tbl .tbl-box1 {
+    text-align: center;
+}
+.clonet-article {
+box-shadow: -1.3em 1em 2em #59585b;
+
+}
+
+.tubes{
+  box-shadow: 1.3em 1em 2em #59585b;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+/**************************/
+#submit, #reset{
+  width:25%;
+  height:15%;
+  font-size: 1.1em;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 2em;
+  margin-left: 3em;
+  margin-bottom: 2em;
+}
+
+#you-view{
+  margin-left: 8em;
+}
+#result-ul li{
+  font-family: "Open Sans", sans-serif;
+  list-style: none;
+  display: block;
+  font-size: 0.7em;
+  text-transform:none;
+}
+
+#barcode-container{
+  height: 100%;
+  width: 100%;
+  background-image: url("/assets/images/about-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: lightblue;
+  position: relative;
+  text-align: center;
+}

@@ -1,0 +1,199 @@
+html .top-nav {
+    position: relative;
+}
+
+body {
+  display: block;
+  position: relative;
+}
+
+.header {
+    display: inline-block;
+    position: relative;
+}
+
+.header-menu {
+  display: inline-block;
+}
+
+.top-nav{
+  display: inline-block;
+}
+
+.top-nav li {
+  display: inline-block;
+}
+
+li {
+  display: inline;
+}
+.hover {
+  color: #59585b;
+  display: inline;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+}
+h3 {
+    color: #ffffff;
+    font-family: Baumans;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+}
+.website-logo img {
+  display: block;
+  float: left;
+}
+.website-logo {
+    position: static;
+}
+/* request page video styles: */
+#footer {
+    position: fixed;
+}
+.section-video-container{
+  position: relative;
+}
+.video-container{
+  position:absolute;
+}
+
+video {
+  position: relative;
+}
+
+#about-table{
+  display: inline-block;
+}
+
+#about-section{
+  background-image: url("/assets/images/about-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: lightblue;
+  position: relative;
+}
+
+#about-pic{
+  display: block;
+}
+
+
+#about-title{
+    color: #1e3575;
+    font-family: Baumans
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5em;
+    display: inline-block;
+    position: relative;
+}
+
+.tbl {
+    position: relative;
+}
+.tbl td {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+    color: black;
+}
+.tbl th {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+    font-weight: normal;
+    border-color: #999;
+    color: white;
+    background-color: #26ADE4;
+}
+.tbl .tbl-box1 {
+    background-color: #DEE9F7;
+    color: black;
+}
+.tbl .tbl-box2 {
+    background-color: #59B5DB;
+    vertical-align: top;
+}
+.tbl .tbl-box3 {
+    background-color: #59B5DB;
+    text-align: center;
+    vertical-align: top;
+    color: white;
+}
+.tbl .tbl-box4 {
+    background-color: #DEE9F7;
+    vertical-align: top;
+}
+.clonet-article {
+box-shadow: -1.3em 1em 2em #59585b;
+}
+
+.tubes{
+  display: inline-flex;
+}
+.tube {
+  position: relative;
+}
+
+a:hover{
+  color: #22385a;
+  text-decoration: underline;
+}
+
+.div-bar {
+    height: 48px;
+    background: #22385a;
+    position: relative;
+}
+.decorative-paragraph{
+  color:white;
+}
+
+#request-container {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 5em;
+  margin-bottom:0;
+}
+
+#request-container div{
+  font-size: 1.5em;
+  background-color: #59B5DB;
+
+}
+
+#bacCode, label,#hospital-filter{
+font-size: 1em;
+}
+/**************************/
+#submit, #reset{
+  width:25%;
+  height:15%;
+  font-size: 1.1em;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 2em;
+  margin-left: 3em;
+  margin-bottom: 2em;
+}
+
+#you-view{
+  margin-left: 8em;
+}
+#result-ul li{
+  font-family: "Open Sans", sans-serif;
+  list-style: none;
+  display: block;
+  font-size: 0.7em;
+  text-transform:none;
+}
+
+#barcode-container{
+  height: 100%;
+  width: 100%;
+  background-image: url("/assets/images/about-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: lightblue;
+  position: relative;
+  text-align: center;
+}
