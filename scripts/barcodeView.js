@@ -10,8 +10,8 @@ const barcode = {};
     $('#clonet-wrapper').hide();
     $('#nav-links #barcode-tab').hide().siblings().show();
     $('#header-container').show();
-    $('#about-table').hide();
-    $('#about-title').hide();
+    // $('#about-table').hide();
+    // $('#about-title').hide();
     $('#page-name').text('BarGen');
     $('#section-video-container').show();
   }
@@ -56,6 +56,7 @@ const barcode = {};
 
    barcode.reset = function() {
      $('#barcodeRecord').val('');
+     $('#barcodeEntry').val('').attr('placeholder','1 2 3 4 5 6 7 8');
    }
   module.barcode = barcode;
 })(window);
