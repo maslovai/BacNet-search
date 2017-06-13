@@ -1,7 +1,8 @@
 /**
  * Page created by:
  * Kevin Robinson
- * ...
+ * Louis Haywood
+ * Maks Mikossyanchik
  * 2017
  */
 

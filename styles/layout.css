@@ -309,6 +309,7 @@ a:hover{
   font-size: 1.5em;
   float:left;
   background-color: #59B5DB;
+
 }
 #results-div{
   min-height: 14.5em;
@@ -345,4 +346,15 @@ margin-left: 2em;
   display: block;
   font-size: 0.7em;
   text-transform:none;
+}
+
+#barcode-container{
+  height: 100%;
+  width: 100%;
+  background-image: url("/assets/images/about-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: lightblue;
+  position: relative;
+  text-align: center;
 }
