@@ -19,7 +19,7 @@ const fs = require('fs');
 
 const PORT = process.env.PORT || 3000;
 //const requestProxy = require('express-request-proxy');
-const conString = process.env.DATABASE_URL||'postgres://irynamaslova@localhost:5432/antibiotics';
+const conString = process.env.DATABASE_URL||'postgres://louis@localhost:5432/lounurdb';
 const client = new pg.Client(conString);
 client.connect();
 client.on('error', function(error) {

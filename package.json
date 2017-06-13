@@ -4,7 +4,7 @@
   "description": "request for antibiotic recommended for treating certain bacterial deseases",
   "main": "server.js",
   "dependencies": {
-    "body-parser": "^1.17.1",
+    "body-parser": "^1.17.2",
     "express": "^4.15.3",
     "nodemon": "^1.11.0",
     "page": "^1.7.1",
