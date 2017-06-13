@@ -40,7 +40,14 @@ const barcode = {};
    }
 
    barcode.submit = function() {
-     var numbers = $('#barcodeEntry').val().split(' ').map(function(ele) {
+     // /[^\d\.]+/ is a regular expression:
+     // []: any of these characters
+     // ^ the inverse of the following characters (all characters not indicated here)
+     // \d: any decimal (0-9)
+     // \.: a period (.)
+     // +: one or more of the preceeding.
+     // the whole expression divides the numbers in the string using substrings of one or more characters that aren't digits 0-9 or a period.
+     var numbers = $('#barcodeEntry').val().split(/[^\d\.]+/).map(function(ele) {
        return parseFloat(ele);
      });
      var value = barcode.getValueString(numbers);
