@@ -10,8 +10,8 @@ const barcode = {};
     $('#clonet-wrapper').hide();
     $('#nav-links #barcode-tab').hide().siblings().show();
     $('#header-container').show();
-    $('#about-table').hide();
-    $('#about-title').hide();
+    // $('#about-table').hide();
+    // $('#about-title').hide();
     $('#page-name').text('BarGen');
     $('#section-video-container').show();
   }
