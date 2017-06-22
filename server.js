@@ -3,6 +3,7 @@
  * Kevin Robinson
  * Louis Haywood
  * Maks Mikossyanchik
+ *Iryna Maslova
  * 2017
  */
 

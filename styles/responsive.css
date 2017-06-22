@@ -1,66 +1,68 @@
-@media screen and (min-width:576px && max-width:1072px) {
-  .website-logo img {
-    min-height: 50%;
-    max-height: 50%;
-    display: block;
-    float: left;
-  }
-  .website-logo {
-      z-index: 1;
-      float: left;
-      height: 50%;
-      width: 50%;
-  }
-  .menu {
-    display: none;
-  }
-  .top-nav{
-    padding: .2em .2em .2em 2em;
-    justify-content: flex-end;
-    visibility: hidden;
-  }
-  .top-nav ul {
-    display: block;
-  }
+@media screen and (min-width:1071px) {
+
   .top-nav ul li {
+    line-height: 2.5em;
+    height: 100%;
+    float:right;
+    padding: 0 1em 0 1em;
+  }
+  .hover {
     display: inline;
-    border-bottom: none;
-    height: 10%;
-    line-height: 1em;
-    float: right;
-    margin: 0;
+    font-size: 1em;
   }
-
-  .header {
-    display: block;
-    position: relative;
-    z-index: 4;
-    width: 100%;
-    top: 0;
-    margin: 0 auto;
-    text-align: center;
-    background: none;
-    justify-content: flex-start;
+  h3{
+      font-size: 1.5em;
   }
-  #header-container{
-    display: flex;
-    justify-content:flex-start;
+  #request-container{
+    font-size: 1.1em;
   }
-  #request-container div{
-    display: block;
+  #form-buttons-div{
+      margin-left: 25%;
   }
-  #submit, #reset,#bacCode, label,#hospital-filter, #you-view{
+  #submit, #reset, #bacCode, label, #hospital-filter, #you-view{
     justify-content: space-between;
-    font-size: 0.5em;
-  }
-
-  footer{
-    visibility:hidden;
+    font-size: 1em;
   }
 
 }
 
-@media screen and (max-width: 517px){
+@media screen and (min-width: 487px && max-width: 1070px){
+
+  .hover {
+    display: inline;
+    font-size: 0.9em;
+  }
+  .top-nav ul li {
+    padding: 0 0.7em 0 0.7em;
+    font-size: 0.8em;
+    display: block;
+    height: 100%;
+    line-height: 1.5em;
+    margin: 0;
+  }
+
+#request-container{
+  font-size: 0.8em;
+}
+/*#form-buttons-div{
+  margin-left: 25%;
+}*/
+
+#submit, #reset, #bacCode, label, #hospital-filter, #you-view{
+  justify-content: space-between;
+  font-size: 0.7em;
+}
+}
+
+
+@media screen and (max-width: 486px){
+
+  .tubes, .clonet-article {
+    display: block;
+  }
+  .decorative-paragraph{
+    font-size: 0.8em;
+  }
   .website-logo img {
     min-height: 50%;
     max-height: 50%;
@@ -73,32 +75,22 @@
       height: 100%;
       width: 100%;
   }
-  .top-nav{
-    padding: .2em .2em .2em 2em;
-    justify-content: flex-end;
-    visibility: hidden;
-  }
-  .top-nav ul {
-    display: block;
-  }
+
   .top-nav ul li {
-    /*display: inline;*/
-    border-bottom: none;
-    height: 10%;
+    padding: 0 0.5em 0 0.5em;
+    font-size: 0.75em;
+    display: block;
+    height: 7%;
     line-height: 1em;
-    float: right;
     margin: 0;
   }
-  .hamburger{
-    visibility: visible;
-  }
+
   .tubes{
     background-color: #DEE9F7;
     margin:1%;
     width: 90%;
     height: 90%;
     float: left;
-    /*position: relative;*/
   }
   .tube {
     width: 95%;
@@ -110,21 +102,20 @@
     padding: 0;
     float: left;
   }
-  #request-container div{
-    display: block;
-  }
-  #submit, #reset, #bacCode, label, #hospital-filter{
+
+  #submit, #reset, #bacCode, #you-view, label, #hospital-filter{
     justify-content: space-around;
     font-size: 0.5em;
   }
   #request-container div{
+    display: block;
     width: 90%;
-    margin-top: 2em;
-    margin-left: 2em;
+    margin-top: 3em;
+    margin-left: 10%;
     margin-bottom: 2em;
     height: 100%;
     font-size: 0.8em;
-    background-color: #59B5DB;
+    background-color: transparent;
   }
   #results-div{
     min-height: 14.5em;
@@ -133,4 +124,5 @@
   footer{
     visibility:hidden;
   }
+
 }

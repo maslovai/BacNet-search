@@ -12,7 +12,16 @@ body {
   padding: 0;
   position: relative;
 }
-
+.hover {
+  color: #59585b;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: none;
+  list-style-position: outside;
+  -webkit-transition: border .2s;
+  transition: border .2s;
+}
 .header {
     display: inline-block;
     position: relative;
@@ -29,56 +38,40 @@ body {
   display: inline-block;
   margin: 0 auto;
 }
+.header-container{
+  height:8em;
+}
 
 .top-nav{
-  display: inline-block;
+  display: inline;
+  height: 100%;
+  float:right;
   background: transparent;
-  list-style: none;
-  height: 100%;
-  float:right;
-}
-.top-nav ul{
-  height: 100%;
-  float:right;
 }
 
-.top-nav li {
-  display: inline-block;
+.top-nav ul li {
+  /*display: inline;*/
   height: 100%;
-  line-height: 2.5em;
   float: right;
   margin: 0;
   margin: 1em;
   margin-left: -2em;
-}
-
-li {
-  list-style: none;
-  display: inline;
   letter-spacing: 0.07em;
   list-style-position: outside;
   text-transform: uppercase;
-  padding: 0 16px 0 14px;
+  list-style: none;
 }
-.hover {
-  color: #59585b;
+
+/*li {
   display: inline;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 14px;
-  text-decoration: none;
-  list-style-position: outside;
-  -webkit-transition: border .2s;
-  transition: border .2s;
-}
+}*/
+
 h3 {
     color: #ffffff;
     font-family: Baumans;
     line-height: 0.5em;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.5em;
     float: left;
     vertical-align: middle;
 }
@@ -97,27 +90,13 @@ h3 {
     top:0;
 }
 
-.containers{
-  margin-top: 10%;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 2px;
-}
-/* request page video styles: */
-#footer {
-    clear: both;
-    position: fixed;
-    z-index: 10;
-    width: 100%;
-    height: 3.5em;
-    bottom: 0;
-}
+
+
 .section-video-container{
   width: 100%;
   height: 5em;
+  margin-top: -1;
   background: transparent;
-  /*border: 2px dotted green;*/
   position: relative;
   bottom:0;
 }
@@ -140,109 +119,7 @@ video {
   object-fit: cover;
   bottom:0;
 }
-/*
-#about-table{
-  line-height: auto;
-  align-self: center;
-  display: inline-block;
-  margin-top: 3em;
-  margin-bottom: 5em;
-}
-
-#about-section{
-  height: 100%;
-  width: 100%;
-  background-image: url("/assets/images/about-background.jpg");
-  background-size: cover;
-  background-position: center;
-  background-color: lightblue;
-  position: relative;
-  text-align: center;
-}*/
-
-#about-pic{
-  width:30em;
-  height:23em;
-  opacity: 1;
-  display: block;
-  transition: .5s ease;
-  backface-visibility: hidden;
-}
-
-#about-pic:hover {
-    opacity: 0.75;
-    filter: alpha(opacity=80);
-    filter: saturate(1.1);
-    transition: 0.7s ease;
-}
-
-
-#about-title{
-    color: #1e3575;
-    font-family: Baumans;
-    line-height: 0.5em;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 2.5em;
-    vertical-align: middle;
-    display: inline-block;
-    position: relative;
-    margin-left: 0.3em;
-}
-
-.tbl {
-    border-collapse: collapse;
-    border-spacing: 0;
-    border-color: transparent;
-    border-width: 1px;
-    border-style: solid;
-    float: center;
-    vertical-align: middle;
-    position: relative;
-}
-.tbl td {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 14px;
-    padding: 10px 10px;
-    border-style: solid;
-    border-width: 0px;
-    overflow: hidden;
-    word-break: normal;
-    color: black;
-}
-.tbl th {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 14px;
-    font-weight: normal;
-    padding: 10px 10px;
-    border-style: solid;
-    border-width: 0px;
-    overflow: hidden;
-    word-break: normal;
-    border-color: #999;
-    color: white;
-    background-color: #26ADE4;
-}
-.tbl .tbl-box1 {
-    background-color: #DEE9F7;
-    text-align: center;
-    color: black;
-}
-.tbl .tbl-box2 {
-    background-color: #59B5DB;
-    vertical-align: top;
-}
-.tbl .tbl-box3 {
-    background-color: #59B5DB;
-    text-align: center;
-    vertical-align: top;
-    color: white;
-}
-.tbl .tbl-box4 {
-    background-color: #DEE9F7;
-    vertical-align: top;
-}
-
+/***********Clonet page********************/
 #clonet-wrapper {
   margin-bottom: 3em;
   margin-top: 1em;
@@ -287,34 +164,33 @@ a:hover{
 }
 .decorative-paragraph{
   color:white;
-  width: 100%;
-  height: 48px;
 }
-
+/************Query Page**************/
 #request-container {
   font-family: "Open Sans", sans-serif;
   width:100%;
   min-height: 40em;
   position:relative;
-  margin-top: 1em;
   margin-bottom:0;
-  background-image: url("/assets/images/orange plate compressed.jpg");
+  background-image: url("/assets/images/about-background.jpg");
+  transform: translate3d(0%, -18.7455%, 0%, 0%);
   background-size: cover;
   background-position: center;
-  /*background-color: lightblue;*/
+  text-align: left;
 }
 #request-container div{
+  padding-top: 5em;
   margin-top: 2em;
-  margin-left: 2em;
   margin-bottom: 2em;
-  font-size: 1.5em;
+  /*font-size: 1.5em;*/
   float:left;
+  align-content: flex-start;
   background-color: transparent;
-  width:40%;
+  width:50%;
   min-height: 14.5em;
 }
+
 #bacCode, label, #hospital-filter{
-font-size: 1em;
 margin-top: 2em;
 margin-left: 2em;
 }
@@ -322,17 +198,21 @@ margin-left: 2em;
 #submit, #reset{
   width:25%;
   height:15%;
-  font-size: 1.1em;
+  /*font-size: 1.1em;*/
   font-family: "Open Sans", sans-serif;
   margin-top: 2em;
   margin-left: 3em;
   margin-bottom: 2em;
+  background-color: lightgrey;
 }
-
 #you-view{
-  margin-left: 8em;
+  margin-left: 2em;
 }
-#result-ul li{
+#result-ul{
+  line-height: 2em;
+  padding-left: 3em;
+  border-radius: 7%;
+  background-color: white;
   font-family: "Open Sans", sans-serif;
   list-style: none;
   display: block;
@@ -365,4 +245,13 @@ textarea {
 #barcodeEntry{
   width:20%;
   height: 3em;
+}
+
+#footer {
+  clear: both;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  height: 3.5em;
+  bottom: 0;
 }

@@ -11,7 +11,7 @@
 </head>
 <body>
   <header id="header"class="fixed clearfix header-menu header" data-header-type="header-menu" data-header-resize="true" data-header-height="15em" data-header-max-height="25em" data-menu-link="1">
-    <div id="header-container" style="height:8em" class="header-container">
+    <div id="header-container"  class="header-container">
       <div class="website-logo">
         <a href="http://idgenomics.com">
           <img src="http://idgenomics.com/wp-content/uploads/2017/01/idg_logo_full_high_res_compressed.png" alt="logo">
@@ -20,19 +20,18 @@
       <div>
         <nav id="top-nav" class="headerColor top-nav">
           <ul id = "nav-links"class="top-menu">
-            <li class="menu-item" data-content=""><a href="http://idgenomics.com/" class="hover" target="_blank" <span>ID Genomics</span></a></li>
-            <li id = "clonet-tab" class="menu-item" data-content=""><a href="/" class="hover" <span>CloNeT</span></a></li>
-            <li id = "barcode-tab"class="menu-item" data-content=""><a href="/barcode" class="hover" <span>Barcode Generator</span></a></li>
-            <li id = "query-request-tab" class="menu-item" data-content=""><a href="/query" class="hover" <span>BactNeT Query</span></a></li>
-            <!-- <li id = "about-tab" class="menu-item" data-content=""><a href="/about" class="hover" <span>About</span></a></li> -->
+            <li data-content=""><a href="http://idgenomics.com/" class="hover" target="_blank" <span>ID Genomics</span></a></li>
+            <li id = "clonet-tab" data-content=""><a href="/" class="hover" <span>CloNeT</span></a></li>
+            <li id = "barcode-tab" data-content=""><a href="/barcode" class="hover" <span>Barcode Generator</span></a></li>
+            <li id = "query-request-tab"  data-content=""><a href="/query" class="hover" <span>BactNeT Query</span></a></li>
           </ul>
         </nav>
       </div>
     </div>
-    <div id = "decorative-pargraph" class="decorative-pargraph" style="background-image: url(assets/images/blue-background.png); height: 48px; width: 100%;">
-      <h3 id="page-name">CloNet Principles<sup>&trade;</sup></h3>
-    </div>
   </header>
+  <div id = "decorative-pargraph" class="decorative-pargraph" style="background-image: url(assets/images/blue-background.png); height: 3em; width: 100%;">
+    <h3 id="page-name">CloNet Principles<sup>&trade;</sup></h3>
+  </div>
 
   <div class = "all-around-wrapper">
       <div id = "clonet-wrapper">
@@ -58,19 +57,19 @@
           <option value="LA County">LA County</option>
           <option value="NY Langone">NY Langone</option>
         </select>
-        <form id = "bac-form">
+        <form id = "bac-form" class = "query-form">
           <label for="bacCode">Enter the bacteria barcode:</label>
-          <input id="bacCode" class = "bacCode"type="textarea" name="bacCode" placeholder="barcode">
+          <input id="bacCode" class = "bacCode" type="textarea" name="bacCode" placeholder="barcode">
           <br>
           <input id = "submit" type="submit" name = "submit">
           <input id = "reset" type="reset" name = "reset">
         </form>
+        <p id="you-view">You will veiw the results here:</p>
+        <ul id ="result-ul">
+        </ul>
       </div>
-      <div  id = "results-div">
-          <p id="you-view">You will veiw the results here:</p>
-          <ul id ="result-ul">
-          </ul>
-      </div>
+      <!-- <div  id = "results-div"> -->
+      <!-- </div> -->
     </div>
 
     <div id ="barcode-container">
@@ -94,9 +93,9 @@
       <div class="video-container">
         <video preload="true" autoplay loop muted poster="" class="video-background">
           <source src="assets/videos/Atoms - 5205.mp4" type="video/mp4" media="(orientation:landscape)">
-        </video>
-      </div>
-    </section>
+          </video>
+        </div>
+      </section>
   </footer>
 
     <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>

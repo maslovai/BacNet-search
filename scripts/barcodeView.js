@@ -9,8 +9,6 @@ const barcode = {};
     $('#request-container').hide();
     $('#clonet-wrapper').hide();
     $('#header-container').show();
-    // $('#about-table').hide();
-    // $('#about-title').hide();
     $('#page-name').text('BarGen');
     $('#section-video-container').show();
   }

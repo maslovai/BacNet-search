@@ -7,25 +7,27 @@
     $('#clonet-wrapper').hide();
     $('#header').show();
     $('#barcode-container').hide();
-    $('#about-table').hide();
-    $('#about-title').hide();
-    $('#section-video-container').hide();
+    $('#section-video-container').show();
     $('#page-name').text("BactNet Query");
 
   }
   query.getString = function(hospital, barcode){
-    console.log(hospital, barcode);
+    //console.log(hospital, barcode);
     // var listItems = [];
     $.get('/entries/'+hospital+'/'+barcode)
     .then(data =>
       {
+        if (data.length>2){
         var listItems=data;
         // data.forEach(ele => listItems.push(ele));
         // console.log(listItems);
-        $('#result-ul').append(`<li>`+ 'Results for  <bold>' +  barcode +'  at  '+hospital+ '</bold></li>');
+        $('#result-ul').append(`<li>`+ 'Results for  <bold>' +  barcode +'  at  '+hospital+ '</bold> ' + ': ' + '</li>');
         listItems.map(ele => {
         $('#result-ul').append(`<li>`+ele.antibiotic+ '  -   Resistance: '+ ele.resistance + '%,   Recommended: ' + ele.recommended + `</li>`);
         })
+      }else {
+        $('#result-ul').append(`<li>`+ 'Results for  '+'<bold>' +  barcode +'  at  '+hospital+ '</bold> ' + ': UNKNOWN' + '</li>');
+      }
        });
 }
 let $hospital;
