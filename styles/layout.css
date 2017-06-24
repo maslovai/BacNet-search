@@ -17,6 +17,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-style: normal;
+  font-size: 1.1em;
   text-decoration: none;
   list-style-position: outside;
   -webkit-transition: border .2s;
@@ -43,7 +44,7 @@ body {
 }
 
 .top-nav{
-  display: inline;
+  font-size: 0.8em;
   height: 100%;
   float:right;
   background: transparent;
@@ -52,7 +53,7 @@ body {
 .top-nav ul li {
   /*display: inline;*/
   height: 100%;
-  float: right;
+
   margin: 0;
   margin: 1em;
   margin-left: -2em;
@@ -61,10 +62,6 @@ body {
   text-transform: uppercase;
   list-style: none;
 }
-
-/*li {
-  display: inline;
-}*/
 
 h3 {
     color: #ffffff;
@@ -89,8 +86,6 @@ h3 {
     position: static;
     top:0;
 }
-
-
 
 .section-video-container{
   width: 100%;
@@ -173,18 +168,17 @@ a:hover{
   position:relative;
   margin-bottom:0;
   background-image: url("/assets/images/about-background.jpg");
-  transform: translate3d(0%, -18.7455%, 0%, 0%);
+  /*transform: translate3d(0%, -18.7455%, 0%, 0%);*/
   background-size: cover;
   background-position: center;
-  text-align: left;
+  text-align: center;
 }
+
 #request-container div{
+  padding-left: 20%;
   padding-top: 5em;
   margin-top: 2em;
   margin-bottom: 2em;
-  /*font-size: 1.5em;*/
-  float:left;
-  align-content: flex-start;
   background-color: transparent;
   width:50%;
   min-height: 14.5em;
@@ -198,7 +192,6 @@ margin-left: 2em;
 #submit, #reset{
   width:25%;
   height:15%;
-  /*font-size: 1.1em;*/
   font-family: "Open Sans", sans-serif;
   margin-top: 2em;
   margin-left: 3em;
@@ -218,6 +211,7 @@ margin-left: 2em;
   display: block;
   font-size: 0.9em;
   text-transform:none;
+  text-align: left;
 }
 
 #barcode-container{
@@ -246,7 +240,15 @@ textarea {
   width:20%;
   height: 3em;
 }
-
+#bcSubmit{
+  width:10%;
+  height:8%;
+}
+ #bcReset{
+   width:10%;
+   height:8%;
+   margin-left: 45%;
+ }
 #footer {
   clear: both;
   position: fixed;
