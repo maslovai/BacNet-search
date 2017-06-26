@@ -30,7 +30,7 @@ body {
     width: 100%;
     height: auto;
     top: 0;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     text-align: center;
     background: none;
 }
@@ -164,7 +164,8 @@ a:hover{
 #request-container {
   font-family: "Open Sans", sans-serif;
   width:100%;
-  min-height: 40em;
+  margin-top: 0;
+  height: 40em;
   position:relative;
   margin-bottom:0;
   background-image: url("/assets/images/about-background.jpg");
@@ -212,6 +213,7 @@ margin-left: 2em;
   font-size: 0.9em;
   text-transform:none;
   text-align: left;
+  width: 100%;
 }
 
 #barcode-container{
@@ -226,6 +228,7 @@ margin-left: 2em;
 }
 #barcode-numbers-form{
     padding-top:10em;
+    font-family: "Open Sans", sans-serif;
 }
 #bcReset{
   display: block;
@@ -249,6 +252,7 @@ textarea {
    height:8%;
    margin-left: 45%;
  }
+
 #footer {
   clear: both;
   position: fixed;
