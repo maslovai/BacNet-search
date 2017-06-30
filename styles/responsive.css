@@ -107,25 +107,20 @@
 
   .tubes{
     background-color: #DEE9F7;
-    /*margin:1%;*/
     width: 90%;
     height: 90%;
     float: left;
     box-shadow: -1.3em 1em 2em #59585b;
   }
-  .clonet-article{
-    box-shadow: -1.3em 1em 2em #59585b;
-  }
-  .tubes{
-    box-shadow: -1.3em 1em 2em #59585b;
-  }
+
   .tube {
     width: 100%;
     height: 90%;
   }
   .clonet-article {
     width: 90%;
-    /*height:20em;*/
+    box-shadow: -1.3em 1em 2em #59585b;
+    height:100%;
     padding: 0;
     float: left;
   }
