@@ -165,7 +165,6 @@ a:hover{
   font-family: "Open Sans", sans-serif;
   width:100%;
   background-image: url("/assets/images/about-background.jpg");
-  /*margin-top: 0;*/
   height: 35em;
   position:relative;
   margin-bottom:0;
@@ -203,7 +202,7 @@ margin-left: 2em;
 }
 #result-ul{
   line-height: 2em;
-  padding-left: 3em;
+  /*padding-left: 3em;*/
   border-radius: 3%;
   background-color: white;
   font-family: "Open Sans", sans-serif;

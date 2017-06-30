@@ -69,7 +69,6 @@
 }
 }
 
-
 @media screen and (max-width: 486px){
 
   .tubes, .clonet-article {
@@ -104,7 +103,6 @@
     line-height: 1em;
     margin: 0;
   }
-
   .tubes{
     background-color: #DEE9F7;
     width: 90%;
@@ -112,7 +110,6 @@
     float: left;
     box-shadow: -1.3em 1em 2em #59585b;
   }
-
   .tube {
     width: 100%;
     height: 90%;
@@ -144,8 +141,4 @@
     min-height: 14.5em;
     width:90%;
   }
-  /*footer{
-    visibility:hidden;
-  }*/
-
 }
