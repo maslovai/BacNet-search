@@ -161,11 +161,11 @@ a:hover{
 #request-container {
   font-family: "Open Sans", sans-serif;
   width:100%;
-  margin-top: 0;
-  height: 40em;
+  background-image: url("/assets/images/about-background.jpg");
+  /*margin-top: 0;*/
+  height: 100%;
   position:relative;
   margin-bottom:0;
-  background-image: url("/assets/images/about-background.jpg");
   /*transform: translate3d(0%, -18.7455%, 0%, 0%);*/
   background-size: cover;
   background-position: center;
@@ -175,7 +175,6 @@ a:hover{
 #request-container div{
   padding-left: 20%;
   padding-top: 5em;
-  margin-top: 2em;
   margin-bottom: 2em;
   background-color: transparent;
   width:50%;
@@ -253,7 +252,7 @@ textarea {
 
 #footer {
   clear: both;
-  position: fixed;
+  position: absolute;
   z-index: 10;
   width: 100%;
   height: 3.5em;
