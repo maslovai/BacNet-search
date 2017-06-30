@@ -38,7 +38,7 @@ query.submitRequest = function() {
     $('#result-ul').empty();
     $('#you-view').hide();
     $hospital = $("#hospital-filter").val();
-    $barcode = $("#bacCode").val();
+    $barcode = parseInt($("#bacCode").val());
     console.log($hospital, $barcode);
     var response = query.getString($hospital, $barcode);
     //console.log(response);

@@ -126,9 +126,7 @@ video {
 }
 .clonet-article {
 width: 50%;
-height: 100%;
 float: right;
-box-shadow: -1.3em 1em 2em #59585b;
 margin-right: 0.2em;
 }
 
@@ -137,7 +135,6 @@ margin-right: 0.2em;
   width: 45%;
   height: 30.3em;
   margin-bottom: 1em;
-  box-shadow: 1.3em 1em 2em #59585b;
   margin-left: 0.2em;
 }
 .tube {
@@ -205,7 +202,7 @@ margin-left: 2em;
 #result-ul{
   line-height: 2em;
   padding-left: 3em;
-  border-radius: 7%;
+  border-radius: 3%;
   background-color: white;
   font-family: "Open Sans", sans-serif;
   list-style: none;
@@ -228,12 +225,13 @@ margin-left: 2em;
 }
 #barcode-numbers-form{
     padding-top:10em;
-    font-family: "Open Sans", sans-serif;
 }
+
 #bcReset{
   display: block;
   margin-left: 50%;
 }
+
 textarea {
     width: 40%;
     height: 15em;
