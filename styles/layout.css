@@ -1,3 +1,6 @@
+html{
+    height: 50em;
+}
 html .top-nav {
     max-width: 100%;
     padding: 0;
@@ -89,7 +92,7 @@ h3 {
 
 .section-video-container{
   width: 100%;
-  height: 5em;
+  height: 10em;
   margin-top: -1;
   background: transparent;
   position: relative;
@@ -98,7 +101,7 @@ h3 {
 .video-container{
   background: transparent;
   background-size: cover;
-  height: 5em;
+  height: 10em;
   width: 100%;
   position:absolute;
   overflow: hidden;
@@ -163,7 +166,7 @@ a:hover{
   width:100%;
   background-image: url("/assets/images/about-background.jpg");
   /*margin-top: 0;*/
-  height: 100%;
+  height: 35em;
   position:relative;
   margin-bottom:0;
   /*transform: translate3d(0%, -18.7455%, 0%, 0%);*/
@@ -213,7 +216,7 @@ margin-left: 2em;
 }
 
 #barcode-container{
-  height: 40em;
+  height: 35em;
   width: 100%;
   background-image: url("/assets/images/about-background.jpg");
   background-size: cover;
@@ -225,7 +228,9 @@ margin-left: 2em;
 #barcode-numbers-form{
     padding-top:10em;
 }
-
+.bcLabel{
+  font-family: "Open Sans", sans-serif;
+}
 #bcReset{
   display: block;
   margin-left: 50%;
