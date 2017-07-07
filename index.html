@@ -30,10 +30,11 @@
     </div>
   </header>
 
+  <div id = "decorative-pargraph" class="decorative-pargraph" style="background-image: url(assets/images/blue-background.png); height: 3em; width: 100%;">
+    <h3 id="page-name">CloNet Principles<sup>&trade;</sup></h3>
+  </div>
+
   <div class = "all-around-wrapper">
-      <div id = "decorative-pargraph" class="decorative-pargraph" style="background-image: url(assets/images/blue-background.png); height: 3em; width: 100%;">
-        <h3 id="page-name">CloNet Principles<sup>&trade;</sup></h3>
-      </div>
       <div id = "clonet-wrapper">
         <div class="tubes">
           <img class="tube" src="assets/images/tubes.png">
@@ -44,47 +45,68 @@
         </div>
       </div>
 
+      <div id ="barcode-container" class ="containers">
+        <div id="form-table" class = "containers">
+          <form id="barcode-numbers-form" class="form-buttons-div">
+            <label class="bcLabel" for="barcodeEntry">Enter your test results here:</label>
+            <input id="barcodeEntry" type="textarea"  name="barcodeEntry" placeholder="1 2 3 4 5 6 7 8">
+            <button type="button" id="bcSubmit">Submit</button>
+            <button type="button" id="bcReset">Reset</button>
+          </form>
+        </div>
+        <div class = "containers">
+           <label for = "barcodeRecord" class = "load-label">Triplet:</label>
+            <textarea name = "barcodeRecord"wrap = "hard" overflow= "auto" id = "barcodeRecord">
+            </textarea>
+            <label for="bcLoad" class ="load-label">Load is:</label>
+            <textarea name ="bcLoad" wrap = "hard" overflow= "auto" id = "bcLoad" class = "bcLoad">
+            </textarea>
+       </div>
+      </div>
     <div id = "request-container" class ="containers">
       <div id = "form-buttons-div" class = "form-buttons-div">
-        <label for "select">Pick a hospital:</label>
-        <select name="select" id = "hospital-filter">
-          <option value="Any" selected>Any</option>
-          <option value="Seattle Children's" >Seattle Children's</option>
-          <option value="Kaiser">Kaiser</option>
-          <option value="Hennepin">Hennepin</option>
-          <option value="Harvorview">Harvorview</option>
-          <option value="Keck">Keck</option>
-          <option value="LA County">LA County</option>
-          <option value="NY Langone">NY Langone</option>
-        </select>
-        <form id = "bac-form" class = "query-form">
+        <div class = "query-filters containers">
+            <label for = "selectSite">Pick a hospital:</label>
+            <select name="selectSite" id = "hospital-filter" class = "filters">
+                <option value="Any" selected>Any</option>
+                <option value="Seattle Children's" >Seattle Children's</option>
+                <option value="Kaiser">Kaiser</option>
+                <option value="Hennepin">Hennepin</option>
+                <option value="Harvorview">Harvorview</option>
+                <option value="Keck">Keck</option>
+                <option value="LA County">LA County</option>
+                <option value="NY Langone">NY Langone</option>
+            </select>
+            <label for="selectSpecies">Pick species:</label>
+            <select name="selectSpecies" id = "species-filter" class = "filters">
+                <option value="Any" selected>Any</option>
+                <option value="Klebsiella">Klebsiella</option>
+                <option value="EColi">EColi</option>
+            </select>
+            <label for="selectAge-group">Pick age group:</label>
+            <select name="selectAge-group" id = "age-filter" class = "filters">
+                <option value="Any" selected>Any</option>
+                <option value="0 to 3 years" >0 to 3 years old</option>
+                <option value="4 to 21 years">4 to 21 years old</option>
+                <option value="22 to 69 years" >22 to 69 years old</option>
+                <option value="70 and over">70 and over</option>
+            </select>
+          </div>
+        <form id = "bac-form" class = "query-form"><br>
           <label for="bacCode">Enter the bacteria barcode:</label>
           <input id="bacCode" class = "bacCode" type="textarea" name="bacCode" placeholder="barcode">
-          <br>
           <input id = "submit" type="submit" name = "submit">
           <input id = "reset" type="reset" name = "reset">
         </form>
-        <p id="you-view">You will veiw the results here:</p>
+      </div>
+      </div>
+      <div class = "containers">
+        <p id="you-view" class = "filters">You will veiw the results here:</p>
         <ul id ="result-ul">
         </ul>
       </div>
     </div>
 
-    <div id ="barcode-container">
-        <div id="form-table">
-          <form id="barcode-numbers-form" class="form-buttons-div">
-            <label class="bcLabel" for="barcodeEntry">Enter your test results here:</label>
-            <br>
-            <input id="barcodeEntry" type="textarea"  name="barcodeEntry" placeholder="1 2 3 4 5 6 7 8">
-            <br><br>
-            <button type="button" id="bcSubmit">Submit</button>
-            <br><br>
-            <textarea wrap = "hard" overflow= "auto" id = "barcodeRecord">
-            </textarea>
-            <button type="button" id="bcReset">Reset</button>
-          </form>
-        </div>
-    </div>
 
 </div>
   <footer id="video-footer">

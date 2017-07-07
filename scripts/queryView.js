@@ -6,7 +6,7 @@
     $('#request-container').show();
     $('#clonet-wrapper').hide();
     $('#header').show();
-    $('#barcode-container').hide();
+    $('#barcode-container').show();
     $('#section-video-container').show();
     $('#page-name').text("BactNet Query");
 

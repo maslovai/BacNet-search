@@ -10,10 +10,10 @@ html .top-nav {
 }
 
 body {
-  display: block;
   margin: 0;
   padding: 0;
   position: relative;
+
 }
 .hover {
   color: #59585b;
@@ -47,17 +47,14 @@ body {
 }
 
 .top-nav{
-  font-size: 0.8em;
+  font-size: 0.9em;
   height: 100%;
   float:right;
   background: transparent;
 }
 
 .top-nav ul li {
-  /*display: inline;*/
   height: 100%;
-
-  margin: 0;
   margin: 1em;
   margin-left: -2em;
   letter-spacing: 0.07em;
@@ -85,7 +82,7 @@ h3 {
     z-index: 1;
     float: left;
     height: 100%;
-    width: 350px;
+    /*width: 40em;*/
     position: static;
     top:0;
 }
@@ -121,6 +118,7 @@ video {
 #clonet-wrapper {
   margin-bottom: 3em;
   margin-top: 1em;
+  justify-content: flex-start;
 }
 #article-link{
   height: 30em;
@@ -161,35 +159,49 @@ a:hover{
   color:white;
 }
 /************Query Page**************/
-#request-container {
-  font-family: "Open Sans", sans-serif;
-  width:100%;
+
+.all-around-wrapper{
+  width: 100%;
+  display: flex;
   background-image: url("/assets/images/about-background.jpg");
-  height: 35em;
-  position:relative;
-  margin-bottom:0;
-  /*transform: translate3d(0%, -18.7455%, 0%, 0%);*/
   background-size: cover;
   background-position: center;
-  text-align: center;
+  background-color: transparent;
+  position: relative;
+  text-align:left;
+  margin-left: 0;
+}
+.containers{
+  min-height: 10em;
+  width: 40%;
 }
 
-#request-container div{
-  padding-left: 20%;
-  padding-top: 5em;
+#request-container {
+  display: flex;
+  justify-content: flex-start;
+  font-family: "Open Sans", sans-serif;
+
+}
+.form-buttons-div{
   margin-bottom: 2em;
   background-color: transparent;
-  width:50%;
+  width:100%;
   min-height: 14.5em;
 }
-
-#bacCode, label, #hospital-filter{
-margin-top: 2em;
-margin-left: 2em;
+.filters{
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 2em;
+  font-family: "Open Sans", sans-serif;
+  width:100%;
 }
-
+#bacCode, label,{
+padding-top: 2em;
+justify-content: flex-start;
+}
 #submit, #reset{
-  width:25%;
+  width:35%;
+  display: block;
   height:15%;
   font-family: "Open Sans", sans-serif;
   margin-top: 2em;
@@ -197,12 +209,11 @@ margin-left: 2em;
   margin-bottom: 2em;
   background-color: lightgrey;
 }
-#you-view{
+/*#you-view{
   margin-left: 2em;
-}
+}*/
 #result-ul{
   line-height: 2em;
-  /*padding-left: 3em;*/
   border-radius: 3%;
   background-color: white;
   font-family: "Open Sans", sans-serif;
@@ -215,41 +226,40 @@ margin-left: 2em;
 }
 
 #barcode-container{
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  margin-left: 5em;
+  display: flex;
   height: 35em;
-  width: 100%;
-  background-image: url("/assets/images/about-background.jpg");
-  background-size: cover;
-  background-position: center;
-  background-color: lightblue;
-  position: relative;
-  text-align: center;
+  /*width: 40%;*/
 }
-#barcode-numbers-form{
-    padding-top:10em;
+.form-buttons-div{
+  display: block;
+  justify-content:flex-start;
 }
 .bcLabel{
   font-family: "Open Sans", sans-serif;
 }
-#bcReset{
-  display: block;
-  margin-left: 50%;
+.load-label{
+  padding-left:2em;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1em;
 }
 
-textarea {
-    width: 40%;
-    height: 15em;
-    margin: 1em;
-}
 #barcodeEntry{
-  width:20%;
-  height: 3em;
+  width:60%;
+  height: 10em;
+  font-size: 0.8em;
 }
-#bcSubmit{
-  width:10%;
-  height:8%;
+textarea {
+  width: 60%;
+  height: 7em;
+  margin: 1em;
+  font-size: 1em;
 }
- #bcReset{
-   width:10%;
+
+ #bcReset,#bcSubmit{
+   width:60%;
    height:8%;
-   margin-left: 45%;
+   margin-top: 1.5em;
  }
