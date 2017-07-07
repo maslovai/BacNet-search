@@ -12,10 +12,19 @@
   h3{
       font-size: 1.5em;
   }
+  .all-around-wrapper{
+    flex-direction: row;
+  }
   #request-container{
     font-size: 1.1em;
+    justify-content: flex-start;
   }
-
+  .containers{
+     min-height: 10em;
+   }
+   .form-buttons-div{
+     justify-content:flex-start;
+   }
   #submit, #reset, #bacCode, label, .filters, #you-view, #bcSubmit, #bcReset{
     justify-content: space-between;
     font-size: 1em;
@@ -53,6 +62,9 @@
   }
   .tubes{
     box-shadow: 1.3em 1em 2em #59585b;
+  }
+  .all-around-wrapper{
+    flex-direction: column;
   }
 #request-container{
   font-size: 0.8em;
@@ -117,23 +129,33 @@
     padding: 0;
     float: left;
   }
-
+  .all-around-wrapper{
+    flex-direction: column;
+    align-items: center;
+  }
+  .containers{
+    width:80%;
+    min-height: 5em;
+  }
   #submit, #reset, #bacCode, #you-view, #hospital-filter, #bcSubmit, #bcReset{
     font-size: 0.5em;
   }
-  #request-container div{
-    padding-left: 3em;
-    display: block;
-    width: 90%;
-    padding-top: 12em;
-    /*margin-left: 10%;*/
-    margin-bottom: 2em;
-    height: 100%;
+  .request-container{
+    display: flex;
+    align-items: center;
+  }
+  .form-buttons-div{
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    padding-top: 1em;
+    margin-bottom: 1em;
     font-size: 0.8em;
     background-color: transparent;
   }
   #results-div{
-    min-height: 14.5em;
+    display: block;
+    min-height: 5em;
     width:90%;
   }
 }

@@ -23,8 +23,12 @@
         // console.log(listItems);
         $('#result-ul').append(`<li>`+ 'Results for  <bold>' +  barcode +'  at  '+hospital+ '</bold> ' + ': ' + '</li>');
         listItems.map(ele => {
-        $('#result-ul').append(`<li>`+ele.antibiotic+ '  -   Resistance: '+ ele.resistance + '%,   Recommended: ' + ele.recommended + `</li>`);
-        })
+        // $('#result-ul').append(`<li>`+ele.antibiotic+ '  -   Resistance: '+ ele.resistance + '%,   Recommended: ' + ele.recommended + `</li>`);
+        // })
+        $("#result-table").append('<tr><td>'+ele.antibiotic+'</td><td>  Resistance: <td>'+ele.resistance+'</td> %, Recommended: <td>' +ele.recommended+'</td></tr>');
+      })
+
+
       }else {
         $('#result-ul').append(`<li>`+ 'Results for  '+'<bold>' +  barcode +'  at  '+hospital+ '</bold> ' + ': UNKNOWN' + '</li>');
       }
