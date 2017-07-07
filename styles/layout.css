@@ -214,18 +214,29 @@ justify-content: flex-start;
 /*#you-view{
   margin-left: 2em;
 }*/
-#result-ul{
+.result-container{
   line-height: 2em;
   border-radius: 3%;
   background-color: transparent;
   font-family: "Open Sans", sans-serif;
-  list-style: none;
-  display: block;
   font-size: 0.9em;
   text-transform:none;
   text-align: left;
   width: 100%;
 }
+#result-ul{
+  list-style: none;
+}
+/*#result-table{
+  line-height: 2em;
+  border-radius: 3%;
+  background-color: transparent;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.9em;
+  text-transform:none;
+  text-align: left;
+  width: 100%;
+}*/
 
 #barcode-container{
   font-family: "Open Sans", sans-serif;

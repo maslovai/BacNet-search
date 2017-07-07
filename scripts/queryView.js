@@ -19,16 +19,17 @@
       {
         if (data.length>2){
         var listItems=data;
-        // data.forEach(ele => listItems.push(ele));
-        // console.log(listItems);
         $('#result-ul').append(`<li>`+ 'Results for  <bold>' +  barcode +'  at  '+hospital+ '</bold> ' + ': ' + '</li>');
         listItems.map(ele => {
-        // $('#result-ul').append(`<li>`+ele.antibiotic+ '  -   Resistance: '+ ele.resistance + '%,   Recommended: ' + ele.recommended + `</li>`);
-        // })
-        $("#result-table").append('<tr><td>'+ele.antibiotic+'</td><td>  Resistance: <td>'+ele.resistance+'</td> %, Recommended: <td>' +ele.recommended+'</td></tr>');
+          let recColor;
+          if (ele.recommended){
+            recColor='green'
+          } else{
+            recColor='red'
+          }
+          console.log('color:  ' + recColor);
+        $("#result-table").append('<tr><td>'+ele.antibiotic+'</td><td> '+'Recommended:  </td><td style = color:'+recColor+'>' + ele.recommended + '</td><td>  Resistance: </td><td> ' + ele.resistance+'% </td></tr>');
       })
-
-
       }else {
         $('#result-ul').append(`<li>`+ 'Results for  '+'<bold>' +  barcode +'  at  '+hospital+ '</bold> ' + ': UNKNOWN' + '</li>');
       }
@@ -39,6 +40,7 @@ let $barcode;
 query.submitRequest = function() {
   $('#submit').on('click',  function(e) {
     e.preventDefault();
+    $('#result-table').empty();
     $('#result-ul').empty();
     $('#you-view').hide();
     $hospital = $("#hospital-filter").val();
