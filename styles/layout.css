@@ -227,23 +227,12 @@ justify-content: flex-start;
 #result-ul{
   list-style: none;
 }
-/*#result-table{
-  line-height: 2em;
-  border-radius: 3%;
-  background-color: transparent;
-  font-family: "Open Sans", sans-serif;
-  font-size: 0.9em;
-  text-transform:none;
-  text-align: left;
-  width: 100%;
-}*/
-
-#barcode-container{
+#barcode-container {
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
   margin-left: 5em;
   display: flex;
-  height: 35em;
+  min-height: 10em;
   /*width: 40%;*/
 }
 .form-buttons-div{
