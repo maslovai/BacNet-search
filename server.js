@@ -80,7 +80,7 @@ function writeSQL() {
 });
 
   client.query(`SELECT * FROM entries`, null, function(err, res) {
-    console.log(res.rows);
+    // console.log(res.rows);
   });
 }
 

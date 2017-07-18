@@ -203,6 +203,12 @@ justify-content: flex-start;
   height:8%;
   margin-top: 1.5em;
 }
+#bcQuerySubmit{
+  width:80%;
+  min-height:3em;
+  font-size: 1em;
+  margin-top: 1.5em;
+}
 #submit, #reset{
   width:35%;
   height:15%;

@@ -67,7 +67,17 @@ const barcode = {};
      $('#barcodeRecord').val($('#barcodeRecord').val() + value + '\n');
      $('#bcLoad').val($('#bcLoad').val()+ load +'\n');
    }
-
+  //  barcode.submitTriplet = function() {
+   $('#bcQuerySubmit').on('click',  function(e) {
+     e.preventDefault();
+     var triplet = $('#barcodeRecord').val();
+     localStorage.setItem('triplet', triplet);
+     if (localStorage.length != 0) {
+       $('#bacCode').val(localStorage.getItem('triplet'));
+       $('#sequence').attr('placeholder',''+ $('#bacCode').val()+'');
+     }
+     //console.log('triplet:', triplet);
+   })
    barcode.reset = function() {
      $('#barcodeRecord').val('');
      $('#bcLoad').val('');

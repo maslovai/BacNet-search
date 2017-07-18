@@ -9,7 +9,6 @@
     $('#barcode-container').show();
     $('#section-video-container').show();
     $('#page-name').text("BactNet Query");
-
   }
   query.getString = function(hospital, barcode){
     //console.log(hospital, barcode);
@@ -37,19 +36,23 @@
 }
 let $hospital;
 let $barcode;
-query.submitRequest = function() {
-  $('#submit').on('click',  function(e) {
+//query.submitRequest = function() {
+  $('#submit').on('click', function(e) {
     e.preventDefault();
     $('#result-table').empty();
     $('#result-ul').empty();
     $('#you-view').hide();
+
     $hospital = $("#hospital-filter").val();
     $barcode = parseInt($("#bacCode").val());
+
     console.log($hospital, $barcode);
     var response = query.getString($hospital, $barcode);
+    localStorage.removeItem('triplet');
+    $('#sequence').val('').attr("placeholder","barcode");
     //console.log(response);
   })
-}
+//}
 
   $('#reset').on('click', function(){
     $('#you-view').show();
@@ -57,7 +60,7 @@ query.submitRequest = function() {
     $('#hospital-filter').val("Any").attr("selected","true");
     $('#sequence').val('').attr("placeholder","barcode");
   });
-  query.submitRequest();
+  //query.submitRequest();
 
   module.query = query;
 })(window);
