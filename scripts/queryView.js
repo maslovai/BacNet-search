@@ -46,7 +46,7 @@ let $barcode;
     $hospital = $("#hospital-filter").val();
     $barcode = parseInt($("#bacCode").val());
 
-    console.log($hospital, $barcode);
+    //console.log($hospital, $barcode);
     var response = query.getString($hospital, $barcode);
     localStorage.removeItem('triplet');
     $('#sequence').val('').attr("placeholder","barcode");
@@ -57,6 +57,7 @@ let $barcode;
   $('#reset').on('click', function(){
     $('#you-view').show();
     $('#result-ul').empty();
+    $('#result-table').empty();
     $('#hospital-filter').val("Any").attr("selected","true");
     $('#sequence').val('').attr("placeholder","barcode");
   });

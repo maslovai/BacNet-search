@@ -15,6 +15,8 @@ const barcode = {};
   barcode.getValueString = function(numbers) {
      if(numbers[7] >= 25)return 'unknown';
      var difference = [];
+     $('#barcodeRecord').val('');
+     $('#bcLoad').val('');
      for (var i = 0; i < 7; i++) {
        difference.push(numbers[i] - numbers[7]);
      }
@@ -70,11 +72,16 @@ const barcode = {};
   //  barcode.submitTriplet = function() {
    $('#bcQuerySubmit').on('click',  function(e) {
      e.preventDefault();
+     $('#sequence').val('');
+     localStorage.setItem('triplet','');
      var triplet = $('#barcodeRecord').val();
      localStorage.setItem('triplet', triplet);
      if (localStorage.length != 0) {
        $('#bacCode').val(localStorage.getItem('triplet'));
-       $('#sequence').attr('placeholder',''+ $('#bacCode').val()+'');
+       $('#sequence').val($('#bacCode').val());
+      //  localStorage.removeItem('triplet');
+       //barcode.reset();
+      //  attr('placeholder',$('#bacCode').val()+'');
      }
      //console.log('triplet:', triplet);
    })
