@@ -49,7 +49,7 @@
         <div id="form-table" class = "containers">
           <form id="barcode-numbers-form" class="form-buttons-div">
             <label class="bcLabel" for="barcodeEntry">Enter your test results here:</label>
-            <input id="barcodeEntry" type="textarea"  name="barcodeEntry" placeholder="1 2 3 4 5 6 7 8">
+            <input id="barcodeEntry" type="textarea"  name="barcodeEntry" >
             <button type="button" id="bcSubmit">Submit</button>
             <button type="button" id="bcReset">Reset</button>
           </form>
@@ -79,24 +79,24 @@
                 <option value="Seattle Children's" >Seattle Children's</option>
                 <option value="Kaiser">Kaiser</option>
                 <option value="Hennepin">Hennepin</option>
-                <option value="Harvorview">Harborview</option>
+                <option value="Harvorview">Harvorview</option>
                 <option value="Keck">Keck</option>
                 <option value="LA County">LA County</option>
                 <option value="NY Langone">NY Langone</option>
             </select>
-            <label for="selectSpecies">Pick species:</label>
+            <label for = "selectSpecies">Pick species:</label>
             <select name="selectSpecies" id = "species-filter" class = "filters">
                 <option value="Any" selected>Any</option>
                 <option value="Klebsiella">Klebsiella</option>
                 <option value="EColi">EColi</option>
             </select>
-            <label for="selectAge-group">Pick age group:</label>
-            <select name="selectAge-group" id = "age-filter" class = "filters">
+            <label for="selectAgeGroup">Pick age group:</label>
+            <select name="selectAgeGroup" id = "age-filter" class = "filters">
                 <option value="Any" selected>Any</option>
-                <option value="0 to 3 years" >0 to 3 years old</option>
-                <option value="4 to 21 years">4 to 21 years old</option>
-                <option value="22 to 69 years" >22 to 69 years old</option>
-                <option value="70 and over">70 and over</option>
+                <option value="0-3" >0 to 3 years old</option>
+                <option value="4-21">4 to 21 years old</option>
+                <option value="22-69" >22 to 69 years old</option>
+                <option value="70">70 and over</option>
             </select>
           </div>
         <form id = "bac-form" class = "query-form">

@@ -18,7 +18,8 @@
       {
         if (data.length>2){
         var listItems=data;
-        $('#result-ul').append(`<li>`+ 'Results for  <bold>' +  barcode +'  at  '+hospital+ '</bold> ' + ': ' + '</li>');
+        $('#result-ul').append(`<li>`+ 'Results for  <font-weight=bold>' +  barcode +'  at  '+hospital+ '</bold> ' + ': ' + '</li>');
+        $("#result-table").append('<thead><td>'+'Antibiotic:'+'</td><td>'+'Recommended:</td><td>Resistance:</td></thead>');
         listItems.map(ele => {
           let recColor;
           if (ele.recommended){
@@ -27,7 +28,7 @@
             recColor='red'
           }
           console.log('color:  ' + recColor);
-        $("#result-table").append('<tr><td>'+ele.antibiotic+'</td><td> '+'Recommended:  </td><td style = color:'+recColor+'>' + ele.recommended + '</td><td>  Resistance: </td><td> ' + ele.resistance+'% </td></tr>');
+        $("#result-table").append('<tr><td>'+ele.antibiotic+'</td><td style = color:'+recColor+'>' + ele.recommended + '</td><td> ' + ele.resistance+'% </td></tr>');
       })
       }else {
         $('#result-ul').append(`<li>`+ 'Results for  '+'<bold>' +  barcode +'  at  '+hospital+ '</bold> ' + ': UNKNOWN' + '</li>');
@@ -48,7 +49,6 @@ let $barcode;
 
     //console.log($hospital, $barcode);
     var response = query.getString($hospital, $barcode);
-    localStorage.removeItem('triplet');
     $('#sequence').val('').attr("placeholder","barcode");
     //console.log(response);
   })

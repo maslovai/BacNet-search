@@ -185,14 +185,14 @@ a:hover{
 .filters{
   display: flex;
   justify-content: flex-start;
-  padding-top: 2em;
+  /*margin-top: 0.5em;*/
   font-family: "Open Sans", sans-serif;
   width:100%;
 }
-#bacCode, label{
+/*#bacCode, label{
 padding-top: 2em;
-justify-content: flex-start;
-}
+justify-content: space-around;
+}*/
 .bacCode{
   width: 25%;
   height: 1.2em;
@@ -232,6 +232,13 @@ justify-content: flex-start;
 }
 #result-ul{
   list-style: none;
+  font-size: 1.1em;
+  font-weight:600;
+}
+#result-table thead td{
+  padding-right: 2em;
+  font-size: 1.1em;
+  font-weight:600;
 }
 #barcode-container {
   font-family: "Open Sans", sans-serif;
