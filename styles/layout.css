@@ -188,11 +188,8 @@ a:hover{
   /*margin-top: 0.5em;*/
   font-family: "Open Sans", sans-serif;
   width:100%;
+  margin-bottom:0.5em;
 }
-/*#bacCode, label{
-padding-top: 2em;
-justify-content: space-around;
-}*/
 .bacCode{
   width: 25%;
   height: 1.2em;
@@ -238,7 +235,7 @@ justify-content: space-around;
 #result-table thead td{
   padding-right: 2em;
   font-size: 1.1em;
-  font-weight:600;
+  font-weight:900;
 }
 #barcode-container {
   font-family: "Open Sans", sans-serif;
@@ -261,12 +258,12 @@ justify-content: space-around;
 }
 
 #barcodeEntry{
-  width:60%;
-  height: 10em;
+  width:80%;
+  height: 8em;
   font-size: 0.8em;
 }
 textarea {
-  width: 60%;
+  width: 80%;
   height: 7em;
   margin: 1em;
   font-size: 1em;

@@ -79,10 +79,16 @@
                 <option value="Seattle Children's" >Seattle Children's</option>
                 <option value="Kaiser">Kaiser</option>
                 <option value="Hennepin">Hennepin</option>
-                <option value="Harvorview">Harvorview</option>
+                <option value="Harvorview">Harborview</option>
                 <option value="Keck">Keck</option>
                 <option value="LA County">LA County</option>
                 <option value="NY Langone">NY Langone</option>
+            </select>
+            <label for = "selectInOut">Inpatient/Outpatient:</label>
+            <select name="selectInOut" id = "inout-filter" class = "filters">
+              <option value="Any" selected>Any</option>
+              <option value="inpatient" >Inpatient</option>
+              <option value="outpatient">Outpatient</option>
             </select>
             <label for = "selectSpecies">Pick species:</label>
             <select name="selectSpecies" id = "species-filter" class = "filters">
@@ -97,6 +103,12 @@
                 <option value="4-21">4 to 21 years old</option>
                 <option value="22-69" >22 to 69 years old</option>
                 <option value="70">70 and over</option>
+            </select>
+            <label for = "selectGender">Pick gender:</label>
+            <select name="selectGender" id = "gender-filter" class = "filters">
+                <option value="Any" selected>Any</option>
+                <option value="female" >Female</option>
+                <option value="male">Male</option>
             </select>
           </div>
         <form id = "bac-form" class = "query-form">

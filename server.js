@@ -43,6 +43,9 @@ var RawEntry = function(data) {
   this.site = data[2];
   this.recommended = data[3];
   this.resistance = data[4];
+  this.gender = data[4];
+  this.age = data[5];
+  this.inout = data[6];
 }
 //take the data imported from the .csv file and convert it to RawEntry objects (above)
 function readCSV(data) {
@@ -63,6 +66,8 @@ function writeSQL() {
       barcode VARCHAR(32) NOT NULL,
       antibiotic VARCHAR(32) NOT NULL,
       site VARCHAR(64) NOT NULL,
+      gender VARCHAR(32) NOT NULL,
+      age VARCHAR(32) NOT NULL,
       recommended BOOLEAN,
       resistance INTEGER
     );`

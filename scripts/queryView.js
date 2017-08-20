@@ -18,7 +18,7 @@
       {
         if (data.length>2){
         var listItems=data;
-        $('#result-ul').append(`<li>`+ 'Results for  <font-weight=bold>' +  barcode +'  at  '+hospital+ '</bold> ' + ': ' + '</li>');
+        $('#result-ul').append(`<li>`+ 'Results for  <style=font:bold>' +  barcode +'  at  '+hospital+  ': ' + '</li>');
         $("#result-table").append('<thead><td>'+'Antibiotic:'+'</td><td>'+'Recommended:</td><td>Resistance:</td></thead>');
         listItems.map(ele => {
           let recColor;
@@ -59,6 +59,10 @@ let $barcode;
     $('#result-ul').empty();
     $('#result-table').empty();
     $('#hospital-filter').val("Any").attr("selected","true");
+    $('#gender-filter').val("Any").attr("selected","true");
+    $('#species-filter').val("Any").attr("selected","true");
+    $('#age-filter').val("Any").attr("selected","true");
+    $('#inout-filter').val("Any").attr("selected","true");
     $('#sequence').val('').attr("placeholder","barcode");
   });
   //query.submitRequest();
