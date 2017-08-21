@@ -5,6 +5,7 @@
   query.showRequestPage = function(){
     $('#request-container').show();
     $('#clonet-wrapper').hide();
+    $('#selectTableButton').hide();
     $('#header').show();
     $('#barcode-container').show();
     $('#section-video-container').show();
@@ -31,7 +32,7 @@
         $("#result-table").append('<tr><td>'+ele.antibiotic+'</td><td style = color:'+recColor+'>' + ele.recommended + '</td><td> ' + ele.resistance+'% </td></tr>');
       })
       }else {
-        $('#result-ul').append(`<li>`+ 'Results for  '+'<bold>' +  barcode +'  at  '+hospital+ '</bold> ' + ': UNKNOWN' + '</li>');
+        $('#result-ul').append(`<li>`+ 'Results for  '+'<bold>' +  barcode +'  at  '+hospital+ '</bold> ' + ': E. coli' + '</li>');
       }
        });
 }
@@ -46,7 +47,7 @@ let $inout;
     $('#result-table').empty();
     $('#result-ul').empty();
     $('#you-view').hide();
-
+    $('#selectTableButton').show();
     $hospital = $("#hospital-filter").val();
     $barcode = $("#bacCode").val();
     $gender = $("#gender-filter").val();
