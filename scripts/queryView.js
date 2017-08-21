@@ -48,7 +48,7 @@ let $inout;
     $('#you-view').hide();
 
     $hospital = $("#hospital-filter").val();
-    $barcode = parseInt($("#bacCode").val());
+    $barcode = $("#bacCode").val();
     $gender = $("#gender-filter").val();
     $age = $("#age-filter").val();
     $inout = $("#inout-filter").val();
