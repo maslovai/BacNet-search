@@ -41,11 +41,11 @@ var RawEntry = function(data) {
   this.barcode = data[0];
   this.antibiotic = data[1];
   this.site = data[2];
-  this.recommended = data[3];
-  this.resistance = data[4];
-  this.gender = data[4];
-  this.age = data[5];
-  this.inout = data[6];
+  this.gender = data[3];
+  this.age = data[4];
+  this.inout = data[5];
+  this.recommended = data[6];
+  this.resistance = data[7];
 }
 //take the data imported from the .csv file and convert it to RawEntry objects (above)
 function readCSV(data) {
@@ -66,20 +66,27 @@ function writeSQL() {
       barcode VARCHAR(32) NOT NULL,
       antibiotic VARCHAR(32) NOT NULL,
       site VARCHAR(64) NOT NULL,
-      gender VARCHAR(32) NOT NULL,
-      age VARCHAR(32) NOT NULL,
-      recommended BOOLEAN,
-      resistance INTEGER
+      gender VARCHAR(64) NOT NULL,
+      age VARCHAR(64) NOT NULL,
+      inout VARCHAR(64) NOT NULL,
+      recommended boolean,
+      resistance integer
     );`
   );
   client.query(`SELECT COUNT(*) FROM entries`).then(function(result) {
     if(!parseInt(result.rows[0].count)) {
+      console.log(entries.length);
       for(var i = 0; i < entries.length; ++i) {
         var e = entries[i];
+        try {
         client.query(`
-          INSERT INTO entries(barcode, antibiotic, site, recommended, resistance)
-          VALUES($1, $2, $3, $4, $5) ON CONFLICT DO NOTHING
-          ;`, [e.barcode, e.antibiotic, e.site, e.recommended, e.resistance]);
+          INSERT INTO entries(barcode, antibiotic, site, gender, age, inout, recommended, resistance)
+          VALUES($1, $2, $3, $4, $5, $6, $7, $8) ON CONFLICT DO NOTHING;`,
+          [e.barcode, e.antibiotic, e.site, e.gender, e.age, e.inout, e.recommended, e.resistance]);
+
+        } catch (e) {
+          console.log(e.barcode);
+        }
       }
     }
 });
@@ -89,20 +96,23 @@ function writeSQL() {
   });
 }
 
+
 // set off all the above.
-fs.readFile('BacNeT.csv', 'utf8', (err, data) => {
+fs.readFile('assets/Spreadsheets/xls docs/BacNeT-beta.csv', 'utf8', (err, data) => {
   if (err) throw err;
   readCSV(data);
   writeSQL();
 });
 
-app.get('/entries/:site/:barcode', (request, response) => {
-  //console.log(request.params);
+app.get('/entries/:site/:barcode/:gender/:age/:inout', (request, response) => {
+  console.log('requesting:')
+  console.log(request.params);
   client.query(`SELECT * FROM entries
-    WHERE site=$1 AND barcode=$2;`,
-    [request.params.site,request.params.barcode]
+    WHERE site=$1 AND barcode=$2 AND gender=$3 AND age=$4 AND inout = $5;`,
+    [request.params.site, request.params.barcode, request.params.gender, request.params.age, request.params.inout]
   ).then(function(result) {
-    //console.log(result);
+    console.log('result:');
+    console.log(result);
     response.send(result.rows)
   })
   .catch(function(err) {

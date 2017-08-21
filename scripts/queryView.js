@@ -10,10 +10,10 @@
     $('#section-video-container').show();
     $('#page-name').text("BactNet Query");
   }
-  query.getString = function(hospital, barcode){
-    //console.log(hospital, barcode);
+  query.getString = function(hospital, barcode, gender, age, inout){
+   console.log(hospital, barcode, gender, age, inout);
     // var listItems = [];
-    $.get('/entries/'+hospital+'/'+barcode)
+    $.get('/entries/'+hospital+'/'+barcode+'/'+gender+'/'+age+'/'+inout)
     .then(data =>
       {
         if (data.length>2){
@@ -27,7 +27,7 @@
           } else{
             recColor='red'
           }
-          console.log('color:  ' + recColor);
+          //console.log('color:  ' + recColor);
         $("#result-table").append('<tr><td>'+ele.antibiotic+'</td><td style = color:'+recColor+'>' + ele.recommended + '</td><td> ' + ele.resistance+'% </td></tr>');
       })
       }else {
@@ -37,6 +37,9 @@
 }
 let $hospital;
 let $barcode;
+let $gender;
+let $age;
+let $inout;
 //query.submitRequest = function() {
   $('#submit').on('click', function(e) {
     e.preventDefault();
@@ -46,9 +49,11 @@ let $barcode;
 
     $hospital = $("#hospital-filter").val();
     $barcode = parseInt($("#bacCode").val());
-
+    $gender = $("#gender-filter").val();
+    $age = $("#age-filter").val();
+    $inout = $("#inout-filter").val();
     //console.log($hospital, $barcode);
-    var response = query.getString($hospital, $barcode);
+    var response = query.getString($hospital, $barcode, $gender, $age, $inout);
     $('#sequence').val('').attr("placeholder","barcode");
     //console.log(response);
   })
