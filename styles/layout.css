@@ -195,6 +195,12 @@ a:hover{
   height: 1.2em;
   font-weight: bold;
 }
+#selectTableButton{
+  width:30%;
+  height:8%;
+  margin-top: 2em;
+  font-size: 1.2em;
+}
 #bcReset,#bcSubmit{
   width:60%;
   height:8%;

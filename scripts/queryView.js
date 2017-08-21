@@ -19,7 +19,8 @@
       {
         if (data.length>2){
         var listItems=data;
-        $('#result-ul').append(`<li>`+ 'Results for  <style=font:bold>' +  barcode +'  at  '+hospital+  ': ' + '</li>');
+        // $('#result-ul').append(`<li>`+ 'Results for  <style=font:bold>' +  barcode +'  at  '+hospital+  ': ' + '</li>');
+        $("#result-table").append('<thead><td>' + ' Hospital: '+$hospital+',  '+$inout+ ',  Barcode: ' +$barcode+',  Gender: '+ $gender+ ', age: ' + $age+'</td></thead>');
         $("#result-table").append('<thead><td>'+'Antibiotic:'+'</td><td>'+'Recommended:</td><td>Resistance:</td></thead>');
         listItems.map(ele => {
           let recColor;
