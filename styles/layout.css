@@ -220,6 +220,9 @@ a:hover{
   margin-bottom: 1em;
   background-color: lightgrey;
 }
+thead{
+  border-bottom: solid, 1px, brown;
+}
 /*#you-view{
   margin-left: 2em;
 }*/

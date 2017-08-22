@@ -20,7 +20,8 @@
         if (data.length>2){
         var listItems=data;
         // $('#result-ul').append(`<li>`+ 'Results for  <style=font:bold>' +  barcode +'  at  '+hospital+  ': ' + '</li>');
-        $("#result-table").append('<thead><td>' + ' Hospital: '+$hospital+',  '+$inout+ ',  Barcode: ' +$barcode+',  Gender: '+ $gender+ ', age: ' + $age+'</td></thead>');
+        // $("#result-table").append('<thead><td> Hospital In/Outpatient </td><td>  Barcode: </td><td> Gender </td><td>Age:</td></thead>');
+        $("#result-table").append('<thead><td>'+$barcode+'</td><td> ' +$hospital+' '+$inout.toLowerCase()+' </td><td> '+ $gender+ ' </td><td>' + $age+'</td></thead>');
         $("#result-table").append('<thead><td>'+'Antibiotic:'+'</td><td>'+'Recommended:</td><td>Resistance:</td></thead>');
         listItems.map(ele => {
           let recColor;
@@ -33,7 +34,9 @@
         $("#result-table").append('<tr><td>'+ele.antibiotic+'</td><td style = color:'+recColor+'>' + ele.recommended + '</td><td> ' + ele.resistance+'% </td></tr>');
       })
       }else {
-        $('#result-ul').append(`<li>`+ 'Results for  '+'<bold>' +  barcode +'  at  '+hospital+ '</bold> ' + ': E. coli' + '</li>');
+        $barcode = 'E. coli';
+        response = query.getString($hospital, $barcode, $gender, $age, $inout);
+        // $('#result-ul').append(`<li>`+ 'Results for  '+'<bold>' +  barcode +'  at  '+hospital+ '</bold> ' + ': E. coli' + '</li>');
       }
        });
 }
@@ -48,7 +51,7 @@ let $inout;
     $('#result-table').empty();
     $('#result-ul').empty();
     $('#you-view').hide();
-    $('#selectTableButton').show();
+    // $('#selectTableButton').show();
     $hospital = $("#hospital-filter").val();
     $barcode = $("#bacCode").val();
     $gender = $("#gender-filter").val();
