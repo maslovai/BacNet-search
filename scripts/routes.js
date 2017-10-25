@@ -1,4 +1,4 @@
-page('/', index.showIndexPage);
-page('/query', query.showRequestPage);
-page('/barcode', barcode.showBarcodePage);
+page('/', query.showRequestPage);
+// page('/query', query.index.showIndexPage);
+// page('/barcode', barcode.showBarcodePage);
 page();

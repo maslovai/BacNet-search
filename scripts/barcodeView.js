@@ -13,8 +13,10 @@ const barcode = {};
     $('#section-video-container').show();
   }
   barcode.getValueString = function(numbers) {
-     if(numbers[7] >= 23)return 'unknown';
+     if(numbers[7] >= 25)return 'unknown';
      var difference = [];
+     $('#barcodeRecord').val('');
+     $('#bcLoad').val('');
      for (var i = 0; i < 7; i++) {
        difference.push(numbers[i] - numbers[7]);
      }
@@ -35,6 +37,21 @@ const barcode = {};
 
      return('' + code1 + code2 + code3);
    }
+   barcode.getLoadValue = function(numbers){
+     if(numbers[7]<=15){
+       return ('10^7')
+     } else if(numbers[7]>15 && numbers[7]<=17){
+       return ('10^6')
+     } else if (numbers[7]>17 && numbers[7]<=19){
+       return ('10^5')
+     } else if (numbers[7]>19 && numbers[7]<=21){
+       return ('10^4')
+     } else if(numbers[7]>21 && numbers[7]<=23){
+       return ('10^3')
+     } else if (numbers[7]>23 && numbers[7]<25){
+       return ('10^2')
+     }
+   }
 
    barcode.submit = function() {
      // /[^\d\.]+/ is a regular expression:
@@ -47,12 +64,30 @@ const barcode = {};
      var numbers = $('#barcodeEntry').val().split(/[^\d\.]+/).map(function(ele) {
        return parseFloat(ele);
      });
+     var load = barcode.getLoadValue(numbers);
      var value = barcode.getValueString(numbers);
      $('#barcodeRecord').val($('#barcodeRecord').val() + value + '\n');
+     $('#bcLoad').val($('#bcLoad').val()+ load +'\n');
    }
-
+  //  barcode.submitTriplet = function() {
+   $('#bcQuerySubmit').on('click',  function(e) {
+     e.preventDefault();
+     $('#sequence').val('');
+     localStorage.setItem('triplet','');
+     var triplet = $('#barcodeRecord').val();
+     localStorage.setItem('triplet', triplet);
+     if (localStorage.length != 0) {
+       $('#bacCode').val(localStorage.getItem('triplet'));
+       $('#sequence').val($('#bacCode').val());
+      //  localStorage.removeItem('triplet');
+       //barcode.reset();
+      //  attr('placeholder',$('#bacCode').val()+'');
+     }
+     //console.log('triplet:', triplet);
+   })
    barcode.reset = function() {
      $('#barcodeRecord').val('');
+     $('#bcLoad').val('');
      $('#barcodeEntry').val('').attr('placeholder','1 2 3 4 5 6 7 8');
    }
   module.barcode = barcode;

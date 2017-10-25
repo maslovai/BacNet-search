@@ -10,7 +10,7 @@ const index = {};
     $('#section-video-container').show();
     $('#page-name').text('Clonet Principles');
     $('#header-container').show();
-
+    $('#result-container ').hide();
   }
   module.index = index;
 })(window);

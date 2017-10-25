@@ -1,3 +1,6 @@
+html{
+    height: 50em;
+}
 html .top-nav {
     max-width: 100%;
     padding: 0;
@@ -5,9 +8,7 @@ html .top-nav {
     line-height: 1em;
     margin:0 auto;
 }
-
 body {
-  display: block;
   margin: 0;
   padding: 0;
   position: relative;
@@ -34,7 +35,6 @@ body {
     text-align: center;
     background: none;
 }
-
 .header-menu {
   display: inline-block;
   margin: 0 auto;
@@ -42,19 +42,14 @@ body {
 .header-container{
   height:8em;
 }
-
 .top-nav{
-  font-size: 0.8em;
+  font-size: 0.9em;
   height: 100%;
   float:right;
   background: transparent;
 }
-
 .top-nav ul li {
-  /*display: inline;*/
   height: 100%;
-
-  margin: 0;
   margin: 1em;
   margin-left: -2em;
   letter-spacing: 0.07em;
@@ -62,7 +57,6 @@ body {
   text-transform: uppercase;
   list-style: none;
 }
-
 h3 {
     color: #ffffff;
     font-family: Baumans;
@@ -82,14 +76,12 @@ h3 {
     z-index: 1;
     float: left;
     height: 100%;
-    width: 350px;
     position: static;
     top:0;
 }
-
 .section-video-container{
   width: 100%;
-  height: 5em;
+  height: 10em;
   margin-top: -1;
   background: transparent;
   position: relative;
@@ -98,13 +90,12 @@ h3 {
 .video-container{
   background: transparent;
   background-size: cover;
-  height: 5em;
+  height: 10em;
   width: 100%;
-  position:absolute;
+  position:static;
   overflow: hidden;
   bottom:0;
 }
-
 video {
   position: relative;
   z-index: -1;
@@ -117,7 +108,8 @@ video {
 /***********Clonet page********************/
 #clonet-wrapper {
   margin-bottom: 3em;
-  margin-top: 1em;
+  /*margin-top: 1em;*/
+  justify-content: flex-start;
 }
 #article-link{
   height: 30em;
@@ -126,9 +118,7 @@ video {
 }
 .clonet-article {
 width: 50%;
-height: 100%;
 float: right;
-box-shadow: -1.3em 1em 2em #59585b;
 margin-right: 0.2em;
 }
 
@@ -137,7 +127,6 @@ margin-right: 0.2em;
   width: 45%;
   height: 30.3em;
   margin-bottom: 1em;
-  box-shadow: 1.3em 1em 2em #59585b;
   margin-left: 0.2em;
 }
 .tube {
@@ -161,103 +150,130 @@ a:hover{
   color:white;
 }
 /************Query Page**************/
-#request-container {
-  font-family: "Open Sans", sans-serif;
-  width:100%;
-  margin-top: 0;
-  height: 40em;
-  position:relative;
-  margin-bottom:0;
-  background-image: url("/assets/images/about-background.jpg");
-  /*transform: translate3d(0%, -18.7455%, 0%, 0%);*/
+
+.all-around-wrapper{
+  width: 100%;
+  display: flex;
+  background-image: url("/assets/images/orange plate compressed.jpg");
   background-size: cover;
   background-position: center;
-  text-align: center;
+  background-color: transparent;
+  position: relative;
+  text-align:left;
+  margin-left: 0;
 }
-
-#request-container div{
-  padding-left: 20%;
-  padding-top: 5em;
-  margin-top: 2em;
+.containers{
+  padding-top:1em;
+  width: 40%;
+}
+#request-container {
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+}
+.form-buttons-div{
   margin-bottom: 2em;
   background-color: transparent;
-  width:50%;
+  width:100%;
   min-height: 14.5em;
 }
-
-#bacCode, label, #hospital-filter{
-margin-top: 2em;
-margin-left: 2em;
+.query-form{
+  display: flex;
+  flex-direction: column;
+  /*justify-content: flex-start;*/
+  align-items: flex-start;
 }
-
+.filters{
+  display: flex;
+  justify-content: flex-start;
+  /*margin-top: 0.5em;*/
+  font-family: "Open Sans", sans-serif;
+  width:100%;
+  margin-bottom:0.5em;
+}
+.bacCode{
+  width: 25%;
+  height: 1.2em;
+  font-weight: bold;
+}
+#selectTableButton{
+  width:30%;
+  height:8%;
+  margin-top: 2em;
+  font-size: 1.2em;
+}
+#bcReset,#bcSubmit{
+  width:60%;
+  height:8%;
+  margin-top: 1.5em;
+}
+#bcQuerySubmit{
+  width:80%;
+  min-height:3em;
+  font-size: 1em;
+  margin-top: 1.5em;
+}
 #submit, #reset{
-  width:25%;
+  width:35%;
   height:15%;
   font-family: "Open Sans", sans-serif;
-  margin-top: 2em;
-  margin-left: 3em;
-  margin-bottom: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
   background-color: lightgrey;
 }
-#you-view{
-  margin-left: 2em;
+thead{
+  border-bottom: solid, 1px, brown;
 }
-#result-ul{
+/*#you-view{
+  margin-left: 2em;
+}*/
+.result-container{
   line-height: 2em;
-  padding-left: 3em;
-  border-radius: 7%;
-  background-color: white;
+  border-radius: 3%;
+  background-color: transparent;
   font-family: "Open Sans", sans-serif;
-  list-style: none;
-  display: block;
   font-size: 0.9em;
   text-transform:none;
   text-align: left;
   width: 100%;
 }
-
-#barcode-container{
-  height: 40em;
-  width: 100%;
-  background-image: url("/assets/images/about-background.jpg");
-  background-size: cover;
-  background-position: center;
-  background-color: lightblue;
-  position: relative;
-  text-align: center;
+#result-ul{
+  list-style: none;
+  font-size: 1.1em;
+  font-weight:600;
 }
-#barcode-numbers-form{
-    padding-top:10em;
-    font-family: "Open Sans", sans-serif;
+#result-table thead td{
+  padding-right: 2em;
+  font-size: 1.1em;
+  font-weight:900;
 }
-#bcReset{
+#barcode-container {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  margin-left: 5em;
+  display: flex;
+  min-height: 10em;
+  /*width: 40%;*/
+}
+.form-buttons-div{
   display: block;
-  margin-left: 50%;
+}
+.bcLabel{
+  font-family: "Open Sans", sans-serif;
+}
+.load-label{
+  padding-left:2em;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1em;
+}
+
+#barcodeEntry{
+  width:80%;
+  height: 8em;
+  font-size: 0.8em;
 }
 textarea {
-    width: 40%;
-    height: 15em;
-    margin: 1em;
-}
-#barcodeEntry{
-  width:20%;
-  height: 3em;
-}
-#bcSubmit{
-  width:10%;
-  height:8%;
-}
- #bcReset{
-   width:10%;
-   height:8%;
-   margin-left: 45%;
- }
-
-#footer {
-  clear: both;
-  position: fixed;
-  z-index: 10;
-  width: 100%;
-  height: 3.5em;
-  bottom: 0;
+  width: 80%;
+  height: 7em;
+  margin: 1em;
+  font-size: 1em;
 }

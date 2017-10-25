@@ -10,6 +10,27 @@
   <link href="https://fonts.googleapis.com/css?family=Baumans" rel="stylesheet">
 </head>
 <body>
+  <script type="text/javascript">
+    function selectElementContents(el) {
+        var body = document.body, range, sel;
+        if (document.createRange && window.getSelection) {
+            range = document.createRange();
+            sel = window.getSelection();
+            sel.removeAllRanges();
+            try {
+                range.selectNodeContents(el);
+                sel.addRange(range);
+            } catch (e) {
+                range.selectNode(el);
+                sel.addRange(range);
+            }
+        } else if (body.createTextRange) {
+            range = body.createTextRange();
+            range.moveToElementText(el);
+            range.select();
+        }
+    }
+</script>
   <header id="header"class="fixed clearfix header-menu header" data-header-type="header-menu" data-header-resize="true" data-header-height="15em" data-header-max-height="25em" data-menu-link="1">
     <div id="header-container"  class="header-container">
       <div class="website-logo">
@@ -21,19 +42,20 @@
         <nav id="top-nav" class="headerColor top-nav">
           <ul id = "nav-links"class="top-menu">
             <li data-content=""><a href="http://idgenomics.com/" class="hover" target="_blank" <span>ID Genomics</span></a></li>
-            <li id = "clonet-tab" data-content=""><a href="/" class="hover" <span>CloNeT</span></a></li>
-            <li id = "barcode-tab" data-content=""><a href="/barcode" class="hover" <span>Barcode Generator</span></a></li>
-            <li id = "query-request-tab"  data-content=""><a href="/query" class="hover" <span>BactNeT Query</span></a></li>
+            <!-- <li id = "clonet-tab" data-content=""><a href="/" class="hover" <span>CloNeT</span></a></li> -->
+            <!-- <li id = "barcode-tab" data-content=""><a href="/barcode" class="hover" <span>Barcode Generator</span></a></li> -->
+            <!-- <li id = "query-request-tab"  data-content=""><a href="/query" class="hover" <span>BactNeT Query</span></a></li> -->
           </ul>
         </nav>
       </div>
     </div>
   </header>
 
+  <div id = "decorative-pargraph" class="decorative-pargraph" style="background-image: url(assets/images/blue-background.png); height: 3em; width: 100%;">
+    <h3 id="page-name">CloNet Principles<sup>&trade;</sup></h3>
+  </div>
+
   <div class = "all-around-wrapper">
-      <div id = "decorative-pargraph" class="decorative-pargraph" style="background-image: url(assets/images/blue-background.png); height: 3em; width: 100%;">
-        <h3 id="page-name">CloNet Principles<sup>&trade;</sup></h3>
-      </div>
       <div id = "clonet-wrapper">
         <div class="tubes">
           <img class="tube" src="assets/images/tubes.png">
@@ -44,47 +66,95 @@
         </div>
       </div>
 
+      <div id = "barcode-container" class ="containers">
+        <div id="form-table" class = "containers">
+          <form id="barcode-numbers-form" class="form-buttons-div">
+            <label class="bcLabel" for="barcodeEntry">Enter your test results here:</label>
+            <input id="barcodeEntry" type="textarea"  name="barcodeEntry" >
+            <button type="button" id="bcSubmit">Submit</button>
+            <button type="button" id="bcReset">Reset</button>
+          </form>
+          <form>
+            <button type="button" id="bcQuerySubmit">Triplet to Query</button>
+          </form>
+        </div>
+        <div class = "containers">
+          <div>
+            <label for = "barcodeRecord" class = "load-label">Triplet:</label>
+            <textarea name = "barcodeRecord"wrap = "hard" overflow= "auto" id = "barcodeRecord">
+            </textarea>
+          </div>
+          <div>
+            <label for="bcLoad" class ="load-label">Load is:</label>
+            <textarea name ="bcLoad" wrap = "hard" overflow= "auto" id = "bcLoad" class = "bcLoad">
+            </textarea>
+          </div>
+       </div>
+      </div>
     <div id = "request-container" class ="containers">
       <div id = "form-buttons-div" class = "form-buttons-div">
-        <label for "select">Pick a hospital:</label>
-        <select name="select" id = "hospital-filter">
-          <option value="Any" selected>Any</option>
-          <option value="Seattle Children's" >Seattle Children's</option>
-          <option value="Kaiser">Kaiser</option>
-          <option value="Hennepin">Hennepin</option>
-          <option value="Harvorview">Harvorview</option>
-          <option value="Keck">Keck</option>
-          <option value="LA County">LA County</option>
-          <option value="NY Langone">NY Langone</option>
-        </select>
+        <div class = "query-filters containers">
+            <label for = "selectSite">Pick a hospital:</label>
+            <select name="selectSite" id = "hospital-filter" class = "filters">
+                <option value="Any" selected>Any</option>
+                <option value="Seattle Children's" >Seattle Children's</option>
+                <option value="Kaiser">Kaiser</option>
+                <option value="Hennepin">Hennepin</option>
+                <option value="Harborview">Harborview</option>
+                <option value="Keck">Keck</option>
+                <option value="LA County">LA County</option>
+                <option value="NY Langone">NY Langone</option>
+                <option value="VA Minneapolis">VA Minneapolis</option>
+            </select>
+            <label for = "selectInOut">Inpatient/Outpatient:</label>
+            <select name="selectInOut" id = "inout-filter" class = "filters">
+              <option value="Any" selected>Any</option>
+              <option value="In-patient" >In-patient</option>
+              <option value="Out-patient">Out-patient</option>
+            </select>
+            <label for = "selectSpecies">Pick species:</label>
+            <select name="selectSpecies" id = "species-filter" class = "filters">
+                <option value="Klebsiella sp.">Klebsiella</option>
+                <option value="E. coli" selected>E. coli</option>
+                <option value = "Staphylococcus sp.">Staphylococcus sp.</option>
+                <option value="Enterococcus sp.">Enterococcus sp.</option>
+            </select>
+            <label for="selectAgeGroup">Pick age group:</label>
+            <select name="selectAgeGroup" id = "age-filter" class = "filters">
+                <option value="Any" selected>Any</option>
+                <option value="0 to 3 yo" >0 to 3 years old</option>
+                <option value="4 to 21 yo">4 to 21 years old</option>
+                <option value="22 to 69 yo" >22 to 69 years old</option>
+                <option value="70 yo and up">70 and over</option>
+            </select>
+            <label for = "selectGender">Sex:</label>
+            <select name="selectGender" id = "gender-filter" class = "filters">
+                <option value="Any" selected>Any</option>
+                <option value="female" >Female</option>
+                <option value="male">Male</option>
+            </select>
+          </div>
         <form id = "bac-form" class = "query-form">
-          <label for="bacCode">Enter the bacteria barcode:</label>
+          <label for="bacCode">Enter the bacteria barcode:</label><br>
           <input id="bacCode" class = "bacCode" type="textarea" name="bacCode" placeholder="barcode">
-          <br>
           <input id = "submit" type="submit" name = "submit">
           <input id = "reset" type="reset" name = "reset">
         </form>
-        <p id="you-view">You will veiw the results here:</p>
+      </div>
+      </div>
+      <div id = "result-container" class = "result-container containers">
+        <p id="you-view" class = "filters">You will veiw the results here:</p>
         <ul id ="result-ul">
         </ul>
+        <table id = "result-table" class="result-table">
+          <tbody>
+          </tbody>
+        </table>
+        <input type="button"  value="Select table" id = "selectTableButton"
+   onclick="selectElementContents(document.getElementById('result-table'));">
       </div>
     </div>
 
-    <div id ="barcode-container">
-        <div id="form-table">
-          <form id="barcode-numbers-form" class="form-buttons-div">
-            <label class="bcLabel" for="barcodeEntry">Enter your test results here:</label>
-            <br>
-            <input id="barcodeEntry" type="textarea"  name="barcodeEntry" placeholder="1 2 3 4 5 6 7 8">
-            <br><br>
-            <button type="button" id="bcSubmit">Submit</button>
-            <br><br>
-            <textarea wrap = "hard" overflow= "auto" id = "barcodeRecord">
-            </textarea>
-            <button type="button" id="bcReset">Reset</button>
-          </form>
-        </div>
-    </div>
 
 </div>
   <footer id="video-footer">
