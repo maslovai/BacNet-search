@@ -42,9 +42,9 @@
         <nav id="top-nav" class="headerColor top-nav">
           <ul id = "nav-links"class="top-menu">
             <li data-content=""><a href="http://idgenomics.com/" class="hover" target="_blank" <span>ID Genomics</span></a></li>
-            <li id = "clonet-tab" data-content=""><a href="/" class="hover" <span>CloNeT</span></a></li>
+            <!-- <li id = "clonet-tab" data-content=""><a href="/" class="hover" <span>CloNeT</span></a></li> -->
             <!-- <li id = "barcode-tab" data-content=""><a href="/barcode" class="hover" <span>Barcode Generator</span></a></li> -->
-            <li id = "query-request-tab"  data-content=""><a href="/query" class="hover" <span>BactNeT Query</span></a></li>
+            <!-- <li id = "query-request-tab"  data-content=""><a href="/query" class="hover" <span>BactNeT Query</span></a></li> -->
           </ul>
         </nav>
       </div>
@@ -100,7 +100,7 @@
                 <option value="Seattle Children's" >Seattle Children's</option>
                 <option value="Kaiser">Kaiser</option>
                 <option value="Hennepin">Hennepin</option>
-                <option value="Harvorview">Harborview</option>
+                <option value="Harborview">Harborview</option>
                 <option value="Keck">Keck</option>
                 <option value="LA County">LA County</option>
                 <option value="NY Langone">NY Langone</option>
@@ -114,9 +114,10 @@
             </select>
             <label for = "selectSpecies">Pick species:</label>
             <select name="selectSpecies" id = "species-filter" class = "filters">
-                <option value="Any" selected>Any</option>
-                <option value="Klebsiella">Klebsiella</option>
-                <option value="EColi">EColi</option>
+                <option value="Klebsiella sp.">Klebsiella</option>
+                <option value="E. coli" selected>E. coli</option>
+                <option value = "Staphylococcus sp.">Staphylococcus sp.</option>
+                <option value="Enterococcus sp.">Enterococcus sp.</option>
             </select>
             <label for="selectAgeGroup">Pick age group:</label>
             <select name="selectAgeGroup" id = "age-filter" class = "filters">
@@ -126,7 +127,7 @@
                 <option value="22 to 69 yo" >22 to 69 years old</option>
                 <option value="70 yo and up">70 and over</option>
             </select>
-            <label for = "selectGender">Pick gender:</label>
+            <label for = "selectGender">Sex:</label>
             <select name="selectGender" id = "gender-filter" class = "filters">
                 <option value="Any" selected>Any</option>
                 <option value="female" >Female</option>

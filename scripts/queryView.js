@@ -11,17 +11,15 @@
     $('#section-video-container').show();
     $('#page-name').text("BactNet Query");
   }
-  query.getString = function(hospital, barcode, gender, age, inout){
-   console.log(hospital, barcode, gender, age, inout);
+  query.getString = function(hospital, species, barcode, gender, age, inout){
+  //  console.log(hospital, species, barcode, gender, age, inout);
     // var listItems = [];
-    $.get('/entries/'+hospital+'/'+barcode+'/'+gender+'/'+age+'/'+inout)
+    $.get('entries/'+hospital+'/'+species+'/'+barcode+'/'+gender+'/'+age+'/'+inout)
     .then(data =>
       {
         if (data.length>2){
         var listItems=data;
-        // $('#result-ul').append(`<li>`+ 'Results for  <style=font:bold>' +  barcode +'  at  '+hospital+  ': ' + '</li>');
-        // $("#result-table").append('<thead><td> Hospital In/Outpatient </td><td>  Barcode: </td><td> Gender </td><td>Age:</td></thead>');
-        $("#result-table").append('<thead><td>'+$barcode+'</td><td> ' +$hospital+' '+$inout.toLowerCase()+' </td><td> '+ $gender+ ' </td><td>' + $age+'</td></thead>');
+        $('#result-ul').append(`<li>`+ 'Results for  <style=font:bold>' +  barcode +'  at  '+hospital+  ': (' + age + ') '+ inout+  ' ' + gender + ' '+'</li>');
         $("#result-table").append('<thead><td>'+'Antibiotic:'+'</td><td>'+'Recommended:</td><td>Resistance:</td></thead>');
         listItems.map(ele => {
           let recColor;
@@ -33,14 +31,16 @@
           //console.log('color:  ' + recColor);
         $("#result-table").append('<tr><td>'+ele.antibiotic+'</td><td style = color:'+recColor+'>' + ele.recommended + '</td><td> ' + ele.resistance+'% </td></tr>');
       })
-      }else {
+      }
+      else {
         $barcode = 'E. coli';
-        response = query.getString($hospital, $barcode, $gender, $age, $inout);
+        response = query.getString($hospital, $species, $barcode, $gender, $age, $inout);
         // $('#result-ul').append(`<li>`+ 'Results for  '+'<bold>' +  barcode +'  at  '+hospital+ '</bold> ' + ': E. coli' + '</li>');
       }
        });
 }
 let $hospital;
+let $species;
 let $barcode;
 let $gender;
 let $age;
@@ -53,12 +53,13 @@ let $inout;
     $('#you-view').hide();
     // $('#selectTableButton').show();
     $hospital = $("#hospital-filter").val();
+    $species = $("#species-filter").val();
     $barcode = $("#bacCode").val();
     $gender = $("#gender-filter").val();
     $age = $("#age-filter").val();
     $inout = $("#inout-filter").val();
     //console.log($hospital, $barcode);
-    var response = query.getString($hospital, $barcode, $gender, $age, $inout);
+    var response = query.getString($hospital, $species, $barcode, $gender, $age, $inout);
     $('#sequence').val('').attr("placeholder","barcode");
     //console.log(response);
   })
